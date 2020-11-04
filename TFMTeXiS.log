@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  20 OCT 2020 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  3 NOV 2020 20:32
 entering extended mode
 **./TFMTeXiS.tex
 (TFMTeXiS.tex
@@ -838,8 +838,8 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
 )
 \tf@lof=\write7
 \openout7 = `TFMTeXiS.lof'.
@@ -934,52 +934,70 @@ LaTeX Info: Redefining \% on input line 148.
 
 ]
 Cap\'itulo 2.
-[9]
-<Imagenes/Logos/indice.png, id=264, 260.975pt x 194.7275pt>
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=261, 566.115pt x 183.68625pt>
+File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
+<use Imagenes/Ejemplos/Cap1DonQuijote.png>
+Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
+ne 13.
+(pdftex.def)             Requested size: 413.9978pt x 134.33366pt.
+
+Overfull \hbox (53.9978pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
+
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=262, 397.485pt x 337.76187pt>
+File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
+<use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
+Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
+line 21.
+(pdftex.def)             Requested size: 251.9989pt x 214.1414pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./Imagenes/Ejemplos/Cap1DonQuijote.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
+<Imagenes/Logos/indice.png, id=278, 260.975pt x 194.7275pt>
 File: Imagenes/Logos/indice.png Graphic file (type png)
 <use Imagenes/Logos/indice.png>
-Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 26.
+Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 46.
 (pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=265, 225.84375pt x 224.84pt>
+<Imagenes/Logos/indice2.png, id=279, 225.84375pt x 224.84pt>
 File: Imagenes/Logos/indice2.png Graphic file (type png)
 <use Imagenes/Logos/indice2.png>
-Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 32.
+Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 52.
 (pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
- [10 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
 
-! Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
+Underfull \vbox (badness 3323) has occurred while \output is active []
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63  \item Evitar diseños cargado.​
-                                       
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
-[11]
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
- [12])
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+ [10 <./Imagenes/Ejemplos/Cap1DonQuijoteLF.png>]
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+ [11 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+ [12]
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+ [13])
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
- [13]
+ [14]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
- (Capitulos/ConclusionesTrabajoFuturo.tex [14
+
+(Capitulos/ConclusionesTrabajoFuturo.tex
+Cap\'itulo 3.
+) [15
 
 
 
 
 ]
-Cap\'itulo 3.
-) [15]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
  (Capitulos/ConclusionsFutureWork.tex [16
@@ -1047,45 +1065,44 @@ LaTeX Info: Redefining \% on input line 45.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFMTeXiS.out' has not changed.
-(rerunfilecheck)             Checksum: 727267F6D400449793C9F8F553B1C7FC;1421.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 8203650ACB9EA5F0368E0DCF9A390BE5;1421.
  ) 
 Here is how much of TeX's memory you used:
- 13483 strings out of 480257
- 212730 string characters out of 2880021
- 810891 words of memory out of 3000000
- 29301 multiletter control sequences out of 15000+200000
- 553479 words of font info for 59 fonts, out of 3000000 for 9000
+ 13520 strings out of 480257
+ 214900 string characters out of 2880021
+ 811038 words of memory out of 3000000
+ 29322 multiletter control sequences out of 15000+200000
+ 555922 words of font info for 64 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
  90i,12n,92p,740b,637s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 cti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm0800.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecti1095.pk>{C:/Users/egilruiz/AppData/Local/Programs
-/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\egilruiz\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\egilruiz\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\egilruiz\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\egilr
-uiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Us
-ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.p
+/dpi600\ecrm0900.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm0600.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk>{C:/Users/egilruiz/AppD
+ata/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\egilruiz\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\egilr
+uiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Us
+ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.p
 k> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm2488.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecbx1440.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/egilruiz/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/egilruiz/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/egilruiz
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-<C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
-fb>
-Output written on TFMTeXiS.pdf (44 pages, 603340 bytes).
+crm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/egilruiz/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/e
+gilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/times/utmr8a.pfb>
+Output written on TFMTeXiS.pdf (44 pages, 966910 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
