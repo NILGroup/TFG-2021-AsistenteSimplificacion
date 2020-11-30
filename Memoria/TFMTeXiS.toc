@@ -18,9 +18,9 @@
 \contentsline {subsection}{\numberline {2.1.6}Pautas a seguir para la elaboración de Lectura Fácil}{12}{subsection.30}%
 \contentsline {subsection}{\numberline {2.1.7}Movimientos y asociaciones}{13}{subsection.32}%
 \contentsline {subsection}{\numberline {2.1.8}Proyectos}{15}{subsection.33}%
-\contentsline {chapter}{\numberline {3}Conclusiones y Trabajo Futuro}{17}{chapter.34}%
-\contentsline {chapter}{\numberline {3}Conclusions and Future Work}{19}{chapter.35}%
+\contentsline {chapter}{\numberline {3}Conclusiones y Trabajo Futuro}{19}{chapter.34}%
+\contentsline {chapter}{\numberline {3}Conclusions and Future Work}{21}{chapter.35}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{21}{appendix.36}%
+\contentsline {chapter}{\numberline {A}Título}{23}{appendix.36}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{23}{appendix.37}%
+\contentsline {chapter}{\numberline {B}Título}{25}{appendix.37}%

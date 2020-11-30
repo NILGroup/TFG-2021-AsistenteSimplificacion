@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  24 NOV 2020 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  30 NOV 2020 20:21
 entering extended mode
 **./TFMTeXiS.tex
 (TFMTeXiS.tex
@@ -995,93 +995,100 @@ LaTeX Info: Redefining \% on input line 95.
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
  [13]
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
- [14]
-Overfull \hbox (83.15642pt too wide) in paragraph at lines 151--152
+Overfull \hbox (4.93758pt too wide) in paragraph at lines 139--140
+[]\T1/cmr/bx/n/10.95 SOLCOM\T1/cmr/m/n/10.95 ([]). Or-ga-ni-za-ción no gu-ber-n
+a-men-tal, in-de-pen-dien-te y orien-
+ []
+
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+[14]
+Overfull \hbox (83.15642pt too wide) in paragraph at lines 159--160
 [][]\T1/cmr/m/n/10.95 https://fademga.plenainclusiongalicia.org/dmdocuments/Los
 _servicios_del_banco.pdf[] 
  []
 
 
-Overfull \hbox (90.31491pt too wide) in paragraph at lines 157--158
+Overfull \hbox (90.31491pt too wide) in paragraph at lines 167--168
 [][]\T1/cmr/m/n/10.95 https://apkpure.com/es/l%C3%A9elo-f%C3%A1cil-educ-gallego
 /com.oneclick.ga.rayolun[] 
  []
 
 
-Overfull \hbox (45.52872pt too wide) in paragraph at lines 163--164
+Overfull \hbox (45.52872pt too wide) in paragraph at lines 175--176
 [][]\T1/cmr/m/n/10.95 https://plenainclusionmadrid.org/wp-content/uploads/2020/
 06/Gu%C3%ADa-
  []
 
-
-Overfull \hbox (116.43665pt too wide) in paragraph at lines 168--169
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
+[15]
+Overfull \hbox (116.43665pt too wide) in paragraph at lines 180--181
 [][]\T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/a
 ccesible/Guia_accesible_MNP.pdf[] 
  []
 
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
-[15]
-Overfull \hbox (56.17859pt too wide) in paragraph at lines 191--192
+
+Overfull \hbox (56.17859pt too wide) in paragraph at lines 209--210
 [][]\T1/cmr/m/n/10.95 https://www.clinicauandes.cl/docs/default-source/boletine
 s/informaci%C3%B3n-
  []
 
-)
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+[16])
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
- [16]
+ [17]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
- (Capitulos/ConclusionesTrabajoFuturo.tex
-Cap\'itulo 3.
-) [17
+ (Capitulos/ConclusionesTrabajoFuturo.tex [18
 
 
 
 
 ]
+Cap\'itulo 3.
+) [19]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
- (Capitulos/ConclusionsFutureWork.tex [18
+ (Capitulos/ConclusionsFutureWork.tex [20
 
 
 
 
 ]
 Chapter 3.
-) [19]
+) [21]
 LaTeX Info: Redefining \. on input line 161.
 LaTeX Info: Redefining \% on input line 161.
 \openout2 = `Apendices/appendixA.aux'.
 
- (Apendices/appendixA.tex [20
+ (Apendices/appendixA.tex [22
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [21]
+) [23]
 \openout2 = `Apendices/appendixB.aux'.
 
- (Apendices/appendixB.tex [22
+ (Apendices/appendixB.tex [24
 
 
 
 
 ]
 Ap\'{e}ndice B.
-) [23] [24
+) [25] [26
 
 
 
 ]
 \openout2 = `Cascaras/bibliografia.aux'.
 
- (Cascaras/bibliografia.tex [25
+ (Cascaras/bibliografia.tex [27
 
 
 ]
@@ -1089,14 +1096,14 @@ No file TFMTeXiS.bbl.
 )
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
- [26]
+ [28]
 \openout2 = `Cascaras/fin.aux'.
 
- (Cascaras/fin.tex [27
+ (Cascaras/fin.tex [29
 
 
 
-] [28]) (TFMTeXiS.aux (Cascaras/cover.aux)
+] [30]) (TFMTeXiS.aux (Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -1118,10 +1125,10 @@ Package rerunfilecheck Info: File `TFMTeXiS.out' has not changed.
 (rerunfilecheck)             Checksum: F516C784E93DCC3B0A327A60BA835AF2;1546.
  ) 
 Here is how much of TeX's memory you used:
- 13586 strings out of 480257
- 216768 string characters out of 2880021
- 813247 words of memory out of 3000000
- 29367 multiletter control sequences out of 15000+200000
+ 13592 strings out of 480257
+ 216835 string characters out of 2880021
+ 813263 words of memory out of 3000000
+ 29370 multiletter control sequences out of 15000+200000
  556263 words of font info for 65 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
  90i,12n,92p,773b,637s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1151,9 +1158,9 @@ sfonts/cm/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy9.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs
 /MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on TFMTeXiS.pdf (48 pages, 989205 bytes).
+Output written on TFMTeXiS.pdf (50 pages, 993489 bytes).
 PDF statistics:
- 1051 PDF objects out of 1200 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
+ 1068 PDF objects out of 1200 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
  218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
