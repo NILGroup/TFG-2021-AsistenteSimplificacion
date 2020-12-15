@@ -51,18 +51,18 @@
 % Total,  que definimos  una constante  con los  ficheros  que siempre
 % vamos a querer compilar  (aquellos relacionados con configuración) y
 % luego definimos \compilaCapitulo.
-\newcommand{\ficherosBasicosTeXiS}{%
-TeXiS/TeXiS_pream,TeXiS/TeXiS_cab,TeXiS/TeXiS_bib,TeXiS/TeXiS_cover%
+\newcommand{\ficherosBasicosTFG}{%
+TFG/TFG_pream,TFG/TFG_cab,TFG/TFG_bib,TFG/TFG_cover%
 }
 \newcommand{\ficherosBasicosTexto}{%
 constantes,guionado,Cascaras/bibliografia,config%
 }
 \newcommand{\compilaCapitulo}[1]{%
-\includeonly{\ficherosBasicosTeXiS,\ficherosBasicosTexto,Capitulos/#1}%
+\includeonly{\ficherosBasicosTFG,\ficherosBasicosTexto,Capitulos/#1}%
 }
 
 \newcommand{\compilaApendice}[1]{%
-\includeonly{\ficherosBasicosTeXiS,\ficherosBasicosTexto,Apendices/#1}%
+\includeonly{\ficherosBasicosTFG,\ficherosBasicosTexto,Apendices/#1}%
 }
 
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

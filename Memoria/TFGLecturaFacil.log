@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  15 DEC 2020 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  15 DEC 2020 21:09
 entering extended mode
-**./TFMTeXiS.tex
-(TFMTeXiS.tex
+**./TFGLecturaFacil.tex
+(TFGLecturaFacil.tex
 LaTeX2e <2020-10-01> patch level 1
 L3 programming layer <2020-10-05> xparse <2020-03-03>
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -269,10 +269,10 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 289.
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
-\openout4 = `TFMTeXiS.idx'.
+\openout4 = `TFGLecturaFacil.idx'.
 
 
-Writing index file TFMTeXiS.idx
+Writing index file TFGLecturaFacil.idx
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count198
@@ -617,26 +617,25 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (TFMTeXiS.aux (Cascaras/cover.aux)
+ (TFGLecturaFacil.aux (Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
- (Cascaras/autorizacion.aux) (Cascaras/dedicatoria.aux) (Cascaras/agradecimient
-os.aux)
-(Cascaras/resumen.aux) (Cascaras/abstract.aux) (TeXiS/TeXiS_toc.aux)
+
+(Cascaras/autorizacion.aux) (Cascaras/dedicatoria.aux)
+(Cascaras/agradecimientos.aux) (Cascaras/resumen.aux) (Cascaras/abstract.aux)
+(TeXiS/TeXiS_toc.aux)
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
-
-(Capitulos/Introduction.aux) (Capitulos/Introduccion.aux)
+ (Capitulos/Introduction.aux) (Capitulos/Introduccion.aux)
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
-
 (Capitulos/EstadoDeLaCuestion.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
 (Capitulos/ConclusionsFutureWork.aux) (Apendices/appendixA.aux)
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
-\openout1 = `TFMTeXiS.aux'.
+\openout1 = `TFGLecturaFacil.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
@@ -674,9 +673,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 105.
 LaTeX Info: Redefining \pageref on input line 105.
 LaTeX Info: Redefining \nameref on input line 105.
- (TFMTeXiS.out) (TFMTeXiS.out)
+ (TFGLecturaFacil.out) (TFGLecturaFacil.out)
 \@outlinefile=\write5
-\openout5 = `TFMTeXiS.out'.
+\openout5 = `TFGLecturaFacil.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -809,7 +808,8 @@ LaTeX Info: Redefining \% on input line 125.
 
 
 
-] (TFMTeXiS.toc
+]
+(TFGLecturaFacil.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -826,12 +826,11 @@ LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
 \tf@toc=\write6
-\openout6 = `TFMTeXiS.toc'.
+\openout6 = `TFGLecturaFacil.toc'.
 
+ [15] [16
 
-[15] [16
-
-] (TFMTeXiS.lof
+] (TFGLecturaFacil.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -842,11 +841,12 @@ LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 )
 \tf@lof=\write7
-\openout7 = `TFMTeXiS.lof'.
+\openout7 = `TFGLecturaFacil.lof'.
 
  [17] [18
 
-] (TFMTeXiS.lot
+]
+(TFGLecturaFacil.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
@@ -857,7 +857,7 @@ LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
 \tf@lot=\write8
-\openout8 = `TFMTeXiS.lot'.
+\openout8 = `TFGLecturaFacil.lot'.
 
  [19]) [20
 
@@ -866,8 +866,7 @@ LaTeX Info: Redefining \% on input line 13.
 ]
 \openout2 = `Capitulos/Introduction.aux'.
 
-
-(Capitulos/Introduction.tex
+ (Capitulos/Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 .
@@ -1048,7 +1047,7 @@ Ap\'{e}ndice B.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 47.
 
-No file TFMTeXiS.bbl.
+No file TFGLecturaFacil.bbl.
 ) [23
 
 
@@ -1063,7 +1062,7 @@ No file TFMTeXiS.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-(TFMTeXiS.aux (Cascaras/cover.aux)
+(TFGLecturaFacil.aux (Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (Cascaras/autorizacion.aux)
@@ -1081,17 +1080,17 @@ LaTeX Info: Redefining \% on input line 39.
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
  (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
-Package rerunfilecheck Info: File `TFMTeXiS.out' has not changed.
+Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
 (rerunfilecheck)             Checksum: 45A818B1413BE6C5A342B89FB26459D2;1527.
  ) 
 Here is how much of TeX's memory you used:
  13515 strings out of 480257
- 215032 string characters out of 2880021
- 711247 words of memory out of 3000000
+ 215212 string characters out of 2880021
+ 711238 words of memory out of 3000000
  29305 multiletter control sequences out of 15000+200000
  555949 words of font info for 64 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
- 90i,12n,92p,773b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 90i,12n,92p,780b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 cti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
@@ -1115,7 +1114,7 @@ gilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 <C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
 a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mr8a.pfb>
-Output written on TFMTeXiS.pdf (45 pages, 956961 bytes).
+Output written on TFGLecturaFacil.pdf (45 pages, 956956 bytes).
 PDF statistics:
  1009 PDF objects out of 1200 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)

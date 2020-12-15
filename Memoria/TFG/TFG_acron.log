@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  15 DEC 2020 21:08
+entering extended mode
+**./TFG_acron.tex
+(TFG_acron.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>)
+! Emergency stop.
+<*> ./TFG_acron.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 480257
+ 495 string characters out of 2880021
+ 262535 words of memory out of 3000000
+ 16656 multiletter control sequences out of 15000+200000
+ 535088 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,15p,47b,10s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
