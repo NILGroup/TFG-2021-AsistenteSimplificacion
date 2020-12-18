@@ -1,0 +1,68 @@
+\begin{thebibliography}{9}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{de~los Andes(2020)}]{covid}
+{\sc de~los Andes, C.~U.}
+\newblock ¿qué es el coronavirus?, tipo @online.
+\newblock
+  {https://www.clinicauandes.cl/docs/default-source/boletines/informaci\%C3\%B3n-coronavirus-en-lf.pdf?sfvrsn=199472df\_2},
+  2020.
+
+\bibitem[{Europe(2019)}]{InformacionParaTodos}
+{\sc Europe, I.}
+\newblock {\em Información para todos\/}.
+\newblock 2019.
+
+\bibitem[{Galicia(2020)}]{GuiaBanco}
+{\sc Galicia, P.~I.}
+\newblock Los servicios del banco, tipo @online.
+\newblock
+  {https://fademga.plenainclusiongalicia.org/dmdocuments/Los\_servicios\_del\_banco.pdf},
+  2020.
+
+\bibitem[{Inclusión(2019)}]{GuiaMetro}
+{\sc Inclusión, P.}
+\newblock Guía de uso de metro de madrid, tipo @online.
+\newblock
+  {https://plenainclusionmadrid.org/wp-content/uploads/2020/06/Gu\%C3\%ADa-de-uso-de-Metro-en-lectura-f\%C3\%A1cil.pdf},
+  2019.
+
+\bibitem[{Martín~Valdivia et\ al.(2014-09)Martín~Valdivia, Martínez~Cámara,
+  Barbu, Ureña~López, Moreda y Lloret}]{openBook}
+{\sc Martín~Valdivia, M.~T.}, {\sc Martínez~Cámara, E.}, {\sc Barbu, E.},
+  {\sc Ureña~López, L.~A.}, {\sc Moreda, P.} y {\sc Lloret, E.}
+\newblock Proyecto first (flexible interactive reading support tool):
+  desarrollo de una herramienta para ayudar a personas con autismo mediante la
+  simplificación de textos.
+\newblock 2014-09.
+
+\bibitem[{Nomura et\ al.(2010)Nomura, Tronbacke, Nielsen,
+  of~Library~Associations y of~Libraries Serving
+  Disadvantaged~Persons}]{nomura2010guidelines}
+{\sc Nomura, M.}, {\sc Tronbacke, B.}, {\sc Nielsen, G.}, {\sc
+  of~Library~Associations, I.~F.} y {\sc of~Libraries Serving
+  Disadvantaged~Persons, I.~S.}
+\newblock {\em Guidelines for Easy-to-read Materials\/}.
+\newblock IFLA professional reports. IFLA Headquarters, 2010.
+\newblock ISBN 9789077897423.
+
+\bibitem[{del Padro(2020{\natexlab{a}})}]{GuiaMuseo}
+{\sc del Padro, M.~N.}
+\newblock Guía accesible. 10 obras maestras, tipo @online.
+\newblock
+  {https://content3.cdnprado.net/doclinks/pdf/visita/plano/accesible/Guia\_accesible\_MNP.pdf},
+  2020{\natexlab{a}}.
+
+\bibitem[{del Padro(2020{\natexlab{b}})}]{plano}
+{\sc del Padro, M.~N.}
+\newblock Plano accesible. 10 obras maestras, tipo @online.
+\newblock
+  {https://content3.cdnprado.net/doclinks/pdf/visita/plano/accesible/Plano\_accesible\_MNP.pdf},
+  2020{\natexlab{b}}.
+
+\bibitem[{Saggion(2017)}]{HoracioSaggion}
+{\sc Saggion, H.}
+\newblock {\em Automatic Text Simplification\/}.
+\newblock Morgan and Claypool Publishers, 2017.
+
+\end{thebibliography}
