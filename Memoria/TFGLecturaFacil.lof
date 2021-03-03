@@ -6,6 +6,7 @@
 \addvspace {10\p@ }
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Texto original de Don Quijote de la Mancha\relax }}{6}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Texto LF de Don Quijote de la Mancha\relax }}{6}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Beneficiarios de la Lectura Fácil\relax }}{8}{figure.caption.25}%
@@ -19,6 +20,12 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces SIMPATICO\relax }}{20}{figure.caption.79}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Open Book\relax }}{21}{figure.caption.82}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Wheris\relax }}{22}{figure.caption.85}%
+=======
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Texto original de Don Quijote de la Mancha\relax }}{6}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Texto LF de Don Quijote de la Mancha\relax }}{6}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Logo LF que cumplen las normas de la IFLA\relax }}{8}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Logotipo europeo de LF\relax }}{8}{figure.caption.28}%
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \babel@toc {english}{}

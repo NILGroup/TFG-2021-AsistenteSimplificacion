@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  21 FEB 2021 19:53
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  18 DEC 2020 19:36
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -722,7 +726,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \evensidemarginOriginal=\skip85
 \oddsidemarginOriginal=\skip86
 \longTitulo=\skip87
+<<<<<<< HEAD
 <Imagenes/Vectorial/escudoUCM.pdf, id=115, 597.23125pt x 844.15375pt>
+=======
+<Imagenes/Vectorial/escudoUCM.pdf, id=107, 597.23125pt x 844.15375pt>
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 File: Imagenes/Vectorial/escudoUCM.pdf Graphic file (type pdf)
 <use Imagenes/Vectorial/escudoUCM.pdf>
 Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
@@ -822,6 +830,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
+<<<<<<< HEAD
 
 Runaway argument?
 {\numberline {2.3.1.4}{Noticias Fácil} \let \reserved@d =[\def 
@@ -1021,6 +1030,10 @@ Underfull \vbox (badness 1147) has occurred while \output is active []
  [15]
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
+=======
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 )
 \tf@toc=\write6
 \openout6 = `TFGLecturaFacil.toc'.
@@ -1092,6 +1105,7 @@ LaTeX Info: Redefining \% on input line 145.
 
 ]
 Cap\'itulo 1.
+<<<<<<< HEAD
 [3])
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
@@ -1104,12 +1118,34 @@ Cap\'itulo 2.
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [5
+=======
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+
+[4]
+\openout2 = `Capitulos/EstadoDeLaCuestion.aux'.
+
+<<<<<<< HEAD
+
+
+]
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=293, 566.115pt x 183.68625pt>
+=======
+ (Capitulos/EstadoDeLaCuestion.tex
+Cap\'itulo 2.
+[5
 
 
 
 
 ]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=293, 566.115pt x 183.68625pt>
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=266, 566.115pt x 183.68625pt>
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijote.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
@@ -1120,13 +1156,18 @@ Overfull \hbox (36.0022pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
+<<<<<<< HEAD
 <Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=295, 397.485pt x 337.76187pt>
+=======
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=267, 397.485pt x 337.76187pt>
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
 line 29.
 (pdftex.def)             Requested size: 288.0011pt x 244.73451pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <9> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
@@ -1135,12 +1176,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
+=======
+(Font)              <9> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 36.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
  [6 <./Imagenes/Ejemplos/Cap1DonQuijote.png> <./Imagenes/Ejemplos/Cap1DonQuijot
 eLF.png>]
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
 
 [7]
+<<<<<<< HEAD
 <Imagenes/Ejemplos/destinatarios.jpg, id=322, 445.665pt x 443.6575pt>
 File: Imagenes/Ejemplos/destinatarios.jpg Graphic file (type jpg)
 <use Imagenes/Ejemplos/destinatarios.jpg>
@@ -1523,43 +1575,138 @@ LaTeX Info: Redefining \% on input line 150.
  (Capitulos/ConclusionesTrabajoFuturo.tex
 Cap\'itulo 3.
 ) [23
+=======
+<Imagenes/Logos/indice.png, id=295, 260.975pt x 194.7275pt>
+File: Imagenes/Logos/indice.png Graphic file (type png)
+<use Imagenes/Logos/indice.png>
+Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 74.
+(pdftex.def)             Requested size: 180.0pt x 134.30862pt.
+<Imagenes/Logos/indice2.png, id=296, 225.84375pt x 224.84pt>
+File: Imagenes/Logos/indice2.png Graphic file (type png)
+<use Imagenes/Logos/indice2.png>
+Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 80.
+(pdftex.def)             Requested size: 108.0011pt x 107.524pt.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+ [8 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+
+Package natbib Warning: Citation `ttt' on page 9 undefined on input line 99.
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+[9]
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+ [10]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+ [11]
+Overfull \hbox (83.15642pt too wide) in paragraph at lines 190--191
+[][]\T1/cmr/m/n/10.95 https://fademga.plenainclusiongalicia.org/dmdocuments/Los
+_servicios_del_banco.pdf[] 
+ []
+
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+[12]
+Overfull \hbox (90.31491pt too wide) in paragraph at lines 198--199
+[][]\T1/cmr/m/n/10.95 https://apkpure.com/es/l%C3%A9elo-f%C3%A1cil-educ-gallego
+/com.oneclick.ga.rayolun[] 
+ []
+
+
+Overfull \hbox (45.52872pt too wide) in paragraph at lines 206--207
+[][]\T1/cmr/m/n/10.95 https://plenainclusionmadrid.org/wp-content/uploads/2020/
+06/Gu%C3%ADa-
+ []
+
+
+Overfull \hbox (116.43665pt too wide) in paragraph at lines 211--212
+[][]\T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/a
+ccesible/Guia_accesible_MNP.pdf[] 
+ []
+
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
+[13]
+Overfull \hbox (56.17859pt too wide) in paragraph at lines 240--241
+[][]\T1/cmr/m/n/10.95 https://www.clinicauandes.cl/docs/default-source/boletine
+s/informaci%C3%B3n-
+ []
+
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
+[14])
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+ [15]
+\openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
+
+ (Capitulos/ConclusionesTrabajoFuturo.tex [16
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
 
 ]
+Cap\'itulo 3.
+) [17]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
+<<<<<<< HEAD
  (Capitulos/ConclusionsFutureWork.tex [24
+=======
+ (Capitulos/ConclusionsFutureWork.tex [18
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
 
 ]
 Chapter 3.
+<<<<<<< HEAD
 ) [25]
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 \openout2 = `Apendices/appendixA.aux'.
 
  (Apendices/appendixA.tex [26
+=======
+) [19]
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+\openout2 = `Apendices/appendixA.aux'.
+
+ (Apendices/appendixA.tex [20
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
 
 ]
 Ap\'{e}ndice A.
+<<<<<<< HEAD
 ) [27]
 \openout2 = `Apendices/appendixB.aux'.
 
  (Apendices/appendixB.tex [28
+=======
+) [21]
+\openout2 = `Apendices/appendixB.aux'.
+
+ (Apendices/appendixB.tex [22
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
 
 ]
 Ap\'{e}ndice B.
+<<<<<<< HEAD
 ) [29] [30
+=======
+) [23] [24
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
@@ -1572,6 +1719,11 @@ Package natbib Warning: Empty `thebibliography' environment on input line 45.
 
 (TFGLecturaFacil.bbl [31
 
+<<<<<<< HEAD
+=======
+No file TFGLecturaFacil.bbl.
+) [25
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 ] [32
 
@@ -1587,6 +1739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 \T1/cmr/m/n/10.95 source/boletines/informaci$ $%C3$ $%B3n-coronavirus-en-
  []
@@ -1619,6 +1772,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--29
 \T1/cmr/m/n/10.95 content/uploads/2020/06/Gu$ $%C3$ $%ADa-de-uso-de-Metro-en-le
 ctura-
  []
+=======
+ (Cascaras/fin.tex [26
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 Overfull \hbox (103.0377pt too wide) in paragraph at lines 50--55
@@ -1638,7 +1794,11 @@ LaTeX Info: Redefining \% on input line 181.
  [34]
 \openout2 = `Cascaras/fin.aux'.
 
+<<<<<<< HEAD
  (Cascaras/fin.tex [35
+=======
+] [27])
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
 
 
@@ -1661,6 +1821,7 @@ LaTeX Info: Redefining \% on input line 45.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 377D9966E10F0089DA95F22A8EB410D6;1972.
  ) 
 Here is how much of TeX's memory you used:
@@ -1668,6 +1829,15 @@ Here is how much of TeX's memory you used:
  220707 string characters out of 2880021
  710238 words of memory out of 3000000
  29440 multiletter control sequences out of 15000+200000
+=======
+(rerunfilecheck)             Checksum: B4F7B6B2F7D10D42CF1ECA244C6D5246;1689.
+ ) 
+Here is how much of TeX's memory you used:
+ 13520 strings out of 480257
+ 215256 string characters out of 2880021
+ 711238 words of memory out of 3000000
+ 29307 multiletter control sequences out of 15000+200000
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
  555949 words of font info for 64 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
  90i,11n,92p,829b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1683,6 +1853,7 @@ ruiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\egilr
 uiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Us
 ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.p
 k> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+<<<<<<< HEAD
 crm1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
 nappen/ec/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
@@ -1699,4 +1870,22 @@ PDF statistics:
  1262 PDF objects out of 1440 (max. 8388607)
  163 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+crm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/egilruiz/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/e
+gilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+<C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
+a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mr8a.pfb>
+Output written on TFGLecturaFacil.pdf (47 pages, 960851 bytes).
+PDF statistics:
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 

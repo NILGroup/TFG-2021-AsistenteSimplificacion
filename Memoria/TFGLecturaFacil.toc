@@ -10,6 +10,7 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {2}Estado del arte}{5}{chapter.14}%
 \contentsline {section}{\numberline {2.1}Lectura Fácil}{5}{section.15}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.1.1}Un poco de historia...}{7}{subsection.18}%
 \contentsline {subsection}{\numberline {2.1.2}Destinatarios de la Lectura Fácil}{7}{subsection.24}%
 \contentsline {subsection}{\numberline {2.1.3}¿Cómo se identifican los textos de Lectura Fácil?}{8}{subsection.26}%
@@ -44,3 +45,20 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {B}Título}{29}{appendix.89}%
 \contentsline {chapter}{Bibliograf\'{\i }a}{33}{appendix*.91}%
+=======
+\contentsline {subsection}{\numberline {2.1.1}¿Qué es?}{5}{subsection.16}%
+\contentsline {subsection}{\numberline {2.1.2}Un poco de Historia...}{7}{subsection.19}%
+\contentsline {subsection}{\numberline {2.1.3}Destinatarios de la LF}{7}{subsection.23}%
+\contentsline {subsection}{\numberline {2.1.4}¿Cómo se identifican los textos de LF?}{8}{subsection.24}%
+\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación}{9}{subsection.29}%
+\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{9}{subsection.30}%
+\contentsline {subsection}{\numberline {2.1.7}Pautas a seguir para la elaboración de Lectura Fácil}{10}{subsection.31}%
+\contentsline {subsection}{\numberline {2.1.8}Movimientos y asociaciones}{10}{subsection.32}%
+\contentsline {subsection}{\numberline {2.1.9}Proyectos}{12}{subsection.45}%
+\contentsline {chapter}{\numberline {3}Conclusiones y Trabajo Futuro}{17}{chapter.46}%
+\contentsline {chapter}{\numberline {3}Conclusions and Future Work}{19}{chapter.47}%
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {A}Título}{21}{appendix.48}%
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {B}Título}{23}{appendix.49}%
+>>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
