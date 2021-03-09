@@ -21,6 +21,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/arbol.css" rel="stylesheet">
+
 
 
 </head>
@@ -31,7 +33,7 @@
   <nav class"navbar navbar-dark bg-dark">
 			<ul>
 				
-				<li class="submenu">
+				<!--<li class="submenu">
 					<a href="#"><img src="assets/img/menu.png"><span class="icon-rocket"></span>Menú<span class="caret icon-arrow-down6"></span></a>
 					<ul class="children">
 						<li><a href="#">Ortografía <span class="icon-dot"></span></a></li>
@@ -41,7 +43,12 @@
 
 						
 					</ul>
+				</li>-->
+				<li class="submenu">
+					<a href="javascript:arbol()"><img src="assets/img/menu.png"><span class="icon-rocket"></span>Transformación<span class="caret icon-arrow-down6"></span></a>
+					
 				</li>
+			
 				
 			</ul>
 		</nav>
@@ -55,7 +62,8 @@
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
-    <div class="container">
+ <div class="container">
+  
 
       <div class="section-title">
         <h2></h2>
@@ -66,25 +74,41 @@
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-5 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div>
 			<form action="/action_page.php">
 				<label for="textoOriginal">Texto original</label>
-<textarea rows="20" cols="50" placeholder="Escribe aqui..."></textarea>
+				
+<textarea id="original" rows="20" cols="40" placeholder="Escribe aqui..."></textarea>
 					<br><br>
 				</form>            
           </div>
         </div>
-		        <div class="col-lg-2 col-md-6 portfolio-input">
+		        <div id="transformaciones" class="col-lg-4 col-md-2 portfolio-item filter-app" style="display:none;margin-top:56px;">
+          <div id="tO" style="padding:21px; background:#fff;">
+		      
 
-				<input type="submit" value="Visualización previa">
-				</div>
 
-        <div class="col-lg-5 col-md-6 portfolio-item filter-web">
+	
+
+
+
+			  
+          </div>
+		  <div style="display:flex;justify-content: space-around;margin-top:5px;">
+		  		  <button onclick="cambio();">Cambiar</button>
+		  		  <button onclick="sinonimos();">Sinominos</button>
+
+		  <button onclick="trasformar();">Terminar</button>
+		  </div>
+		  <div id="palabrasSinon" style="background-color:#fff; color:black;text-align:center;margin-top:20px;"></div>
+        </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div>
            <form action="/action_page.php">
 				<label for="textoAdaptado">Texto adaptado</label>
-<textarea rows="20" cols="50"></textarea>
+<textarea id="final" rows="20" cols="40"></textarea>
 					<br><br>
 				</form>   
             </div>
@@ -107,7 +131,83 @@
     </div>
   </section><!-- End Portfolio Section -->
 
+  <script>
+  function arbol(){
+  var texto=document.getElementById("original").value;
+      var separa = texto.split(" ");
+	var cont=separa.length;
+	var cuenta=0;
+	if(cont>1){
+		document.getElementById("tO").innerHTML = "<div class='tree'><ul><li><div class='family'><div class='person child male'><div class='name'>"+ texto +"</div></div><ul id='t1'>";
+
+			while(cuenta!=cont){
+			document.getElementById("t1").innerHTML += "<li><div class='family'><div id='elem"+cuenta+"' class='person child male'><a href='javascript:eleccion("+cuenta+")'><div  class='name'>"+separa[cuenta]+"</div></div></div></li>";
+			cuenta++;
+		}
+}
+		document.getElementById("transformaciones").style.display="block";
+
+ 
+
+  }
+   function trasformar(){
+	var texto=document.getElementById("original").value;
+      var separa = texto.split(" ");
+	var cont=separa.length;
+	var c=0;
+	while(c!=cont){
+			var palabra="elem"+c;
+
+		document.getElementById("final").innerHTML += document.getElementById(palabra).innerText+" ";
+		c++;
+}
+  }
+
+     function eleccion(cont){
+   var c= document.getElementsByClassName('active');
+if(c.length<=1){
+   var elemento="elem"+cont;
+  	var e=document.getElementById(elemento);
+	e.classList.add('active');
+
+	}		
+
+
+}
+   function cambio(){
+   var c= document.getElementsByClassName('active');
+var id0 = c[0].getAttribute('id');
+var s=id0.split("elem");
+var id1 = c[1].getAttribute('id');
+var s1=id1.split("elem");
+
+var e1=c[0].innerText;
+var e2=c[1].innerText;
+
   
+	
+var ele1=document.getElementById(id0);
+var ele2=document.getElementById(id1);
+ele1.innerHTML = "<a href='javascript:eleccion("+s[1]+")'><div  class='name'>" + e2;
+ele2.innerHTML = "<a href='javascript:eleccion("+s1[1]+")'><div  class='name'>" + e1;
+
+ele1.classList.remove('active');
+ele2.classList.remove('active');
+
+
+
+}
+   function sinonimos(){
+   var c= document.getElementsByClassName('active');
+
+var sin=document.getElementById("palabrasSinon");
+sin.innerHTML = "<h3 style='color: brown;padding-top: 10px;'>Sinónimos</h3><ul style='padding-bottom: 20px;'><li>vocablo</li><li> voz</li><li> término</li> <li>verbo</li></ul>";
+
+
+
+
+}
+  </script>
 
 </body>
 
