@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{12}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{de~los Andes(2020)}]{covid}
@@ -10,8 +10,10 @@
 
 \bibitem[{Europe(2019)}]{InformacionParaTodos}
 {\sc Europe, I.}
-\newblock {\em Información para todos\/}.
-\newblock 2019.
+\newblock Información para todos.
+\newblock
+  {https://www.plenainclusion.org/sites/default/files/informacion\_todos.pdf},
+  2019.
 
 \bibitem[{Galicia(2020)}]{GuiaBanco}
 {\sc Galicia, P.~I.}
@@ -19,6 +21,11 @@
 \newblock
   {https://fademga.plenainclusiongalicia.org/dmdocuments/Los\_servicios\_del\_banco.pdf},
   2020.
+
+\bibitem[{García~Muñoz(2013)}]{LFMetodos}
+{\sc García~Muñoz, s.}
+\newblock {\em Léctura fácil - Métodos de redacción y evaluación\/}.
+\newblock 2013.
 
 \bibitem[{Inclusión(2019)}]{GuiaMetro}
 {\sc Inclusión, P.}
@@ -60,9 +67,23 @@
   {https://content3.cdnprado.net/doclinks/pdf/visita/plano/accesible/Plano\_accesible\_MNP.pdf},
   2020{\natexlab{b}}.
 
+\bibitem[{Rello(2018)}]{rello2018superar}
+{\sc Rello, L.}
+\newblock {\em Superar la dislexia: Una experiencia personal a través de la
+  investigación\/}.
+\newblock Educación. Grupo Planeta, 2018.
+\newblock ISBN 9788449335150.
+
 \bibitem[{Saggion(2017)}]{HoracioSaggion}
 {\sc Saggion, H.}
 \newblock {\em Automatic Text Simplification\/}.
 \newblock Morgan and Claypool Publishers, 2017.
+
+\bibitem[{Saggion et\ al.(2011-09)Saggion, Gómez~Martínez, Etayo~Gil,
+  Anula~Rebollo y Bourg}]{PLN1000}
+{\sc Saggion, H.}, {\sc Gómez~Martínez, E.}, {\sc Etayo~Gil, E.}, {\sc
+  Anula~Rebollo, A.} y {\sc Bourg, L.}
+\newblock Text simplification in simplext: making texts more accessible.
+\newblock 2011-09.
 
 \end{thebibliography}

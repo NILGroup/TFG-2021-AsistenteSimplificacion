@@ -10,36 +10,35 @@
 \BOOKMARK [1][-]{section.13}{Estructura del documento}{chapter.10}% 10
 \BOOKMARK [0][-]{chapter.14}{Estado del arte}{}% 11
 \BOOKMARK [1][-]{section.15}{Lectura F\341cil}{chapter.14}% 12
-<<<<<<< HEAD
-\BOOKMARK [2][-]{subsection.18}{Un poco de historia...}{section.15}% 13
-\BOOKMARK [2][-]{subsection.24}{Destinatarios de la Lectura F\341cil}{section.15}% 14
-\BOOKMARK [2][-]{subsection.26}{\277C\363mo se identifican los textos de Lectura F\341cil?}{section.15}% 15
-\BOOKMARK [2][-]{subsection.30}{Pautas a seguir para la elaboraci\363n de Lectura F\341cil}{section.15}% 16
-\BOOKMARK [2][-]{subsection.35}{Niveles de adaptaci\363n a Lectura F\341cil}{section.15}% 17
-\BOOKMARK [2][-]{subsection.36}{Tareas para la simplificaci\363n de Texto}{section.15}% 18
-\BOOKMARK [1][-]{section.37}{Movimientos y asociaciones de Lectura F\341cil}{chapter.14}% 19
-\BOOKMARK [1][-]{section.49}{Proyectos relacionados con la Lectura F\341cil}{chapter.14}% 20
-\BOOKMARK [2][-]{subsection.50}{Proyectos y materiales adaptados a Lectura F\341cil}{section.49}% 21
-\BOOKMARK [2][-]{subsection.57}{Programas y aplicaciones de Lectura F\341cil}{section.49}% 22
-\BOOKMARK [0][-]{chapter.86}{Conclusiones y Trabajo Futuro}{}% 23
-\BOOKMARK [0][-]{chapter.87}{Conclusions and Future Work}{}% 24
-\BOOKMARK [0][-]{appendix.88}{T\355tulo}{}% 25
-\BOOKMARK [0][-]{appendix.89}{T\355tulo}{}% 26
-\BOOKMARK [0][-]{appendix*.91}{Bibliograf\355a}{}% 27
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 28
-=======
-\BOOKMARK [2][-]{subsection.16}{\277Qu\351 es?}{section.15}% 13
-\BOOKMARK [2][-]{subsection.19}{Un poco de Historia...}{section.15}% 14
-\BOOKMARK [2][-]{subsection.23}{Destinatarios de la LF}{section.15}% 15
-\BOOKMARK [2][-]{subsection.24}{\277C\363mo se identifican los textos de LF?}{section.15}% 16
-\BOOKMARK [2][-]{subsection.29}{Niveles de adaptaci\363n}{section.15}% 17
-\BOOKMARK [2][-]{subsection.30}{Tareas para la simplificaci\363n de Texto}{section.15}% 18
-\BOOKMARK [2][-]{subsection.31}{Pautas a seguir para la elaboraci\363n de Lectura F\341cil}{section.15}% 19
-\BOOKMARK [2][-]{subsection.32}{Movimientos y asociaciones}{section.15}% 20
-\BOOKMARK [2][-]{subsection.45}{Proyectos}{section.15}% 21
-\BOOKMARK [0][-]{chapter.46}{Conclusiones y Trabajo Futuro}{}% 22
-\BOOKMARK [0][-]{chapter.47}{Conclusions and Future Work}{}% 23
-\BOOKMARK [0][-]{appendix.48}{T\355tulo}{}% 24
-\BOOKMARK [0][-]{appendix.49}{T\355tulo}{}% 25
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 26
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+\BOOKMARK [2][-]{subsection.18}{Un poco de historia}{section.15}% 13
+\BOOKMARK [2][-]{subsection.25}{Destinatarios de la Lectura F\341cil}{section.15}% 14
+\BOOKMARK [2][-]{subsection.27}{\277C\363mo se identifican los textos de Lectura F\341cil?}{section.15}% 15
+\BOOKMARK [2][-]{subsection.31}{Pautas a seguir para la elaboraci\363n de Lectura F\341cil}{section.15}% 16
+\BOOKMARK [2][-]{subsection.32}{Niveles de adaptaci\363n a Lectura F\341cil}{section.15}% 17
+\BOOKMARK [2][-]{subsection.33}{Tareas para la simplificaci\363n de Texto}{section.15}% 18
+\BOOKMARK [1][-]{section.34}{Movimientos y asociaciones de Lectura F\341cil}{chapter.14}% 19
+\BOOKMARK [1][-]{section.46}{Proyectos y materiales adaptados a la Lectura F\341cil}{chapter.14}% 20
+\BOOKMARK [2][-]{subsection.47}{Gu\355a en Lectura F\341cil sobre los servicios del banco}{section.46}% 21
+\BOOKMARK [2][-]{subsection.48}{Gu\355a de uso del Metro de Madrid en Lectura f\341cil}{section.46}% 22
+\BOOKMARK [2][-]{subsection.49}{Gu\355a y plano accesible del Museo del Prado}{section.46}% 23
+\BOOKMARK [2][-]{subsection.50}{Noticias F\341cil }{section.46}% 24
+\BOOKMARK [2][-]{subsection.52}{Proyecto de Lectura F\341cil sobre COVID-19}{section.46}% 25
+\BOOKMARK [1][-]{section.53}{Programas y aplicaciones de Lectura F\341cil}{chapter.14}% 26
+\BOOKMARK [2][-]{subsection.54}{Dytective para dislexia }{section.53}% 27
+\BOOKMARK [2][-]{subsection.58}{L\351elo F\341cil Educ. - Gallego }{section.53}% 28
+\BOOKMARK [2][-]{subsection.61}{Simplext }{section.53}% 29
+\BOOKMARK [2][-]{subsection.63}{``Frente al aislamiento. Nos conectamos'' }{section.53}% 30
+\BOOKMARK [2][-]{subsection.68}{CAPITO }{section.53}% 31
+\BOOKMARK [2][-]{subsection.71}{SIMPATICO }{section.53}% 32
+\BOOKMARK [2][-]{subsection.74}{Proyecto FIRST }{section.53}% 33
+\BOOKMARK [2][-]{subsection.77}{Wheris }{section.53}% 34
+\BOOKMARK [0][-]{chapter.80}{Herramientas}{}% 35
+\BOOKMARK [0][-]{chapter.81}{Aplicaci\363n}{}% 36
+\BOOKMARK [1][-]{section.82}{Frontend}{chapter.81}% 37
+\BOOKMARK [1][-]{section.83}{Backend}{chapter.81}% 38
+\BOOKMARK [0][-]{chapter.84}{Conclusiones y Trabajo Futuro}{}% 39
+\BOOKMARK [0][-]{chapter.85}{Conclusions and Future Work}{}% 40
+\BOOKMARK [0][-]{appendix.86}{T\355tulo}{}% 41
+\BOOKMARK [0][-]{appendix.87}{T\355tulo}{}% 42
+\BOOKMARK [0][-]{appendix*.89}{Bibliograf\355a}{}% 43
+\BOOKMARK [0][-]{fin.0}{Fin}{}% 44

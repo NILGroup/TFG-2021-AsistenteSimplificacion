@@ -6,59 +6,40 @@
 \contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.10}%
 \contentsline {section}{\numberline {1.1}Motivación}{3}{section.11}%
 \contentsline {section}{\numberline {1.2}Objetivos}{4}{section.12}%
-\contentsline {section}{\numberline {1.3}Estructura del documento}{4}{section.13}%
+\contentsline {section}{\numberline {1.3}Estructura del documento}{5}{section.13}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {2}Estado del arte}{5}{chapter.14}%
-\contentsline {section}{\numberline {2.1}Lectura Fácil}{5}{section.15}%
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {2.1.1}Un poco de historia...}{7}{subsection.18}%
-\contentsline {subsection}{\numberline {2.1.2}Destinatarios de la Lectura Fácil}{7}{subsection.24}%
-\contentsline {subsection}{\numberline {2.1.3}¿Cómo se identifican los textos de Lectura Fácil?}{8}{subsection.26}%
-\contentsline {subsection}{\numberline {2.1.4}Pautas a seguir para la elaboración de Lectura Fácil}{9}{subsection.30}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Ortografía}{10}{subsubsection.31}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Gramática}{10}{subsubsection.32}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Léxico}{10}{subsubsection.33}%
-\contentsline {subsubsection}{\numberline {2.1.4.4}Estilo}{10}{subsubsection.34}%
-\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación a Lectura Fácil}{11}{subsection.35}%
-\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{11}{subsection.36}%
-\contentsline {section}{\numberline {2.2}Movimientos y asociaciones de Lectura Fácil}{12}{section.37}%
-\contentsline {section}{\numberline {2.3}Proyectos relacionados con la Lectura Fácil}{14}{section.49}%
-\contentsline {subsection}{\numberline {2.3.1}Proyectos y materiales adaptados a Lectura Fácil}{14}{subsection.50}%
-\contentsline {subsubsection}{\numberline {2.3.1.1}Guía en Lectura Fácil sobre los servicios del banco}{14}{subsubsection.51}%
-\contentsline {subsubsection}{\numberline {2.3.1.2}Guía de uso del Metro de Madrid en Lectura fácil}{14}{subsubsection.52}%
-\contentsline {subsubsection}{\numberline {2.3.1.3}Guía y plano accesible del Museo del Prado}{14}{subsubsection.53}%
-\contentsline {subsubsection}{\numberline {2.3.1.4}{Noticias Fácil} \let \reserved@d =[\def \par }{14}{subsubsection.54}%
-\contentsline {subsubsection}{\numberline {2.3.1.5}Proyecto de Lectura Fácil sobre COVID-19}{15}{subsubsection.56}%
-\contentsline {subsection}{\numberline {2.3.2}Programas y aplicaciones de Lectura Fácil}{15}{subsection.57}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}{Dytective para dislexia} \let \reserved@d =[\def \par }{15}{subsubsection.58}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Léelo Fácil Educ. - Gallego \let \reserved@d =[\def \par }{16}{subsubsection.63}%
-\contentsline {subsubsection}{\numberline {2.3.2.3}Simplext \let \reserved@d =[\def \par }{17}{subsubsection.66}%
-\contentsline {subsubsection}{\numberline {2.3.2.4}``Frente al aislamiento. Nos conectamos`` \let \reserved@d =[\def \par }{17}{subsubsection.69}%
-\contentsline {subsubsection}{\numberline {2.3.2.5}CAPITO \let \reserved@d =[\def \par }{18}{subsubsection.74}%
-\contentsline {subsubsection}{\numberline {2.3.2.6}SIMPATICO \let \reserved@d =[\def \par }{19}{subsubsection.77}%
-\contentsline {subsubsection}{\numberline {2.3.2.7}Proyecto FIRST \let \reserved@d =[\def \par }{20}{subsubsection.80}%
-\contentsline {subsubsection}{\numberline {2.3.2.8}Wheris \let \reserved@d =[\def \par }{21}{subsubsection.83}%
-\contentsline {chapter}{\numberline {3}Conclusiones y Trabajo Futuro}{23}{chapter.86}%
-\contentsline {chapter}{\numberline {3}Conclusions and Future Work}{25}{chapter.87}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{7}{chapter.14}%
+\contentsline {section}{\numberline {2.1}Lectura Fácil}{7}{section.15}%
+\contentsline {subsection}{\numberline {2.1.1}Un poco de historia}{8}{subsection.18}%
+\contentsline {subsection}{\numberline {2.1.2}Destinatarios de la Lectura Fácil}{10}{subsection.25}%
+\contentsline {subsection}{\numberline {2.1.3}¿Cómo se identifican los textos de Lectura Fácil?}{10}{subsection.27}%
+\contentsline {subsection}{\numberline {2.1.4}Pautas a seguir para la elaboración de Lectura Fácil}{11}{subsection.31}%
+\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación a Lectura Fácil}{13}{subsection.32}%
+\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{14}{subsection.33}%
+\contentsline {section}{\numberline {2.2}Movimientos y asociaciones de Lectura Fácil}{15}{section.34}%
+\contentsline {section}{\numberline {2.3}Proyectos y materiales adaptados a la Lectura Fácil}{17}{section.46}%
+\contentsline {subsection}{\numberline {2.3.1}Guía en Lectura Fácil sobre los servicios del banco}{17}{subsection.47}%
+\contentsline {subsection}{\numberline {2.3.2}Guía de uso del Metro de Madrid en Lectura fácil}{17}{subsection.48}%
+\contentsline {subsection}{\numberline {2.3.3}Guía y plano accesible del Museo del Prado}{17}{subsection.49}%
+\contentsline {subsection}{\numberline {2.3.4}{Noticias Fácil} }{17}{subsection.50}%
+\contentsline {subsection}{\numberline {2.3.5}Proyecto de Lectura Fácil sobre COVID-19}{18}{subsection.52}%
+\contentsline {section}{\numberline {2.4}Programas y aplicaciones de Lectura Fácil}{18}{section.53}%
+\contentsline {subsection}{\numberline {2.4.1}Dytective para dislexia }{18}{subsection.54}%
+\contentsline {subsection}{\numberline {2.4.2}Léelo Fácil Educ. - Gallego }{19}{subsection.58}%
+\contentsline {subsection}{\numberline {2.4.3}Simplext }{19}{subsection.61}%
+\contentsline {subsection}{\numberline {2.4.4}``Frente al aislamiento. Nos conectamos'' }{20}{subsection.63}%
+\contentsline {subsection}{\numberline {2.4.5}CAPITO }{20}{subsection.68}%
+\contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{22}{subsection.71}%
+\contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST }{23}{subsection.74}%
+\contentsline {subsection}{\numberline {2.4.8}Wheris }{25}{subsection.77}%
+\contentsline {chapter}{\numberline {3}Herramientas}{27}{chapter.80}%
+\contentsline {chapter}{\numberline {4}Aplicación}{29}{chapter.81}%
+\contentsline {section}{\numberline {4.1}Frontend}{29}{section.82}%
+\contentsline {section}{\numberline {4.2}Backend}{30}{section.83}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Trabajo Futuro}{31}{chapter.84}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{33}{chapter.85}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{27}{appendix.88}%
+\contentsline {chapter}{\numberline {A}Título}{35}{appendix.86}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{29}{appendix.89}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{33}{appendix*.91}%
-=======
-\contentsline {subsection}{\numberline {2.1.1}¿Qué es?}{5}{subsection.16}%
-\contentsline {subsection}{\numberline {2.1.2}Un poco de Historia...}{7}{subsection.19}%
-\contentsline {subsection}{\numberline {2.1.3}Destinatarios de la LF}{7}{subsection.23}%
-\contentsline {subsection}{\numberline {2.1.4}¿Cómo se identifican los textos de LF?}{8}{subsection.24}%
-\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación}{9}{subsection.29}%
-\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{9}{subsection.30}%
-\contentsline {subsection}{\numberline {2.1.7}Pautas a seguir para la elaboración de Lectura Fácil}{10}{subsection.31}%
-\contentsline {subsection}{\numberline {2.1.8}Movimientos y asociaciones}{10}{subsection.32}%
-\contentsline {subsection}{\numberline {2.1.9}Proyectos}{12}{subsection.45}%
-\contentsline {chapter}{\numberline {3}Conclusiones y Trabajo Futuro}{17}{chapter.46}%
-\contentsline {chapter}{\numberline {3}Conclusions and Future Work}{19}{chapter.47}%
-\babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{21}{appendix.48}%
-\babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{23}{appendix.49}%
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+\contentsline {chapter}{\numberline {B}Título}{37}{appendix.87}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{41}{appendix*.89}%

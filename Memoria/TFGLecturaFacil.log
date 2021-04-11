@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  21 FEB 2021 19:53
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  18 DEC 2020 19:36
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  11 APR 2021 19:20
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -633,10 +629,11 @@ LaTeX Info: Redefining \% on input line 35.
  (Capitulos/Introduction.aux) (Capitulos/Introduccion.aux)
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
-(Capitulos/EstadoDeLaCuestion.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
+(Capitulos/EstadoDeLaCuestion.aux) (Capitulos/Herramientas.aux)
+(Capitulos/Aplicación.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
 (Capitulos/ConclusionsFutureWork.aux) (Apendices/appendixA.aux)
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 \openout1 = `TFGLecturaFacil.aux'.
@@ -726,11 +723,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \evensidemarginOriginal=\skip85
 \oddsidemarginOriginal=\skip86
 \longTitulo=\skip87
-<<<<<<< HEAD
-<Imagenes/Vectorial/escudoUCM.pdf, id=115, 597.23125pt x 844.15375pt>
-=======
-<Imagenes/Vectorial/escudoUCM.pdf, id=107, 597.23125pt x 844.15375pt>
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+<Imagenes/Vectorial/escudoUCM.pdf, id=179, 597.23125pt x 844.15375pt>
 File: Imagenes/Vectorial/escudoUCM.pdf Graphic file (type pdf)
 <use Imagenes/Vectorial/escudoUCM.pdf>
 Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
@@ -763,11 +756,24 @@ Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
 
 
 {C:/Users/egilruiz/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Imagenes/V
-ectorial/escudoUCM.pdf>] [2] [3])
+ectorial/escudoUCM.pdf>] [2]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \makeCover
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3])
 \openout2 = `Cascaras/autorizacion.aux'.
 
-
-(Cascaras/autorizacion.tex [4
+ (Cascaras/autorizacion.tex [4
 
 
 
@@ -780,11 +786,11 @@ ectorial/escudoUCM.pdf>] [2] [3])
 
 
 
-]) [7]
+])
+[7]
 \openout2 = `Cascaras/agradecimientos.aux'.
 
-
-(Cascaras/agradecimientos.tex [8
+ (Cascaras/agradecimientos.tex [8
 
 
 
@@ -830,224 +836,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-<<<<<<< HEAD
-
-Runaway argument?
-{\numberline {2.3.1.4}{Noticias Fácil} \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.29 ...icias Fácil} \let \reserved@d =[\def \par
-                                                   }{14}{subsubsection.54}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.29 ...ias Fácil} \let \reserved@d =[\def \par }
-                                                  {14}{subsubsection.54}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.1}{Dytective para dislexia} \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.32 ...ara dislexia} \let \reserved@d =[\def \par
-                                                   }{15}{subsubsection.58}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.32 ...a dislexia} \let \reserved@d =[\def \par }
-                                                  {15}{subsubsection.58}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.2}Léelo Fácil Educ. - Gallego \let \reserved@d \ETC.
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.33 ...uc. - Gallego \let \reserved@d =[\def \par
-                                                   }{16}{subsubsection.63}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.33 .... - Gallego \let \reserved@d =[\def \par }
-                                                  {16}{subsubsection.63}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.3}Simplext \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.34 ....2.3}Simplext \let \reserved@d =[\def \par
-                                                   }{17}{subsubsection.66}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.34 ....3}Simplext \let \reserved@d =[\def \par }
-                                                  {17}{subsubsection.66}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.4}``Frente al aislamiento. Nos conectamos`` \let \ETC.
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.35 ... conectamos`` \let \reserved@d =[\def \par
-                                                   }{17}{subsubsection.69}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.35 ...onectamos`` \let \reserved@d =[\def \par }
-                                                  {17}{subsubsection.69}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.5}CAPITO \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.36 ....3.2.5}CAPITO \let \reserved@d =[\def \par
-                                                   }{19}{subsubsection.74}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.36 ....2.5}CAPITO \let \reserved@d =[\def \par }
-                                                  {19}{subsubsection.74}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.6}SIMPATICO \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.37 ...2.6}SIMPATICO \let \reserved@d =[\def \par
-                                                   }{20}{subsubsection.77}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.37 ...6}SIMPATICO \let \reserved@d =[\def \par }
-                                                  {20}{subsubsection.77}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.7}Proyecto FIRST \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.38 ...royecto FIRST \let \reserved@d =[\def \par
-                                                   }{21}{subsubsection.80}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.38 ...yecto FIRST \let \reserved@d =[\def \par }
-                                                  {21}{subsubsection.80}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{\numberline {2.3.2.8}Wheris \let \reserved@d =[\def 
-! Paragraph ended before \contentsline was complete.
-<to be read again> 
-                   \par 
-l.39 ....3.2.8}Wheris \let \reserved@d =[\def \par
-                                                   }{22}{subsubsection.83}%
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-l.39 ....2.8}Wheris \let \reserved@d =[\def \par }
-                                                  {22}{subsubsection.83}%
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...lusiones y Trabajo Futuro}{23}{chapter.86}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
  [15]
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-=======
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
 )
 \tf@toc=\write6
 \openout6 = `TFGLecturaFacil.toc'.
 
-
-[16] (TFGLecturaFacil.lof
+ [16] (TFGLecturaFacil.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 \tf@lof=\write7
 \openout7 = `TFGLecturaFacil.lof'.
@@ -1056,15 +860,16 @@ LaTeX Info: Redefining \% on input line 26.
 
 ] [18
 
-] (TFGLecturaFacil.lot
+]
+(TFGLecturaFacil.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \tf@lot=\write8
 \openout8 = `TFGLecturaFacil.lot'.
@@ -1076,8 +881,7 @@ LaTeX Info: Redefining \% on input line 13.
 ]
 \openout2 = `Capitulos/Introduction.aux'.
 
-
-(Capitulos/Introduction.tex
+ (Capitulos/Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 .
@@ -1105,608 +909,301 @@ LaTeX Info: Redefining \% on input line 145.
 
 ]
 Cap\'itulo 1.
-<<<<<<< HEAD
-[3])
+[3]
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [4])
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
- [4]
+ [5]
 \openout2 = `Capitulos/EstadoDeLaCuestion.aux'.
 
- (Capitulos/EstadoDeLaCuestion.tex
-Cap\'itulo 2.
-
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
- [5
-=======
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3])
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
-
-[4]
-\openout2 = `Capitulos/EstadoDeLaCuestion.aux'.
-
-<<<<<<< HEAD
-
-
-]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=293, 566.115pt x 183.68625pt>
-=======
- (Capitulos/EstadoDeLaCuestion.tex
-Cap\'itulo 2.
-[5
+ (Capitulos/EstadoDeLaCuestion.tex [6
 
 
 
 
 ]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=266, 566.115pt x 183.68625pt>
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+Cap\'itulo 2.
+[7]
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=383, 566.115pt x 183.68625pt>
 File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijote.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
-ne 21.
+ne 29.
 (pdftex.def)             Requested size: 396.0022pt x 128.49258pt.
 
-Overfull \hbox (36.0022pt too wide) in paragraph at lines 21--22
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
-<<<<<<< HEAD
-<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=295, 397.485pt x 337.76187pt>
-=======
-<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=267, 397.485pt x 337.76187pt>
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=385, 397.485pt x 337.76187pt>
 File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
-line 29.
+line 37.
 (pdftex.def)             Requested size: 288.0011pt x 244.73451pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-<<<<<<< HEAD
-(Font)              <9> on input line 37.
+(Font)              <9> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-=======
-(Font)              <9> on input line 36.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
- [6 <./Imagenes/Ejemplos/Cap1DonQuijote.png> <./Imagenes/Ejemplos/Cap1DonQuijot
-eLF.png>]
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-
-[7]
-<<<<<<< HEAD
-<Imagenes/Ejemplos/destinatarios.jpg, id=322, 445.665pt x 443.6575pt>
+(Font)              <5> on input line 46.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+[8 <./Imagenes/Ejemplos/Cap1DonQuijote.png>]
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+ [9 <./Imagenes/Ejemplos/Cap1DonQuijoteLF.png>]
+<Imagenes/Ejemplos/destinatarios.jpg, id=415, 445.665pt x 443.6575pt>
 File: Imagenes/Ejemplos/destinatarios.jpg Graphic file (type jpg)
 <use Imagenes/Ejemplos/destinatarios.jpg>
 Package pdftex.def Info: Imagenes/Ejemplos/destinatarios.jpg  used on input lin
-e 71.
+e 94.
 (pdftex.def)             Requested size: 288.0011pt x 286.7086pt.
-<Imagenes/Logos/indice.png, id=327, 260.975pt x 194.7275pt>
+<Imagenes/Logos/indice.png, id=420, 260.975pt x 194.7275pt>
 File: Imagenes/Logos/indice.png Graphic file (type png)
 <use Imagenes/Logos/indice.png>
-Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 85.
+Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 108.
 (pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=328, 225.84375pt x 224.84pt>
+<Imagenes/Logos/indice2.png, id=421, 225.84375pt x 224.84pt>
 File: Imagenes/Logos/indice2.png Graphic file (type png)
 <use Imagenes/Logos/indice2.png>
-Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 91.
+Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 114.
 (pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
- [8 <./Imagenes/Ejemplos/destinatarios.jpg>]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
- [9 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
-LaTeX Info: Redefining \. on input line 158.
-LaTeX Info: Redefining \% on input line 158.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
  [10]
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
- [11]
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
- [12]
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
+ [11 <./Imagenes/Ejemplos/destinatarios.jpg>]
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+ [12 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
  [13]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.238 ...acil.es/}{http://www.noticiasfacil.es/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.238 ...acil.es/}{http://www.noticiasfacil.es/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-LaTeX Info: Redefining \. on input line 240.
-LaTeX Info: Redefining \% on input line 240.
-[14
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
+ [14]
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
+ [15]
+LaTeX Info: Redefining \. on input line 265.
+LaTeX Info: Redefining \% on input line 265.
+ [16]
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+ [17
 
 ]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.251 ...e`` en https://www.changedyslexia.org/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.251 ...e`` en https://www.changedyslexia.org/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<Imagenes/ProyectosMateriales/dytective1.png, id=430, 1046.40938pt x 563.10374p
+<Imagenes/ProyectosMateriales/dytective1.png, id=526, 1046.40938pt x 563.10374p
 t>
 File: Imagenes/ProyectosMateriales/dytective1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective1.png  used on i
-nput line 258.
+nput line 308.
 (pdftex.def)             Requested size: 180.0pt x 96.86055pt.
-<Imagenes/ProyectosMateriales/dytective.png, id=431, 1049.42062pt x 564.60938pt
+<Imagenes/ProyectosMateriales/dytective.png, id=527, 1049.42062pt x 564.60938pt
 >
 File: Imagenes/ProyectosMateriales/dytective.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective.png  used on in
-put line 261.
+put line 311.
 (pdftex.def)             Requested size: 180.0pt x 96.84384pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 258--262
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 308--312
  [][][][] 
  []
 
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.267 ...-educ-gallego/com.oneclick.ga.rayoluna}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
 
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.267 ...-educ-gallego/com.oneclick.ga.rayoluna}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 269.
-LaTeX Info: Redefining \% on input line 269.
-[15 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMateri
-ales/dytective.png>]
-<Imagenes/ProyectosMateriales/leeloFacil.png, id=447, 854.44218pt x 639.89063pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
+ [18]
+<Imagenes/ProyectosMateriales/leeloFacil.png, id=537, 854.44218pt x 639.89063pt
 >
 File: Imagenes/ProyectosMateriales/leeloFacil.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/leeloFacil.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/leeloFacil.png  used on i
-nput line 272.
+nput line 322.
 (pdftex.def)             Requested size: 323.9978pt x 242.6337pt.
-LaTeX Info: Redefining \. on input line 276.
-LaTeX Info: Redefining \% on input line 276.
- [16 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.277 ...lext en http://simplext.taln.upf.edu/ }}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
 
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.277 ...lext en http://simplext.taln.upf.edu/ }}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
-<Imagenes/ProyectosMateriales/simplext.png, id=456, 1424.32124pt x 729.47531pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+30.
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<Imagenes/ProyectosMateriales/simplext.png, id=542, 1424.32124pt x 729.47531pt>
 
 File: Imagenes/ProyectosMateriales/simplext.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simplext.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simplext.png  used on inp
-ut line 283.
+ut line 335.
 (pdftex.def)             Requested size: 360.0pt x 184.37193pt.
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.288 ...ectamos`` en https://my.yapp.us/ZNMC4A}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.288 ...ectamos`` en https://my.yapp.us/ZNMC4A}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 [][][][]\T1/cmr/m/n/9 Descarga de la apli-ca-ci�n ``Fren-te al ais-la-mien-to. 
-Nos co-nec-ta-mos`` en
+Nos co-nec-ta-mos'' en
  []
 
-<Imagenes/ProyectosMateriales/plenaInclusion.png, id=460, 310.91156pt x 450.181
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+ [19 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMater
+iales/dytective.png>]
+<Imagenes/ProyectosMateriales/plenaInclusion.png, id=556, 310.91156pt x 450.181
 87pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion.png  used 
-on input line 299.
+on input line 351.
 (pdftex.def)             Requested size: 180.0pt x 260.63168pt.
-<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=461, 312.41719pt x 447.17
+<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=557, 312.41719pt x 447.17
 062pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion1.png  used
- on input line 302.
+ on input line 354.
 (pdftex.def)             Requested size: 180.0pt x 257.6465pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 299--303
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 351--355
  [][][][] 
  []
 
-LaTeX Info: Redefining \. on input line 306.
-LaTeX Info: Redefining \% on input line 306.
-[17 <./Imagenes/ProyectosMateriales/simplext.png>]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.309 ...pito.eu/en/}{https://www.capito.eu/en/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.309 ...pito.eu/en/}{https://www.capito.eu/en/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<Imagenes/ProyectosMateriales/capito.png, id=476, 1431.09656pt x 728.7225pt>
-File: Imagenes/ProyectosMateriales/capito.png Graphic file (type png)
-<use Imagenes/ProyectosMateriales/capito.png>
-Package pdftex.def Info: Imagenes/ProyectosMateriales/capito.png  used on input
- line 315.
-(pdftex.def)             Requested size: 288.0011pt x 146.6537pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 320.
-LaTeX Info: Redefining \% on input line 320.
-[18 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
-teriales/plenaInclusion1.png>]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.321 ...t.com/}{https://simpatico-project.com/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+<Imagenes/ProyectosMateriales/capito.png, id=561, 1431.09656pt x 728.7225pt>
+File: Imagenes/ProyectosMateriales/capito.png Graphic file (type png)
+<use Imagenes/ProyectosMateriales/capito.png>
+Package pdftex.def Info: Imagenes/ProyectosMateriales/capito.png  used on input
+ line 367.
+(pdftex.def)             Requested size: 288.0011pt x 146.6537pt.
+LaTeX Info: Redefining \. on input line 371.
+LaTeX Info: Redefining \% on input line 371.
+[20 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
 
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.321 ...t.com/}{https://simpatico-project.com/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/simpatico.png, id=488, 1434.10782pt x 727.96968pt
+LaTeX Info: Redefining \. on input line 372.
+LaTeX Info: Redefining \% on input line 372.
+[21 <./Imagenes/ProyectosMateriales/simplext.png>]
+<Imagenes/ProyectosMateriales/simpatico.png, id=576, 1434.10782pt x 727.96968pt
 >
 File: Imagenes/ProyectosMateriales/simpatico.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simpatico.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simpatico.png  used on in
-put line 333.
+put line 385.
 (pdftex.def)             Requested size: 360.0pt x 182.7362pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 339.
-LaTeX Info: Redefining \% on input line 339.
-[19 <./Imagenes/ProyectosMateriales/capito.png>]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.341 ...ool.net/}{http://www.openbooktool.net/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.341 ...ool.net/}{http://www.openbooktool.net/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<Imagenes/ProyectosMateriales/openBook.png, id=500, 615.80063pt x 598.48593pt>
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+[22 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
+teriales/plenaInclusion1.png>]
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
+ [23 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriale
+s/simpatico.png>]
+<Imagenes/ProyectosMateriales/openBook.png, id=596, 615.80063pt x 598.48593pt>
 File: Imagenes/ProyectosMateriales/openBook.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/openBook.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/openBook.png  used on inp
-ut line 352.
+ut line 403.
 (pdftex.def)             Requested size: 216.0022pt x 209.92068pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \. on input line 356.
-LaTeX Info: Redefining \% on input line 356.
-[20 <./Imagenes/ProyectosMateriales/simpatico.png>]
-! Argument of \ttl@assign@i has an extra }.
-<inserted text> 
-                \par 
-l.357 ...ttp://www.tematicblog.com/WHERIS\_Web/}}}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\def \reserved@b {\stepcounter \@mpfn \protected@xdef \@thefnmark {\thempfn \ET
-C.
-! Paragraph ended before \ttl@assign@i was complete.
-<to be read again> 
-                   \par 
-l.357 ...ttp://www.tematicblog.com/WHERIS\_Web/}}}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-<Imagenes/ProyectosMateriales/wheris.png, id=512, 173.14688pt x 371.88937pt>
+LaTeX Info: Redefining \. on input line 407.
+LaTeX Info: Redefining \% on input line 407.
+ [24 <./Imagenes/ProyectosMateriales/openBook.png>]
+<Imagenes/ProyectosMateriales/wheris.png, id=604, 173.14688pt x 371.88937pt>
 File: Imagenes/ProyectosMateriales/wheris.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/wheris.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/wheris.png  used on input
- line 365.
+ line 416.
 (pdftex.def)             Requested size: 180.0pt x 386.61963pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 )
 LaTeX Info: Redefining \. on input line 150.
 LaTeX Info: Redefining \% on input line 150.
- [21 <./Imagenes/ProyectosMateriales/openBook.png>]
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [22 <./Imagenes/ProyectosMateriales/wheris.png>]
+ [25 <./Imagenes/ProyectosMateriales/wheris.png>]
+\openout2 = `Capitulos/Herramientas.aux'.
+
+
+(Capitulos/Herramientas.tex [26
+
+
+
+
+]
+Cap\'itulo 3.
+) [27]
+\openout2 = `Capitulos/Aplicación.aux'.
+
+ (Capitulos/Aplicación.tex [28
+
+
+
+
+]
+Cap\'itulo 4.
+[29])
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+ [30]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
  (Capitulos/ConclusionesTrabajoFuturo.tex
-Cap\'itulo 3.
-) [23
-=======
-<Imagenes/Logos/indice.png, id=295, 260.975pt x 194.7275pt>
-File: Imagenes/Logos/indice.png Graphic file (type png)
-<use Imagenes/Logos/indice.png>
-Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 74.
-(pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=296, 225.84375pt x 224.84pt>
-File: Imagenes/Logos/indice2.png Graphic file (type png)
-<use Imagenes/Logos/indice2.png>
-Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 80.
-(pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
- [8 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
-
-Package natbib Warning: Citation `ttt' on page 9 undefined on input line 99.
-
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
-[9]
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
- [10]
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
- [11]
-Overfull \hbox (83.15642pt too wide) in paragraph at lines 190--191
-[][]\T1/cmr/m/n/10.95 https://fademga.plenainclusiongalicia.org/dmdocuments/Los
-_servicios_del_banco.pdf[] 
- []
-
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
-[12]
-Overfull \hbox (90.31491pt too wide) in paragraph at lines 198--199
-[][]\T1/cmr/m/n/10.95 https://apkpure.com/es/l%C3%A9elo-f%C3%A1cil-educ-gallego
-/com.oneclick.ga.rayolun[] 
- []
-
-
-Overfull \hbox (45.52872pt too wide) in paragraph at lines 206--207
-[][]\T1/cmr/m/n/10.95 https://plenainclusionmadrid.org/wp-content/uploads/2020/
-06/Gu%C3%ADa-
- []
-
-
-Overfull \hbox (116.43665pt too wide) in paragraph at lines 211--212
-[][]\T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/a
-ccesible/Guia_accesible_MNP.pdf[] 
- []
-
-LaTeX Info: Redefining \. on input line 233.
-LaTeX Info: Redefining \% on input line 233.
-[13]
-Overfull \hbox (56.17859pt too wide) in paragraph at lines 240--241
-[][]\T1/cmr/m/n/10.95 https://www.clinicauandes.cl/docs/default-source/boletine
-s/informaci%C3%B3n-
- []
-
-LaTeX Info: Redefining \. on input line 266.
-LaTeX Info: Redefining \% on input line 266.
-[14])
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
- [15]
-\openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
-
- (Capitulos/ConclusionesTrabajoFuturo.tex [16
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+Cap\'itulo 5.
+) [31
 
 
 
 
 ]
-Cap\'itulo 3.
-) [17]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
-<<<<<<< HEAD
- (Capitulos/ConclusionsFutureWork.tex [24
-=======
- (Capitulos/ConclusionsFutureWork.tex [18
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+ (Capitulos/ConclusionsFutureWork.tex [32
 
 
 
 
 ]
-Chapter 3.
-<<<<<<< HEAD
-) [25]
+Chapter 5.
+) [33]
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 \openout2 = `Apendices/appendixA.aux'.
 
- (Apendices/appendixA.tex [26
-=======
-) [19]
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
-\openout2 = `Apendices/appendixA.aux'.
-
- (Apendices/appendixA.tex [20
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+ (Apendices/appendixA.tex [34
 
 
 
 
 ]
 Ap\'{e}ndice A.
-<<<<<<< HEAD
-) [27]
+) [35]
 \openout2 = `Apendices/appendixB.aux'.
 
- (Apendices/appendixB.tex [28
-=======
-) [21]
-\openout2 = `Apendices/appendixB.aux'.
-
- (Apendices/appendixB.tex [22
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+ (Apendices/appendixB.tex [36
 
 
 
 
 ]
 Ap\'{e}ndice B.
-<<<<<<< HEAD
-) [29] [30
-=======
-) [23] [24
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+) [37] [38
 
 
 
@@ -1717,15 +1214,10 @@ Ap\'{e}ndice B.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 45.
 
-(TFGLecturaFacil.bbl [31
+(TFGLecturaFacil.bbl [39
 
-<<<<<<< HEAD
-=======
-No file TFGLecturaFacil.bbl.
-) [25
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
-] [32
+] [40
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
@@ -1739,51 +1231,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
  []
 
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 \T1/cmr/m/n/10.95 source/boletines/informaci$ $%C3$ $%B3n-coronavirus-en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--22
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+[]\T1/cmr/m/sc/10.95 Europe, I.  \T1/cmr/m/n/10.95 In-for-ma-ci�n pa-ra to-dos.
+
+ []
+
+
+Overfull \hbox (7.01216pt too wide) in paragraph at lines 12--17
+\T1/cmr/m/n/10.95 https://www.plenainclusion.org/sites/default/files/informacio
+n_todos.pdf,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 []\T1/cmr/m/sc/10.95 Galicia, P. I.  \T1/cmr/m/n/10.95 Los ser-vi-cios del ban-
 co, ti-po @on-li-ne.
  []
 
 
-Overfull \hbox (69.75748pt too wide) in paragraph at lines 17--22
+Overfull \hbox (69.75748pt too wide) in paragraph at lines 19--24
 \T1/cmr/m/n/10.95 https://fademga.plenainclusiongalicia.org/dmdocuments/Los_ser
 vicios_del_banco.pdf,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 []\T1/cmr/m/sc/10.95 Inclusi�n, P.  \T1/cmr/m/n/10.95 Gu�a de uso de me-tro de 
 ma-drid, ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 \T1/cmr/m/n/10.95 po @on-li-ne.  https://plenainclusionmadrid.org/wp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 \T1/cmr/m/n/10.95 content/uploads/2020/06/Gu$ $%C3$ $%ADa-de-uso-de-Metro-en-le
 ctura-
  []
-=======
- (Cascaras/fin.tex [26
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
 
-
-Overfull \hbox (103.0377pt too wide) in paragraph at lines 50--55
+[41]
+Overfull \hbox (103.0377pt too wide) in paragraph at lines 57--62
 \T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/acces
 ible/Guia_accesible_MNP.pdf,
  []
 
-[33]
-Overfull \hbox (107.34755pt too wide) in paragraph at lines 57--62
+
+Overfull \hbox (107.34755pt too wide) in paragraph at lines 64--69
 \T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/acces
 ible/Plano_accesible_MNP.pdf,
  []
@@ -1791,18 +1291,14 @@ ible/Plano_accesible_MNP.pdf,
 ))
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
- [34]
+ [42]
 \openout2 = `Cascaras/fin.aux'.
 
-<<<<<<< HEAD
- (Cascaras/fin.tex [35
-=======
-] [27])
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+ (Cascaras/fin.tex [43
 
 
 
-] [36]) (TFGLecturaFacil.aux (Cascaras/cover.aux)
+] [44]) (TFGLecturaFacil.aux (Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -1814,78 +1310,52 @@ LaTeX Info: Redefining \% on input line 35.
  (Capitulos/Introduction.aux) (Capitulos/Introduccion.aux)
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
-(Capitulos/EstadoDeLaCuestion.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
+(Capitulos/EstadoDeLaCuestion.aux) (Capitulos/Herramientas.aux)
+(Capitulos/Aplicación.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
 (Capitulos/ConclusionsFutureWork.aux) (Apendices/appendixA.aux)
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: 377D9966E10F0089DA95F22A8EB410D6;1972.
+(rerunfilecheck)             Checksum: 22A8244A5653DBE925D8BADB6A7ED0B0;3096.
  ) 
 Here is how much of TeX's memory you used:
- 13727 strings out of 480257
- 220707 string characters out of 2880021
- 710238 words of memory out of 3000000
- 29440 multiletter control sequences out of 15000+200000
-=======
-(rerunfilecheck)             Checksum: B4F7B6B2F7D10D42CF1ECA244C6D5246;1689.
- ) 
-Here is how much of TeX's memory you used:
- 13520 strings out of 480257
- 215256 string characters out of 2880021
- 711238 words of memory out of 3000000
- 29307 multiletter control sequences out of 15000+200000
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
- 555949 words of font info for 64 fonts, out of 3000000 for 9000
+ 13796 strings out of 480257
+ 222579 string characters out of 2880021
+ 712238 words of memory out of 3000000
+ 29482 multiletter control sequences out of 15000+200000
+ 556263 words of font info for 65 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
- 90i,11n,92p,829b,763s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 90i,12n,92p,1003b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 crm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\egilruiz\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\egilruiz\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk>{C:/Users/egil
-ruiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\egilr
-uiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Us
-ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.p
+nappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\egilruiz\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\egi
+lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk>{C:/U
+sers/egilruiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Us
+ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.p
 k> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-<<<<<<< HEAD
-crm1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egilruiz\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/egil
-ruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.
-pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr
-8a.pfb>
-Output written on TFGLecturaFacil.pdf (56 pages, 4570350 bytes).
+ccc1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egi
+lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/U
+sers/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/times/utmr8a.pfb>
+Output written on TFGLecturaFacil.pdf (64 pages, 4607284 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-crm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egilruiz\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/egilruiz/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/e
-gilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-<C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8
-a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
-mr8a.pfb>
-Output written on TFGLecturaFacil.pdf (47 pages, 960851 bytes).
-PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 98d1ea36234ea8e33e3df5396c8811b3603f08bc
+ 1398 PDF objects out of 1440 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -196,3 +196,18 @@ header nav ul li .caret {
 		float: right;
 	}
 }
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1842px;
+}
+}
+#bienvenida > h1{
+	
+	color:#fff;
+	text-align:center;
+}
+
+#palabrasSinon> ul >li{
+list-style: none;
+}
