@@ -29,17 +29,20 @@
 \contentsline {subsection}{\numberline {2.4.3}Simplext }{19}{subsection.61}%
 \contentsline {subsection}{\numberline {2.4.4}``Frente al aislamiento. Nos conectamos'' }{20}{subsection.63}%
 \contentsline {subsection}{\numberline {2.4.5}CAPITO }{20}{subsection.68}%
-\contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{22}{subsection.71}%
-\contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST }{23}{subsection.74}%
-\contentsline {subsection}{\numberline {2.4.8}Wheris }{25}{subsection.77}%
+\contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{21}{subsection.71}%
+\contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST }{22}{subsection.74}%
+\contentsline {subsection}{\numberline {2.4.8}Wheris }{23}{subsection.77}%
 \contentsline {chapter}{\numberline {3}Herramientas}{27}{chapter.80}%
-\contentsline {chapter}{\numberline {4}Aplicación}{29}{chapter.81}%
-\contentsline {section}{\numberline {4.1}Frontend}{29}{section.82}%
-\contentsline {section}{\numberline {4.2}Backend}{30}{section.83}%
-\contentsline {chapter}{\numberline {5}Conclusiones y Trabajo Futuro}{31}{chapter.84}%
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{33}{chapter.85}%
+\contentsline {section}{\numberline {3.1}Flask}{27}{section.81}%
+\contentsline {section}{\numberline {3.2}Spacy}{27}{section.82}%
+\contentsline {section}{\numberline {3.3}Postman}{27}{section.83}%
+\contentsline {chapter}{\numberline {4}Aplicación}{29}{chapter.84}%
+\contentsline {section}{\numberline {4.1}Frontend}{29}{section.85}%
+\contentsline {section}{\numberline {4.2}Backend}{30}{section.86}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Trabajo Futuro}{31}{chapter.87}%
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{33}{chapter.88}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{35}{appendix.86}%
+\contentsline {chapter}{\numberline {A}Título}{35}{appendix.89}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{37}{appendix.87}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{41}{appendix*.89}%
+\contentsline {chapter}{\numberline {B}Título}{37}{appendix.90}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{41}{appendix*.92}%

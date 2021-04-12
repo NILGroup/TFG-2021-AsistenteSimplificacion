@@ -210,9 +210,20 @@ function ocultar() {
   }
   //Oculta el panel del menu una vez que se introduce un texto y se quiere hacer una transformación en el.
   function arbol(){
+  
 	reseteo();
     //Se coge el texto original introducido en el text area
+	
+	//var obj=new Object;
+	
+	//obj.texto=document.getElementById("original").value;
 	texto=document.getElementById("original").value;
+
+	 var t={ };
+	 t.text=texto;
+	var jsonObj= JSON.stringify(t);
+	console.log(t);
+	//console.log(JSON.parse(myObj.text));
 	if(texto.length!=0){
 		//Llama a la función ocultar, para que se oculte el menu de la izquierda.
 		ocultar();
@@ -222,6 +233,8 @@ function ocultar() {
 		var sep=0;
 		//Bucle que va intinerando las frases separadas para incluirlas al html.
 		while(sep != splitted.length){
+			//Comprueba si una de las frases es vacia
+			if(splitted[sep]!="")
 			//incrusta cada frase del array splitted en el html
 			document.getElementById("frases").innerHTML += " <div style='background:#fff;padding:10px;text-align:center'><a href='javascript:fraseSeleccionada("+sep+")'>"+ splitted[sep] +"</a></div><br>";
 			//Suma una a la variable auxiliar.
@@ -360,6 +373,10 @@ function ocultar() {
    function sinonimos(){
    //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
 	var c= document.getElementsByClassName('active');
+	var p = c[0].innerText;
+	var j={}
+	j.synonymous= p;
+	var jsonObj= JSON.stringify(j);
 	//Incluye los sinonimos el el div especifico para mostrarlos (un panel para sinonimos)
 	var sin=document.getElementById("palabrasSinon");
 	sin.innerHTML = "<h3 style='color: brown;padding-top: 10px;'>Sinónimos</h3><ul style='padding-bottom: 20px;'><li>vocablo</li><li> voz</li><li> término</li> <li>verbo</li></ul>";

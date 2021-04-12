@@ -33,12 +33,15 @@
 \BOOKMARK [2][-]{subsection.74}{Proyecto FIRST }{section.53}% 33
 \BOOKMARK [2][-]{subsection.77}{Wheris }{section.53}% 34
 \BOOKMARK [0][-]{chapter.80}{Herramientas}{}% 35
-\BOOKMARK [0][-]{chapter.81}{Aplicaci\363n}{}% 36
-\BOOKMARK [1][-]{section.82}{Frontend}{chapter.81}% 37
-\BOOKMARK [1][-]{section.83}{Backend}{chapter.81}% 38
-\BOOKMARK [0][-]{chapter.84}{Conclusiones y Trabajo Futuro}{}% 39
-\BOOKMARK [0][-]{chapter.85}{Conclusions and Future Work}{}% 40
-\BOOKMARK [0][-]{appendix.86}{T\355tulo}{}% 41
-\BOOKMARK [0][-]{appendix.87}{T\355tulo}{}% 42
-\BOOKMARK [0][-]{appendix*.89}{Bibliograf\355a}{}% 43
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 44
+\BOOKMARK [1][-]{section.81}{Flask}{chapter.80}% 36
+\BOOKMARK [1][-]{section.82}{Spacy}{chapter.80}% 37
+\BOOKMARK [1][-]{section.83}{Postman}{chapter.80}% 38
+\BOOKMARK [0][-]{chapter.84}{Aplicaci\363n}{}% 39
+\BOOKMARK [1][-]{section.85}{Frontend}{chapter.84}% 40
+\BOOKMARK [1][-]{section.86}{Backend}{chapter.84}% 41
+\BOOKMARK [0][-]{chapter.87}{Conclusiones y Trabajo Futuro}{}% 42
+\BOOKMARK [0][-]{chapter.88}{Conclusions and Future Work}{}% 43
+\BOOKMARK [0][-]{appendix.89}{T\355tulo}{}% 44
+\BOOKMARK [0][-]{appendix.90}{T\355tulo}{}% 45
+\BOOKMARK [0][-]{appendix*.92}{Bibliograf\355a}{}% 46
+\BOOKMARK [0][-]{fin.0}{Fin}{}% 47
