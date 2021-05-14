@@ -1,26 +1,137 @@
-\chapter{Aplicación}
-\label{cap:aplicacion}
+\chapter{Asistente web interactivo para la simplificación de textos}
+\label{cap:asistente}
 
-En este capítulo hablaremos sobre el proceso de diseño de la aplicación, las dificultades que nos hemos ido encontrando en su desarrollo, los cambios que ha ido sufriendo la aplicación y las mejoras hasta llegar a la versión final de la aplicación.
+	\chapterquote{La tecnología hace posible lo que antes era imposible. El diseño hace que sea real}{Michael Gagliano}
 
-Vamos a dividir en dos secciones, frontend y backend.
+En este capítulo hablamos sobre el proceso de diseño de la aplicación o web, las dificultades que nos hemos ido encontrando en su desarrollo, los cambios que ha ido sufriendo y las mejoras hasta llegar a su versión final.
 
-\section{Frontend}
+En la sección  \ref{sec:frontend} se describe el Front End y en la sección \ref{sec:backend} el Back End.
 
-El frontend es la parte de un sitio web que interactúa con los usuarios, es decir, está en la parte del cliente. 
+\section{Front End}\label{sec:frontend}
 
-Hay varios lenguajes que se usan para el desarrollo del fronted, nosotros vamos a usar tres: HTML, CSS y javaScript, que a continuación haremos una breve descripción de cada uno:
+Front End es la parte donde el usuario interactúa con la aplicación o web. Se trata de todo lo que el usuario percibe en una pantalla, como por ejemplo, interfaces, estilos, tipos de fuente, colores, etc, provocando en el usuario una \textit{\textbf{User Experience (UX)}}.
+ 
+ 
+Para el desarrollo de esta parte, detallamos brevemente tres lenguajes que son esenciales: 
+
  
 \begin{itemize}
-	\item HTML son las siglas en inglés \textit{HyperText Markup Lenguage} que significa lenguaje de marcado de hiperTexto, una herramienta de elaboración de páginas web. Se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán la página como imágenes, listas, vídeos, etc. Los ficheros HTML, tienen una extensión .html.
+	\item \textbf{HTML}: son las siglas en inglés \textit{HyperText Markup Lenguage} que significa lenguaje de marcado de etiquetas, una herramienta de elaboración de páginas web. Se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán la página como imágenes, listas, vídeos, etc. Los ficheros HTML, tienen una extensión ``.html''. 
 	
-	\item CSS son las siglas en inglés \textit{Cascading Style Sheets} que significa hoja de estilos en cascada, que sirve para aplicar estilos (colores, tamaños, alineación...) a un fichero HTML (páginas web). Los ficheros CSS, tienen una extensión .css.
+	\item \textbf{CSS}: son las siglas en inglés \textit{Cascading Style Sheets} que significa hoja de estilos en cascada, que sirve para aplicar estilos (colores, tamaños, alineación, tipo de fuente...) a un fichero HTML (páginas web). Los ficheros CSS, tienen una extensión ``.css''.
 	
-		\item JavaScript es un lenguaje de programación interpretado, no es necesario compilarlo para ejecutardo, que se usa para crear páginas web dinámicas. Incorpora efectos, acciones e a ejecutar, animaciones, cambio de estilo, etc., que permite la interactividad con el usuario. Se ejecuta siempre en la parte del cliente. Los ficheros JavaScript, tienen una extensión .js.
+		\item \textbf{JavaScript}: es un lenguaje de programación interpretado, no es necesario compilarlo para ejecutarlo, que se usa para crear páginas web dinámicas. Incorpora efectos, acciones a ejecutar, animaciones, cambio de estilo, etc., que permite la interactividad con el usuario. Se ejecuta siempre en la parte del cliente. Los ficheros JavaScript, tienen una extensión ``.js''.
 	
 \end{itemize}
+\subsection{Funcionalidad de la aplicación}
 
-\section{Backend}
+Una vez definido los lenguajes para el desarrollo de esta aplicación, pensamos en las funcionalidades que deben estar presentes que podrían ser útiles para el usuario.
 
-El backend se encarga de toda la lógica necesarias para que la web funcione correctamente, siendo estos invisibles. Se trata de una serie de procesos o funciones no podemos ver.
+Estas funcionalidades son las siguientes:
+\begin{itemize}
+	\item \textbf{Cambiar}: su objetivo se basa en que el usuario se vea ante la necesidad de cambiar el orden de dos palabras, para que el texto sea más fácil de comprender.
+	\item \textbf{Sinónimos}: el usuario hará uso de ellos cuando, ya sea por la dificultad de comprensión u otras causas similares, desee encontrar otra similar, más adecuada a la hora de adaptar dicho texto.
+	\item \textbf{Eliminar}: será de utilidad cuando el usuario observe que una palabra o un grupo de ellas no aporten nada al texto o lo vea innecesario, tenga la posibilidad de eliminarlas.
+	\item \textbf{Ver adaptación}: el usuario podrá visualizar el texto adaptado una vez haya realizado modificaciones.
+\end{itemize}
+
+
+Dichas funcionalidades se encontrarán en forma de botón para cada una de ellas.
+A continuación, explicamos como se han ido desarrollando y su diseño.
+\subsection{Diseño de la aplicación}
+
+Para el desarrollo de la aplicación tratamos que la interfaz y navegación sea cómoda, visual y útil para el usuario de manera que la UX sea la mejor posible. Por esa razón, tenemos en cuenta los siguientes puntos:
+\begin{itemize}
+\item El diseño debe ser atractivo y amigable al usuario. En definitiva, debe ser de fácil uso e intuitivo.
+
+\item Disponer siempre del texto introducido inicialmente por el usuario y el texto resultante una vez hecho uso de la aplicación. Así, siempre podrá ver las diferencias y adaptarlo a su gusto.
+
+
+\item Contar con botones descriptivos para que el usuario pueda elegir la funcionalidad que necesite. 
+\end{itemize}
+Con esta visión, empezamos con el desarrollo de un mockup, que permanecerá en evolución hasta que se consiga en mayor medida los puntos descritos anteriormente.
+
+\subsection{Desarrollo del diseño}
+
+A continuación detallaremos como se ha ido desarrollando, los diferentes pasos a seguir:
+
+
+	
+   
+	
+      En primer lugar, el usuario se encontrará con la pantalla inicial que consta de los siguientes componentes: menú de navegación en la parte superior con el botón ``Inicio''; el botón, ``Inicio'', situado en la esquina superior izquierda, redirigirá a la pantalla inicial, desde cualquier parte de la navegación; el botón, ``Comenzar'', situado en la parte central de la pantalla, dará paso a la siguiente pantalla de la aplicación donde comenzará el proceso de transformación de un texto. 
+	
+
+		
+		Una vez el usuario pulse en ``Comenzar'' se despliega en la parte izquierda una caja de texto para que el usuario inserte su texto objeto de adaptar. 
+		Al lado de esta caja, observaremos el botón de ``Continuar' para continuar con la transformación, el cual estará habilitado cuando el usuario introduzca el texto.
+	
+		A continuación, el usuario deberá escoger una frase una vez el texto haya sido dividido por ``.'' a través de la API. 
+		
+		De esta forma, veremos la frase escogida en un árbol de dependencias. A través de él se podrá escoger una o varias palabras haciendo un uso correcto de las diversas funcionalidades (Intercambio, Sinónimos y Eliminar) que se explicarán más abajo.
+		En la parte superior izquierda de la caja contenedora del árbol, tendremos la posibilidad de volver al listado de frases mediante el botón ``Selección de frases''.
+		Una vez que el usuario haya realizo los cambios que desee pulsará sobre el botón ``Ver adaptación'' y el texto resultante se mostrará en una caja de texto situada en la parte derecha de la pantalla.
+		Además, el usuario podrá realizar modificaciones sobre el propio texto adaptado.
+
+	
+
+Ahora describimos el desarrollo de aquellos botones que permiten al usuario la adaptación del texto a partir del árbol de dependencias:
+	
+
+	\begin{itemize}
+		 \item  \textbf{Continuar}.
+		El texto a adaptar se convierte a un formato JSON mediante el método ``JSON.stringify('cadena de texto')'' que es recibido como parámetro en el cuerpo de la petición que se enviará a la API de NILWS, detallada en la sección Back End. El resultado de la misma constará en la división de una o varias frases separadas por punto que se mostrará en la siguiente pantalla para que el usuario escoja una de ellas para comenzar la adaptación.  
+		
+		%A continuación se describe aquellos botones que permiten al usuario la adaptación del texto a partir del árbol de dependencias :%
+		
+		\item \textbf{Intercambio}.
+		%Esta funcionalidad permite intercambiar el orden de dos palabras seleccionadas por el usuario en el árbol de dependencias.%
+		
+		Esta funcionalidad se desarrolla a través de javaScript, utilizando los id's de las dos palabras seleccionadas (que previamente se le han asignado) y con la propiedad de JS para escribir en el HTML, ``Element.innerHTML'' reemplazamos la segunda palabra por la primera y viceversa.
+		  
+			\item  \textbf{Sinónimos}.
+			%El usuario seleccionará una palabra del árbol de dependencias y se le dará la posibilidad de seleccionar un sinónimo de esa palabra%
+			La palabra seleccionada en el árbol de dependencias, se convierte a un formato JSON mediante el método 'JSON.stringify("cadena de texto")' que es recibido como parámetro en el cuerpo de la petición que se enviará a la API. El resultado de la misma constará en una respuesta con un listado de sinónimos sencillos. Desde dicho listado que aparecerá después de la llamada, haciendo doble click en uno de ellos, el usuario tendrá la posibilidad de cambiar la palabra actual por su sinónimo.  
+			\item  \textbf{Eliminar}.
+			A través de javaScript, utilizando el id de la palabra seleccionada, con la función ``remove()'' se elimina toda huella en el HTML de dicha palabra.
+				  %El usuario escogerá una palabra del árbol de dependencias y lo podrá eliminar.%
+			%\item  \textbf{Ver adaptación}. El usuario podrá visualizar el texto adaptado una vez haya realizado modificaciones.%
+\end{itemize}
+				
+				Todas estas funcionalidades que realicen un cambio en el texto inicial, se almacenará en un array de objetos. Dicho array, se usará en la funcionalidad de ``Ver adaptación'' para visualizar el texto al completo, mostrando el cambio en aquellas frases transformadas.
+	
+
+
+
+
+
+\section{Back End}\label{sec:backend}
+
+El Back End se encarga de toda la lógica necesarias para que la web funcione correctamente, siendo estos transparentes al usuario. Se trata de una serie de procesos o funciones no podemos ver.
+
+Está desarrollado con Flask usando Python como lenguaje, implementando con esto una arquitectura REST basada en endpoints.
+REST es una arquitectura de desarrollo web que puede ser utilizada en cualquier cliente HTTP y se basa en cuatro operaciones básicas: GET, POST, PUT y DELETE.
+\begin{itemize}
+	\item \textbf{GET} se utiliza para acceder a los distintos recursos. Si requiere del envío de un parámetro al servidor, este se pasa como un elemento en la URI. Si se necesitara pasar mas de un elemento, tendría que hacerse mediante una petición POST
+	
+	\item \textbf{POST} se utiliza para realizar acciones de creación de nuevos recursos. Si se requiere el envío de información al servidor, esta se pasa dentro del cuerpo de la petición HTTP.
+	
+	\item \textbf{PUT} se utiliza para la modificación de los recursos existentes. Como con la operación POST, la información se envía dentro del cuerpo de la petición HTTP
+	
+	\item \textbf{DELETE} se utiliza para eliminar los recursos. Como con GET, la información va por la URI.
+\end{itemize}
+Las llamadas a estas operaciones se implementan como peticiones HTTP, con la URI del recurso, con respuesta del servidor. Estas respuestas serán un código de estado como "200 OK", "404 NOT FOUND", etc...
+
+Las operaciones que tenemos en nuestra API son:
+
+\begin{itemize}
+	\item \textbf{splitTextInSentences}: La URI es "/sentences" y es un método POST, que dado un texto en el cuerpo de la petición POST devolverá como respuesta el texto dividido en frases.
+	Para ello se hace uso de la librería de Spacy, que contiene la funcionalidad de dividir un texto en frases.
+	
+	\item \textbf{synonymous}: La URI es "/synonymous" y es un método POST, que, dado una palabra cualquiera, nos devolverá una lista de los sinónimos sencillos que pueda tener dicha palabra.
+	Aunque lo correcto hubiera sido un método GET, en el cual se pasa la palabra en la propia URI,
+	dado que los caracteres especiales dan fallo con las peticiones por HTTP, nos vimos obligados a pasarlo dentro del cuerpo de la llamada.
+	Esta operación hace uso de la API de NILWS para ver si una palabra es sencilla y si una palabra tiene sinónimos y de la librería Unidecode, para quitar los
+	caracteres especiales de una palabra.
+\end{itemize}
 

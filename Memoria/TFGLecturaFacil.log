@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  12 APR 2021 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  3 MAY 2021 13:48
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -723,7 +723,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \evensidemarginOriginal=\skip85
 \oddsidemarginOriginal=\skip86
 \longTitulo=\skip87
-<Imagenes/Vectorial/escudoUCM.pdf, id=191, 597.23125pt x 844.15375pt>
+<Imagenes/Vectorial/escudoUCM.pdf, id=203, 597.23125pt x 844.15375pt>
 File: Imagenes/Vectorial/escudoUCM.pdf Graphic file (type pdf)
 <use Imagenes/Vectorial/escudoUCM.pdf>
 Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
@@ -837,8 +837,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  [15]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
 )
 \tf@toc=\write6
 \openout6 = `TFGLecturaFacil.toc'.
@@ -910,8 +910,8 @@ LaTeX Info: Redefining \% on input line 145.
 ]
 Cap\'itulo 1.
 [3]
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
  [4])
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
@@ -926,91 +926,96 @@ LaTeX Info: Redefining \% on input line 149.
 ]
 Cap\'itulo 2.
 [7]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=398, 566.115pt x 183.68625pt>
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=412, 566.115pt x 183.68625pt>
 File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijote.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
-ne 29.
+ne 22.
 (pdftex.def)             Requested size: 396.0022pt x 128.49258pt.
 
-Overfull \hbox (36.0022pt too wide) in paragraph at lines 29--30
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=400, 397.485pt x 337.76187pt>
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=413, 397.485pt x 337.76187pt>
 File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
-line 37.
+line 30.
 (pdftex.def)             Requested size: 288.0011pt x 244.73451pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 46.
+(Font)              <9> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-[8 <./Imagenes/Ejemplos/Cap1DonQuijote.png>]
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
- [9 <./Imagenes/Ejemplos/Cap1DonQuijoteLF.png>]
-<Imagenes/Ejemplos/destinatarios.jpg, id=430, 445.665pt x 443.6575pt>
+(Font)              <5> on input line 39.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [8 <./Imagenes/Ejemplos/Cap1DonQuijote.png> <./Imagenes/Ejemplos/Cap1DonQuijot
+eLF.png>]
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+[9]
+<Imagenes/Ejemplos/destinatarios.jpg, id=440, 445.665pt x 443.6575pt>
 File: Imagenes/Ejemplos/destinatarios.jpg Graphic file (type jpg)
 <use Imagenes/Ejemplos/destinatarios.jpg>
 Package pdftex.def Info: Imagenes/Ejemplos/destinatarios.jpg  used on input lin
-e 94.
+e 74.
 (pdftex.def)             Requested size: 288.0011pt x 286.7086pt.
-<Imagenes/Logos/indice.png, id=435, 260.975pt x 194.7275pt>
+<Imagenes/Logos/indice.png, id=445, 260.975pt x 194.7275pt>
 File: Imagenes/Logos/indice.png Graphic file (type png)
 <use Imagenes/Logos/indice.png>
-Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 108.
+Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 88.
 (pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=436, 225.84375pt x 224.84pt>
+<Imagenes/Logos/indice2.png, id=446, 225.84375pt x 224.84pt>
 File: Imagenes/Logos/indice2.png Graphic file (type png)
 <use Imagenes/Logos/indice2.png>
-Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 114.
+Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 94.
 (pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
- [10]
-LaTeX Info: Redefining \. on input line 125.
-LaTeX Info: Redefining \% on input line 125.
- [11 <./Imagenes/Ejemplos/destinatarios.jpg>]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
- [12 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+ [10 <./Imagenes/Ejemplos/destinatarios.jpg>]
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+ [11 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [12]
 LaTeX Info: Redefining \. on input line 201.
 LaTeX Info: Redefining \% on input line 201.
  [13]
-LaTeX Info: Redefining \. on input line 225.
-LaTeX Info: Redefining \% on input line 225.
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
  [14]
-LaTeX Info: Redefining \. on input line 248.
-LaTeX Info: Redefining \% on input line 248.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
  [15]
-LaTeX Info: Redefining \. on input line 265.
-LaTeX Info: Redefining \% on input line 265.
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
  [16]
-LaTeX Info: Redefining \. on input line 288.
-LaTeX Info: Redefining \% on input line 288.
+LaTeX Info: Redefining \. on input line 269.
+LaTeX Info: Redefining \% on input line 269.
  [17
 
 ]
-<Imagenes/ProyectosMateriales/dytective1.png, id=541, 1046.40938pt x 563.10374p
+<Imagenes/ProyectosMateriales/dytective1.png, id=549, 1046.40938pt x 563.10374p
 t>
 File: Imagenes/ProyectosMateriales/dytective1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective1.png  used on i
-nput line 308.
+nput line 289.
 (pdftex.def)             Requested size: 180.0pt x 96.86055pt.
-<Imagenes/ProyectosMateriales/dytective.png, id=542, 1049.42062pt x 564.60938pt
+<Imagenes/ProyectosMateriales/dytective.png, id=550, 1049.42062pt x 564.60938pt
 >
 File: Imagenes/ProyectosMateriales/dytective.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective.png  used on in
-put line 311.
+put line 292.
 (pdftex.def)             Requested size: 180.0pt x 96.84384pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 308--312
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 289--293
  [][][][] 
  []
 
@@ -1020,38 +1025,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 319.
-LaTeX Info: Redefining \% on input line 319.
+LaTeX Info: Redefining \. on input line 300.
+LaTeX Info: Redefining \% on input line 300.
  [18]
-<Imagenes/ProyectosMateriales/leeloFacil.png, id=552, 854.44218pt x 639.89063pt
+<Imagenes/ProyectosMateriales/leeloFacil.png, id=560, 854.44218pt x 639.89063pt
 >
 File: Imagenes/ProyectosMateriales/leeloFacil.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/leeloFacil.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/leeloFacil.png  used on i
-nput line 322.
+nput line 303.
 (pdftex.def)             Requested size: 323.9978pt x 242.6337pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-30.
+11.
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<Imagenes/ProyectosMateriales/simplext.png, id=557, 1424.32124pt x 729.47531pt>
+<Imagenes/ProyectosMateriales/simplext.png, id=565, 1424.32124pt x 729.47531pt>
 
 File: Imagenes/ProyectosMateriales/simplext.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simplext.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simplext.png  used on inp
-ut line 335.
+ut line 316.
 (pdftex.def)             Requested size: 360.0pt x 184.37193pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
 [][][][]\T1/cmr/m/n/9 Descarga de la apli-ca-ción ``Fren-te al ais-la-mien-to. 
 Nos co-nec-ta-mos'' en
  []
@@ -1059,80 +1064,81 @@ Nos co-nec-ta-mos'' en
 
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
+LaTeX Info: Redefining \. on input line 324.
+LaTeX Info: Redefining \% on input line 324.
  [19 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMater
 iales/dytective.png>]
-<Imagenes/ProyectosMateriales/plenaInclusion.png, id=571, 310.91156pt x 450.181
+<Imagenes/ProyectosMateriales/plenaInclusion.png, id=579, 310.91156pt x 450.181
 87pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion.png  used 
-on input line 351.
+on input line 332.
 (pdftex.def)             Requested size: 180.0pt x 260.63168pt.
-<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=572, 312.41719pt x 447.17
+<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=580, 312.41719pt x 447.17
 062pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion1.png  used
- on input line 354.
+ on input line 335.
 (pdftex.def)             Requested size: 180.0pt x 257.6465pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 351--355
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 332--336
  [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/capito.png, id=576, 1431.09656pt x 728.7225pt>
+<Imagenes/ProyectosMateriales/capito.png, id=584, 1431.09656pt x 728.7225pt>
 File: Imagenes/ProyectosMateriales/capito.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/capito.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/capito.png  used on input
- line 367.
+ line 348.
 (pdftex.def)             Requested size: 288.0011pt x 146.6537pt.
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
+LaTeX Info: Redefining \. on input line 352.
+LaTeX Info: Redefining \% on input line 352.
 [20 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/simpatico.png, id=587, 1434.10782pt x 727.96968pt
+LaTeX Info: Redefining \. on input line 362.
+LaTeX Info: Redefining \% on input line 362.
+[21 <./Imagenes/ProyectosMateriales/simplext.png>]
+<Imagenes/ProyectosMateriales/simpatico.png, id=600, 1434.10782pt x 727.96968pt
 >
 File: Imagenes/ProyectosMateriales/simpatico.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simpatico.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simpatico.png  used on in
-put line 385.
+put line 366.
 (pdftex.def)             Requested size: 360.0pt x 182.7362pt.
-LaTeX Info: Redefining \. on input line 388.
-LaTeX Info: Redefining \% on input line 388.
-[21 <./Imagenes/ProyectosMateriales/simplext.png>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 399.
-LaTeX Info: Redefining \% on input line 399.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 [22 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
 teriales/plenaInclusion1.png>]
-<Imagenes/ProyectosMateriales/openBook.png, id=606, 615.80063pt x 598.48593pt>
+<Imagenes/ProyectosMateriales/openBook.png, id=614, 615.80063pt x 598.48593pt>
 File: Imagenes/ProyectosMateriales/openBook.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/openBook.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/openBook.png  used on inp
-ut line 403.
+ut line 384.
 (pdftex.def)             Requested size: 216.0022pt x 209.92068pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 411.
-LaTeX Info: Redefining \% on input line 411.
+LaTeX Info: Redefining \. on input line 392.
+LaTeX Info: Redefining \% on input line 392.
 [23 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriales
 /simpatico.png>]
-<Imagenes/ProyectosMateriales/wheris.png, id=616, 173.14688pt x 371.88937pt>
+<Imagenes/ProyectosMateriales/wheris.png, id=624, 173.14688pt x 371.88937pt>
 File: Imagenes/ProyectosMateriales/wheris.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/wheris.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/wheris.png  used on input
- line 416.
+ line 397.
 (pdftex.def)             Requested size: 180.0pt x 386.61963pt.
 
 
@@ -1154,28 +1160,61 @@ LaTeX Info: Redefining \% on input line 150.
 
 ]
 Cap\'itulo 3.
-[27])
+
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [27])
 LaTeX Info: Redefining \. on input line 151.
 LaTeX Info: Redefining \% on input line 151.
- [28]
+
+[28]
 \openout2 = `Capitulos/AplicaciÃ³n.aux'.
 
  (Capitulos/AplicaciÃ³n.tex
 Cap\'itulo 4.
+
+LaTeX Warning: Reference `sec:frontend' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:backend' on page 29 undefined on input line 8.
+
 [29
 
 
 
 
-])
+]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [30]
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+ [31]
+Overfull \hbox (30.07082pt too wide) in paragraph at lines 90--91
+\T1/cmr/m/n/10.95 do) y con la pro-pie-dad de JS pa-ra es-cri-bir en el HTML, `
+`Ele-ment.innerHTML''
+ []
+
+
+Overfull \hbox (9.81145pt too wide) in paragraph at lines 92--95
+\T1/cmr/m/n/10.95 con-vier-te a un for-ma-to JSON me-dian-te el mé-to-do 'JSON.
+stringify(çadena
+ []
+
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+[32]
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+ [33])
 LaTeX Info: Redefining \. on input line 152.
 LaTeX Info: Redefining \% on input line 152.
- [30]
+ [34]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
  (Capitulos/ConclusionesTrabajoFuturo.tex
 Cap\'itulo 5.
-) [31
+) [35
 
 
 
@@ -1183,36 +1222,36 @@ Cap\'itulo 5.
 ]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
- (Capitulos/ConclusionsFutureWork.tex [32
+ (Capitulos/ConclusionsFutureWork.tex [36
 
 
 
 
 ]
 Chapter 5.
-) [33]
+) [37]
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 \openout2 = `Apendices/appendixA.aux'.
 
- (Apendices/appendixA.tex [34
+ (Apendices/appendixA.tex [38
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [35]
+) [39]
 \openout2 = `Apendices/appendixB.aux'.
 
- (Apendices/appendixB.tex [36
+ (Apendices/appendixB.tex [40
 
 
 
 
 ]
 Ap\'{e}ndice B.
-) [37] [38
+) [41] [42
 
 
 
@@ -1223,10 +1262,10 @@ Ap\'{e}ndice B.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 45.
 
-(TFGLecturaFacil.bbl [39
+(TFGLecturaFacil.bbl [43
 
 
-] [40
+] [44
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
@@ -1285,7 +1324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 ctura-
  []
 
-[41]
+[45]
 Overfull \hbox (103.0377pt too wide) in paragraph at lines 57--62
 \T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/acces
 ible/Guia_accesible_MNP.pdf,
@@ -1300,14 +1339,14 @@ ible/Plano_accesible_MNP.pdf,
 ))
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
- [42]
+ [46]
 \openout2 = `Cascaras/fin.aux'.
 
- (Cascaras/fin.tex [43
+ (Cascaras/fin.tex [47
 
 
 
-] [44]) (TFGLecturaFacil.aux (Cascaras/cover.aux)
+] [48]) (TFGLecturaFacil.aux (Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -1327,44 +1366,51 @@ LaTeX Info: Redefining \% on input line 47.
 
 (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
-(rerunfilecheck)             Checksum: 963B0BE1A2E5EF54BF075059779B1A2B;3254.
+(rerunfilecheck)             Checksum: 0EC086707440EBB29DC9D718A7BD1F78;3539.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13802 strings out of 480257
- 222645 string characters out of 2880021
+ 13829 strings out of 480257
+ 222995 string characters out of 2880021
  712238 words of memory out of 3000000
- 29485 multiletter control sequences out of 15000+200000
- 556263 words of font info for 65 fonts, out of 3000000 for 9000
+ 29505 multiletter control sequences out of 15000+200000
+ 556964 words of font info for 66 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
- 90i,12n,92p,1003b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 90i,12n,92p,1002b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 crm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\egilruiz\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\egilruiz\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\egi
-lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk>{C:/U
-sers/egilruiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Us
-ers\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.p
-k> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-ccc1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egilruiz\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\egi
-lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/U
-sers/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy9.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/times/utmr8a.pfb>
-Output written on TFGLecturaFacil.pdf (64 pages, 4610939 bytes).
+nappen/ec/dpi600\ecbi1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\egilruiz\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\egi
+lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\
+Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095
+.pk>{C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.en
+c} <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\eccc1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1200.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\egilruiz\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\egilruiz\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\egi
+lruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\
+Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074
+.pk><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmr8a.pfb>
+Output written on TFGLecturaFacil.pdf (68 pages, 4624008 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1471 PDF objects out of 1728 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 481 words of extra memory for PDF output out of 10000 (max. 10000000)
 
