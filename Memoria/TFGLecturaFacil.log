@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  3 MAY 2021 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  21 MAY 2021 19:13
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -609,6 +609,277 @@ s
 \openout2 = `TeXiS/TeXiS_bib.aux'.
 
 (TeXiS/TeXiS_bib.tex))
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count305
+\float@exts=\toks28
+\float@box=\box102
+\@float@everytoks=\toks29
+\@floatcapt=\box103
+)
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.
+sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip82
+\subfigcapskip=\skip83
+\subfigcaptopadj=\dimen187
+\subfigbottomskip=\skip84
+\subfigcapmargin=\dimen188
+\subfiglabelskip=\skip85
+
+
+! LaTeX Error: Command \c@subfigure already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \newcounter{subfigure}
+                           [figure]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \l@subfigure already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...dxxxline{\ext@subfigure}{2}{3.8em}{2.5em}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \c@lofdepth already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \newcounter{lofdepth}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \c@subtable already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \newcounter{subtable}
+                           [table]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \l@subtable already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...dxxxline{\ext@subtable}{2}{3.8em}{2.5em}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \c@lotdepth already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \newcounter{lotdepth}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.
+cfg)
+\subfig@top=\skip86
+\subfig@bottom=\skip87
+
+
+! LaTeX Error: Command \listsubcaptions already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.269     {\@listsubcaptions{\@captype}}}
+                                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \@listsubcaptions already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280   \gdef\@subfigcaptionlist{}}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \@dottedxxxline already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333   \fi}
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \subfloat@label already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...           \@nameuse{thesub\@captype}.)}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \sf@@sub@label already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.386   \@esphack}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \subref already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388   \ref{sub@#1}}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
+ty
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+
+
+! Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfigure package.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \subcaption@CheckCompatibility
+                                   
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfig package.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \subcaption@CheckCompatibility
+                                   
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.st
+y
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: `subfig' support loaded on input line 3164.
+)
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen189
+\Gm@wd@mp=\dimen190
+\Gm@odd@mp=\dimen191
+\Gm@even@mp=\dimen192
+\Gm@layoutwidth=\dimen193
+\Gm@layoutheight=\dimen194
+\Gm@layouthoffset=\dimen195
+\Gm@layoutvoffset=\dimen196
+\Gm@dimlist=\toks30
+
+(C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g))
 \@input{constantes.aux}
 \openout2 = `constantes.aux'.
 
@@ -630,33 +901,33 @@ LaTeX Info: Redefining \% on input line 35.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
 (Capitulos/EstadoDeLaCuestion.aux) (Capitulos/Herramientas.aux)
-(Capitulos/AplicaciÃ³n.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
-(Capitulos/ConclusionsFutureWork.aux) (Apendices/appendixA.aux)
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-
-(Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
+(Capitulos/AsistenteWebInteractivo.aux) (Capitulos/Implementacion.aux)
+(Capitulos/ConclusionesTrabajoFuturo.aux) (Capitulos/ConclusionsFutureWork.aux)
+(Apendices/appendixA.aux)
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 \openout1 = `TFGLecturaFacil.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
-Package hyperref Info: Link coloring OFF on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+Package hyperref Info: Link coloring OFF on input line 117.
 
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -669,35 +940,37 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
  (TFGLecturaFacil.out) (TFGLecturaFacil.out)
 \@outlinefile=\write5
 \openout5 = `TFGLecturaFacil.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count306
+\c@lstlisting=\count310
 
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen187
-\scratchbox=\box102
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen188
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count311
+\scratchdimen=\dimen197
+\scratchbox=\box104
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen198
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks32
 )
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -713,23 +986,59 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (guionado.tex)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.45377pt
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 438.51413pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=438.51413pt
+* \textheight=700.50687pt
+* \oddsidemargin=14.45377pt
+* \evensidemargin=0.0pt
+* \topmargin=-33.8738pt
+* \headheight=14.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=18.06749pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(guionado.tex)
 \openout2 = `Cascaras/cover.aux'.
 
  (Cascaras/cover.tex
-\cambioIzquierdo=\skip82
-\cambioDerecho=\skip83
-\margenPortada=\skip84
-\evensidemarginOriginal=\skip85
-\oddsidemarginOriginal=\skip86
-\longTitulo=\skip87
-<Imagenes/Vectorial/escudoUCM.pdf, id=203, 597.23125pt x 844.15375pt>
+\cambioIzquierdo=\skip88
+\cambioDerecho=\skip89
+\margenPortada=\skip90
+\evensidemarginOriginal=\skip91
+\oddsidemarginOriginal=\skip92
+\longTitulo=\skip93
+<Imagenes/Vectorial/escudoUCM.pdf, id=243, 597.23125pt x 844.15375pt>
 File: Imagenes/Vectorial/escudoUCM.pdf Graphic file (type pdf)
 <use Imagenes/Vectorial/escudoUCM.pdf>
 Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
 59.
 (pdftex.def)             Requested size: 119.44412pt x 168.82776pt.
-\c@lastyear=\count313
+\c@lastyear=\count317
  [1
 
 
@@ -803,7 +1112,14 @@ or  <return>  to continue without it.
 
 
 
-]) [11]
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+) [11]
 \openout2 = `Cascaras/abstract.aux'.
 
 
@@ -813,8 +1129,8 @@ or  <return>  to continue without it.
 
 
 ]) [13]
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
 \openout2 = `TeXiS/TeXiS_toc.aux'.
 
  (TeXiS/TeXiS_toc.tex [14
@@ -828,17 +1144,11 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
  [15]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
 )
 \tf@toc=\write6
 \openout6 = `TFGLecturaFacil.toc'.
@@ -850,17 +1160,16 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+ [17
+
+]
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 )
 \tf@lof=\write7
 \openout7 = `TFGLecturaFacil.lof'.
 
- [17
-
-] [18
-
-]
+ [18]
 (TFGLecturaFacil.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -868,13 +1177,15 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 )
 \tf@lot=\write8
 \openout8 = `TFGLecturaFacil.lot'.
 
- [19]) [20
+ [19
+
+]) [20
 
 
 
@@ -898,8 +1209,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
 \openout2 = `Capitulos/Introduccion.aux'.
 
  (Capitulos/Introduccion.tex [2
@@ -909,12 +1220,16 @@ LaTeX Info: Redefining \% on input line 145.
 
 ]
 Cap\'itulo 1.
-[3]
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
- [4])
-LaTeX Info: Redefining \. on input line 149.
-LaTeX Info: Redefining \% on input line 149.
+
+Underfull \vbox (badness 4726) has occurred while \output is active []
+
+ [3]
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+
+[4])
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
  [5]
 \openout2 = `Capitulos/EstadoDeLaCuestion.aux'.
 
@@ -925,117 +1240,102 @@ LaTeX Info: Redefining \% on input line 149.
 
 ]
 Cap\'itulo 2.
-[7]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=412, 566.115pt x 183.68625pt>
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=504, 566.115pt x 183.68625pt>
 File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijote.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
 ne 22.
-(pdftex.def)             Requested size: 396.0022pt x 128.49258pt.
+(pdftex.def)             Requested size: 482.36821pt x 156.518pt.
 
-Overfull \hbox (36.0022pt too wide) in paragraph at lines 22--23
+Overfull \hbox (43.85408pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=413, 397.485pt x 337.76187pt>
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=505, 397.485pt x 337.76187pt>
 File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
 line 30.
-(pdftex.def)             Requested size: 288.0011pt x 244.73451pt.
+(pdftex.def)             Requested size: 350.81264pt x 298.11267pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 39.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
- [8 <./Imagenes/Ejemplos/Cap1DonQuijote.png> <./Imagenes/Ejemplos/Cap1DonQuijot
-eLF.png>]
+[7]
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
-
-[9]
-<Imagenes/Ejemplos/destinatarios.jpg, id=440, 445.665pt x 443.6575pt>
+ [8 <./Imagenes/Ejemplos/Cap1DonQuijote.png>]
+<Imagenes/Ejemplos/destinatarios.jpg, id=532, 445.665pt x 443.6575pt>
 File: Imagenes/Ejemplos/destinatarios.jpg Graphic file (type jpg)
 <use Imagenes/Ejemplos/destinatarios.jpg>
 Package pdftex.def Info: Imagenes/Ejemplos/destinatarios.jpg  used on input lin
 e 74.
-(pdftex.def)             Requested size: 288.0011pt x 286.7086pt.
-<Imagenes/Logos/indice.png, id=445, 260.975pt x 194.7275pt>
+(pdftex.def)             Requested size: 350.81264pt x 349.23318pt.
+<Imagenes/Logos/indice.png, id=537, 260.975pt x 194.7275pt>
 File: Imagenes/Logos/indice.png Graphic file (type png)
 <use Imagenes/Logos/indice.png>
 Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 88.
-(pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=446, 225.84375pt x 224.84pt>
+(pdftex.def)             Requested size: 219.25706pt x 163.60265pt.
+<Imagenes/Logos/indice2.png, id=538, 225.84375pt x 224.84pt>
 File: Imagenes/Logos/indice2.png Graphic file (type png)
 <use Imagenes/Logos/indice2.png>
 Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 94.
-(pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+(pdftex.def)             Requested size: 131.55557pt x 130.97679pt.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [9 <./Imagenes/Ejemplos/Cap1DonQuijoteLF.png>]
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
  [10 <./Imagenes/Ejemplos/destinatarios.jpg>]
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
- [11 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
 LaTeX Info: Redefining \. on input line 171.
 LaTeX Info: Redefining \% on input line 171.
+ [11 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
  [12]
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
  [13]
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
- [14]
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
- [15]
 LaTeX Info: Redefining \. on input line 246.
 LaTeX Info: Redefining \% on input line 246.
- [16]
-LaTeX Info: Redefining \. on input line 269.
-LaTeX Info: Redefining \% on input line 269.
- [17
+ [14]
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+ [15
 
 ]
-<Imagenes/ProyectosMateriales/dytective1.png, id=549, 1046.40938pt x 563.10374p
+<Imagenes/ProyectosMateriales/dytective1.png, id=637, 1046.40938pt x 563.10374p
 t>
 File: Imagenes/ProyectosMateriales/dytective1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective1.png  used on i
 nput line 289.
-(pdftex.def)             Requested size: 180.0pt x 96.86055pt.
-<Imagenes/ProyectosMateriales/dytective.png, id=550, 1049.42062pt x 564.60938pt
+(pdftex.def)             Requested size: 219.25706pt x 117.98032pt.
+<Imagenes/ProyectosMateriales/dytective.png, id=638, 1049.42062pt x 564.60938pt
 >
 File: Imagenes/ProyectosMateriales/dytective.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective.png  used on in
 put line 292.
-(pdftex.def)             Requested size: 180.0pt x 96.84384pt.
+(pdftex.def)             Requested size: 219.25706pt x 117.95978pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 289--293
+Overfull \hbox (14.52216pt too wide) in paragraph at lines 289--293
  [][][][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[][][][]\T1/cmr/m/n/9 Instalación APK ``Lée-lo Fá-cil`` en https://apkpure.com/
+es/l%C3%A9elo-f%C3%A1cil-educ-
+ []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 300.
-LaTeX Info: Redefining \% on input line 300.
- [18]
-<Imagenes/ProyectosMateriales/leeloFacil.png, id=560, 854.44218pt x 639.89063pt
+<Imagenes/ProyectosMateriales/leeloFacil.png, id=642, 854.44218pt x 639.89063pt
 >
 File: Imagenes/ProyectosMateriales/leeloFacil.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/leeloFacil.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/leeloFacil.png  used on i
 nput line 303.
-(pdftex.def)             Requested size: 323.9978pt x 242.6337pt.
-
+(pdftex.def)             Requested size: 394.66003pt x 295.55421pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1044,214 +1344,459 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<Imagenes/ProyectosMateriales/simplext.png, id=565, 1424.32124pt x 729.47531pt>
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
+
+[16 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMateri
+ales/dytective.png>]
+<Imagenes/ProyectosMateriales/simplext.png, id=656, 1424.32124pt x 729.47531pt>
 
 File: Imagenes/ProyectosMateriales/simplext.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simplext.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simplext.png  used on inp
 ut line 316.
-(pdftex.def)             Requested size: 360.0pt x 184.37193pt.
+(pdftex.def)             Requested size: 438.51413pt x 224.58781pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[][][][]\T1/cmr/m/n/9 Descarga de la apli-ca-ción ``Fren-te al ais-la-mien-to. 
-Nos co-nec-ta-mos'' en
- []
-
-
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
- [19 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMater
-iales/dytective.png>]
-<Imagenes/ProyectosMateriales/plenaInclusion.png, id=579, 310.91156pt x 450.181
+<Imagenes/ProyectosMateriales/plenaInclusion.png, id=660, 310.91156pt x 450.181
 87pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion.png  used 
 on input line 332.
-(pdftex.def)             Requested size: 180.0pt x 260.63168pt.
-<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=580, 312.41719pt x 447.17
+(pdftex.def)             Requested size: 219.25706pt x 317.47443pt.
+<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=661, 312.41719pt x 447.17
 062pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion1.png  used
  on input line 335.
-(pdftex.def)             Requested size: 180.0pt x 257.6465pt.
+(pdftex.def)             Requested size: 219.25706pt x 313.83609pt.
 
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 332--336
+Overfull \hbox (14.52216pt too wide) in paragraph at lines 332--336
  [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/capito.png, id=584, 1431.09656pt x 728.7225pt>
+<Imagenes/ProyectosMateriales/capito.png, id=665, 1431.09656pt x 728.7225pt>
 File: Imagenes/ProyectosMateriales/capito.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/capito.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/capito.png  used on input
  line 348.
-(pdftex.def)             Requested size: 288.0011pt x 146.6537pt.
+(pdftex.def)             Requested size: 350.81264pt x 178.63309pt.
 LaTeX Info: Redefining \. on input line 352.
 LaTeX Info: Redefining \% on input line 352.
-[20 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
+[17 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 362.
-LaTeX Info: Redefining \% on input line 362.
-[21 <./Imagenes/ProyectosMateriales/simplext.png>]
-<Imagenes/ProyectosMateriales/simpatico.png, id=600, 1434.10782pt x 727.96968pt
+<Imagenes/ProyectosMateriales/simpatico.png, id=677, 1434.10782pt x 727.96968pt
 >
 File: Imagenes/ProyectosMateriales/simpatico.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simpatico.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simpatico.png  used on in
 put line 366.
-(pdftex.def)             Requested size: 360.0pt x 182.7362pt.
-
+(pdftex.def)             Requested size: 438.51413pt x 222.59137pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
-[22 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
-teriales/plenaInclusion1.png>]
-<Imagenes/ProyectosMateriales/openBook.png, id=614, 615.80063pt x 598.48593pt>
+LaTeX Info: Redefining \. on input line 378.
+LaTeX Info: Redefining \% on input line 378.
+[18 <./Imagenes/ProyectosMateriales/simplext.png>]
+<Imagenes/ProyectosMateriales/openBook.png, id=689, 615.80063pt x 598.48593pt>
 File: Imagenes/ProyectosMateriales/openBook.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/openBook.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/openBook.png  used on inp
 ut line 384.
-(pdftex.def)             Requested size: 216.0022pt x 209.92068pt.
+(pdftex.def)             Requested size: 263.11115pt x 255.71841pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Info: Redefining \. on input line 392.
 LaTeX Info: Redefining \% on input line 392.
-[23 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriales
-/simpatico.png>]
-<Imagenes/ProyectosMateriales/wheris.png, id=624, 173.14688pt x 371.88937pt>
+[19 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
+teriales/plenaInclusion1.png>]
+<Imagenes/ProyectosMateriales/wheris.png, id=702, 173.14688pt x 371.88937pt>
 File: Imagenes/ProyectosMateriales/wheris.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/wheris.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/wheris.png  used on input
  line 397.
-(pdftex.def)             Requested size: 180.0pt x 386.61963pt.
+(pdftex.def)             Requested size: 219.25706pt x 470.93803pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [24 <./Imagenes/ProyectosMateriales/openBook.png>]
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [25 <./Imagenes/ProyectosMateriales/wheris.png>]
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+ [20 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriale
+s/simpatico.png>]
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+ [21 <./Imagenes/ProyectosMateriales/openBook.png>]
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+ [22 <./Imagenes/ProyectosMateriales/wheris.png>]
 \openout2 = `Capitulos/Herramientas.aux'.
 
- (Capitulos/Herramientas.tex [26
-
-
-
-
-]
+ (Capitulos/Herramientas.tex
 Cap\'itulo 3.
-
-Underfull \vbox (badness 1769) has occurred while \output is active []
-
- [27])
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
-
-[28]
-\openout2 = `Capitulos/AplicaciÃ³n.aux'.
-
- (Capitulos/AplicaciÃ³n.tex
-Cap\'itulo 4.
-
-LaTeX Warning: Reference `sec:frontend' on page 29 undefined on input line 8.
-
-
-LaTeX Warning: Reference `sec:backend' on page 29 undefined on input line 8.
-
-[29
+[23
 
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
- [30]
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
- [31]
-Overfull \hbox (30.07082pt too wide) in paragraph at lines 90--91
-\T1/cmr/m/n/10.95 do) y con la pro-pie-dad de JS pa-ra es-cri-bir en el HTML, `
-`Ele-ment.innerHTML''
- []
-
-
-Overfull \hbox (9.81145pt too wide) in paragraph at lines 92--95
-\T1/cmr/m/n/10.95 con-vier-te a un for-ma-to JSON me-dian-te el mé-to-do 'JSON.
-stringify(çadena
- []
-
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
-[32]
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
- [33])
-LaTeX Info: Redefining \. on input line 152.
-LaTeX Info: Redefining \% on input line 152.
- [34]
-\openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
-
- (Capitulos/ConclusionesTrabajoFuturo.tex
-Cap\'itulo 5.
-) [35
-
-
-
-
-]
-\openout2 = `Capitulos/ConclusionsFutureWork.aux'.
-
- (Capitulos/ConclusionsFutureWork.tex [36
-
-
-
-
-]
-Chapter 5.
-) [37]
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [24])
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
+ [25]
+\openout2 = `Capitulos/AsistenteWebInteractivo.aux'.
+
+ (Capitulos/AsistenteWebInteractivo.tex [26
+
+
+
+
+]
+Cap\'itulo 4.
+[27]
+<Imagenes/Figuras/InterfazInicial.png, id=741, 954.56625pt x 371.88937pt>
+File: Imagenes/Figuras/InterfazInicial.png Graphic file (type png)
+<use Imagenes/Figuras/InterfazInicial.png>
+Package pdftex.def Info: Imagenes/Figuras/InterfazInicial.png  used on input li
+ne 38.
+(pdftex.def)             Requested size: 381.81973pt x 148.75311pt.
+<Imagenes/Figuras/PanelIzquierdo.png, id=744, 366.87062pt x 481.29813pt>
+File: Imagenes/Figuras/PanelIzquierdo.png Graphic file (type png)
+<use Imagenes/Figuras/PanelIzquierdo.png>
+Package pdftex.def Info: Imagenes/Figuras/PanelIzquierdo.png  used on input lin
+e 53.
+(pdftex.def)             Requested size: 220.12407pt x 288.7811pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Figuras/Resumen.png, id=747, 880.79062pt x 330.73563pt>
+File: Imagenes/Figuras/Resumen.png Graphic file (type png)
+<use Imagenes/Figuras/Resumen.png>
+Package pdftex.def Info: Imagenes/Figuras/Resumen.png  used on input line 65.
+(pdftex.def)             Requested size: 396.35211pt x 148.82965pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Figuras/TextoCompleto.png, id=748, 587.19376pt x 441.65pt>
+File: Imagenes/Figuras/TextoCompleto.png Graphic file (type png)
+<use Imagenes/Figuras/TextoCompleto.png>
+Package pdftex.def Info: Imagenes/Figuras/TextoCompleto.png  used on input line
+ 77.
+(pdftex.def)             Requested size: 399.28647pt x 300.31802pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+[28 <./Imagenes/Figuras/InterfazInicial.png>]
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [29 <./Imagenes/Figuras/PanelIzquierdo.png> <./Imagenes/Figuras/Resumen.png>]
+<Imagenes/Figuras/arbol.png, id=765, 784.43062pt x 388.45125pt>
+File: Imagenes/Figuras/arbol.png Graphic file (type png)
+<use Imagenes/Figuras/arbol.png>
+Package pdftex.def Info: Imagenes/Figuras/arbol.png  used on input line 99.
+(pdftex.def)             Requested size: 392.21434pt x 194.22514pt.
+<Imagenes/Figuras/botonesFuncionales.png, id=766, 210.28563pt x 126.4725pt>
+File: Imagenes/Figuras/botonesFuncionales.png Graphic file (type png)
+<use Imagenes/Figuras/botonesFuncionales.png>
+Package pdftex.def Info: Imagenes/Figuras/botonesFuncionales.png  used on input
+ line 105.
+(pdftex.def)             Requested size: 210.28511pt x 126.47218pt.
+<Imagenes/Figuras/borradorTextoFinal.png, id=767, 339.76938pt x 134.00063pt>
+File: Imagenes/Figuras/borradorTextoFinal.png Graphic file (type png)
+<use Imagenes/Figuras/borradorTextoFinal.png>
+Package pdftex.def Info: Imagenes/Figuras/borradorTextoFinal.png  used on input
+ line 111.
+(pdftex.def)             Requested size: 339.76854pt x 134.00027pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+ [30 <./Imagenes/Figuras/TextoCompleto.png> <./Imagenes/Figuras/arbol.png>]
+<Imagenes/Figuras/palabrasComplejas.png, id=775, 725.20938pt x 322.70563pt>
+File: Imagenes/Figuras/palabrasComplejas.png Graphic file (type png)
+<use Imagenes/Figuras/palabrasComplejas.png>
+Package pdftex.def Info: Imagenes/Figuras/palabrasComplejas.png  used on input 
+line 127.
+(pdftex.def)             Requested size: 398.8664pt x 177.48863pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig' on page 31 undefined on input line 136.
+
+
+LaTeX Warning: Reference `fig:' on page 31 undefined on input line 136.
+
+
+LaTeX Warning: Reference `fig:' on page 31 undefined on input line 136.
+
+
+Underfull \vbox (badness 4886) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+ [31 <./Imagenes/Figuras/botonesFuncionales.png> <./Imagenes/Figuras/borradorTe
+xtoFinal.png>]
+<Imagenes/Figuras/SinonimoPersona.png, id=783, 216.30812pt x 181.17688pt>
+File: Imagenes/Figuras/SinonimoPersona.png Graphic file (type png)
+<use Imagenes/Figuras/SinonimoPersona.png>
+Package pdftex.def Info: Imagenes/Figuras/SinonimoPersona.png  used on input li
+ne 145.
+(pdftex.def)             Requested size: 216.30759pt x 181.17642pt.
+<Imagenes/Figuras/EditarSinonimo.png, id=785, 216.81pt x 182.6825pt>
+File: Imagenes/Figuras/EditarSinonimo.png Graphic file (type png)
+<use Imagenes/Figuras/EditarSinonimo.png>
+Package pdftex.def Info: Imagenes/Figuras/EditarSinonimo.png  used on input lin
+e 159.
+(pdftex.def)             Requested size: 216.80946pt x 182.68204pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:' on page 32 undefined on input line 165.
+
+<Imagenes/Figuras/modalSinonimos.png, id=787, 209.78375pt x 69.25874pt>
+File: Imagenes/Figuras/modalSinonimos.png Graphic file (type png)
+<use Imagenes/Figuras/modalSinonimos.png>
+Package pdftex.def Info: Imagenes/Figuras/modalSinonimos.png  used on input lin
+e 171.
+(pdftex.def)             Requested size: 209.78322pt x 69.25856pt.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
+[32 <./Imagenes/Figuras/palabrasComplejas.png> <./Imagenes/Figuras/SinonimoPers
+ona.png>]
+<Imagenes/Figuras/Eliminacion1.png, id=796, 588.69937pt x 287.0725pt>
+File: Imagenes/Figuras/Eliminacion1.png Graphic file (type png)
+<use Imagenes/Figuras/Eliminacion1.png>
+Package pdftex.def Info: Imagenes/Figuras/Eliminacion1.png  used on input line 
+185.
+(pdftex.def)             Requested size: 353.22234pt x 172.24483pt.
+<Imagenes/Figuras/Eliminacion2.png, id=797, 459.7175pt x 245.91875pt>
+File: Imagenes/Figuras/Eliminacion2.png Graphic file (type png)
+<use Imagenes/Figuras/Eliminacion2.png>
+Package pdftex.def Info: Imagenes/Figuras/Eliminacion2.png  used on input line 
+195.
+(pdftex.def)             Requested size: 321.80005pt x 172.14194pt.
+<Imagenes/Figuras/BorradorEliminacion.png, id=799, 506.39188pt x 70.2625pt>
+File: Imagenes/Figuras/BorradorEliminacion.png Graphic file (type png)
+<use Imagenes/Figuras/BorradorEliminacion.png>
+Package pdftex.def Info: Imagenes/Figuras/BorradorEliminacion.png  used on inpu
+t line 206.
+(pdftex.def)             Requested size: 354.47188pt x 49.1834pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
+[33 <./Imagenes/Figuras/EditarSinonimo.png> <./Imagenes/Figuras/modalSinonimos.
+png> <./Imagenes/Figuras/Eliminacion1.png>]
+<Imagenes/Figuras/DefinicionesPersonas.png, id=809, 205.26688pt x 261.97874pt>
+File: Imagenes/Figuras/DefinicionesPersonas.png Graphic file (type png)
+<use Imagenes/Figuras/DefinicionesPersonas.png>
+Package pdftex.def Info: Imagenes/Figuras/DefinicionesPersonas.png  used on inp
+ut line 221.
+(pdftex.def)             Requested size: 164.2137pt x 209.58327pt.
+<Imagenes/Figuras/GlosarioBorrador.png, id=810, 499.8675pt x 158.09062pt>
+File: Imagenes/Figuras/GlosarioBorrador.png Graphic file (type png)
+<use Imagenes/Figuras/GlosarioBorrador.png>
+Package pdftex.def Info: Imagenes/Figuras/GlosarioBorrador.png  used on input l
+ine 231.
+(pdftex.def)             Requested size: 399.89453pt x 126.47266pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:' on page 34 undefined on input line 239.
+
+<Imagenes/Figuras/verResultado.png, id=813, 504.88625pt x 230.36063pt>
+File: Imagenes/Figuras/verResultado.png Graphic file (type png)
+<use Imagenes/Figuras/verResultado.png>
+Package pdftex.def Info: Imagenes/Figuras/verResultado.png  used on input line 
+244.
+(pdftex.def)             Requested size: 403.90953pt x 184.28873pt.
+<Imagenes/Figuras/PanelDerecho.png, id=814, 353.32pt x 474.27188pt>
+File: Imagenes/Figuras/PanelDerecho.png Graphic file (type png)
+<use Imagenes/Figuras/PanelDerecho.png>
+Package pdftex.def Info: Imagenes/Figuras/PanelDerecho.png  used on input line 
+254.
+(pdftex.def)             Requested size: 282.65639pt x 379.41801pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 164.
+LaTeX Info: Redefining \% on input line 164.
+ [34 <./Imagenes/Figuras/Eliminacion2.png> <./Imagenes/Figuras/BorradorEliminac
+ion.png>]
+LaTeX Info: Redefining \. on input line 164.
+LaTeX Info: Redefining \% on input line 164.
+ [35 <./Imagenes/Figuras/DefinicionesPersonas.png> <./Imagenes/Figuras/Glosario
+Borrador.png> <./Imagenes/Figuras/verResultado.png>]
+LaTeX Info: Redefining \. on input line 164.
+LaTeX Info: Redefining \% on input line 164.
+ [36 <./Imagenes/Figuras/PanelDerecho.png>]
+\openout2 = `Capitulos/Implementacion.aux'.
+
+ (Capitulos/Implementacion.tex
+Cap\'itulo 5.
+<Imagenes/Figuras/Project-Structure.png, id=836, 334.75063pt x 214.30063pt>
+File: Imagenes/Figuras/Project-Structure.png Graphic file (type png)
+<use Imagenes/Figuras/Project-Structure.png>
+Package pdftex.def Info: Imagenes/Figuras/Project-Structure.png  used on input 
+line 18.
+(pdftex.def)             Requested size: 401.69873pt x 257.15945pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37
+
+
+
+
+]
+<Imagenes/Figuras/rest_api.png, id=842, 789.95125pt x 318.18875pt>
+File: Imagenes/Figuras/rest_api.png Graphic file (type png)
+<use Imagenes/Figuras/rest_api.png>
+Package pdftex.def Info: Imagenes/Figuras/rest_api.png  used on input line 46.
+(pdftex.def)             Requested size: 315.9749pt x 127.27324pt.
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [38 <./Imagenes/Figuras/Project-Structure.png> <./Imagenes/Figuras/rest_api.pn
+g>]
+<Imagenes/Figuras/APISencilla.png, id=852, 418.06187pt x 366.87062pt>
+File: Imagenes/Figuras/APISencilla.png Graphic file (type png)
+<use Imagenes/Figuras/APISencilla.png>
+Package pdftex.def Info: Imagenes/Figuras/APISencilla.png  used on input line 8
+6.
+(pdftex.def)             Requested size: 376.2522pt x 330.1805pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+<Imagenes/Figuras/ApiDefinicion.png, id=854, 671.00688pt x 412.54124pt>
+File: Imagenes/Figuras/ApiDefinicion.png Graphic file (type png)
+<use Imagenes/Figuras/ApiDefinicion.png>
+Package pdftex.def Info: Imagenes/Figuras/ApiDefinicion.png  used on input line
+ 113.
+(pdftex.def)             Requested size: 469.70161pt x 288.7769pt.
+
+Overfull \hbox (31.18748pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Figuras/APISinonimos.png, id=856, 426.59375pt x 440.14438pt>
+File: Imagenes/Figuras/APISinonimos.png Graphic file (type png)
+<use Imagenes/Figuras/APISinonimos.png>
+Package pdftex.def Info: Imagenes/Figuras/APISinonimos.png  used on input line 
+138.
+(pdftex.def)             Requested size: 383.93082pt x 396.12627pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+ [39]
+
+LaTeX Warning: Text page 40 contains only floats.
+
+
+Overfull \vbox (2.65051pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+
+[40 <./Imagenes/Figuras/APISencilla.png> <./Imagenes/Figuras/ApiDefinicion.png>
+]
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+ [41 <./Imagenes/Figuras/APISinonimos.png>]
+\openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
+
+
+(Capitulos/ConclusionesTrabajoFuturo.tex [42
+
+
+
+
+]
+Cap\'itulo 6.
+) [43]
+\openout2 = `Capitulos/ConclusionsFutureWork.aux'.
+
+ (Capitulos/ConclusionsFutureWork.tex [44
+
+
+
+
+]
+Chapter 6.
+) [45]
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
 \openout2 = `Apendices/appendixA.aux'.
 
- (Apendices/appendixA.tex [38
+ (Apendices/appendixA.tex [46
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [39]
+) [47]
 \openout2 = `Apendices/appendixB.aux'.
 
- (Apendices/appendixB.tex [40
+ (Apendices/appendixB.tex [48
 
 
 
 
 ]
 Ap\'{e}ndice B.
-) [41] [42
+) [49] [50
 
 
 
@@ -1262,37 +1807,27 @@ Ap\'{e}ndice B.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 45.
 
-(TFGLecturaFacil.bbl [43
+(TFGLecturaFacil.bbl [51
 
 
-] [44
+] [52
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 []\T1/cmr/m/sc/10.95 de los An-des, C. U.  \T1/cmr/m/n/10.95 ¾qué es el co-ro-n
-a-vi-rus?, ti-
+a-vi-rus?, ti-po @on-li-ne.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
-\T1/cmr/m/n/10.95 po @on-li-ne.  https://www.clinicauandes.cl/docs/default-
+\T1/cmr/m/n/10.95 https://www.clinicauandes.cl/docs/default-source/boletines/in
+formaci$ $%C3$ $%B3n-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
-\T1/cmr/m/n/10.95 source/boletines/informaci$ $%C3$ $%B3n-coronavirus-en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
+Overfull \hbox (89.53435pt too wide) in paragraph at lines 12--17
 []\T1/cmr/m/sc/10.95 Europe, I.  \T1/cmr/m/n/10.95 In-for-ma-ción pa-ra to-dos.
-
- []
-
-
-Overfull \hbox (7.01216pt too wide) in paragraph at lines 12--17
-\T1/cmr/m/n/10.95 https://www.plenainclusion.org/sites/default/files/informacio
-n_todos.pdf,
+  https://www.plenainclusion.org/sites/default/files/informacion_todos.pdf,
  []
 
 
@@ -1302,7 +1837,7 @@ co, ti-po @on-li-ne.
  []
 
 
-Overfull \hbox (69.75748pt too wide) in paragraph at lines 19--24
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 \T1/cmr/m/n/10.95 https://fademga.plenainclusiongalicia.org/dmdocuments/Los_ser
 vicios_del_banco.pdf,
  []
@@ -1310,47 +1845,54 @@ vicios_del_banco.pdf,
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 []\T1/cmr/m/sc/10.95 Inclusión, P.  \T1/cmr/m/n/10.95 Guía de uso de me-tro de 
-ma-drid, ti-
+ma-drid, ti-po @on-li-ne.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
-\T1/cmr/m/n/10.95 po @on-li-ne.  https://plenainclusionmadrid.org/wp-
+\T1/cmr/m/n/10.95 https://plenainclusionmadrid.org/wp-content/uploads/2020/06/G
+u$ $%C3$ $%ADa-de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--36
-\T1/cmr/m/n/10.95 content/uploads/2020/06/Gu$ $%C3$ $%ADa-de-uso-de-Metro-en-le
-ctura-
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
+[]\T1/cmr/m/sc/10.95 del Pa-dro, M. N.  \T1/cmr/m/n/10.95 Guía ac-ce-si-ble. 10
+ obras maes-tras, ti-po @on-li-ne.
  []
 
-[45]
-Overfull \hbox (103.0377pt too wide) in paragraph at lines 57--62
+
+Overfull \hbox (24.52357pt too wide) in paragraph at lines 57--62
 \T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/acces
 ible/Guia_accesible_MNP.pdf,
  []
 
 
-Overfull \hbox (107.34755pt too wide) in paragraph at lines 64--69
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+[]\T1/cmr/m/sc/10.95 del Pa-dro, M. N.  \T1/cmr/m/n/10.95 Plano ac-ce-si-ble. 1
+0 obras maes-tras, ti-po @on-li-ne.
+ []
+
+
+Overfull \hbox (28.83342pt too wide) in paragraph at lines 64--69
 \T1/cmr/m/n/10.95 https://content3.cdnprado.net/doclinks/pdf/visita/plano/acces
 ible/Plano_accesible_MNP.pdf,
  []
 
-))
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
- [46]
+[53]))
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
+ [54]
 \openout2 = `Cascaras/fin.aux'.
 
- (Cascaras/fin.tex [47
+ (Cascaras/fin.tex [55
 
 
 
-] [48]) (TFGLecturaFacil.aux (Cascaras/cover.aux)
+] [56]) (TFGLecturaFacil.aux
+(Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-
-(Cascaras/autorizacion.aux) (Cascaras/dedicatoria.aux)
+ (Cascaras/autorizacion.aux) (Cascaras/dedicatoria.aux)
 (Cascaras/agradecimientos.aux) (Cascaras/resumen.aux) (Cascaras/abstract.aux)
 (TeXiS/TeXiS_toc.aux)
 LaTeX Info: Redefining \. on input line 35.
@@ -1359,34 +1901,31 @@ LaTeX Info: Redefining \% on input line 35.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
 (Capitulos/EstadoDeLaCuestion.aux) (Capitulos/Herramientas.aux)
-(Capitulos/AplicaciÃ³n.aux) (Capitulos/ConclusionesTrabajoFuturo.aux)
-(Capitulos/ConclusionsFutureWork.aux) (Apendices/appendixA.aux)
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-
-(Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
+(Capitulos/AsistenteWebInteractivo.aux) (Capitulos/Implementacion.aux)
+(Capitulos/ConclusionesTrabajoFuturo.aux) (Capitulos/ConclusionsFutureWork.aux)
+(Apendices/appendixA.aux)
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ (Apendices/appendixB.aux) (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
-(rerunfilecheck)             Checksum: 0EC086707440EBB29DC9D718A7BD1F78;3539.
+(rerunfilecheck)             Checksum: 9AB2CC93ECB1105FC3FCB19FD2AF7E03;4366.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 13829 strings out of 480257
- 222995 string characters out of 2880021
- 712238 words of memory out of 3000000
- 29505 multiletter control sequences out of 15000+200000
- 556964 words of font info for 66 fonts, out of 3000000 for 9000
+ 16679 strings out of 480257
+ 282017 string characters out of 2880021
+ 723238 words of memory out of 3000000
+ 32250 multiletter control sequences out of 15000+200000
+ 556598 words of font info for 66 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
- 90i,12n,92p,1002b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 90i,12n,92p,1002b,1209s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecbi1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
+cti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\
 fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\egilruiz\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\egilruiz\App
@@ -1408,9 +1947,9 @@ Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074
 s/cm/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on TFGLecturaFacil.pdf (68 pages, 4624008 bytes).
+Output written on TFGLecturaFacil.pdf (76 pages, 5347194 bytes).
 PDF statistics:
- 1471 PDF objects out of 1728 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1720 PDF objects out of 1728 (max. 8388607)
+ 232 named destinations out of 1000 (max. 500000)
+ 676 words of extra memory for PDF output out of 10000 (max. 10000000)
 

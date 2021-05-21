@@ -76,6 +76,17 @@ constantes,guionado,Cascaras/bibliografia,config%
 
 % Paquete de la plantilla
 \usepackage{TeXiS/TeXiS}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[a4paper,bindingoffset=0.2in,%
+left=1in,right=1in,top=1in,bottom=1in,%
+footskip=.25in]{geometry}
+
 
 
 % Incluimos el fichero con comandos de constantes
@@ -149,7 +160,9 @@ constantes,guionado,Cascaras/bibliografia,config%
 \include{Capitulos/Introduccion}
 \include{Capitulos/EstadoDeLaCuestion}
 \include{Capitulos/Herramientas}
-\include{Capitulos/Aplicación}
+%\include{Capitulos/Aplicación}
+\include{Capitulos/AsistenteWebInteractivo}
+\include{Capitulos/Implementacion}
 %\include{Capitulos/Capitulo5}
 \include{Capitulos/ConclusionesTrabajoFuturo}
 

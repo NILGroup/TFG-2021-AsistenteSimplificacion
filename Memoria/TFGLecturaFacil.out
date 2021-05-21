@@ -36,15 +36,25 @@
 \BOOKMARK [1][-]{section.80}{Flask}{chapter.79}% 36
 \BOOKMARK [1][-]{section.81}{Spacy}{chapter.79}% 37
 \BOOKMARK [1][-]{section.82}{Postman}{chapter.79}% 38
-\BOOKMARK [0][-]{chapter.83}{Asistente web interactivo para la simplificaci\363n de textos}{}% 39
-\BOOKMARK [1][-]{section.84}{Front End}{chapter.83}% 40
-\BOOKMARK [2][-]{subsection.85}{Funcionalidad de la aplicaci\363n}{section.84}% 41
-\BOOKMARK [2][-]{subsection.86}{Dise\361o de la aplicaci\363n}{section.84}% 42
-\BOOKMARK [2][-]{subsection.87}{Desarrollo del dise\361o}{section.84}% 43
-\BOOKMARK [1][-]{section.88}{Back End}{chapter.83}% 44
-\BOOKMARK [0][-]{chapter.89}{Conclusiones y Trabajo Futuro}{}% 45
-\BOOKMARK [0][-]{chapter.90}{Conclusions and Future Work}{}% 46
-\BOOKMARK [0][-]{appendix.91}{T\355tulo}{}% 47
-\BOOKMARK [0][-]{appendix.92}{T\355tulo}{}% 48
-\BOOKMARK [0][-]{appendix*.94}{Bibliograf\355a}{}% 49
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 50
+\BOOKMARK [1][-]{section.83}{NILWS}{chapter.79}% 39
+\BOOKMARK [0][-]{chapter.84}{Asistente web interactivo para la simplificaci\363n de textos}{}% 40
+\BOOKMARK [1][-]{section.85}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.84}% 41
+\BOOKMARK [1][-]{section.86}{Introducci\363n de texto y selecci\363n de frases}{chapter.84}% 42
+\BOOKMARK [1][-]{section.91}{Adaptaciones sobre frases}{chapter.84}% 43
+\BOOKMARK [2][-]{subsection.95}{Palabras complejas}{section.91}% 44
+\BOOKMARK [2][-]{subsection.97}{Intercambio de partes en el \341rbol de dependencias}{section.91}% 45
+\BOOKMARK [2][-]{subsection.98}{Sin\363nimos}{section.91}% 46
+\BOOKMARK [2][-]{subsection.102}{Eliminar partes en el \341rbol de dependencias}{section.91}% 47
+\BOOKMARK [2][-]{subsection.106}{Definiciones respecto a una palabra}{section.91}% 48
+\BOOKMARK [2][-]{subsection.109}{Resultado de la adaptaci\363n}{section.91}% 49
+\BOOKMARK [0][-]{chapter.112}{Implementaci\363n}{}% 50
+\BOOKMARK [1][-]{section.113}{Arquitectura}{chapter.112}% 51
+\BOOKMARK [2][-]{subsection.115}{Ficheros del entorno}{section.113}% 52
+\BOOKMARK [2][-]{subsection.116}{Servicios web externos}{section.113}% 53
+\BOOKMARK [2][-]{subsection.140}{Librer\355a Spacy}{section.113}% 54
+\BOOKMARK [0][-]{chapter.141}{Conclusiones y Trabajo Futuro}{}% 55
+\BOOKMARK [0][-]{chapter.142}{Conclusions and Future Work}{}% 56
+\BOOKMARK [0][-]{appendix.143}{T\355tulo}{}% 57
+\BOOKMARK [0][-]{appendix.144}{T\355tulo}{}% 58
+\BOOKMARK [0][-]{appendix*.146}{Bibliograf\355a}{}% 59
+\BOOKMARK [0][-]{fin.0}{Fin}{}% 60

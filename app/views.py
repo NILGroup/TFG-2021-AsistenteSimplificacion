@@ -46,7 +46,6 @@ def simple():
     textList=[]
     for word in data:
         textList.append(word['text'])
-
     text=' '.join(textList);
     doc=nlp(text)
     position=0

@@ -1,0 +1,148 @@
+\chapter{Implementación}
+\label{cap:implementacion}
+
+\chapterquote{Puede que tengas grandes ideas en la cabeza, pero lo que importa es la acción. Una idea, si no se lleva a cabo, no producirá ninguna manifestación, ni resultados ni recompensas}{Miguel Ruiz}
+
+
+En este capítulo hacemos una descripción detallada sobre la arquitectura en la que está basada nuestro asistente. Hablaremos también sobre la implementación de las distintas funcionalidades (ver sección XXXX) que se ha llevado a cabo tanto en la parte Back End como Front End.
+
+
+\section{Arquitectura}
+
+La estructura de nuestro proyecto está soportado sobre un entorno Flask, teniendo el nivel de directorios que se muestra en la Figura \ref{fig:projectStructure}.
+
+	 \begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1.2]{Imagenes/Figuras/Project-Structure}
+	
+	
+	\caption{Estructura del proyecto en Flask}
+	\label{fig:projectStructure}
+\end{figure}
+
+A continuación, se explican la función de cada uno de los ficheros que componen la aplicación web.
+
+\subsection{Ficheros del entorno}
+
+Los ficheros principales son:
+\begin{itemize}
+	\item \textbf{views.py}: es el encargado de la lógica de todos los endpoints de la aplicación, así como el renderizado de la plantilla. Cada uno de esos endpoints tendrá una funcionalidad distinta, los cuales serán llamados por una función de funciones.js 
+	\item \textbf{vo.py}: se encarga de la organización de clases.
+	\item \textbf{home.html}: en este archivo creamos la estructura de nuestro asistente y la organización que mostrará el contenido.
+	\item \textbf{funciones.js}: la misión de este fichero es comunicar la aplicación web con los elementos del DOM de la misma, haciendo posible la modificación del HTML dinámicamente. Las modificaciones que efectuamos en este archivo es añadir nuevas etiquetas, modificando o eliminando otras, cambiar sus atributos, añadiendo clases, cambiar el contenido de texto, etc. También es el encargado de la comunicación con la vista (views.py) para la petición y respuesta de servicios web.
+	\item \textbf{arbol.css}: archivo encargado de generar los estilos para que nuestro árbol de dependencias tenga la apariencia de un árbol genealógico.
+	\item \textbf{style.css}: fichero encargado de dar estilos a todo lo que concierne nuestra aplicación web excepto el árbol de dependencias (fuentes, disposición, tamaños, colores, etc.)   
+\end{itemize}
+
+\subsection{Servicios web externos}
+Para hacer uso de las principales funcionalidades descritas en la sección XXX, contamos con una arquitectura de servicios web REST basada en endpoints (Figura \ref{fig:apiRest}). 
+
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=0.4]{Imagenes/Figuras/rest_api}
+	
+	
+	\caption{Servicio REST cliente/servidor}
+	\label{fig:apiRest}
+\end{figure}
+
+Esta arquitectura puede ser utilizada en cualquier cliente HTTP, y aquí describimos cuatro de sus operaciones más básicas:
+\begin{itemize}
+	\item \textbf{GET}: se utiliza para acceder a los distintos recursos. Si requiere del envío de un parámetro al servidor (URI param), éste se pasa como un elemento en la URI (del inglés, \textit{Uniform Resource Identifier}). 
+	
+	\item \textbf{POST}: se usa para realizar acciones de creación de nuevos recursos. Si se requiere el envío de información al servidor, esta se pasa dentro del cuerpo de la petición HTTP (body param).
+	
+	\item \textbf{PUT}: se utiliza para la modificación de los recursos existentes. Puede enviar parámetros tanto en la URI como en el cuerpo de la petición HTTP.
+	
+	\item \textbf{DELETE}: se utiliza para la eliminar los recursos existentes, siendo la operación análoga al POST. El parámetro será informado a través de la URI.
+\end{itemize}
+
+  Hacemos uso de los siguientes servicios REST que nos ofrece la API del grupo NIL\footnote{Para más información acceder a \href{https://holstein.fdi.ucm.es/nil-ws-api/}{https://holstein.fdi.ucm.es/nil-ws-api/}} (descrita en el capítulo X sección XXX):
+
+
+	
+
+
+\begin{itemize}
+	\item \textbf{Servicio para comprobar si una palabra es compleja}.
+	\begin{lstlisting}[backgroundcolor = \color{pink},
+	xleftmargin = 1cm,
+	framexleftmargin = 1em,frame=tlbr,framesep=4pt,framerule=1pt]
+	GET https://holstein.fdi.ucm.es/nil-ws-api/palabra/
+	{palabra}/es\_sencilla
+	
+	
+\end{lstlisting}
+	
+	Este recurso devuelve un objeto en formato JSON que contiene el campo ``palabraSencilla'' de tipo booleano que en el caso que sea False la palabra introducida a través de la URI es compleja (ver Figura \ref{fig:apiSencilla}).
+		 \begin{figure}[h!]
+		\centering
+		
+		
+		\includegraphics[scale=0.9]{Imagenes/Figuras/APISencilla}
+		
+		
+		\caption{Petición para comprobar si una palabra es compleja}
+		\label{fig:apiSencilla}
+	\end{figure}
+	\item \textbf{Servicio para obtener definiciones de una palabra}.
+\newline
+
+	\begin{lstlisting}[backgroundcolor = \color{pink},
+	xleftmargin = 1cm,
+	framexleftmargin = 1em,frame=tlbr,framesep=4pt,framerule=1pt]
+	GET https://holstein.fdi.ucm.es/nil-ws-api/palabra/
+	{palabra}/definiciones
+
+	
+	
+\end{lstlisting}
+
+
+
+
+En este caso, el servicio devuelve un objeto JSON que contiene el campo ``definiciones'' de tipo arrayList en el que en cada posición hay otro objeto, ``definicion'', cuyo valor es de tipo string con la acepción correspondiente (ver Figura \ref{fig:apiDefinicion}).
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=0.7]{Imagenes/Figuras/ApiDefinicion}
+	
+	
+	\caption{Petición que devuelve una lista de definiciones}
+	\label{fig:apiDefinicion}
+\end{figure}
+	\item \textbf{Servicio para obtener sinónimos de una palabra}.
+	\begin{lstlisting}[backgroundcolor = \color{pink},
+	xleftmargin = 1cm,
+	framexleftmargin = 1em,frame=tlbr,framesep=4pt,framerule=1pt]
+	GET https://holstein.fdi.ucm.es/nil-ws-api/palabra/
+	{palabra}/sinonimos	
+	
+	
+	
+	
+\end{lstlisting}
+
+
+
+El servicio devuelve un objeto JSON que contiene el campo ``sinonimos'' de tipo arrayList en el que en cada posición hay otro objeto, ``sinonimo'', cuyo valor es de tipo string con la acepción correspondiente (ver Figura \ref{fig:apiSinonimo}).
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=0.9]{Imagenes/Figuras/APISinonimos}
+	
+	
+	\caption{Petición que devuelve una lista de sinónimos}
+	\label{fig:apiSinonimo}
+\end{figure}
+\end{itemize}
+
+Cabe destacar que esta API no hace uso de las reglas de acentuación, de manera que debemos de insertar las palabras sin tildes (obsérvese la Figura \ref{fig:apiSinonimo}).
+
+\subsection{Librería Spacy}

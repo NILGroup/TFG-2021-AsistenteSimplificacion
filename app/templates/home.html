@@ -17,24 +17,207 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- Template Main CSS File -->
-    <link href="/static/assets/css/style3.css" rel="stylesheet">
-    <link href="/static/assets/css/arbol.css" rel="stylesheet">
+    <link href="/static/css/style7.css" rel="stylesheet">
+    <link href="/static/css/arbol1.css" rel="stylesheet">
 
 
 </head>
 
 <body>
 <style>
-    .labelExplicacion {
+    .compleja:hover, .compleja.active {
+        background: #bd9199 !important;
+    }
+
+    .panel {
+        display: flex;
+    }
+
+    #bresumen {
+        margin-bottom: 10px;
+    }
+
+    #bienvenida {
+        margin-top: 80px;
+    }
+
+    .start {
+        text-align: center;
+    }
+
+    .descriptionInfo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descriptionInfo > p {
+        text-align: center;
+    }
+
+    #listadoFrases {
+        margin-top: 56px;
+    }
+
+    .infoRemove {
+        color: black;
+        display: flex;
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .chooseSentence {
+        text-align: center;
+    }
+
+    #frases {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listSentences {
+        display: flex;
+    }
+
+    #transformaciones {
+        margin-top: 56px;
+    }
+
+    .infoTree {
         color: #343a40;
-
+        text-align: center;
     }
 
-    .activeLista .person {
-        background: #c8e4f8;
-        color: #000;
-        border: 1px solid #94a0b4;
+    .backSentences {
+        color: #343a40;
+        font-size: 20px;
     }
+
+    .fOrigin {
+        padding: 21px;
+        background: #f7dbdb;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #tO {
+        padding: 21px;
+        background: #fff;
+        height: auto;
+    }
+
+    .bottomPart {
+        display: flex;
+        flex-direction: column;
+        height: min-content;
+    }
+
+    .infoButton {
+        color: #343a40;
+        margin-top: 28px;
+    }
+
+    #bSimple {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: smaller;
+    }
+
+    #bDesactivarSimple {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: smaller;
+    }
+
+    #bIntercambiar {
+        width: 190px;
+        height: min-content;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bEliminar {
+        width: 190px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bSinonimos {
+        width: 190px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bDefinicion {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .panelSecondary {
+        display: flex;
+        margin: 31px auto;
+    }
+
+    #palabrasSinon {
+        background-color: #fff;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-left: 30px;
+    }
+
+    #textoFinal {
+        margin-top: 39px;
+        display: flex;
+    }
+
+    #final {
+        width: 100%;
+    }
+
+    .draw {
+        display: flex;
+        float: right;
+        width: 100%;
+        flex-direction: column;
+        font-size: large;
+    }
+
+    .titleDraw {
+        color: #343a40;
+        font-size: x-large;
+    }
+
+    #headerGlosary {
+        color: #4c4040;
+        margin-left: 48px;
+        margin-top: 10px;
+    }
+
+    .glo {
+        color: #4a4439;
+        margin-left: 48px;
+    }
+
+    #sentenceOrigin {
+        padding: 21px;
+        background: #f7dbdb;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /*@media (max-width:1240px){
+        #sidebarDerecho{
+            width: 493px !important;
+        }
+
+    }*/
 </style>
 <header>
     <nav>
@@ -48,10 +231,11 @@
             </li>
             <li id="pestanaEditar" class="submenu" style="display:none;">
 
-                <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><label
+                <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="showPanel()"><label
                         for="abrir-cerrar">
                     Texto original
-                </label></a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()"><label for="abrir-cerrar">
+                </label></a><a id="cerrar" class="abrir-cerrar" href="#" onclick="hidePanel()"><label
+                    for="abrir-cerrar">
                 Texto original
             </label></a>
             </li>
@@ -68,11 +252,11 @@
 
 
     <div id="sidebar" class="sidebar">
-        <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
+        <a href="#" class="boton-cerrar" onclick="hidePanel()">&times;</a>
         <div class="col-lg-11 portfolio-item filter-app">
             <div>
                 <label for="textoOriginal">Texto original</label>
-                <div class="panel" style="display:flex;">
+                <div class="panel">
                     <form>
 
                         <textarea id="original" rows="35" cols="60" placeholder="Escribe aqui..."
@@ -80,10 +264,10 @@
 
                     </form>
                     <div class="col-lg-4 botonesInicio">
-                        <button id="bresumen" style="margin-bottom: 10px;" class="botonContinuar" onclick="resumen()"
+                        <button id="bresumen" class="botonContinuar" onclick="summary()"
                                 disabled title="Pulse para ver el texto resumido"><span
                                 class="icon-rocket"></span>Resumen<span class="caret icon-arrow-down6"></span></button>
-                        <button id="bContinuar" class="botonContinuar" onclick="arbol()" disabled
+                        <button id="bContinuar" class="botonContinuar" onclick="constructionSentences()" disabled
                                 title="Pulse para seleccionar frase"><span
                                 class="icon-rocket"></span>Texto completo<span class="caret icon-arrow-down6"></span>
                         </button>
@@ -96,12 +280,12 @@
 
     </div>
     <div id="sidebarDerecho" class="sidebar">
-        <a href="#" class="boton-cerrar" onclick="ocultarFinal()">&times;</a>
+        <a href="#" class="boton-cerrar" onclick="hidePanelEnd()">&times;</a>
         <div class="col-lg-11 portfolio-item filter-app">
             <div>
                 <label for="textoOriginal">Texto adaptado</label>
 
-                <div class="panel" style="display:flex;">
+                <div class="panel">
                     <form>
 
                         <textarea id="resultado" rows="35" cols="80" placeholder=""></textarea>
@@ -116,69 +300,32 @@
 
     </div>
 
-    <script>
-        function mostrar() {
-            document.getElementById("sidebar").style.width = "max-content";
-            document.getElementById("abrir").style.display = "none";
-            document.getElementById("cerrar").style.display = "block";
-            document.getElementById("main").style.marginLeft = "39%";
-            document.getElementById("main").style.width = "60%";
 
-        }
-
-        function ocultar() {
-            document.getElementById("sidebar").style.width = "0";
-            document.getElementById("abrir").style.display = "block";
-            document.getElementById("cerrar").style.display = "none";
-            document.getElementById("main").style.marginLeft = "0%";
-            document.getElementById("main").style.width = "100%";
-
-        }
-
-        function mostrarFinal() {
-
-            document.getElementById("sidebarDerecho").style.width = "720px";
-            document.getElementById("abrir").style.display = "none";
-            document.getElementById("cerrar").style.display = "block";
-            document.getElementById("main").style.width = "60%";
-        }
-
-        function ocultarFinal() {
-
-            document.getElementById("sidebarDerecho").style.width = "0";
-            document.getElementById("abrir").style.display = "block";
-            document.getElementById("cerrar").style.display = "none";
-            document.getElementById("main").style.width = "100%";
-        }
-
-
-    </script>
     <div id="main" class="container">
         <div class="row portfolio-container">
 
-            <div id="bienvenida" class="col-lg-12 col-md-12 portfolio-item filter-app" style="margin-top:80px;">
+            <div id="bienvenida" class="col-lg-12 col-md-12 portfolio-item filter-app">
                 <h1>Asistente web interactivo para la simplificación de textos a Lectura Fácil</h1>
                 <p class="descipcionBienvenida col-lg-6">Herramienta que permite la adaptación del texto para una mayor
                     capacidad de comprensión por parte de personas con deterioros cognitivos haciendo uso de las
                     diversas funcionalidades de la herramienta</p>
-                <a id="abrir" style="text-align: center;" class="col-lg-2 abrir-cerrar start" href="javascript:void(0)"
-                   onclick="mostrar()">
+                <a id="abrir" class="col-lg-2 abrir-cerrar start" href="javascript:void(0)"
+                   onclick="showPanel()">
                     <label id="labelComenzar" for="abrir-cerrar">
                         Introducir texto
                     </label>
                 </a>
-                <div style="display: flex;justify-content: center;">
-                    <p class="desc" style="text-align:center">Pulse para adaptar su texto.&nbsp; </p>
-                    <!--<div class="tooltip"><img src="/static/assets/img/info.png" alt="informacion" /><span class="tooltiptext">Información</span></div>-->
+                <div class="descriptionInfo">
+                    <p class="desc">Pulse para adaptar su texto.</p>
                 </div>
 
             </div>
-            <div id="listadoFrases" class="col-lg-12" style="display:none;margin-top:56px;">
-                <h2 class="chooseSentence" style="text-align:center;">Selecciona una frase para adaptar</h2>
-                <p style="color:black;display:flex;margin: 0px auto;justify-content: center"><em>Puedes borrar las
-                    frases que no quieres en tu texto final</em></p>
-                <div class="col-lg-12" style="display: flex;">
-                    <div id="frases" class="col-lg-12" style="display: flex;flex-direction: column">
+            <div id="listadoFrases" class="col-lg-12" style="display:none;">
+                <h2 class="chooseSentence">Selecciona una frase para adaptar</h2>
+                <p class="infoRemove"><em>Puedes borrar las
+                    frases que no quieres en tu texto final pulsando sobre (X)</em></p>
+                <div class="col-lg-12 listSentences">
+                    <div id="frases" class="col-lg-12">
                         <h6>Frases del texto original:</h6>
                     </div>
                     <div id="listadoFrasesAdaptadas" class="col-lg-6" style="display: none;">
@@ -186,33 +333,25 @@
                     </div>
                 </div>
             </div>
-            <div id="transformaciones" class="col-lg-12 col-md-12 col-sm-12 portfolio-item filter-app"
-                 style="margin-top:56px;">
+            <div id="transformaciones" class="col-lg-12 col-md-12 col-sm-12 portfolio-item filter-app">
                 <div id="dependencias" class="col-lg-12" style="display:none;">
                     <h2 class="chooseSentence">Edición de frase</h2>
-                    <p style="color:#343a40;text-align:center;">Selecciona una o más palabras del árbol y pulse sobre
-                        una
-                        funcionalidad</p>
-                    <a style="color:#343a40;font-size:20px;" href="javascript:mostrarFrases()"><strong><< Volver a las
+                    <p class="infoTree">Selecciona una o más palabras del árbol y pulse sobre una funcionalidad</p>
+                    <a class="backSentences" href="javascript:mostrarFrases()"><strong><< Volver a las
                         frases</strong></a><br>
-                    <p id="sentenceOrigin" class="fOrigin"
-                       style="padding:21px; background:#f7dbdb;height: auto;margin-top: 10px;text-align: center;"></p>
-                    <div id="tO" class="col-lg-12 col-md-12 col-sm-12"
-                         style="padding:21px; background:#fff;height: auto;">
+                    <p id="sentenceOrigin" class="fOrigin"></p>
+                    <div id="tO" class="col-lg-12 col-md-12 col-sm-12">
                     </div>
                     <div class="col-lg-12" style="display: flex">
                         <div class="col-lg-5 col-md-5" style="display: flex;">
 
 
-                            <div class=""
-                                 style="display:flex;/* justify-content: space-around; */flex-direction: column;/* margin-top:5px; */height: min-content;margin-top: 32px;">
-                                <p style="color:#343a40;margin-top: 28px;"><strong>Selecciona una
-                                    funcionalidad:</strong></p>
+                            <div class="bottomPart">
+                                <p class="infoButton"><strong>Selecciona una funcionalidad:</strong></p>
                                 <div>
                                     <button title="Visualiza qué palabras son simples y complejas en el árbol"
                                             id="bSimple"
-                                            class="botonesFuncionales" onclick="activarPalabras();"
-                                            style="width:190px; text-align:center;margin-bottom: 10px;font-size: smaller;">
+                                            class="botonesFuncionales" onclick="activateWords();">
                                         Identificar palabras complejas
                                     </button>
                                     <label class="labelExplicacion" id="labelExplicacion1"><em>&nbsp;Visualiza qué
@@ -220,15 +359,14 @@
                                 </div>
                                 <button title="Oculta qué palabras son simples y complejas en el árbol"
                                         id="bDesactivarSimple" class="botonesFuncionales"
-                                        onclick="desactivarPalabras();"
-                                        style="width:190px; text-align:center;margin-bottom: 10px; display:none;font-size: smaller;">
+                                        onclick="deactivateWords();"
+                                        style="display: none;">
                                     Desactivar palabras complejas
                                 </button>
                                 <div>
                                     <button title="Intercambia el orden entre dos palabras del árbol seleccionadas"
                                             id="bIntercambiar" class="botonesFuncionales" disabled
-                                            onclick="changeNode();"
-                                            style="width:190px; height: min-content; margin-bottom: 10px;text-align:center;">
+                                            onclick="changeNode();">
                                         Intercambiar
                                     </button>
                                     <label class="labelExplicacion" id="labelExplicacion2"><em>&nbsp;Selecciona dos
@@ -237,40 +375,36 @@
                                 <div>
                                     <button title="Obtén sinónimos de una palabra del árbol seleccionada"
                                             id="bSinonimos"
-                                            class="botonesFuncionales" disabled onclick="sinonimos();"
-                                            style="width:190px; margin-bottom: 10px; text-align:center;">Sinóminos
+                                            class="botonesFuncionales" disabled onclick="synonyms();">Sinóminos
                                     </button>
-                                    <label class="labelExplicacion" id="labelExplicacion3"><em>&nbsp;Seleccione una
+                                    <label class="labelExplicacion" id="labelExplicacion3"><em>&nbsp;Selecciona una
                                         palabra para obtener sus sinónimos.</em></label>
                                 </div>
                                 <div>
                                     <button title="Elimina una palabra del árbol seleccionada" id="bEliminar"
-                                            class="botonesFuncionales" disabled onclick="eliminar();"
-                                            style="width:190px; margin-bottom: 10px; text-align:center;">Eliminar
+                                            class="botonesFuncionales" disabled onclick="deleteNode();">Eliminar
                                     </button>
-                                    <label class="labelExplicacion" id="labelExplicacion4"><em>&nbsp;Seleccione una
+                                    <label class="labelExplicacion" id="labelExplicacion4"><em>&nbsp;Selecciona una
                                         palabra para eliminarla del árbol.</em></label>
                                 </div>
                                 <div>
                                     <button title="Consulta la/s definición/es de una palabra del árbol seleccionada"
                                             id="bDefinicion" class="botonesFuncionales" disabled
-                                            onclick="definiciones();"
-                                            style="width:190px; text-align:center;margin-bottom: 10px;">Definición
+                                            onclick="definition();">Definición
                                     </button>
-                                    <label class="labelExplicacion" id="labelExplicacion5"><em>&nbsp;Seleccione una
+                                    <label class="labelExplicacion" id="labelExplicacion5"><em>&nbsp;Selecciona una
                                         palabra para obtener la definición o definiciones.</em></label>
                                 </div>
 
 
                             </div>
-                            <div class="" style="display: flex;margin: 108px auto;">
+                            <div class="panelSecondary">
                                 <div id="carga" class="loader"
                                      style="display:none;"></div>
                                 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none;"
                                      id="mySidebar">
 
-                                    <div class="col-lg-12" id="palabrasSinon"
-                                         style="background-color:#fff; color:black;text-align:center; display: flex;flex-direction: column;width: inherit;width: 100%;">
+                                    <div class="col-lg-12" id="palabrasSinon">
                                     </div>
                                 </div>
 
@@ -287,24 +421,24 @@
 
 
                         <div id="textoFinal" class="col-lg-7 col-md-7 portfolio-item filter-web"
-                             style="margin-top:39px;display: flex ">
-                            <div style="display:flex;float:right;width: 100%;flex-direction: column;font-size: large;">
+                             style="">
+                            <div class="draw">
                                 <div>
-                                    <label style="color:#343a40;font-size: x-large;" for="textoAdaptado"><strong>Borrador
+                                    <label class="titleDraw"><strong>Borrador
                                         del texto final</strong></label>
-                                    <button class="bCopiar" onclick="copiarContenido()"><img
+                                    <button class="bCopiar" onclick="clipboard()"><img
                                             src="/static/assets/img/copy_icon.png" alt="x"/>Copiar texto al portapeles
                                     </button>
 
                                 </div>
                                 <div class="col-lg-12">
-                                    <div id="final" style="width: 100%"></div>
+                                    <div id="final"></div>
                                     <p id="headerGlosary"
-                                       style="color:#4c4040;display: none;margin-left: 48px;margin-top: 10px;">
+                                       style="display: none;">
                                         Glosario:</p>
-                                    <div id="listaGlosario" class="glo" style="color:#4a4439;margin-left: 48px;"></div>
+                                    <div id="listaGlosario" class="glo"></div>
 
-                                    <button id="bResultado" onclick="abrirPanelReultado()">Ver resultado
+                                    <button id="bResultado" onclick="openResultPanel()">Ver resultado
                                     </button>
                                 </div>
 
@@ -322,1290 +456,8 @@
 
 </section><!-- End Portfolio Section -->
 
-<script>
-    var hayFrases = false;
+<script src="/static/js/funciones2.js"></script>
 
-    var texto = document.getElementById("original").value;
-
-    //g.classList="glosary gDisabled";
-    //Variable global para comprobar si el texto viene del resumen
-    var res = false;
-    var resumenTexto;
-    var acept = false;
-    var idCambiados = [];
-    var cantidad = 0;
-    var arrayPalabraSencilla = [];
-    var arrayPalabraIsSencilla = [];
-    var arrayPalabraSencillaSinonimo = [];
-    var arrayPalabraIsSencillaSinonimo = [];
-    var fraseOriginal = "";
-    var botonIdentiPalabras = false;
-    var fraseElegida = "";
-    var definicionesFinal = [];
-    var contDef = 0;
-
-    function resumen() {
-        document.getElementById("dependencias").style.display = "none";
-
-        texto = document.getElementById("original").value;
-
-        var str = texto.replace(/['"]+/g, "'");
-        //var txt= str.replace(/(\r\n|\n|\r)/gm, "");
-        var t = {"text": str};
-        var jsonObj = JSON.stringify(t);
-        fetch('/summary', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-
-            //Llama a la función ocultar, para que se oculte el menu de la izquierda.
-            ocultar();
-            //Separa el texto cogido por un salto de linea.
-            resumenTexto = data.summary;
-            res = true;
-
-            arbol();
-        });
-
-
-    }
-
-
-    function valida_texto() {
-        texto = document.getElementById("original").value;
-        if (texto != "") {
-            document.getElementById('bContinuar').disabled = false;
-            document.getElementById('bresumen').disabled = false;
-
-        } else {
-            document.getElementById('bContinuar').disabled = true;
-            document.getElementById('bresumen').disabled = true;
-
-        }
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-    }
-
-    function mostrarFrases() {
-        document.getElementById("dependencias").style.display = "none";
-
-        desactivarPalabras();
-        if (idCambiados.length != 0) {
-            reseteoListadoCambios();
-            document.getElementById("listadoFrasesAdaptadas").style.display = "flex";
-            document.getElementById("listadoFrasesAdaptadas").style.flexDirection = "column";
-            document.getElementById("listadoFrasesAdaptadas").innerHTML = " <h6 style='color:#b7c9a6'>Frases modificadas:</h6>";
-
-            for (var i = 0; i < idCambiados.length; i++) {
-                document.getElementById("frases").className = "col-lg-6";
-
-                var res = '"' + idCambiados[i].identificador + '"';
-                var numFraseSplit = idCambiados[i].identificador.split("f");
-                var numFrases = numFraseSplit[1];
-                document.getElementById("listadoFrasesAdaptadas").innerHTML += " <div class='splitSentencesChanges fraseA" + numFrases + "' id='divFrases" + idCambiados[i].identificador + "'style='background:#fff;padding:10px;text-align:center;display:flex;margin:0px auto;'><a id=frase" + idCambiados[i].identificador + " href='javascript:dibujarArbolDependencias(" + res + ")'>" + idCambiados[i].cadena + "</a><div class='botonCerrar'><a class='boton-cerrar' title='Pulse para borrar esta frase' href='javascript:removeFraseCambiada(" + res + "," + numFrases + ")'>×</a></div></div><br>";
-            }
-        }
-
-
-        //Muestra de nuevo el listado de frases, ocultando el panel de las dependencias.
-        document.getElementById("listadoFrases").style.display = "block";
-        // document.getElementById("listadoFrases").style.flexDirection = "column";
-        document.getElementById("dependencias").style.display = "none";
-
-    }
-
-    //Resetar texto para introducir otro
-    function reseteo() {
-        //Compruebo si ya ha habido más texto
-        idCambiados.splice(0, idCambiados.length);
-        definicionesFinal.splice(0, definicionesFinal.length);
-
-
-        //Reseteo las frases anteriores
-        document.getElementById("frases").innerHTML = " ";
-        document.getElementById("listadoFrasesAdaptadas").innerHTML = " ";
-        document.getElementById("listadoFrasesAdaptadas").style.display = "none";
-        contDef = 0;
-        document.getElementById("frases").className = "col-lg-12";
-
-    }
-
-    function reseteoListadoCambios() {
-
-        document.getElementById("listadoFrasesAdaptadas").innerHTML = " ";
-
-    }
-
-    //Oculta el panel del menu una vez que se introduce un texto y se quiere hacer una transformación en el.
-    function arbol() {
-        document.getElementById("pestanaEditar").style.display = "inline-block";
-
-        reseteo();
-        //Se coge el texto original introducido en el text area
-
-        //var obj=new Object;
-
-        //obj.texto=document.getElementById("original").value;
-        document.getElementById("bienvenida").style.display = "none";
-        document.getElementById("listadoFrases").style.display = "block";
-        //document.getElementById("listadoFrases").style.flexDirection = "column";
-
-
-        if (res) {
-            var r = "";
-            var t = "";
-            for (var i = 0; i < resumenTexto.length; i++) {
-                r += resumenTexto[i] + " ";
-            }
-            r = r.replace(/\n/g, "");
-            t = {"text": r};
-            res = false;
-        } else {
-            texto = document.getElementById("original").value;
-            texto = texto.replace(/\n/g, "");
-            t = {"text": texto};
-        }
-        document.getElementById("frases").innerHTML = " <h6>Frases del texto original:</h6>";
-
-
-        var jsonObj = JSON.stringify(t);
-        fetch("/sentences", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-
-            //Llama a la función ocultar, para que se oculte el menu de la izquierda.
-            ocultar();
-            //Separa el texto cogido por un salto de linea.
-            var splitted = data.sentences;
-            //Contador auxiliar que se usa en el siguiente bucle de frases para incluir en el html.
-            var sep = 0;
-            //Bucle que va intinerando las frases separadas para incluirlas al html.
-            splitted.forEach(element => {
-                var res = '"' + element + '"';
-                if (splitted != "") {
-                    document.getElementById("frases").innerHTML += " <div class='splitSentences' id='divFrases" + sep + "'style='background:#fff;padding:10px;text-align:center;display:flex;margin:0px auto;'><a id='frase" + sep + "' class='sentencesSplitted' href='javascript:dibujarArbolDependencias(" + sep + ")'>" + element + "</a><div class='botonCerrar'><a title='Pulsa para borrar esta frase' class='boton-cerrar' href='javascript:removeFrase(" + sep + ")'>×</a></div></div><br>";
-                    sep++;
-                }
-            });
-
-            //Se ha escrito
-            hayFrases = true;
-        });
-
-    }
-
-    //Selecciona una de las frasespara poder sacar su arbol de dependencias, llevandome el numero de frase que se ha seleccionado.
-    function fraseSeleccionada(s) {
-        var parent = document.querySelector('#frases');
-
-        // Cantidad de div
-        var divs = parent.querySelectorAll('div');
-        cantidad = divs.length / 2;
-        //Oculta el panel de frases.
-
-        document.getElementById("listadoFrases").style.display = "none";
-        //Muestra el arbol de dependencias
-        document.getElementById("dependencias").style.display = "block";
-
-
-        //Se coge el texto original introducido en el textarea.
-
-
-        var seleccion = document.getElementById("frase" + s).innerText;
-        //De la frase seleccionada se separa cada palabra por un espacio en blanco
-        var separa = seleccion.split(" ");
-        //Contador auxiliar que lleva el numero de palabras totales de la frase
-        var cont = separa.length;
-        //Contador auxiliar para llevar la cuenta hasta el numero total de palabras para incluir en el arbol de dependencias
-        var cuenta = 0;
-        //Comprueba si el numero de palabras totales es mayor que 1, ya que uno no tiene sentido hacer ninguna transformacion.
-
-        //incrusta en el html la frase al completo como nodo principal de sus hijos (palabras que forman dicha frase)
-        document.getElementById("tO").innerHTML = "<div class='tree'><ul><li><div class='family'><div class='person child male'><div class='fraseCompleta'>" + seleccion + "</div></div><ul id='t1'>";
-        //Bucle para incluir en el arbol de hijos las palabras que se han separado.
-        while (cuenta != cont) {
-            document.getElementById("t1").innerHTML += "<li id='lista" + cuenta + "'><div class='family'><div id='elem" + cuenta + "' class='f" + s + " person child male'><a href='javascript:eleccion(" + cuenta + ")'><div  class='name'>" + separa[cuenta] + "</div></div></div></li>";
-            cuenta++;
-        }
-
-        trasformar();
-    }
-
-    function fraseSeleccionadaCambiada(s, num) {
-
-        //Oculta el panel de frases.
-
-        document.getElementById("listadoFrases").style.display = "none";
-        //Muestra el arbol de dependencias
-        document.getElementById("dependencias").style.display = "block";
-
-
-        //Se coge el texto original introducido en el textarea.
-        let indice = idCambiados.findIndex(element => element.identificador === s);
-
-
-        //De la frase seleccionada se separa cada palabra por un espacio en blanco
-        var separa = idCambiados[indice].cadena.split(" ");
-        //Contador auxiliar que lleva el numero de palabras totales de la frase
-        var cont = separa.length;
-        //Contador auxiliar para llevar la cuenta hasta el numero total de palabras para incluir en el arbol de dependencias
-        var cuenta = 0;
-        //Comprueba si el numero de palabras totales es mayor que 1, ya que uno no tiene sentido hacer ninguna transformacion.
-        if (cont > 1) {
-            //incrusta en el html la frase al completo como nodo principal de sus hijos (palabras que forman dicha frase)
-            document.getElementById("tO").innerHTML = "<div class='tree'><ul><li><div class='family'><div class='person child male'><div class='name'>" + idCambiados[indice].cadena + "</div></div><ul id='t1'>";
-            //Bucle para incluir en el arbol de hijos las palabras que se han separado.
-            while (cuenta != cont) {
-                if (separa[cuenta] != "") {
-                    document.getElementById("t1").innerHTML += "<li id='lista" + cuenta + "'><div class='family'><div id='elem" + cuenta + "' class='f" + num + " person child male'><a href='javascript:eleccion(" + cuenta + ")'><div  class='name'>" + separa[cuenta] + "</div></div></div></li>";
-
-                }
-                cuenta++;
-            }
-        }
-        trasformar();
-    }
-
-    //Escribe en el textarea final el resultado de todas las trasformaciones que ha sufrido el texto original.
-    function trasformar() {
-        document.getElementById("final").innerHTML = "";
-
-        var cuantasFrases = document.getElementsByClassName("sentencesSplitted");
-        console.log(cuantasFrases.length);
-        for (var i = 0; i < cuantasFrases.length; i++) {
-            if (document.getElementById("frase" + i) != null) {
-                var ide = "f" + i;
-                let indice = idCambiados.findIndex(element => element.identificador === ide);
-                console.log(indice);
-                if (indice === -1) {
-                    document.getElementById("final").innerHTML += document.getElementById("frase" + i).innerText;
-
-                } else {
-                    console.log("Aqui entra");
-
-                    document.getElementById("final").innerHTML += idCambiados[indice].cadena;
-
-                }
-
-            }
-            document.getElementById("final").innerHTML += "\n";
-
-        }
-        //var divs = parent.querySelectorAll('div');
-        //var cantidad = divs.length / 2;
-        /*console.log(idCambiados);
-        for (var i = 0; i < cantidad; i++) {
-            if (document.getElementById("frase" + i) != null) {
-                var ide = "f" + i;
-                let indice = idCambiados.findIndex(element => element.identificador === ide);
-                console.log(indice);
-                if (indice === -1) {
-                    document.getElementById("final").innerHTML += document.getElementById("frase" + i).innerText;
-
-                } else {
-                    console.log("Aqui entra");
-
-                    document.getElementById("final").innerHTML += idCambiados[indice].cadena;
-
-                }
-
-            }
-        }
-        document.getElementById("final").innerHTML += "\n";
-
-
-
-
-        document.getElementById("final").innerHTML = " ";
-        for (var i = 0; i < fraseOriginal.length; i++) {
-
-            document.getElementById("final").innerHTML += fraseOriginal[i].text + " ";
-
-        }
-
-        document.getElementById("final").innerHTML += "\n";*/
-
-
-    }
-
-    //función para seleccionar una o dos palabras en el arbol de dependencias para cambiar el orden, eliminar o mostrar sinonimos
-    function eleccion(cont) {
-        var item = document.getElementById("elem" + cont);
-        var elemento = "elem" + cont;
-        var e = document.getElementById(elemento);
-        if (!item.classList.contains('active')) {
-
-            //incluye la clase active en el padre del id donde se ha dado click
-            e.classList.add('active');
-        } else {
-            e.classList.remove('active');
-        }
-        var c = document.getElementsByClassName('active');
-        if (c.length == 1) {
-            document.getElementById('bSinonimos').disabled = false;
-            document.getElementById('bEliminar').disabled = false;
-            document.getElementById('bIntercambiar').disabled = true;
-            document.getElementById('bDefinicion').disabled = false;
-
-
-        } else if (c.length == 2) {
-            document.getElementById('bSinonimos').disabled = true;
-            document.getElementById('bEliminar').disabled = true;
-            document.getElementById('bIntercambiar').disabled = false;
-            document.getElementById('bDefinicion').disabled = true;
-
-
-        } else {
-            document.getElementById('bSinonimos').disabled = true;
-            document.getElementById('bEliminar').disabled = true;
-            document.getElementById('bIntercambiar').disabled = true;
-            document.getElementById('bDefinicion').disabled = true;
-
-        }
-
-
-    }
-
-    //Cambia dos pàlabras de posicion
-    function cambio() {
-        ocultarLabel();
-        //Se cogen las clases activas para poder cambiar las palabras de orden
-        var c = document.getElementsByClassName('active');
-        console.log(c);
-        //Se coge el id de la primera clase
-        var id0 = c[0].getAttribute('id');
-        //Separo el id en palabra y numero
-        var s = id0.split("elem");
-        //Se coge el id de la segunda clase
-        var id1 = c[1].getAttribute('id');
-        //Separo el id en palabra y numero
-        var s1 = id1.split("elem");
-
-
-        //Coge el texto que tienen ambas clases
-        var e1 = c[0].innerText;
-        var e2 = c[1].innerText;
-
-
-        //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
-        var ele1 = document.getElementById(id0);
-        var ele2 = document.getElementById(id1);
-
-
-        ele1.innerHTML = "<a href='javascript:eleccion(" + s1[1] + ")'><div  class='name'>" + e2;
-        ele2.innerHTML = "<a href='javascript:eleccion(" + s[1] + ")'><div  class='name'>" + e1;
-
-        //Elimina la clase active porque ya se ha terminado de operar con ellas
-        ele1.classList.remove('active');
-        ele2.classList.remove('active');
-        //Se cambian todos los atributos que afectan a la rama de la lista.
-        var idElemento1 = "elem" + s[1];
-        var elemento1 = document.getElementById(idElemento1);
-        var idElemento2 = "elem" + s1[1];
-        var elemento2 = document.getElementById(idElemento2);
-
-
-        elemento1.attributes[0].nodeValue = "elem" + s1[1];
-        elemento2.attributes[0].nodeValue = "elem" + s[1];
-        var idLista1 = "lista" + s[1];
-        var lista1 = document.getElementById(idLista1);
-        var idLista2 = "lista" + s1[1];
-        var lista2 = document.getElementById(idLista2);
-        lista1.attributes[0].nodeValue = "lista" + s1[1];
-        lista2.attributes[0].nodeValue = "lista" + s[1];
-
-        let indiceA = fraseOriginal.findIndex(element => element.id == s[1]);
-
-        let indiceB = fraseOriginal.findIndex(element => element.id == s1[1]);
-        if (indiceA != -1) {
-            fraseOriginal[indiceA].id = s1[1];
-            fraseOriginal[indiceA].text = e2;
-        }
-
-        if (indiceB != -1) {
-            fraseOriginal[indiceB].id = s[1];
-            fraseOriginal[indiceB].text = e1;
-        }
-        recuperarFraseCompleta();
-        trasformar();
-
-    }
-
-    //Cambia dos pàlabras de posicion
-    function changeNode() {
-        ocultarLabel();
-        //Se cogen las clases activas para poder cambiar las palabras de orden
-        var classActive = document.getElementsByClassName('active');
-        //Se coge el id de la primera clase
-        var id1 = classActive[0].getAttribute('id');
-        //Separo el id en palabra y numero
-        var split1 = id1.split("elem");
-        //lista del primer nodo seleccionado
-        var listNode1 = "lista" + split1[1];
-        console.log(listNode1);
-        var l1 = document.getElementById(listNode1);
-        //Se coge el id de la segunda clase
-        var id2 = classActive[1].getAttribute('id');
-        //Separo el id en palabra y numero
-        var split2 = id2.split("elem");
-        var listNode2 = "lista" + split2[1];
-        console.log(listNode2);
-        var l2 = document.getElementById(listNode2);
-        //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
-        var ele1 = document.getElementById(id1);
-        var ele2 = document.getElementById(id2);
-        if (l1.lastChild != l2.parentElement) {
-
-
-            var t1 = l1.innerHTML;
-            //guardo la ul en la que esta enganchado la lista activada
-            var p1 = l1.parentNode.id;
-
-            var t2 = l2.innerHTML;
-
-            //guardo la ul en la que esta enganchado la lista activada
-            var p2 = l2.parentNode.id;
-            var h2 = document.getElementById(p2);
-            var indice1 = 0;
-            var indice2 = 0;
-
-            //Recorro los hijos del nodo 2 para ver posicion en el children.
-            for (var i = 0; i < h2.childNodes.length; i++) {
-
-
-                if (h2.childNodes[i].id == listNode2) {
-                    indice2 = i;
-                }
-            }
-            //Recorro los hijos del nodo 1 para ver posicion en el children.
-            var h1 = document.getElementById(p1);
-
-            for (var i = 0; i < h1.childNodes.length; i++) {
-
-                if (h1.childNodes[i].id == listNode1) {
-                    indice1 = i;
-                }
-            }
-            //Cambio los ids de orden de la lista.
-            h1.childNodes.item(indice1).id = listNode2;
-            h2.childNodes.item(indice2).id = listNode1;
-
-            //Cambio el correspondiente HTML.
-            h1.childNodes.item(indice1).innerHTML = t2;
-            console.log(t2.length);
-            h2.childNodes.item(indice2).innerHTML = t1;
-            console.log(t1);
-
-
-            var arrayTextNode1 = [];
-            var aSplitted1 = t1.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+-]/g, " ");
-            var r1 = aSplitted1.split(" ");
-
-            for (var j = 0; j < r1.length; j++) {
-                if (r1[j].includes('elem')) {
-                    arrayTextNode1.push(r1[j]);
-                }
-            }
-            var arrayRemove1 = [];
-            for (var z = 0; z < arrayTextNode1.length; z++) {
-                var idsLista1 = arrayTextNode1[z].split("elem");
-
-                arrayRemove1.push(idsLista1[1]);
-            }
-            arrayRemove1.sort((a, b) => a - b);
-            var arrayTextNode2 = [];
-            var aSplitted2 = t2.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+-]/g, " ");
-            var r2 = aSplitted2.split(" ");
-
-            for (var j = 0; j < r2.length; j++) {
-                if (r2[j].includes('elem')) {
-                    arrayTextNode2.push(r2[j]);
-                }
-            }
-            var arrayRemove2 = [];
-            for (var z = 0; z < arrayTextNode2.length; z++) {
-                var idsLista2 = arrayTextNode2[z].split("elem");
-
-                arrayRemove2.push(idsLista2[1]);
-            }
-            arrayRemove2.sort((a, b) => a - b);
-            var subList1 = [];
-            var subList2 = [];
-            var auxPos1 = null;
-            var auxPos2 = null;
-            var auxPos2AfterSlice = null;
-            for (var i = 0; i < fraseOriginal.length; i++) {
-                if (fraseOriginal[i].id == arrayRemove1[0]) {
-                    auxPos1 = i;
-                }
-                if (fraseOriginal[i].id == arrayRemove2[0]) {
-                    auxPos2 = i;
-                }
-                if (auxPos1 != null && auxPos2 != null) {
-                    break;
-                }
-            }
-            subList1 = fraseOriginal.slice(auxPos1, auxPos1 + arrayRemove1.length);
-            fraseOriginal.splice(auxPos1, arrayRemove1.length);
-            auxPos2AfterSlice = auxPos2 - arrayRemove1.length;
-
-            subList2 = fraseOriginal.slice(auxPos2AfterSlice, auxPos2AfterSlice + arrayRemove2.length);
-            fraseOriginal.splice(auxPos2AfterSlice, arrayRemove2.length);
-
-            fraseOriginal.splice(auxPos1, 0, ...subList2);
-            fraseOriginal.splice(auxPos2AfterSlice + subList2.length, 0, ...subList1);
-
-            console.log(fraseOriginal);
-
-
-        } else {
-            //Coge el texto que tienen ambas clases
-            var e1 = classActive[0].innerText;
-            var e2 = classActive[1].innerText;
-
-
-            //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
-            var ele1 = document.getElementById(id1);
-            var ele2 = document.getElementById(id2);
-
-
-            ele1.innerHTML = "<a href='javascript:eleccion(" + split2[1] + ")'><div  class='name'>" + e2;
-            ele2.innerHTML = "<a href='javascript:eleccion(" + split1[1] + ")'><div  class='name'>" + e1;
-
-            //Elimina la clase active porque ya se ha terminado de operar con ellas
-            ele1.classList.remove('active');
-            ele2.classList.remove('active');
-            //Se cambian todos los atributos que afectan a la rama de la lista.
-            var idElemento1 = "elem" + split1[1];
-            var elemento1 = document.getElementById(idElemento1);
-            var idElemento2 = "elem" + split2[1];
-            var elemento2 = document.getElementById(idElemento2);
-
-
-            elemento1.attributes[0].nodeValue = "elem" + split2[1];
-            elemento2.attributes[0].nodeValue = "elem" + split1[1];
-            var idLista1 = "lista" + split1[1];
-            var lista1 = document.getElementById(idLista1);
-            var idLista2 = "lista" + split2[1];
-            var lista2 = document.getElementById(idLista2);
-            lista1.attributes[0].nodeValue = "lista" + split2[1];
-            lista2.attributes[0].nodeValue = "lista" + split1[1];
-
-            let indiceA = fraseOriginal.findIndex(element => element.id == split1[1]);
-
-            let indiceB = fraseOriginal.findIndex(element => element.id == split2[1]);
-            if (indiceA != -1) {
-                fraseOriginal[indiceA].id = split2[1];
-                fraseOriginal[indiceA].text = e2;
-            }
-
-            if (indiceB != -1) {
-                fraseOriginal[indiceB].id = split1[1];
-                fraseOriginal[indiceB].text = e1;
-            }
-        }
-        recuperarFraseCompleta();
-        trasformar();
-
-
-    }
-
-    //Elimina del arbol de dependencias la palabra seleccionada
-    function eliminar() {
-        ocultarLabel();
-        //Coge le clase activa que es la palabra que se ha seleccionado para proceder a su eliminacion
-        var c = document.getElementsByClassName('active');
-        //Coge el id que tiene la palabra para poder eliminarla
-        var id0 = c[0].getAttribute('id');
-        //Para saber cual es el elemento de la lista para poder borrar todo el rastro cogemos el numero del id que tiene la palabra
-        var s = id0.split("elem");
-        //Concateno la palabra lista con el numero anterior
-        var listaSeleccionada = "lista" + s[1];
-        //Coge el html de ese id para poder eliminarlo
-        var l = document.getElementById(listaSeleccionada);
-
-
-        var ids = document.querySelector('#sentenceOrigin');
-        var ide = ids.classList[0];
-        var parent1 = l.querySelector('.person');
-        var nodo = l.children.item(1);
-        var arrayIdsNodo = [];
-        var aSplitted = l.outerHTML.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+-]/g, " ");
-        var h = aSplitted.split(" ");
-
-        for (var j = 0; j < h.length; j++) {
-            if (h[j].includes('lista')) {
-                arrayIdsNodo.push(h[j]);
-            }
-        }
-        var arrayRemove = [];
-        for (var z = 0; z < arrayIdsNodo.length; z++) {
-            var idsLista = arrayIdsNodo[z].split("lista");
-
-            arrayRemove.push(idsLista[1]);
-        }
-        for (var t = 0; t < arrayRemove.length; t++) {
-            let indiceA = fraseOriginal.findIndex(element => element.id == arrayRemove[t]);
-
-            if (indiceA != -1) {
-                fraseOriginal[indiceA].id = arrayRemove[t];
-                fraseOriginal[indiceA].text = "";
-            }
-        }
-        //Elimina el rasto de html de la clase activa.
-        c.item(0).remove();
-        //Elimino la lista
-        l.remove();
-        recuperarFraseCompleta();
-        trasformar();
-
-
-    }
-
-    function ocultarLabel() {
-        document.getElementById("labelExplicacion1").style.display = "none";
-        document.getElementById("labelExplicacion2").style.display = "none";
-        document.getElementById("labelExplicacion3").style.display = "none";
-        document.getElementById("labelExplicacion4").style.display = "none";
-        document.getElementById("labelExplicacion5").style.display = "none";
-
-    }
-
-    //Muestra los sinominos de una palabra seleccionada del arbol de dependencias
-    function sinonimos() {
-        ocultarLabel();
-
-        document.getElementById("palabrasSinon").style.display = "block";
-
-        document.getElementById("carga").style.display = "block";
-
-        document.getElementById("mySidebar").style.display = "none";
-
-        var sin = document.getElementById("palabrasSinon");
-        sin.innerHTML = "";
-        //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
-        var c = document.getElementsByClassName('active');
-        var p = c[0].innerText;
-        var str = p.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g, "")
-        var idP = '"' + c[0].id + '"';
-        var j = {"synonymous": str}
-        var jsonObj = JSON.stringify(j);
-        fetch("/synonymous", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-            //Incluye los sinonimos el el div especifico para mostrarlos (un panel para sinonimos)
-            var sin = document.getElementById("palabrasSinon");
-            sin.innerHTML = "<h4 style='color: brown;padding-top: 10px;'>Sinónimos de <strong>'" + str + "'</strong>:</h4><ul>";
-            var palabra = '"' + str + '"';
-            var cont = 0;
-
-
-            var elements = data.synonymous;
-            var simpleElements = data.simpleSynonymous;
-            if (elements.length != 0 || simpleElements.length != 0) {
-                if (elements.length != 0) {
-                    sin.innerHTML += "<h6 style='color: #e1b7b7;'>Sinónimos complejos</h6>"
-                    elements.forEach(element => {
-                        var contadorInput = "input" + cont;
-                        var cI = '"' + contadorInput + '"';
-
-                        cont++;
-                        var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#b594b9;' href='javascript:void(0)' ondblclick='myFunction(" + res + "," + palabra + "," + idP + "," + idP + ")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:modificarTexto(" + res + "," + cI + ")'><img src='/static/assets/img/editar.png' alt='editar'/></a></li>";
-
-
-                    });
-                }
-                if (simpleElements.length != 0) {
-                    sin.innerHTML += "<br><h6 style='color: #e1b7b7;'>Sinónimos sencillos</h6>"
-
-                    simpleElements.forEach(element => {
-                        var contadorInput = "input" + cont;
-                        var cI = '"' + contadorInput + '"';
-
-                        cont++;
-                        var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#89748c' href='javascript:void(0)' ondblclick='myFunction(" + res + "," + palabra + "," + idP + "," + idP + ")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:modificarTexto(" + res + "," + cI + ")'><img src='/static/assets/img/editar.png' alt='editar'/></a></li>";
-
-
-                    });
-                }
-            } else {
-                sin.innerHTML += "<h5 style='color: brown;'>No hay sinónimos</h5>";
-            }
-            sin.innerHTML += "</ul>"
-            document.getElementById("mySidebar").style.width = "100%";
-            document.getElementById("mySidebar").style.display = "block";
-            document.getElementById("carga").style.display = "none";
-
-        });
-        trasformar();
-
-
-    }
-
-    function modificarTexto(sinonimo, idInput) {
-        var idIn = document.getElementById(idInput);
-        idIn.readOnly = false;
-        idIn.focus(); //sets focus to element
-
-        document.onclick = function (e) {
-
-            var target = e.target
-            //var elemento = document.getElementsByTagName("input");
-            do {
-                if (idIn == target) {
-                    // El click se ha producido dentro del elemento, no se hace nada.
-                    return;
-                }
-                target = target.parentNode;
-            } while (target)
-            // Se ha clicado fuera del elemento, se realiza una acción.
-            if (idIn.value == "") {
-                idIn.value = sinonimo;
-            }
-            idIn.readOnly = true;
-
-        }
-
-        console.log(idIn);
-
-    }
-
-    function onKeyUp(e, idInput, sinonimo, idPalabra, palabra) {
-        console.log("entra");
-        var idIn = document.getElementById(idInput);
-
-        tecla = (document.all) ? e.keyCode : e.which;
-        if (tecla == 13) {
-            idIn.value;
-
-            console.log(idIn.value);
-            myFunction(idIn.value, palabra, idPalabra, sinonimo, idInput);
-            idIn.readOnly = true;
-
-        }
-        document.onclick = function (e) {
-
-            var target = e.target
-            //var elemento = document.getElementsByTagName("input");
-            do {
-                if (idIn == target) {
-                    // El click se ha producido dentro del elemento, no se hace nada.
-                    return;
-                }
-                target = target.parentNode;
-            } while (target)
-            // Se ha clicado fuera del elemento, se realiza una acción.
-            if (idIn.value == "") {
-                idIn.value = sinonimo;
-
-
-            }
-            idIn.readOnly = true;
-
-        }
-    }
-
-    function myFunction(sinonimo, palabra, idPalabra, sinonimoOriginal, idInput) {
-
-        var modal = document.getElementById("myModal");
-        modal.style.display = "block";
-
-        var sino = '"' + sinonimo + '"';
-        var id = '"' + idPalabra + '"';
-        var sinoOriginal = '"' + sinonimoOriginal + '"';
-        var idI = '"' + idInput + '"';
-
-
-        document.getElementById("myModal").innerHTML = " <div class='modal-content'><p style='color:black;text-align:center;'>¿Deseas sustituir<span style='color:red;'> " + palabra + "</span> por <span style='color:green'>" + sinonimo + "</span>?</p>	<div style='display:inline-flex;'><button onclick='aceptar(" + sino + "," + id + ");' style='width:100px; height: min-content; margin-bottom: 10px; margin:0px auto;'>Aceptar</button><button onclick='cancelar(" + sino + "," + sinoOriginal + "," + id + "," + idI + ");' style='width:100px; height: min-content; margin-bottom: 10px; margin:0px auto;'>Cancelar</button></div>";
-
-    }
-
-
-    function aceptar(sinonimo, idPalabra) {
-        if (botonIdentiPalabras) {
-            activarPalabraSinonimo(sinonimo, idPalabra);
-        }
-        console.log(idPalabra);
-        if (idPalabra.includes("elem")) {
-            var numId = idPalabra.split("elem");
-            var num = '"' + numId[1] + '"';
-        }
-        var c = document.getElementById(idPalabra);
-        var palabraAnt = c.innerText;
-        var signos = "";
-        var palCambiada = "";
-
-        if (palabraAnt.match(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g)) {
-            signos = palabraAnt.split(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g);
-            for (var i = 0; i < signos.length; i++) {
-
-                if (signos[i] != "")
-                    palCambiada = palabraAnt.replace(signos[i], sinonimo);
-
-            }
-
-        } else {
-            palCambiada = sinonimo;
-        }
-
-
-        c.innerHTML = "<a href='javascript:eleccion(" + num + ")'><div class='name'>" + palCambiada + "</div></a>";
-
-
-        var modal = document.getElementById("myModal");
-
-        c.classList.remove('active');
-
-        modal.style.display = "none";
-        document.getElementById("palabrasSinon").style.display = "none";
-
-        console.log(fraseOriginal);
-        let indice = fraseOriginal.findIndex(element => element.id == numId[1]);
-        if (indice != -1) {
-            fraseOriginal[indice].id = numId[1];
-            fraseOriginal[indice].text = palCambiada;
-
-        }
-
-        recuperarFraseCompleta();
-        trasformar();
-
-    }
-
-
-    function cancelar(sinonimo, sinonimoOriginal, idPalabra, idInput) {
-        console.log(sinonimo);
-        console.log(sinonimoOriginal);
-        if (sinonimo != sinonimoOriginal) {
-            console.log("Son diferentes");
-            var i = document.getElementById(idInput);
-            i.value = sinonimoOriginal;
-            console.log(i);
-        }
-        var modal = document.getElementById("myModal");
-
-        modal.style.display = "none";
-    }
-
-    //Muestra los sinominos de una palabra seleccionada del arbol de dependencias
-    function removeFrase(c) {
-        var fr = "divFrases" + c;
-
-        var f = document.getElementById(fr);
-        f.remove();
-        var contentDiv = document.getElementById("frases");
-
-        if (!contentDiv.querySelector("div")) {
-            contentDiv.innerHTML = "<p style='color:#b3a0b1;text-align: center'><em>No hay frases</em></p>";
-        }
-
-
-        cantidad--;
-
-
-    }
-
-    function removeFraseCambiada(res, c) {
-        var fr = "fraseA" + c;
-        var indiceArray = "f" + c;
-
-        var f = document.getElementsByClassName(fr);
-        f[0].remove();
-        res = "";
-        let indice = idCambiados.findIndex(element => element.identificador === indiceArray);
-        idCambiados.splice(indice, 1);
-
-        if (idCambiados.length == 0) {
-            document.getElementById("frases").className = "col-lg-12";
-            document.getElementById("listadoFrasesAdaptadas").style.display = "none";
-
-        }
-
-    }
-
-    function copiarContenido() {
-        var aux = document.createElement("div");
-        aux.setAttribute("contentEditable", true);
-        aux.innerHTML = document.getElementById("final").innerHTML;
-        aux.setAttribute("onfocus", "document.execCommand('selectAll',false,null)");
-        document.body.appendChild(aux);
-        aux.focus();
-        document.execCommand("copy");
-        document.body.removeChild(aux);
-        var css = document.createElement("style");
-        var estilo = document.createTextNode("#aviso {position:fixed; z-index: 9999999; widht: 120px; top:30%;left:50%;margin-left: -60px;padding: 20px; background: #503961;border-radius: 8px;font-size: 14px;font-family: sans-serif;}");
-        css.appendChild(estilo);
-        document.head.appendChild(css);
-        var aviso = document.createElement("div");
-        aviso.setAttribute("id", "aviso");
-        var contenido = document.createTextNode("Texto copiado");
-        aviso.appendChild(contenido);
-        document.body.appendChild(aviso);
-        window.load = setTimeout("document.body.removeChild(aviso)", 2000);
-
-    }
-
-    function definiciones() {
-        ocultarLabel();
-        // document.getElementById("listaGlosario").innerHTML = "";
-        var sin = document.getElementById("palabrasSinon");
-
-        sin.innerHTML = "";
-
-
-        document.getElementById("palabrasSinon").style.display = "block";
-
-        document.getElementById("carga").style.display = "block";
-
-        document.getElementById("mySidebar").style.display = "none";
-        //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
-        var c = document.getElementsByClassName('active');
-        var p = c[0].innerText;
-        var str = p.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g, "")
-        var cadena = removeAccents(str)
-
-        var idP = '"' + c[0].id + '"';
-        var j = {"word": cadena}
-        var jsonObj = JSON.stringify(j);
-        fetch("/definition", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-                var elements = data.definiciones;
-
-                var cont = 0;
-                var def = '"' + str + '"';
-                sin.innerHTML = "<h4 style='color: brown;padding-top: 10px;'>Definición de <strong>'" + str + "'</strong>:</h4><ul>";
-                if (Object.keys(elements).length != 0) {
-                    for (var clave in elements) {
-                        // Controlando que json realmente tenga esa propiedad
-                        if (elements.hasOwnProperty(clave)) {
-                            // Mostrando en pantalla la clave junto a su valor
-                            sin.innerHTML += "<li><a class='glosary' id='glosario" + cont + "' <a href='javascript:glosario(" + cont + "," + def + ")'>" + elements[clave].definicion + "</a></li><br>";
-
-
-                        }
-                        cont++;
-                    }
-
-
-                } else {
-                    sin.innerHTML += "<li>No se encuentra ninguna definción</li><br>";
-                }
-
-
-            }
-        );
-
-        document.getElementById("mySidebar").style.width = "100%";
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("carga").style.display = "none";
-        trasformar();
-
-
-    }
-
-    const removeAccents = (str) => {
-        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    }
-
-    function activarPalabras() {
-        ocultarLabel();
-        document.getElementById("legend").style = "block";
-        botonIdentiPalabras = true;
-        document.getElementById("palabrasSinon").style.display = "none";
-
-        document.getElementById("carga").style.display = "block";
-        /*var cadena = "";
-        var c = document.getElementsByClassName('name');
-        for (var clave in c) {
-            if (c.hasOwnProperty(clave)) {
-                cadena += c[clave].innerText + " ";
-            }
-        }*/
-
-
-        var j = {"text": fraseOriginal}
-        var jsonObj = JSON.stringify(j);
-        fetch("/isSimple", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-
-            var elements = JSON.parse(data.simpleList);
-
-            console.log(elements);
-
-            for (var clave in fraseOriginal) {
-                // Controlando que json realmente tenga esa propiedad
-                    if(!elements[clave].simple && elements[clave].simple!=null){
-                        document.getElementById("elem"+clave).classList.add("compleja");
-                    }
-
-            }
-            //mostrarPalabrasSencillas();
-
-            document.getElementById("carga").style.display = "none";
-            document.getElementById("bSimple").style.display = "none";
-            document.getElementById("bDesactivarSimple").style.display = "block";
-
-        });
-
-
-    }
-
-    function activarPalabraSinonimo(sinonimo, idPalabra) {
-
-
-        var j = {"text": sinonimo}
-        var jsonObj = JSON.stringify(j);
-        fetch("/isSimple", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-
-           var elements = data.sencilla;
-           var arrayElements=[];
-           arrayElements=elements;
-
-            for (var clave in arrayElements) {
-                // Controlando que json realmente tenga esa propiedad
-                if (elements.hasOwnProperty(clave)) {
-                    // Mostrando en pantalla la clave junto a su valor
-                    arrayPalabraSencillaSinonimo[clave] = elements[clave].word;
-                    arrayPalabraIsSencillaSinonimo[clave] = elements[clave].isSimple;
-
-                }
-            }
-            mostrarPalabrasSencillasSinonimos(idPalabra);
-
-
-        });
-
-
-    }
-
-    function mostrarPalabrasSencillasSinonimos(idPalabra) {
-
-        var c = document.getElementById(idPalabra);
-        c.querySelectorAll('name');
-        console.log(c);
-        var contador = 0;
-
-
-        if (arrayPalabraIsSencillaSinonimo[0] == true) {
-            c.children[0].children[0].className += " simple";
-
-        } else {
-            c.children[0].children[0].className += " compleja";
-
-        }
-
-
-    }
-
-    function mostrarPalabrasSencillas() {
-
-        var c = document.getElementsByClassName('name');
-        var contador = 0;
-        for (var clave in c) {
-
-            // Controlando que json realmente tenga esa propiedad
-            if (c.hasOwnProperty(clave)) {
-
-                if (arrayPalabraIsSencilla[clave] == true) {
-                    c[clave].className += " simple";
-
-                } else {
-                    c[clave].className += " compleja";
-
-                }
-
-            }
-        }
-
-    }
-
-    function desactivarPalabras() {
-        botonIdentiPalabras = false;
-        var c = document.getElementsByClassName('name');
-        for (var clave in c) {
-            if (c.hasOwnProperty(clave)) {
-
-                c[clave].attributes[0].value = "name";
-            }
-        }
-        document.getElementById("bSimple").style.display = "block";
-
-        document.getElementById("bDesactivarSimple").style.display = "none";
-        document.getElementById("legend").style.display = "none";
-
-    }
-
-    function abrirPanelReultado() {
-        mostrarFinal();
-        pegarContenido();
-    }
-
-    function pegarContenido() {
-        var contenido = document.getElementById("resultado");
-        contenido.innerText = "";
-
-        contenido.innerHTML += document.getElementById("final").innerText + "\n\n";
-        if (definicionesFinal.length > 0) {
-            contenido.innerHTML += "Glosario: " + "\n";
-
-            for (var i = 0; i < definicionesFinal.length; i++) {
-                contenido.innerHTML += definicionesFinal[i].pal + ": " + definicionesFinal[i].string + "\n";
-            }
-        }
-    }
-
-    function dibujarArbolDependencias(indice) {
-        var parent = document.querySelector('#frases');
-
-        // Cantidad de div
-        var divs = parent.querySelectorAll('div');
-        cantidad = divs.length / 2;
-        //Oculta el panel de frases.
-
-        document.getElementById("listadoFrases").style.display = "none";
-        //Muestra el arbol de dependencias
-        document.getElementById("dependencias").style.display = "block";
-
-
-        //Se coge el texto original introducido en el textarea.
-
-        var seleccion = document.getElementById("frase" + indice).innerText;
-
-        document.getElementById("sentenceOrigin").innerText = seleccion;
-        var sentenceP = document.getElementById("sentenceOrigin")
-
-        sentenceP.attributes[1].value = "f" + indice;
-        fraseElegida = sentenceP.attributes[1].value;
-
-        var j = {"sentence": seleccion}
-        var jsonObj = JSON.stringify(j);
-        fetch("/sentences/tree", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: jsonObj
-        }).then(response => response.json()
-        ).then(data => {
-
-            elements = data;
-            var identificador = 2;
-            var aux = 0;
-            fraseOriginal = elements.sentenceIds;
-            recuperarFraseCompleta();
-            trasformar();
-            buildTree(elements.tree, indice, elements.tree.id);
-
-
-        });
-    }
-
-    function buildTree(tree, indice, identificador) {
-
-
-        var T = tree.children.length;
-        if (T > 0) {
-
-            if (tree.height == 0) {
-                document.getElementById('tO').innerHTML = "<div id='legend' style='display:none; '><ul><li style='color: red;list-style: square;'>Complejas</li></ul></div><div id='dependencyTree' class='tree'><ul><li  id='lista" + tree.id + "'><div class='family'><div id='elem" + tree.id + "' class='f" + indice + " person child male'><a href='javascript:eleccion(" + tree.id + ")'><div  class='name'>" + tree.text + "</div></a></div></div><ul id='" + tree.id + "'>";
-            } else {
-                document.getElementById(identificador).innerHTML += "<li id='lista" + tree.id + "'><div class='family'><div id='elem" + tree.id + "' class='f" + indice + " person child male'><a href='javascript:eleccion(" + tree.id + ")'><div  class='name'>" + tree.text + "</div></div></div><ul id='" + tree.id + "'>";
-            }
-            for (var i = 0; i < T; ++i) {
-                buildTree(tree.children[i], indice, tree.id);
-
-            }
-
-        } else {
-            document.getElementById(identificador).innerHTML += "<li id='lista" + tree.id + "'><div class='family'><div id='elem" + tree.id + "' class='f" + indice + " person child male'><a href='javascript:eleccion(" + tree.id + ")'><div  class='name'>" + tree.text + "</div></div></div>";
-
-        }
-
-    }
-
-
-    function glosario(num, palabra) {
-        document.getElementById("headerGlosary").style.display = ("block");
-
-        var g = document.getElementById("glosario" + num);
-        //document.getElementById("listaGlosario").innerHTML = "<p id='listaG' style='color:black !important;'>Glosario:</p>";
-        document.getElementById("listaGlosario").innerHTML += "<p><img src='/static/assets/img/diccionario-grande%20(1).png' alt='diccionario'/>" + palabra + " : " + g.innerText + "</p>";
-        var c = document.getElementsByClassName("activaDefinicion");
-        g.classList = "glosary gDisabled";
-        var ObDeficion = {
-            pal: palabra,
-            string: g.innerText
-        }
-        definicionesFinal[contDef] = ObDeficion;
-        contDef++;
-
-
-    }
-
-    function recuperarFraseCompleta() {
-        var string = "";
-        for (var i = 0; i < fraseOriginal.length; i++) {
-
-            string += fraseOriginal[i].text + " ";
-
-        }
-
-        var ObjFrases = {
-            identificador: fraseElegida,
-            cadena: string
-        };
-        let indice = idCambiados.findIndex(element => element.identificador === fraseElegida);
-        if (indice === -1) {
-            idCambiados.push(ObjFrases);
-            console.log(idCambiados);
-            console.log("No esta");
-        } else {
-            console.log("Esta en el array")
-            idCambiados[indice].cadena = string;
-            console.log(idCambiados);
-        }
-
-    }
-
-
-</script>
 
 </body>
 
