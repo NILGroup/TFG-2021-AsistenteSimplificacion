@@ -35,7 +35,7 @@ Una vez definidas las funcionalidades necesarias que incluye nuestro asistente, 
  	\centering
  	
  	
- 	\includegraphics[scale=0.4]{Imagenes/Figuras/InterfazInicial}
+ 	\includegraphics[scale=1]{Imagenes/Figuras/InterfazInicial}
  	
  	
  	\caption{Interfaz inicial del asistente.}
@@ -50,7 +50,7 @@ Una vez definidas las funcionalidades necesarias que incluye nuestro asistente, 
  		\centering
  		
  		
- 		\includegraphics[scale=0.6]{Imagenes/Figuras/PanelIzquierdo}
+ 		\includegraphics[scale=0.7]{Imagenes/Figuras/PanelIzquierdo}
  		
  		
  		\caption{Introducción de texto.}
@@ -62,7 +62,7 @@ Una vez definidas las funcionalidades necesarias que incluye nuestro asistente, 
  	 	 	\centering
  	 	 	
  	 	 	
- 	 	 	\includegraphics[scale=0.45]{Imagenes/Figuras/Resumen}
+ 	 	 	\includegraphics[scale=0.7]{Imagenes/Figuras/Resumen}
  	 	 	
  	 	 	
  	 	 	\caption{Frases partiendo del resumen.}
@@ -74,7 +74,7 @@ Una vez definidas las funcionalidades necesarias que incluye nuestro asistente, 
  	 	 	\centering
  	 	 	
  	 	 	
- 	 	 	\includegraphics[scale=0.68]{Imagenes/Figuras/TextoCompleto}
+ 	 	 	\includegraphics[scale=0.7]{Imagenes/Figuras/TextoCompleto}
  	 	 	
  	 	 	
  	 	 	\caption{Frases partiendo del texto completo.}
@@ -96,7 +96,7 @@ En la parte superior de la pantalla el editor podrá visualizar en todo momento 
  En la parte inferior derecha de la vista, tenemos el borrador del texto final (Ver Figura \ref{fig:borradorTextoFinal}) donde se puede visualizar la transformación de la frase seleccionada (en negrita) habiendo realizado, o no, las diferentes operaciones. 
 \begin{figure}[h!]
 	\centering	
-	\includegraphics[scale=0.5]{Imagenes/Figuras/arbol}	
+	\includegraphics[scale=0.7]{Imagenes/Figuras/arbol}	
 	\caption{Árbol de dependencias.}
 	\label{fig:arbolDependencias}
 \end{figure}
@@ -124,7 +124,7 @@ Una vez hagamos clic en este botón nuestro árbol de dependencias mostrará las
 	\centering
 	
 	
-	\includegraphics[scale=0.55]{Imagenes/Figuras/palabrasComplejas}
+	\includegraphics[scale=0.7]{Imagenes/Figuras/palabrasComplejas}
 	
 	
 	\caption{Palabras complejas resaltadas en el árbol.}
@@ -133,8 +133,37 @@ Una vez hagamos clic en este botón nuestro árbol de dependencias mostrará las
 \subsection{Intercambio de partes en el árbol de dependencias}
 En caso de que el editor desee modificar el orden sintáctico de la frase, por ejemplo, se puede dar la situación de que la segunda parte de una frase sea más importante y por ende se quiera que el lector ponga más atención a esa parte. 
 
-Para que esta funcionalidad se active es necesaria tener seleccionadas dos palabras del árbol. Ambas palabras cambiarán de orden incluyendo también aquellas que dependan de la misma (intercambio de dos palabras en el árbol de dependencias en las Figuras \ref{fig} y \ref{fig:}). El texto resultante quedaría como se muestra en la Figura \ref{fig:}
-
+Para que esta funcionalidad se active es necesaria tener seleccionadas dos palabras del árbol. Ambas palabras cambiarán de orden incluyendo también aquellas que dependan de la misma (intercambio de dos palabras en el árbol de dependencias en las Figuras \ref{fig:eleccionIntercambio} y \ref{fig:intercambio}). El texto resultante quedaría como se muestra en la Figura \ref{fig:borradorIntercambio}
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1]{Imagenes/Figuras/EleccionIntercambio}
+	
+	
+	\caption{Elección de dos palabras para el intercambio.}
+	\label{fig:eleccionIntercambio}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1]{Imagenes/Figuras/IntercambioArbol}
+	
+	
+	\caption{Árbol de dependencias después del intercambio.}
+	\label{fig:intercambio}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1]{Imagenes/Figuras/BorradorIntercambio}
+	
+	
+	\caption{Resultado en el borrador del texto final tras el intercambio.}
+	\label{fig:borradorIntercambio}
+\end{figure}
 \subsection{Sinónimos}
 En ocasiones el usuario se verá en la necesidad de realizar una simplificación léxica sustituyendo una palabra por un sinónimo más conocido. Podrá hacer uso de ella, pulsando sobre el botón (\textbf{Sinónimos}), siempre y cuando se haya seleccionado una palabra del árbol previamente. Una vez pulsado, se muestra, si los tiene, todos los sinónimos de la palabra elegida. En caso de que la palabra no tenga sinónimos aparecerá un texto informando que carece de ellos. Si los tiene, se mostrará un listado de estos indicando cuáles son sencillos y cuáles no (ver opción sinónimos en la Figura \ref{fig:listaSinonimos}).
 
@@ -149,7 +178,8 @@ En ocasiones el usuario se verá en la necesidad de realizar una simplificación
 	\label{fig:listaSinonimos}
 \end{figure}
 
- Llegados a este punto, se podrá seleccionar uno de ellos o bien haciendo doble clic o bien editándolo si fuese necesario para un significado coherente con la frase (concordancia en género, número, persona y conjugación), y posteriormente pulsar ``Enter'' para el cambio (véase la Figura \ref{fig:edicionSinonimos}).
+ Llegados a este punto, se podrá seleccionar uno de ellos o bien haciendo doble clic o bien editándolo si fuese necesario para un significado coherente con la frase (concordancia en género, número, persona y conjugación), y posteriormente pulsar ``Enter'' para el cambio (véase la Figura \ref{fig:edicionSinonimos}).
+
 
 \begin{figure}[h!]
 \centering
@@ -161,7 +191,7 @@ En ocasiones el usuario se verá en la necesidad de realizar una simplificación
 \caption{Interfaz de edición de sinónimos}
 \label{fig:edicionSinonimos}
 \end{figure}
-Al hacer doble clic o ``Enter'', si lo hemos editado, se mostrará una ventana de diálogo (Aceptar y Cancelar) para asegurar si es realmente la acción que queremos realizar (ver Figura \ref{fig:modalSinonimos}). En el caso de que se elija ``Aceptar'', tanto en el árbol de dependencias como en el borrador del texto final se reemplazará la palabra (Figura \ref{fig:}). En caso contrario, no habrá modificación alguna.
+Al hacer doble clic o ``Enter'', si lo hemos editado, se mostrará una ventana de diálogo (Aceptar y Cancelar) para asegurar si es realmente la acción que queremos realizar (ver Figura \ref{fig:modalSinonimos}). En el caso de que se elija ``Aceptar'', tanto en el árbol de dependencias como en el borrador del texto final se reemplazará la palabra (Figura \ref{fig:resultadoSinonimos}). En caso contrario, no habrá modificación alguna.
 
 \begin{figure}[h!]
 	\centering
@@ -174,6 +204,16 @@ Al hacer doble clic o ``Enter'', si lo hemos editado, se mostrará una ventana d
 	\label{fig:modalSinonimos}
 \end{figure}
 
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1.3]{Imagenes/Figuras/CambioSinonimoArbolBorrador}
+	
+	
+	\caption{Resultado de reemplazo del sinónimo tanto en el árbol de dependencias como en el borrador}
+	\label{fig:resultadoSinonimos}
+\end{figure}
 \subsection{Eliminar partes en el árbol de dependencias}
 
 El editor puede encontrarse con frases que no requieren de ciertas palabras para que se capte la esencia de las mismas por parte del lector. Es por ello, por lo que tiene la opción de eliminar términos a su disposición. Es necesario seleccionar una palabra del árbol para que esta funcionalidad pueda llevarse a cabo. Suprime tanto a ella como aquellas que dependan de la misma. En las Figuras \ref{fig:eliminacionPrevia} y \ref{fig:eliminacion}, vemos la palabra seleccionada que queremos eliminar y el resultado de su eliminación en el árbol y en el texto del borrador final.
@@ -181,7 +221,7 @@ El editor puede encontrarse con frases que no requieren de ciertas palabras para
 	\centering
 	
 	
-	\includegraphics[scale=0.6]{Imagenes/Figuras/Eliminacion1}
+	\includegraphics[scale=0.8]{Imagenes/Figuras/EleccionEliminacion}
 	
 	
 	\caption{Árbol antes la eliminación de una palabra.}
@@ -191,7 +231,7 @@ El editor puede encontrarse con frases que no requieren de ciertas palabras para
 	\centering
 	
 	
-	\includegraphics[scale=0.7]{Imagenes/Figuras/Eliminacion2}
+	\includegraphics[scale=0.9]{Imagenes/Figuras/EliminacionSubarbol}
 	
 	
 	\caption{Árbol tras la eliminación de una palabra.}
@@ -202,7 +242,7 @@ El resultado de cómo quedaría la frase lo podemos ver en la Figura \ref{fig:re
 	\centering
 	
 	
-	\includegraphics[scale=0.7]{Imagenes/Figuras/BorradorEliminacion}
+	\includegraphics[scale=1]{Imagenes/Figuras/BorradorEliminacion}
 	
 	
 	\caption{Borrador del texto final tras la eliminación de una palabra.}

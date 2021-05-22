@@ -32,30 +32,33 @@
 \contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{18}{subsection.70}%
 \contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST}{19}{subsection.73}%
 \contentsline {subsection}{\numberline {2.4.8}Wheris }{19}{subsection.76}%
-\contentsline {chapter}{\numberline {3}Herramientas}{23}{chapter.79}%
+\contentsline {chapter}{\numberline {3}Herramientas y tecnologías usadas}{23}{chapter.79}%
 \contentsline {section}{\numberline {3.1}Flask}{23}{section.80}%
-\contentsline {section}{\numberline {3.2}Spacy}{23}{section.81}%
-\contentsline {section}{\numberline {3.3}Postman}{24}{section.82}%
-\contentsline {section}{\numberline {3.4}NILWS}{24}{section.83}%
-\contentsline {chapter}{\numberline {4}Asistente web interactivo para la simplificación de textos}{27}{chapter.84}%
-\contentsline {section}{\numberline {4.1}Requisitos del asistente web interactivo para la simplificación de textos}{27}{section.85}%
-\contentsline {section}{\numberline {4.2}Introducción de texto y selección de frases}{28}{section.86}%
-\contentsline {section}{\numberline {4.3}Adaptaciones sobre frases}{29}{section.91}%
-\contentsline {subsection}{\numberline {4.3.1}Palabras complejas}{31}{subsection.95}%
-\contentsline {subsection}{\numberline {4.3.2}Intercambio de partes en el árbol de dependencias}{31}{subsection.97}%
-\contentsline {subsection}{\numberline {4.3.3}Sinónimos}{32}{subsection.98}%
-\contentsline {subsection}{\numberline {4.3.4}Eliminar partes en el árbol de dependencias}{33}{subsection.102}%
-\contentsline {subsection}{\numberline {4.3.5}Definiciones respecto a una palabra}{34}{subsection.106}%
-\contentsline {subsection}{\numberline {4.3.6}Resultado de la adaptación}{34}{subsection.109}%
-\contentsline {chapter}{\numberline {5}Implementación}{37}{chapter.112}%
-\contentsline {section}{\numberline {5.1}Arquitectura}{37}{section.113}%
-\contentsline {subsection}{\numberline {5.1.1}Ficheros del entorno}{37}{subsection.115}%
-\contentsline {subsection}{\numberline {5.1.2}Servicios web externos}{38}{subsection.116}%
-\contentsline {subsection}{\numberline {5.1.3}Librería Spacy}{39}{subsection.140}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{43}{chapter.141}%
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{45}{chapter.142}%
+\contentsline {section}{\numberline {3.2}spaCy}{24}{section.82}%
+\contentsline {section}{\numberline {3.3}NIL-WS-API}{25}{section.84}%
+\contentsline {section}{\numberline {3.4}Postman}{26}{section.86}%
+\contentsline {section}{\numberline {3.5}PyCharm}{27}{section.88}%
+\contentsline {chapter}{\numberline {4}Asistente web interactivo para la simplificación de textos}{29}{chapter.90}%
+\contentsline {section}{\numberline {4.1}Requisitos del asistente web interactivo para la simplificación de textos}{29}{section.91}%
+\contentsline {section}{\numberline {4.2}Introducción de texto y selección de frases}{30}{section.92}%
+\contentsline {section}{\numberline {4.3}Adaptaciones sobre frases}{31}{section.97}%
+\contentsline {subsection}{\numberline {4.3.1}Palabras complejas}{33}{subsection.101}%
+\contentsline {subsection}{\numberline {4.3.2}Intercambio de partes en el árbol de dependencias}{34}{subsection.103}%
+\contentsline {subsection}{\numberline {4.3.3}Sinónimos}{35}{subsection.107}%
+\contentsline {subsection}{\numberline {4.3.4}Eliminar partes en el árbol de dependencias}{36}{subsection.112}%
+\contentsline {subsection}{\numberline {4.3.5}Definiciones respecto a una palabra}{37}{subsection.116}%
+\contentsline {subsection}{\numberline {4.3.6}Resultado de la adaptación}{39}{subsection.119}%
+\contentsline {chapter}{\numberline {5}Implementación}{41}{chapter.122}%
+\contentsline {section}{\numberline {5.1}Arquitectura}{41}{section.123}%
+\contentsline {subsection}{\numberline {5.1.1}Ficheros del entorno}{41}{subsection.125}%
+\contentsline {subsection}{\numberline {5.1.2}Servicios web externos}{42}{subsection.126}%
+\contentsline {subsection}{\numberline {5.1.3}Librería Spacy}{45}{subsection.151}%
+\contentsline {subsection}{\numberline {5.1.4}Implementaciones del servidor}{45}{subsection.152}%
+\contentsline {subsection}{\numberline {5.1.5}Implementaciones de la aplicación web}{45}{subsection.153}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{49}{chapter.155}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{51}{chapter.156}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{47}{appendix.143}%
+\contentsline {chapter}{\numberline {A}Título}{53}{appendix.157}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{49}{appendix.144}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{53}{appendix*.146}%
+\contentsline {chapter}{\numberline {B}Título}{55}{appendix.158}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{59}{appendix*.160}%

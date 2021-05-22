@@ -36,8 +36,8 @@ Los ficheros principales son:
 	\item \textbf{style.css}: fichero encargado de dar estilos a todo lo que concierne nuestra aplicación web excepto el árbol de dependencias (fuentes, disposición, tamaños, colores, etc.)   
 \end{itemize}
 
-\subsection{Servicios web externos}
-Para hacer uso de las principales funcionalidades descritas en la sección XXX, contamos con una arquitectura de servicios web REST basada en endpoints (Figura \ref{fig:apiRest}). 
+\subsection{Servicios web externos}\label{sec:serviciosWebExternos}
+Para hacer uso de las principales funcionalidades descritas en la sección XXX, contamos con una arquitectura de servicios web REST basada en endpoints (URLs), intercambiando mensajes entre cliente y servidor (Figura \ref{fig:apiRest}). 
 
 \begin{figure}[h!]
 	\centering
@@ -50,7 +50,7 @@ Para hacer uso de las principales funcionalidades descritas en la sección XXX, 
 	\label{fig:apiRest}
 \end{figure}
 
-Esta arquitectura puede ser utilizada en cualquier cliente HTTP, y aquí describimos cuatro de sus operaciones más básicas:
+Un servicio web REST es una interfaz para conectar varios servicios web basados en el protocolo HTTP que define una gran cantidad de métodos, de los cuales describimos los cuatro más básicos:
 \begin{itemize}
 	\item \textbf{GET}: se utiliza para acceder a los distintos recursos. Si requiere del envío de un parámetro al servidor (URI param), éste se pasa como un elemento en la URI (del inglés, \textit{Uniform Resource Identifier}). 
 	
@@ -60,6 +60,20 @@ Esta arquitectura puede ser utilizada en cualquier cliente HTTP, y aquí describ
 	
 	\item \textbf{DELETE}: se utiliza para la eliminar los recursos existentes, siendo la operación análoga al POST. El parámetro será informado a través de la URI.
 \end{itemize}
+
+Estas métodos pueden ser usados en distintas situaciones devolviendo los datos en distintos formatos como XML y JSON.En nuestro caso, hemos usado el formato JSON.
+
+Nuestra arquitectura REST tiene el aspecto como muestra la Figura \ref{fig:ArquitecturaAsistenteR}, que a continuación describimos.
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=0.9]{Imagenes/Figuras/ArquitecturaAsistenteR}
+	
+	
+	\caption{Diagrama de la arquitectura REST del asistente web}
+	\label{fig:ArquitecturaAsistenteR}
+\end{figure}
 
   Hacemos uso de los siguientes servicios REST que nos ofrece la API del grupo NIL\footnote{Para más información acceder a \href{https://holstein.fdi.ucm.es/nil-ws-api/}{https://holstein.fdi.ucm.es/nil-ws-api/}} (descrita en el capítulo X sección XXX):
 
@@ -83,7 +97,7 @@ Esta arquitectura puede ser utilizada en cualquier cliente HTTP, y aquí describ
 		\centering
 		
 		
-		\includegraphics[scale=0.9]{Imagenes/Figuras/APISencilla}
+		\includegraphics[scale=1]{Imagenes/Figuras/APISencilla}
 		
 		
 		\caption{Petición para comprobar si una palabra es compleja}
@@ -110,7 +124,7 @@ En este caso, el servicio devuelve un objeto JSON que contiene el campo ``defini
 	\centering
 	
 	
-	\includegraphics[scale=0.7]{Imagenes/Figuras/ApiDefinicion}
+	\includegraphics[scale=1]{Imagenes/Figuras/ApiDefinicion}
 	
 	
 	\caption{Petición que devuelve una lista de definiciones}
@@ -135,7 +149,7 @@ El servicio devuelve un objeto JSON que contiene el campo ``sinonimos'' de tipo 
 	\centering
 	
 	
-	\includegraphics[scale=0.9]{Imagenes/Figuras/APISinonimos}
+	\includegraphics[scale=1]{Imagenes/Figuras/APISinonimos}
 	
 	
 	\caption{Petición que devuelve una lista de sinónimos}
@@ -146,3 +160,41 @@ El servicio devuelve un objeto JSON que contiene el campo ``sinonimos'' de tipo 
 Cabe destacar que esta API no hace uso de las reglas de acentuación, de manera que debemos de insertar las palabras sin tildes (obsérvese la Figura \ref{fig:apiSinonimo}).
 
 \subsection{Librería Spacy}
+
+\subsection{Implementaciones del servidor}
+
+\subsection{Implementaciones de la aplicación web}
+
+En esta sección se explica en detalle como han sido desarrolladas las funcionalidades (capítulo \ref{cap:asistenteWeb} \ref{sec:}) de la aplicación web, cuya finalidad es proporcionar al usuario una interfaz sencilla, donde puedan introducir un texto, hacer una serie de transformaciones para obtener el mismo simplificado a Lectura Fácil.
+
+Para que el contenido de la aplicación web sea dinámico se ha desarrolla con JavaScript, cambiando según la acción del usuario. Estás acciones son:
+
+\begin{itemize}
+	\item Botón (\textbf{Resumen}): se realiza una llamada Fetch al endpoint ``/summary'' con el texto completo previamente introducido. La respuesta recibida será un objeto JSON, el cuál contiene el resumen del texto. Posteriormente se hará otra llamada Fetch al endpoint ``/sentences'', que devuelve el texto en frases. Estás frases se incrustan en el código HTML, escribiéndolas a modo de lista (una debajo de otra).    
+ 
+	\item Botón (\textbf{Texto completo}): a diferencia de botón anterior este hace una llamada únicamente al endpoint ``/sentences'', devolviendo el texto completo en frases.
+
+	\item Creación del árbol de dependencias: se realiza una llamada Fetch al endpoint ``/sentences/tree'', devolviendo así un objeto JSON con la estructura del árbol. Para su construcción de este, hemos usado un algoritmo de búsqueda en profundidad (BFS), recorriendo todos los nodos (en nuestro caso palabras de la frase). El funcionamiento de este algoritmo consiste en ir expandiendo cada uno de sus nodos desde la raíz hacia el nodo hoja (no tiene más hijos) de manera recurrente (Figura \ref{fig:diagramaBFS}).
+	\begin{figure}[h!]
+		\centering
+		
+		
+		\includegraphics[scale=1]{Imagenes/Figuras/diagramaBFS}
+		
+		
+		\caption{Petición que devuelve una lista de sinónimos}
+		\label{fig:diagramaBFS}
+	\end{figure}
+	
+		Por ejemplo, supongamos que queramos adaptar la frase ``También se instalarán 2.500 cabinas para que los electores puedan seleccionar su papeleta en secreto si así lo desean.'', el objeto JSON tendría el aspecto de la Figura \ref{fig:objetoJSON}. 
+	Cada nodo contiene los siguientes datos:
+		\begin{itemize}
+		\item \textbf{children}: array de nodos hijos.
+		\item \textbf{height}: nivel del nodo con respecto a la raíz (en nuestro ejemplo ``instalarán'' sería nuestra raíz, que tiene una altura 0).
+		\item \textbf{id}: identificador único de cada nodo.
+		\item \textbf{text}: palabra propia del nodo.
+	\end{itemize}
+En la Figura \ref{fig:arbolDependencias} observamos el árbol con el que podremos interactuar durante la adaptación.
+	\item Palabras complejas.
+	\item 
+\end{itemiz

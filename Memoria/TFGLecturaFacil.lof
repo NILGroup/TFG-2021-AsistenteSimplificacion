@@ -20,31 +20,42 @@
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Open Book\relax }}{21}{figure.caption.75}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Wheris\relax }}{22}{figure.caption.78}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Framework Flask.\relax }}{24}{figure.caption.81}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Árbol de dependencias.\relax }}{25}{figure.caption.83}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Algunos de los servicios que ofrece NIL-WS-API referidas a palabras.\relax }}{26}{figure.caption.85}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Petición hecha con postman\relax }}{27}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces IDE PyCharm\relax }}{27}{figure.caption.89}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Interfaz inicial del asistente.\relax }}{28}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Introducción de texto.\relax }}{29}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Frases partiendo del resumen.\relax }}{29}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Frases partiendo del texto completo.\relax }}{30}{figure.caption.90}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Árbol de dependencias.\relax }}{30}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Operaciones que podemos efectuar en el árbol de dependencias\relax }}{31}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Borrador del texto final.\relax }}{31}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Palabras complejas resaltadas en el árbol.\relax }}{32}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Lista de sinónimos de una palabra seleccionada\relax }}{32}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Interfaz de edición de sinónimos\relax }}{33}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Ventana de diálogo de reemplazo de sinónimo.\relax }}{33}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Árbol antes la eliminación de una palabra.\relax }}{33}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Árbol tras la eliminación de una palabra.\relax }}{34}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Borrador del texto final tras la eliminación de una palabra.\relax }}{34}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Listado de las definiciones\relax }}{35}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Glosario adjunto al borrador del texto final.\relax }}{35}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Botón Ver resultado junto al borrador del texto final.\relax }}{35}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Panel con el resultado final del texto adaptado\relax }}{36}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Interfaz inicial del asistente.\relax }}{30}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Introducción de texto.\relax }}{31}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Frases partiendo del resumen.\relax }}{32}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Frases partiendo del texto completo.\relax }}{32}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Árbol de dependencias.\relax }}{33}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Operaciones que podemos efectuar en el árbol de dependencias\relax }}{33}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Borrador del texto final.\relax }}{34}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Palabras complejas resaltadas en el árbol.\relax }}{35}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Elección de dos palabras para el intercambio.\relax }}{35}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Árbol de dependencias después del intercambio.\relax }}{35}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resultado en el borrador del texto final tras el intercambio.\relax }}{35}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Lista de sinónimos de una palabra seleccionada\relax }}{36}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Interfaz de edición de sinónimos\relax }}{36}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ventana de diálogo de reemplazo de sinónimo.\relax }}{37}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Resultado de reemplazo del sinónimo tanto en el árbol de dependencias como en el borrador\relax }}{37}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Árbol antes la eliminación de una palabra.\relax }}{38}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Árbol tras la eliminación de una palabra.\relax }}{38}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Borrador del texto final tras la eliminación de una palabra.\relax }}{38}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Listado de las definiciones\relax }}{38}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Glosario adjunto al borrador del texto final.\relax }}{39}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Botón Ver resultado junto al borrador del texto final.\relax }}{39}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Panel con el resultado final del texto adaptado\relax }}{40}{figure.caption.121}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Estructura del proyecto en Flask\relax }}{38}{figure.caption.114}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Servicio REST cliente/servidor\relax }}{38}{figure.caption.117}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Petición para comprobar si una palabra es compleja\relax }}{40}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Petición que devuelve una lista de definiciones\relax }}{40}{figure.caption.131}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Petición que devuelve una lista de sinónimos\relax }}{41}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Estructura del proyecto en Flask\relax }}{42}{figure.caption.124}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Servicio REST cliente/servidor\relax }}{42}{figure.caption.127}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de la arquitectura REST del asistente web\relax }}{43}{figure.caption.128}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Petición para comprobar si una palabra es compleja\relax }}{44}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Petición que devuelve una lista de definiciones\relax }}{45}{figure.caption.142}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Petición que devuelve una lista de sinónimos\relax }}{46}{figure.caption.150}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Petición que devuelve una lista de sinónimos\relax }}{47}{figure.caption.154}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \babel@toc {english}{}
