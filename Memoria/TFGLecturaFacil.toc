@@ -55,10 +55,10 @@
 \contentsline {subsection}{\numberline {5.1.3}Librería Spacy}{45}{subsection.151}%
 \contentsline {subsection}{\numberline {5.1.4}Implementaciones del servidor}{45}{subsection.152}%
 \contentsline {subsection}{\numberline {5.1.5}Implementaciones de la aplicación web}{45}{subsection.153}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{49}{chapter.155}%
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{51}{chapter.156}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{49}{chapter.157}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{51}{chapter.158}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{53}{appendix.157}%
+\contentsline {chapter}{\numberline {A}Título}{53}{appendix.159}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{55}{appendix.158}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{59}{appendix*.160}%
+\contentsline {chapter}{\numberline {B}Título}{55}{appendix.160}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{59}{appendix*.162}%

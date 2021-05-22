@@ -174,27 +174,39 @@ Para que el contenido de la aplicación web sea dinámico se ha desarrolla con J
  
 	\item Botón (\textbf{Texto completo}): a diferencia de botón anterior este hace una llamada únicamente al endpoint ``/sentences'', devolviendo el texto completo en frases.
 
-	\item Creación del árbol de dependencias: se realiza una llamada Fetch al endpoint ``/sentences/tree'', devolviendo así un objeto JSON con la estructura del árbol. Para su construcción de este, hemos usado un algoritmo de búsqueda en profundidad (BFS), recorriendo todos los nodos (en nuestro caso palabras de la frase). El funcionamiento de este algoritmo consiste en ir expandiendo cada uno de sus nodos desde la raíz hacia el nodo hoja (no tiene más hijos) de manera recurrente (Figura \ref{fig:diagramaBFS}).
+	\item Creación del árbol de dependencias: se realiza una llamada Fetch al endpoint ``/sentences/tree'', devolviendo así un objeto JSON con la estructura del árbol. Para la construcción de este, hemos usado un algoritmo de búsqueda en profundidad (BFS)\footnote{Para más información  \href{https://es.wikipedia.org/wiki/B\%C3\%BAsqueda\_en\_profundidad}{https://es.wikipedia.org/wiki/B\%C3\%BAsqueda\_en\_profundidad}}, recorriendo todos los nodos (en nuestro caso palabras de la frase). El funcionamiento de este algoritmo consiste en ir expandiendo cada uno de sus nodos desde la raíz hacia el nodo hoja (no tiene más hijos), insertando esos nodos en una lista y sublistas en HTML de manera recurrente. (Figura \ref{fig:diagramaBFS}).
 	\begin{figure}[h!]
 		\centering
 		
 		
-		\includegraphics[scale=1]{Imagenes/Figuras/diagramaBFS}
+		\includegraphics[scale=0.9]{Imagenes/Figuras/diagramaBFS}
 		
 		
-		\caption{Petición que devuelve una lista de sinónimos}
+		\caption{Diagrama de flujo de nuestro algoritmo BFS}
 		\label{fig:diagramaBFS}
 	\end{figure}
 	
-		Por ejemplo, supongamos que queramos adaptar la frase ``También se instalarán 2.500 cabinas para que los electores puedan seleccionar su papeleta en secreto si así lo desean.'', el objeto JSON tendría el aspecto de la Figura \ref{fig:objetoJSON}. 
-	Cada nodo contiene los siguientes datos:
+	
+	El objeto JSON contiene los siguientes datos:
 		\begin{itemize}
 		\item \textbf{children}: array de nodos hijos.
 		\item \textbf{height}: nivel del nodo con respecto a la raíz (en nuestro ejemplo ``instalarán'' sería nuestra raíz, que tiene una altura 0).
 		\item \textbf{id}: identificador único de cada nodo.
 		\item \textbf{text}: palabra propia del nodo.
 	\end{itemize}
-En la Figura \ref{fig:arbolDependencias} observamos el árbol con el que podremos interactuar durante la adaptación.
+	Por ejemplo, supongamos que queramos adaptar la frase ``Se desarrolló un trabajo de investigación a lo largo de más de dos años.''. El objeto JSON que recibimos tendría el aspecto que se muestra en la Figura \ref{fig:objetoJSON}. 
+
+\begin{figure}[h!]
+	\centering
+	
+	
+	\includegraphics[scale=1.2]{Imagenes/Figuras/ObjetoArbolEjemplo}
+	
+	
+	\caption{Objeto JSON para la construcción del árbol de dependencias}
+	\label{fig:objetoJSON}
+\end{figure}
+
 	\item Palabras complejas.
 	\item 
 \end{itemiz
