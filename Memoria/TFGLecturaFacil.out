@@ -21,43 +21,47 @@
 \BOOKMARK [2][-]{subsection.46}{Gu\355a en Lectura F\341cil sobre los servicios del banco}{section.45}% 21
 \BOOKMARK [2][-]{subsection.47}{Gu\355a de uso del Metro de Madrid en Lectura f\341cil}{section.45}% 22
 \BOOKMARK [2][-]{subsection.48}{Gu\355a y plano accesible del Museo del Prado}{section.45}% 23
-\BOOKMARK [2][-]{subsection.49}{Noticias F\341cil }{section.45}% 24
+\BOOKMARK [2][-]{subsection.49}{Noticias F\341cil}{section.45}% 24
 \BOOKMARK [2][-]{subsection.51}{Proyecto de Lectura F\341cil sobre COVID-19}{section.45}% 25
 \BOOKMARK [1][-]{section.52}{Programas y aplicaciones de Lectura F\341cil}{chapter.14}% 26
 \BOOKMARK [2][-]{subsection.53}{Dytective para dislexia }{section.52}% 27
-\BOOKMARK [2][-]{subsection.57}{L\351elo F\341cil Educ. - Gallego }{section.52}% 28
-\BOOKMARK [2][-]{subsection.60}{Simplext }{section.52}% 29
-\BOOKMARK [2][-]{subsection.62}{``Frente al aislamiento. Nos conectamos'' }{section.52}% 30
-\BOOKMARK [2][-]{subsection.67}{CAPITO }{section.52}% 31
-\BOOKMARK [2][-]{subsection.70}{SIMPATICO }{section.52}% 32
-\BOOKMARK [2][-]{subsection.73}{Proyecto FIRST}{section.52}% 33
-\BOOKMARK [2][-]{subsection.76}{Wheris }{section.52}% 34
-\BOOKMARK [0][-]{chapter.79}{Herramientas y tecnolog\355as usadas}{}% 35
-\BOOKMARK [1][-]{section.80}{Flask}{chapter.79}% 36
-\BOOKMARK [1][-]{section.82}{spaCy}{chapter.79}% 37
-\BOOKMARK [1][-]{section.84}{NIL-WS-API}{chapter.79}% 38
-\BOOKMARK [1][-]{section.86}{Postman}{chapter.79}% 39
-\BOOKMARK [1][-]{section.88}{PyCharm}{chapter.79}% 40
-\BOOKMARK [0][-]{chapter.90}{Asistente web interactivo para la simplificaci\363n de textos}{}% 41
-\BOOKMARK [1][-]{section.91}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.90}% 42
-\BOOKMARK [1][-]{section.92}{Introducci\363n de texto y selecci\363n de frases}{chapter.90}% 43
-\BOOKMARK [1][-]{section.97}{Adaptaciones sobre frases}{chapter.90}% 44
-\BOOKMARK [2][-]{subsection.101}{Palabras complejas}{section.97}% 45
-\BOOKMARK [2][-]{subsection.103}{Intercambio de partes en el \341rbol de dependencias}{section.97}% 46
-\BOOKMARK [2][-]{subsection.107}{Sin\363nimos}{section.97}% 47
-\BOOKMARK [2][-]{subsection.112}{Eliminar partes en el \341rbol de dependencias}{section.97}% 48
-\BOOKMARK [2][-]{subsection.116}{Definiciones respecto a una palabra}{section.97}% 49
-\BOOKMARK [2][-]{subsection.119}{Resultado de la adaptaci\363n}{section.97}% 50
-\BOOKMARK [0][-]{chapter.122}{Implementaci\363n}{}% 51
-\BOOKMARK [1][-]{section.123}{Arquitectura}{chapter.122}% 52
-\BOOKMARK [2][-]{subsection.125}{Ficheros del entorno}{section.123}% 53
-\BOOKMARK [2][-]{subsection.126}{Servicios web externos}{section.123}% 54
-\BOOKMARK [2][-]{subsection.151}{Librer\355a Spacy}{section.123}% 55
-\BOOKMARK [2][-]{subsection.152}{Implementaciones del servidor}{section.123}% 56
-\BOOKMARK [2][-]{subsection.153}{Implementaciones de la aplicaci\363n web}{section.123}% 57
-\BOOKMARK [0][-]{chapter.157}{Conclusiones y Trabajo Futuro}{}% 58
-\BOOKMARK [0][-]{chapter.158}{Conclusions and Future Work}{}% 59
-\BOOKMARK [0][-]{appendix.159}{T\355tulo}{}% 60
-\BOOKMARK [0][-]{appendix.160}{T\355tulo}{}% 61
-\BOOKMARK [0][-]{appendix*.162}{Bibliograf\355a}{}% 62
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 63
+\BOOKMARK [2][-]{subsection.58}{L\351elo F\341cil Educ. - Gallego }{section.52}% 28
+\BOOKMARK [2][-]{subsection.61}{Simplext }{section.52}% 29
+\BOOKMARK [2][-]{subsection.63}{``Frente al aislamiento. Nos conectamos'' }{section.52}% 30
+\BOOKMARK [2][-]{subsection.68}{CAPITO }{section.52}% 31
+\BOOKMARK [2][-]{subsection.71}{SIMPATICO }{section.52}% 32
+\BOOKMARK [2][-]{subsection.74}{Proyecto FIRST}{section.52}% 33
+\BOOKMARK [2][-]{subsection.77}{Wheris }{section.52}% 34
+\BOOKMARK [0][-]{chapter.80}{Herramientas y tecnolog\355as utilizadas}{}% 35
+\BOOKMARK [1][-]{section.81}{Flask}{chapter.80}% 36
+\BOOKMARK [1][-]{section.85}{spaCy}{chapter.80}% 37
+\BOOKMARK [1][-]{section.89}{NIL-WS-API}{chapter.80}% 38
+\BOOKMARK [1][-]{section.93}{Postman}{chapter.80}% 39
+\BOOKMARK [1][-]{section.96}{PyCharm}{chapter.80}% 40
+\BOOKMARK [0][-]{chapter.99}{Asistente web interactivo para la simplificaci\363n de textos a Lectura F\341cil}{}% 41
+\BOOKMARK [1][-]{section.100}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.99}% 42
+\BOOKMARK [1][-]{section.101}{Introducci\363n de texto y selecci\363n de frases}{chapter.99}% 43
+\BOOKMARK [1][-]{section.106}{Adaptaciones sobre frases}{chapter.99}% 44
+\BOOKMARK [2][-]{subsection.110}{Palabras complejas}{section.106}% 45
+\BOOKMARK [2][-]{subsection.112}{Intercambio de partes en el \341rbol de dependencias}{section.106}% 46
+\BOOKMARK [2][-]{subsection.116}{Sin\363nimos}{section.106}% 47
+\BOOKMARK [2][-]{subsection.121}{Eliminar partes en el \341rbol de dependencias}{section.106}% 48
+\BOOKMARK [2][-]{subsection.125}{Definiciones respecto a una palabra}{section.106}% 49
+\BOOKMARK [2][-]{subsection.128}{Resultado de la adaptaci\363n}{section.106}% 50
+\BOOKMARK [0][-]{chapter.131}{Implementaci\363n}{}% 51
+\BOOKMARK [1][-]{section.132}{Arquitectura}{chapter.131}% 52
+\BOOKMARK [2][-]{subsection.134}{Ficheros del entorno}{section.132}% 53
+\BOOKMARK [2][-]{subsection.135}{Servicios web externos}{section.132}% 54
+\BOOKMARK [2][-]{subsection.160}{Librer\355a spaCy}{section.132}% 55
+\BOOKMARK [2][-]{subsection.165}{Implementaciones del servidor}{section.132}% 56
+\BOOKMARK [2][-]{subsection.166}{Implementaciones de la aplicaci\363n web}{section.132}% 57
+\BOOKMARK [1][-]{section.341}{Extensibilidad del asistente web interactivo}{chapter.131}% 58
+\BOOKMARK [0][-]{chapter.385}{Conclusiones y Trabajo Futuro}{}% 59
+\BOOKMARK [0][-]{chapter.386}{Trabajo individual}{}% 60
+\BOOKMARK [1][-]{section.387}{Estefan\355a Ortega \301vila}{chapter.386}% 61
+\BOOKMARK [1][-]{section.388}{Javier Ses\351 Garc\355a}{chapter.386}% 62
+\BOOKMARK [0][-]{chapter.389}{Conclusions and Future Work}{}% 63
+\BOOKMARK [0][-]{appendix.390}{T\355tulo}{}% 64
+\BOOKMARK [0][-]{appendix.391}{T\355tulo}{}% 65
+\BOOKMARK [0][-]{appendix*.393}{Bibliograf\355a}{}% 66
+\BOOKMARK [0][-]{fin.0}{Fin}{}% 67

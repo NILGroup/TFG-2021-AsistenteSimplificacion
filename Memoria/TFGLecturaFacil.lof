@@ -7,56 +7,60 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Texto original de Don Quijote de la Mancha\relax }}{8}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Texto LF de Don Quijote de la Mancha\relax }}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Texto LF de Don Quijote de la Mancha\relax }}{8}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Beneficiarios de la Lectura Fácil\relax }}{10}{figure.caption.25}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Logo de Lectura Fácil que cumplen las normas de la IFLA\relax }}{11}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Logotipo europeo de Lectura Fácil\relax }}{11}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Aplicación Dytective para dislexia\relax }}{16}{figure.caption.54}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Aplicación Léelo Fácil\relax }}{17}{figure.caption.59}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Simplext\relax }}{18}{figure.caption.61}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Aplicación ``Frente al aislamiento. Nos conectamos`\relax }}{19}{figure.caption.64}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces CAPITO\relax }}{20}{figure.caption.69}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces SIMPATICO\relax }}{20}{figure.caption.72}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Open Book\relax }}{21}{figure.caption.75}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Wheris\relax }}{22}{figure.caption.78}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Aplicación Dytective para dislexia\relax }}{19}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Aplicación Léelo Fácil\relax }}{20}{figure.caption.60}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Simplext\relax }}{21}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Aplicación ``Frente al aislamiento. Nos conectamos`\relax }}{22}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces CAPITO\relax }}{23}{figure.caption.70}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces SIMPATICO\relax }}{23}{figure.caption.73}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Open Book\relax }}{24}{figure.caption.76}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Wheris\relax }}{25}{figure.caption.79}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Framework Flask.\relax }}{24}{figure.caption.81}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Árbol de dependencias.\relax }}{25}{figure.caption.83}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Algunos de los servicios que ofrece NIL-WS-API referidas a palabras.\relax }}{26}{figure.caption.85}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Petición hecha con postman\relax }}{27}{figure.caption.87}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces IDE PyCharm\relax }}{27}{figure.caption.89}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Framework Flask.\relax }}{28}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Árbol de dependencias.\relax }}{30}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Algunos de los servicios que ofrece NIL-WS-API referidas a palabras.\relax }}{31}{figure.caption.92}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Petición hecha con postman\relax }}{32}{figure.caption.95}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces IDE PyCharm\relax }}{33}{figure.caption.98}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Interfaz inicial del asistente.\relax }}{30}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Introducción de texto.\relax }}{31}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Frases partiendo del resumen.\relax }}{32}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Frases partiendo del texto completo.\relax }}{32}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Árbol de dependencias.\relax }}{33}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Operaciones que podemos efectuar en el árbol de dependencias\relax }}{33}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Borrador del texto final.\relax }}{34}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Palabras complejas resaltadas en el árbol.\relax }}{35}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Elección de dos palabras para el intercambio.\relax }}{35}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Árbol de dependencias después del intercambio.\relax }}{35}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Resultado en el borrador del texto final tras el intercambio.\relax }}{35}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Lista de sinónimos de una palabra seleccionada\relax }}{36}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Interfaz de edición de sinónimos\relax }}{36}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Ventana de diálogo de reemplazo de sinónimo.\relax }}{37}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Resultado de reemplazo del sinónimo tanto en el árbol de dependencias como en el borrador\relax }}{37}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Árbol antes la eliminación de una palabra.\relax }}{38}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Árbol tras la eliminación de una palabra.\relax }}{38}{figure.caption.114}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Borrador del texto final tras la eliminación de una palabra.\relax }}{38}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Listado de las definiciones\relax }}{38}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Glosario adjunto al borrador del texto final.\relax }}{39}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Botón Ver resultado junto al borrador del texto final.\relax }}{39}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Panel con el resultado final del texto adaptado\relax }}{40}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Interfaz inicial del asistente.\relax }}{37}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Introducción de texto.\relax }}{38}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Frases partiendo del resumen.\relax }}{39}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Frases partiendo del texto completo.\relax }}{39}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Árbol de dependencias.\relax }}{40}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Operaciones que podemos efectuar en el árbol de dependencias\relax }}{40}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Borrador del texto final.\relax }}{41}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Palabras complejas resaltadas en el árbol.\relax }}{42}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Elección de dos palabras para el intercambio.\relax }}{43}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Árbol de dependencias después del intercambio.\relax }}{43}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resultado en el borrador del texto final tras el intercambio.\relax }}{43}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Lista de sinónimos de una palabra seleccionada\relax }}{44}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Interfaz de edición de sinónimos\relax }}{44}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ventana de diálogo de reemplazo de sinónimo.\relax }}{45}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Resultado de reemplazo del sinónimo tanto en el árbol de dependencias como en el borrador\relax }}{45}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Árbol antes la eliminación de una palabra.\relax }}{46}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Árbol tras la eliminación de una palabra.\relax }}{46}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Borrador del texto final tras la eliminación de una palabra.\relax }}{46}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Listado de las definiciones\relax }}{47}{figure.caption.126}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Glosario adjunto al borrador del texto final.\relax }}{47}{figure.caption.127}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Botón Ver resultado junto al borrador del texto final.\relax }}{48}{figure.caption.129}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Panel con el resultado final del texto adaptado\relax }}{49}{figure.caption.130}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Estructura del proyecto en Flask\relax }}{42}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Servicio REST cliente/servidor\relax }}{42}{figure.caption.127}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de la arquitectura REST del asistente web\relax }}{43}{figure.caption.128}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Petición para comprobar si una palabra es compleja\relax }}{44}{figure.caption.135}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Petición que devuelve una lista de definiciones\relax }}{45}{figure.caption.142}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Petición que devuelve una lista de sinónimos\relax }}{46}{figure.caption.150}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagrama de flujo de nuestro algoritmo BFS\relax }}{47}{figure.caption.155}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Objeto JSON para la construcción del árbol de dependencias\relax }}{48}{figure.caption.156}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Estructura del proyecto en Flask\relax }}{52}{figure.caption.133}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Servicio REST cliente/servidor\relax }}{53}{figure.caption.136}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de la arquitectura REST del asistente web\relax }}{54}{figure.caption.137}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Petición para comprobar si una palabra es compleja\relax }}{55}{figure.caption.144}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Petición que devuelve una lista de definiciones\relax }}{56}{figure.caption.151}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Petición que devuelve una lista de sinónimos\relax }}{57}{figure.caption.159}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Diagrama de flujo de nuestro algoritmo BFS\relax }}{65}{figure.caption.304}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Creación y extracción de la primera sublista del array ``sentenceArray''.\relax }}{67}{figure.caption.305}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Creación y extracción de la segunda sublista del array ``sentenceArray''.\relax }}{68}{figure.caption.306}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Insercción de ambas sublistas en el array ``sentenceArray''.\relax }}{68}{figure.caption.307}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Resultado del array ``sentenceArray'' tras el intercambio.\relax }}{69}{figure.caption.308}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \babel@toc {english}{}

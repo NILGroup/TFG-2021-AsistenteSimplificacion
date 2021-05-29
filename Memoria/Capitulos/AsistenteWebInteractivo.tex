@@ -1,4 +1,4 @@
-\chapter{Asistente web interactivo para la simplificación de textos}
+\chapter{Asistente web interactivo para la simplificación de textos a Lectura Fácil}
 \label{cap:asistenteWeb}
 
 
@@ -8,7 +8,7 @@ En este capítulo se describirán los requisitos necesarios que debe cumplir nue
 
 
 
-\section{Requisitos del asistente web interactivo para la simplificación de textos}
+\section{Requisitos del asistente web interactivo para la simplificación de textos}\label{sec:requisitosAplicacion}
 
 Para ayudar a los distintos destinatarios descritos en el capítulo \ref{cap:estadoDeLaCuestion} sección \ref{subsec:gruposLectores}, uno de los primeros pasos ha sido valorar qué funcionalidades eran necesarias tener definidas antes del desarrollo del asistente. Éste deberá servir de apoyo al editor a realizar una serie de operaciones sobre un texto, artículos, relatos, etc. para facilitar la adaptación de los mismos a Lectura Fácil.
 
@@ -89,14 +89,14 @@ Una vez definidas las funcionalidades necesarias que incluye nuestro asistente, 
 
 Al clicar  sobre una frase se cambiará a una vista donde aparecerá el árbol de dependencias (véase Figura \ref{fig:arbolDependencias}), que describe la estructura sintáctica de dicha frase, que le servirá al editor a la hora de adaptarla de una manera interactiva. 
 
-En dicho árbol encontramos las unidades léxicas separadas de la frase, las cuales podremos pulsar y realizar una serie de operaciones (botones) que se encuentran en la parte inferior izquierda. Junto a estos, aparece una breve explicación de la funcionalidad (ver operaciones que podemos efectuar en la Figura \ref{fig:botonesFuncionales}) que detallaremos en el capitulo XX. 
+En dicho árbol encontramos las unidades léxicas separadas de la frase, las cuales podremos pulsar y realizar una serie de operaciones (botones) que se encuentran en la parte inferior izquierda. Junto a estos, aparece una breve explicación de la funcionalidad (ver operaciones que podemos efectuar en la Figura \ref{fig:botonesFuncionales}) que detallaremos en el capitulo \ref{cap:implementacion} sección \ref{subsec:implementacionAplicacionWeb}. 
 
 En la parte superior de la pantalla el editor podrá visualizar en todo momento la frase previamente elegida y un enlace (\textbf{Volver a las frases}) para volver al listado de frases, en el caso de que se quiera elegir otra o retomar alguna que ya haya sido modificada.
 
  En la parte inferior derecha de la vista, tenemos el borrador del texto final (Ver Figura \ref{fig:borradorTextoFinal}) donde se puede visualizar la transformación de la frase seleccionada (en negrita) habiendo realizado, o no, las diferentes operaciones. 
 \begin{figure}[h!]
 	\centering	
-	\includegraphics[scale=0.7]{Imagenes/Figuras/arbol}	
+	\includegraphics[scale=0.65]{Imagenes/Figuras/arbol}	
 	\caption{Árbol de dependencias.}
 	\label{fig:arbolDependencias}
 \end{figure}
@@ -119,12 +119,12 @@ A continuación, describiremos en qué consisten, en qué situaciones y cómo el
 \subsection{Palabras complejas}
 Esta funcionalidad es de utilidad cuando el editor desee conocer aquellos términos de la frase que pueden ser susceptibles de ser reemplazados por sinónimos que sean más asequibles de comprender para el lector. El elemento visual que se encargará de esta función es el botón \textbf{Identificar palabras complejas}.
 
-Una vez hagamos clic en este botón nuestro árbol de dependencias mostrará las palabras complejas. Como podemos ver en la Figura \ref{fig:palabrasComplejas}, aparece una leyenda en la parte superior izquierda del árbol, indicando el color en el que se colorean las complejas. Una vez pulsado, el texto del botón cambiará a \textbf{Desactivar palabras complejas} para poder volver a la vista original del árbol de dependencias.  
+Una vez hagamos clic en este botón nuestro árbol de dependencias mostrará las palabras complejas. Como podemos ver en la Figura \ref{fig:palabrasComplejas}, aparece una leyenda en la parte superior izquierda del árbol, indicando el color en el que se colorean las complejas. Una vez pulsado, el texto del botón cambiará a \textbf{Desactivar palabras complejas} para poder volver a la vista original del árbol de dependencias. 
 	 \begin{figure}[h!]
 	\centering
 	
 	
-	\includegraphics[scale=0.7]{Imagenes/Figuras/palabrasComplejas}
+	\includegraphics[scale=0.6]{Imagenes/Figuras/palabrasComplejas}
 	
 	
 	\caption{Palabras complejas resaltadas en el árbol.}
@@ -133,7 +133,9 @@ Una vez hagamos clic en este botón nuestro árbol de dependencias mostrará las
 \subsection{Intercambio de partes en el árbol de dependencias}
 En caso de que el editor desee modificar el orden sintáctico de la frase, por ejemplo, se puede dar la situación de que la segunda parte de una frase sea más importante y por ende se quiera que el lector ponga más atención a esa parte. 
 
-Para que esta funcionalidad se active es necesaria tener seleccionadas dos palabras del árbol. Ambas palabras cambiarán de orden incluyendo también aquellas que dependan de la misma (intercambio de dos palabras en el árbol de dependencias en las Figuras \ref{fig:eleccionIntercambio} y \ref{fig:intercambio}). El texto resultante quedaría como se muestra en la Figura \ref{fig:borradorIntercambio}
+Para que esta funcionalidad se active es necesaria tener seleccionadas dos palabras del árbol. Ambas palabras cambiarán de orden incluyendo también aquellas que dependan de la misma (intercambio de dos palabras en el árbol de dependencias en las figuras \ref{fig:eleccionIntercambio} y \ref{fig:intercambio}). El texto resultante quedaría como se muestra en la Figura \ref{fig:borradorIntercambio}. 
+
+En el ejemplo de las figuras \ref{fig:eleccionIntercambio} y  \ref{fig:intercambio} intercambiamos las palabras ``decisión'' y ``razones'', así como sus dependencias.
 \begin{figure}[h!]
 	\centering
 	
@@ -165,7 +167,7 @@ Para que esta funcionalidad se active es necesaria tener seleccionadas dos palab
 	\label{fig:borradorIntercambio}
 \end{figure}
 \subsection{Sinónimos}
-En ocasiones el usuario se verá en la necesidad de realizar una simplificación léxica sustituyendo una palabra por un sinónimo más conocido. Podrá hacer uso de ella, pulsando sobre el botón (\textbf{Sinónimos}), siempre y cuando se haya seleccionado una palabra del árbol previamente. Una vez pulsado, se muestra, si los tiene, todos los sinónimos de la palabra elegida. En caso de que la palabra no tenga sinónimos aparecerá un texto informando que carece de ellos. Si los tiene, se mostrará un listado de estos indicando cuáles son sencillos y cuáles no (ver opción sinónimos en la Figura \ref{fig:listaSinonimos}).
+En ocasiones el usuario se verá en la necesidad de realizar una simplificación léxica sustituyendo una palabra por un sinónimo más conocido. Podrá hacer uso de ella, pulsando sobre el botón (\textbf{Sinónimos}), siempre y cuando se haya seleccionado una palabra del árbol previamente. Una vez pulsado, se muestra, si los tiene, todos los sinónimos de la palabra elegida. En caso de que la palabra no tenga sinónimos aparecerá un texto informando que carece de ellos. Si los tiene, se mostrará un listado de estos indicando cuáles son sencillos y cuáles no (ver opción sinónimos en la Figura \ref{fig:listaSinonimos}). En esta figura mostramos, por ejemplo, los sinónimos complejos y sencillos de la palabra ``dosis''.
 
 	 \begin{figure}[h!]
 	\centering
@@ -178,7 +180,7 @@ En ocasiones el usuario se verá en la necesidad de realizar una simplificación
 	\label{fig:listaSinonimos}
 \end{figure}
 
- Llegados a este punto, se podrá seleccionar uno de ellos o bien haciendo doble clic o bien editándolo si fuese necesario para un significado coherente con la frase (concordancia en género, número, persona y conjugación), y posteriormente pulsar ``Enter'' para el cambio (véase la Figura \ref{fig:edicionSinonimos}).
+ Llegados a este punto, se podrá seleccionar uno de ellos o bien haciendo doble clic o bien editándolo si fuese necesario para un significado coherente con la frase (concordancia en género, número, persona y conjugación), y posteriormente pulsar ``Enter'' para el cambio (véase la Figura \ref{fig:edicionSinonimos}). Aquí se edita el sinónimo sencillo ``parte'' por ``partes'' ya que, por el contexto de la frase es conviene adaptarla a plural.
 
 
 \begin{figure}[h!]
@@ -208,7 +210,7 @@ Al hacer doble clic o ``Enter'', si lo hemos editado, se mostrará una ventana d
 	\centering
 	
 	
-	\includegraphics[scale=1.3]{Imagenes/Figuras/CambioSinonimoArbolBorrador}
+	\includegraphics[scale=1.0]{Imagenes/Figuras/CambioSinonimoArbolBorrador}
 	
 	
 	\caption{Resultado de reemplazo del sinónimo tanto en el árbol de dependencias como en el borrador}
@@ -216,12 +218,12 @@ Al hacer doble clic o ``Enter'', si lo hemos editado, se mostrará una ventana d
 \end{figure}
 \subsection{Eliminar partes en el árbol de dependencias}
 
-El editor puede encontrarse con frases que no requieren de ciertas palabras para que se capte la esencia de las mismas por parte del lector. Es por ello, por lo que tiene la opción de eliminar términos a su disposición. Es necesario seleccionar una palabra del árbol para que esta funcionalidad pueda llevarse a cabo. Suprime tanto a ella como aquellas que dependan de la misma. En las Figuras \ref{fig:eliminacionPrevia} y \ref{fig:eliminacion}, vemos la palabra seleccionada que queremos eliminar y el resultado de su eliminación en el árbol y en el texto del borrador final.
+El editor puede encontrarse con frases que no requieren de ciertas palabras para que se capte la esencia de las mismas por parte del lector. Es por ello, por lo que tiene la opción de eliminar términos a su disposición. Es necesario seleccionar una palabra del árbol para que esta funcionalidad pueda llevarse a cabo. Suprime tanto a ella como aquellas que dependan de la misma. En las Figuras \ref{fig:eliminacionPrevia} y \ref{fig:eliminacion}, vemos la palabra seleccionada, este caso ``acordado'', que queremos eliminar y el resultado de su eliminación en el árbol y en el texto del borrador final.
 	 \begin{figure}[h!]
 	\centering
 	
 	
-	\includegraphics[scale=0.8]{Imagenes/Figuras/EleccionEliminacion}
+	\includegraphics[scale=0.6]{Imagenes/Figuras/EleccionEliminacion}
 	
 	
 	\caption{Árbol antes la eliminación de una palabra.}
@@ -237,7 +239,7 @@ El editor puede encontrarse con frases que no requieren de ciertas palabras para
 	\caption{Árbol tras la eliminación de una palabra.}
 	\label{fig:eliminacion}
 \end{figure} 
-El resultado de cómo quedaría la frase lo podemos ver en la Figura \ref{fig:resultadoEliminar}.
+El resultado de la frase modificada lo podemos ver en la Figura \ref{fig:resultadoEliminar}.
 	 \begin{figure}[h!]
 	\centering
 	
@@ -252,7 +254,7 @@ El resultado de cómo quedaría la frase lo podemos ver en la Figura \ref{fig:re
 \subsection{Definiciones respecto a una palabra}
  Gracias a esta funcionalidad, el usuario podrá nutrir el texto final con definiciones de uno o varios términos. 
  
- Seleccionando una palabra en el árbol, el botón (\textbf{Definición}) se activará. Al pulsar sobre este se mostrará un listado con todas las acepciones, si las tiene, de la palabra seleccionada (Figura \ref{fig:definiciones}). Haciendo clic en una de ellas, ésta se adjuntará a modo glosario como parte del texto final, sirviendo de apoyo a la comprensión del mismo (ver Figura \ref{fig:definicionesBorrador}). En caso de que no posea definiciones (por ejemplo, nombres propios) aparecerá un texto informando que carece de ellas.
+ Seleccionando una palabra en el árbol, el botón (\textbf{Definición}) se activará. Al pulsar sobre este se mostrará un listado con todas las acepciones, si las tiene, de la palabra seleccionada. Vemos, por ejemplo, las de la palabra ``correcta'' en la figura \ref{fig:definiciones}). Haciendo clic en una de ellas, ésta se adjuntará a modo glosario como parte del texto final, sirviendo de apoyo a la comprensión del mismo (ver Figura \ref{fig:definicionesBorrador}). En caso de que no posea definiciones (por ejemplo, nombres propios) aparecerá un texto informando que carece de ellas.
  	 \begin{figure}[h!]
  	\centering
  	
@@ -275,7 +277,7 @@ El resultado de cómo quedaría la frase lo podemos ver en la Figura \ref{fig:re
 \end{figure}
 \subsection{Resultado de la adaptación}
  
-Cuando hayamos considerado que el texto esté adaptado a nuestras necesidades, podemos visualizarlo haciendo clic en el botón (\textbf{Ver resultado}), el cuál lo encontramos en la parte inferior derecha del borrador del texto final (ver Figura \ref{fig:botonResultado}). Al pulsarlo, desplegará un panel, el cual es editable, en la parte derecha con el mismo texto que obtuvimos en el borrador (este panel lo podemos ver en la Figura \ref{fig:panelFinal}). Esto es útil, por ejemplo, si el editor desea incluir el glosario dentro del contexto de las frases (Figura \ref{fig:}). 
+Cuando hayamos considerado que el texto esté adaptado a nuestras necesidades, podemos visualizarlo haciendo clic en el botón (\textbf{Ver resultado}), el cuál lo encontramos en la parte inferior derecha del borrador del texto final (ver Figura \ref{fig:botonResultado}). Al pulsarlo, desplegará un panel, el cual es editable, en la parte derecha con el mismo texto que obtuvimos en el borrador (este panel lo podemos ver en la Figura \ref{fig:panelFinal}). Esto es útil, por ejemplo, si el editor desea incluir la acepción dentro del contexto del texto final. 
 \begin{figure}[h!]
 	\centering
 	

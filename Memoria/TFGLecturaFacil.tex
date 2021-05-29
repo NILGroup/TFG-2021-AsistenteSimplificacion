@@ -83,9 +83,72 @@ constantes,guionado,Cascaras/bibliografia,config%
 \usepackage{cleveref}
 \usepackage{graphicx}
 \usepackage{xcolor}
-\usepackage[a4paper,bindingoffset=0.2in,%
-left=1in,right=1in,top=1in,bottom=1in,%
-footskip=.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+
+\lstset{escapeinside=||}
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+\lstdefinelanguage{json}{
+	basicstyle=\normalfont\ttfamily,
+	numbers=left,
+	numberstyle=\scriptsize,
+	stepnumber=1,
+	numbersep=8pt,
+	showstringspaces=false,
+	breaklines=true,
+	frame=lines,
+	backgroundcolor=\color{background},
+	literate=
+	*{0}{{{\color{numb}0}}}{1}
+	{1}{{{\color{numb}1}}}{1}
+	{2}{{{\color{numb}2}}}{1}
+	{3}{{{\color{numb}3}}}{1}
+	{4}{{{\color{numb}4}}}{1}
+	{5}{{{\color{numb}5}}}{1}
+	{6}{{{\color{numb}6}}}{1}
+	{7}{{{\color{numb}7}}}{1}
+	{8}{{{\color{numb}8}}}{1}
+	{9}{{{\color{numb}9}}}{1}
+	{:}{{{\color{punct}{:}}}}{1}
+	{,}{{{\color{punct}{,}}}}{1}
+	{\{}{{{\color{delim}{\{}}}}{1}
+	{\}}{{{\color{delim}{\}}}}}{1}
+	{[}{{{\color{delim}{[}}}}{1}
+	{]}{{{\color{delim}{]}}}}{1},
+}
+\lstdefinelanguage{python}{
+	basicstyle=\normalfont\ttfamily,
+	numbers=left,
+	numberstyle=\scriptsize,
+	stepnumber=1,
+	numbersep=8pt,
+	showstringspaces=false,
+	breaklines=true,
+	frame=lines,
+	backgroundcolor=\color{background},
+	literate=
+	*{0}{{{\color{numb}0}}}{1}
+	{1}{{{\color{numb}1}}}{1}
+	{2}{{{\color{numb}2}}}{1}
+	{3}{{{\color{numb}3}}}{1}
+	{4}{{{\color{numb}4}}}{1}
+	{5}{{{\color{numb}5}}}{1}
+	{6}{{{\color{numb}6}}}{1}
+	{7}{{{\color{numb}7}}}{1}
+	{8}{{{\color{numb}8}}}{1}
+	{9}{{{\color{numb}9}}}{1}
+	{:}{{{\color{punct}{:}}}}{1}
+	{,}{{{\color{punct}{,}}}}{1}
+	{\{}{{{\color{delim}{\{}}}}{1}
+	{\}}{{{\color{delim}{\}}}}}{1}
+	{[}{{{\color{delim}{[}}}}{1}
+	{]}{{{\color{delim}{]}}}}{1},
+}
 
 
 
@@ -115,6 +178,122 @@ footskip=.25in]{geometry}
 %                        Documento
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 \begin{document}
+	
+	% Incluimos el  fichero de definición de guionado  de algunas palabras
+	% que LaTeX no ha dividido como debería
+	\input{guionado}
+	
+	% Marcamos  el inicio  del  documento para  la  numeración de  páginas
+	% (usando números romanos para esta primera fase).
+	\frontmatter
+	\pagestyle{empty}
+	
+	\include{Cascaras/cover}
+	\include{Cascaras/autorizacion}
+	\include{Cascaras/dedicatoria}
+	\include{Cascaras/agradecimientos}
+	\include{Cascaras/resumen}
+	\begin{otherlanguage}{english}
+		\include{Cascaras/abstract}
+		% Si el trabajo se escribe en inglés, comentar esta línea y descomentar
+		% otra igual que hay justo antes de \end{document}
+	\end{otherlanguage}
+	
+	\ifx\generatoc\undefined
+	\else
+	\include{TeXiS/TeXiS_toc}
+	\fi
+	
+	% Marcamos el  comienzo de  los capítulos (para  la numeración  de las
+	% páginas) y ponemos la cabecera normal
+	\mainmatter
+	
+	\pagestyle{fancy}
+	\restauraCabecera
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Si el TFM se escribe en ingles, comentar las siguientes líneas 
+	% porque no hace falta incluir nuevamente la Introducción en inglés
+	\begin{otherlanguage}{english}
+		\include{Capitulos/Introduction}
+	\end{otherlanguage}
+	\addtocounter{chapter}{-1} 
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\include{Capitulos/Introduccion}
+	\include{Capitulos/EstadoDeLaCuestion}
+	\include{Capitulos/Herramientas}
+	%\include{Capitulos/Aplicación}
+	\include{Capitulos/AsistenteWebInteractivo}
+	\include{Capitulos/Implementacion}
+	%\include{Capitulos/Capitulo5}
+	\include{Capitulos/ConclusionesTrabajoFuturo}
+	\include{Capitulos/TrabajoIndividual}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Si el TFM se escribe en inglés, comentar las siguientes líneas 
+	% porque no es necesario incluir nuevamente las Conclusiones en inglés
+	\setcounter{chapter}{\thechapter-1} 
+	\begin{otherlanguage}{english}
+		\include{Capitulos/ConclusionsFutureWork}
+	\end{otherlanguage}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	% Apéndices
+	\appendix
+	\include{Apendices/appendixA}
+	\include{Apendices/appendixB}
+	%\include{Apendices/appendixC}
+	%\include{...}
+	%\include{...}
+	%\include{...}
+	\backmatter
+	
+	%
+	% Bibliografía
+	%
+	% Si el TFM se escribe en inglés, editar TeXiS/TeXiS_bib para cambiar el
+	% estilo de las referencias
+	\include{Cascaras/bibliografia}
+	%
+	% Índice de palabras
+	%
+	
+	% Sólo  la   generamos  si  está   declarada  \generaindice.  Consulta
+	% TeXiS.sty para más información.
+	
+	% En realidad, el soporte para la generación de índices de palabras
+	% en TeXiS no está documentada en el manual, porque no ha sido usada
+	% "en producción". Por tanto, el fichero que genera el índice
+	% *no* se incluye aquí (está comentado). Consulta la documentación
+	% en TeXiS_pream.tex para más información.
+	\ifx\generaindice\undefined
+	\else
+	%\include{TeXiS/TeXiS_indice}
+	\fi
+	
+	%
+	% Lista de acrónimos
+	%
+	
+	% Sólo  lo  generamos  si  está declarada  \generaacronimos.  Consulta
+	% TeXiS.sty para más información.
+	
+	
+	\ifx\generaacronimos\undefined
+	\else
+	\include{TeXiS/TeXiS_acron}
+	\fi
+	
+	%
+	% Final
+	%
+	\include{Cascaras/fin}
+	%\end{otherlanguage}
+\end{document}%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%                        Documento
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\begin{document}
 
 % Incluimos el  fichero de definición de guionado  de algunas palabras
 % que LaTeX no ha dividido como debería
@@ -127,6 +306,108 @@ footskip=.25in]{geometry}
 
 \include{Cascaras/cover}
 \include{Cascaras/autorizacion}
+\include{Cascaras/dedicatoria}
+\include{Cascaras/agradecimientos}
+\include{Cascaras/resumen}
+\begin{otherlanguage}{english}
+	\include{Cascaras/abstract}
+	% Si el trabajo se escribe en inglés, comentar esta línea y descomentar
+	% otra igual que hay justo antes de \end{document}
+\end{otherlanguage}
+
+\ifx\generatoc\undefined
+\else
+\include{TeXiS/TeXiS_toc}
+\fi
+
+% Marcamos el  comienzo de  los capítulos (para  la numeración  de las
+% páginas) y ponemos la cabecera normal
+\mainmatter
+
+\pagestyle{fancy}
+\restauraCabecera
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Si el TFM se escribe en ingles, comentar las siguientes líneas 
+% porque no hace falta incluir nuevamente la Introducción en inglés
+\begin{otherlanguage}{english}
+	\include{Capitulos/Introduction}
+\end{otherlanguage}
+\addtocounter{chapter}{-1} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Capitulos/Introduccion}
+\include{Capitulos/EstadoDeLaCuestion}
+\include{Capitulos/Herramientas}
+%\include{Capitulos/Aplicación}
+\include{Capitulos/AsistenteWebInteractivo}
+\include{Capitulos/Implementacion}
+%\include{Capitulos/Capitulo5}
+\include{Capitulos/ConclusionesTrabajoFuturo}
+\include{Capitulos/TrabajoIndividual}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Si el TFM se escribe en inglés, comentar las siguientes líneas 
+% porque no es necesario incluir nuevamente las Conclusiones en inglés
+\setcounter{chapter}{\thechapter-1} 
+\begin{otherlanguage}{english}
+	\include{Capitulos/ConclusionsFutureWork}
+\end{otherlanguage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Apéndices
+\appendix
+\include{Apendices/appendixA}
+\include{Apendices/appendixB}
+%\include{Apendices/appendixC}
+%\include{...}
+%\include{...}
+%\include{...}
+\backmatter
+
+%
+% Bibliografía
+%
+% Si el TFM se escribe en inglés, editar TeXiS/TeXiS_bib para cambiar el
+% estilo de las referencias
+\include{Cascaras/bibliografia}
+%
+% Índice de palabras
+%
+
+% Sólo  la   generamos  si  está   declarada  \generaindice.  Consulta
+% TeXiS.sty para más información.
+
+% En realidad, el soporte para la generación de índices de palabras
+% en TeXiS no está documentada en el manual, porque no ha sido usada
+% "en producción". Por tanto, el fichero que genera el índice
+% *no* se incluye aquí (está comentado). Consulta la documentación
+% en TeXiS_pream.tex para más información.
+\ifx\generaindice\undefined
+\else
+%\include{TeXiS/TeXiS_indice}
+\fi
+
+%
+% Lista de acrónimos
+%
+
+% Sólo  lo  generamos  si  está declarada  \generaacronimos.  Consulta
+% TeXiS.sty para más información.
+
+
+\ifx\generaacronimos\undefined
+\else
+\include{TeXiS/TeXiS_acron}
+\fi
+
+%
+% Final
+%
+\include{Cascaras/fin}
+%\end{otherlanguage}
+\end{document}scaras/autorizacion}
 \include{Cascaras/dedicatoria}
 \include{Cascaras/agradecimientos}
 \include{Cascaras/resumen}
@@ -165,6 +446,7 @@ footskip=.25in]{geometry}
 \include{Capitulos/Implementacion}
 %\include{Capitulos/Capitulo5}
 \include{Capitulos/ConclusionesTrabajoFuturo}
+\include{Capitulos/TabajoIndividual}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Si el TFM se escribe en inglés, comentar las siguientes líneas 

@@ -217,7 +217,7 @@ header nav ul li .caret {
 }
 
 
-#palabrasSinon > ul > li {
+#internalPanel > li {
     list-style: none;
 }
 
@@ -660,3 +660,195 @@ input {
     font-size: smaller;
     width: max-content;
 }
+form{
+width:100%;
+}
+textarea{
+width:100%;
+}
+  .compleja:hover, .compleja.active {
+        background: #bd9199 !important;
+    }
+
+    .panel {
+        display: flex;
+    }
+
+    #bresumen {
+        margin-bottom: 10px;
+    }
+
+    #bienvenida {
+        margin-top: 80px;
+    }
+
+    .start {
+        text-align: center;
+    }
+
+    .descriptionInfo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descriptionInfo > p {
+        text-align: center;
+    }
+
+    #listadoFrases {
+        margin-top: 56px;
+    }
+
+    .infoRemove {
+        color: black;
+        display: flex;
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .chooseSentence {
+        text-align: center;
+    }
+
+    #frases {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listSentences {
+        display: flex;
+    }
+
+    #transformaciones {
+        margin-top: 56px;
+    }
+
+    .infoTree {
+        color: #343a40;
+        text-align: center;
+    }
+
+    .backSentences {
+        color: #343a40;
+        font-size: 20px;
+    }
+
+    .fOrigin {
+        padding: 21px;
+        background: #f7dbdb;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #dependenciesTree {
+        padding: 21px;
+        background: #fff;
+        height: auto;
+    }
+
+    .bottomPart {
+        display: flex;
+        flex-direction: column;
+        height: min-content;
+    }
+
+    .infoButton {
+        color: #343a40;
+        margin-top: 28px;
+    }
+
+    #bSimple {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: smaller;
+    }
+
+    #bDesactivarSimple {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: smaller;
+    }
+
+    #bIntercambiar {
+        width: 190px;
+        height: min-content;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bEliminar {
+        width: 190px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bSinonimos {
+        width: 190px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #bDefinicion {
+        width: 190px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .panelSecondary {
+        display: flex;
+        margin: 31px auto;
+    }
+
+    #internalPanel {
+        background-color: #fff;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-left: 30px;
+    }
+
+    #textoFinal {
+        margin-top: 39px;
+        display: flex;
+    }
+
+    #final {
+        width: 100%;
+    }
+
+    .draw {
+        display: flex;
+        float: right;
+        width: 100%;
+        flex-direction: column;
+        font-size: large;
+    }
+
+    .titleDraw {
+        color: #343a40;
+        font-size: x-large;
+    }
+
+    #headerGlosary {
+        color: #4c4040;
+        margin-left: 48px;
+        margin-top: 10px;
+    }
+
+    .glo {
+        color: #4a4439;
+        margin-left: 48px;
+    }
+
+    #sentenceOrigin {
+        padding: 21px;
+        background: #f7dbdb;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }

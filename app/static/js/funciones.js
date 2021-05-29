@@ -1,8 +1,17 @@
+    //Rutas
+    const routeSummary="/summary";
+    const routeSentences="/sentences";
+    const routeSynonymous="/synonymous";
+    const routeDefinition="/definition";
+    const routeIsSimple="/isSimple";
+    const routeSentencesTree="/sentences/tree";
+    const routeImgGlosario="/static/img/diccionario-grande%20(1).png"
+    const routeImgEditar="/static/img/editar.png";
+
     var hayFrases = false;
 
     var text = document.getElementById('original').value;
 
-    //g.classList="glosary gDisabled";
     //Variable global para comprobar si el texto viene del resumen
     var res = false;
     var summaryText;
@@ -21,7 +30,7 @@
 
 
     function showPanel() {
-        document.getElementById("sidebar").style.width = "max-content";
+        document.getElementById("sidebar").style.width = "40%";
         document.getElementById("abrir").style.display = "none";
         document.getElementById("cerrar").style.display = "block";
         document.getElementById("main").style.marginLeft = "39%";
@@ -40,7 +49,7 @@
 
     function showPanelEnd() {
 
-        document.getElementById("sidebarDerecho").style.width = "720px";
+        document.getElementById("sidebarDerecho").style.width = "40%";
         document.getElementById("abrir").style.display = "none";
         document.getElementById("cerrar").style.display = "block";
         document.getElementById("main").style.width = "60%";
@@ -62,7 +71,7 @@
         var str = text.replace(/['"]+/g, "'");
         var t = {"text": str};
         var jsonObj = JSON.stringify(t);
-        fetch('/summary', {
+        fetch(routeSummary, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -75,8 +84,12 @@
             hidePanel();
             //Separa el texto cogido por un salto de linea.
             summaryText = data.summary;
-            res = true;
-
+            if(summaryText.length==0){
+                res=false;
+            }
+            else{
+                res=true;
+            }
             constructionSentences();
         });
 
@@ -154,6 +167,8 @@
     //Oculta el panel del menu una vez que se introduce un texto y se separa el texto por frases
     function constructionSentences() {
         document.getElementById("pestanaEditar").style.display = "inline-block";
+        document.getElementById("transformaciones").style.display = "none";
+
 
         reseteo();
 
@@ -179,7 +194,7 @@
 
 
         var jsonObj = JSON.stringify(t);
-        fetch("/sentences", {
+        fetch(routeSentences, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -285,6 +300,7 @@
 
     //Cambia dos pàlabras de posicion
     function changeNode() {
+        document.getElementById("internalPanel").style.display = "none";
         hideLabel();
         //Se cogen las clases activas para poder cambiar las palabras de orden
         var classActive = document.getElementsByClassName('active');
@@ -305,7 +321,10 @@
         var l2 = document.getElementById(listNode2);
         //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
         var ele1 = document.getElementById(id1);
+        ele1.classList.remove('active');
         var ele2 = document.getElementById(id2);
+        ele2.classList.remove('active');
+
         if (l1.lastChild != l2.parentElement) {
 
 
@@ -423,8 +442,8 @@
             ele2.innerHTML = "<a href='javascript:choice(" + split1[1] + ")'><div  class='name'>" + e1;
 
             //Elimina la clase active porque ya se ha terminado de operar con ellas
-            ele1.classList.remove('active');
-            ele2.classList.remove('active');
+            //ele1.classList.remove('active');
+            //ele2.classList.remove('active');
             //Se cambian todos los atributos que afectan a la rama de la lista.
             var idElemento1 = "elem" + split1[1];
             var elemento1 = document.getElementById(idElemento1);
@@ -454,6 +473,7 @@
                 fraseOriginal[indiceB].text = e1;
             }
         }
+        document.getElementById('bIntercambiar').disabled = true;
         recoverResultantSentence();
         draftFinalText();
 
@@ -462,6 +482,7 @@
 
     //Elimina del arbol de dependencias la palabra seleccionada y sus dependencias
     function deleteNode() {
+        document.getElementById("internalPanel").style.display = "none";
         hideLabel();
         //Coge le clase activa que es la palabra que se ha seleccionado para proceder a su eliminacion
         var c = document.getElementsByClassName('active');
@@ -514,6 +535,9 @@
         c.item(0).remove();
         //Elimino la lista
         l.remove();
+        document.getElementById('bSinonimos').disabled = true;
+        document.getElementById('bEliminar').disabled = true;
+        document.getElementById('bDefinicion').disabled = true;
         recoverResultantSentence();
         draftFinalText();
 
@@ -533,13 +557,13 @@
     function synonyms() {
         hideLabel();
 
-        document.getElementById("palabrasSinon").style.display = "block";
+        document.getElementById("internalPanel").style.display = "block";
 
         document.getElementById("carga").style.display = "block";
 
         document.getElementById("mySidebar").style.display = "none";
 
-        var sin = document.getElementById("palabrasSinon");
+        var sin = document.getElementById("internalPanel");
         sin.innerHTML = "";
         //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
         var c = document.getElementsByClassName('active');
@@ -548,7 +572,7 @@
         var idP = '"' + c[0].id + '"';
         var j = {"synonymous": str}
         var jsonObj = JSON.stringify(j);
-        fetch("/synonymous", {
+        fetch(routeSynonymous, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -557,7 +581,7 @@
         }).then(response => response.json()
         ).then(data => {
             //Incluye los sinonimos el el div especifico para mostrarlos (un panel para sinonimos)
-            var sin = document.getElementById("palabrasSinon");
+            var sin = document.getElementById("internalPanel");
             sin.innerHTML = "<label style='width: 75%;font-size: smaller;margin-top: 10px;'><em>Selecciona una palabra y pulsa enter para continuar (o doble click) o pulsa el botón de editar para cambiar la palabra</em></label><h4 style='color: brown;padding-top: 10px;'>Sinónimos de <strong>'" + str + "'</strong>:</h4><ul>";
             var palabra = '"' + str + '"';
             var cont = 0;
@@ -574,7 +598,7 @@
 
                         cont++;
                         var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#b594b9;' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res +","+cI+ ")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src='/static/img/editar.png' alt='editar'/></a></li>";
+                        sin.innerHTML += "<li><a style='color:#b594b9;' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res +","+cI+ ")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
 
 
                     });
@@ -588,7 +612,7 @@
 
                         cont++;
                         var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#89748c' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res + ","+cI+")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src='/static/img/editar.png' alt='editar'/></a></li>";
+                        sin.innerHTML += "<li><a style='color:#89748c' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res + ","+cI+")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
 
 
                     });
@@ -722,7 +746,7 @@
         c.classList.remove('active');
 
         modal.style.display = "none";
-        document.getElementById("palabrasSinon").style.display = "none";
+        document.getElementById("internalPanel").style.display = "none";
 
         console.log(fraseOriginal);
         let indice = fraseOriginal.findIndex(element => element.id == numId[1]);
@@ -732,6 +756,11 @@
 
         }
 
+        document.getElementById('bSinonimos').disabled = true;
+        document.getElementById('bEliminar').disabled = true;
+        document.getElementById('bDefinicion').disabled = true;
+
+        document.getElementById("internalPanel").style.display = "none";
 
         recoverResultantSentence();
         draftFinalText();
@@ -814,12 +843,12 @@
     function definition() {
         hideLabel();
         // document.getElementById("listaGlosario").innerHTML = "";
-        var sin = document.getElementById("palabrasSinon");
+        var sin = document.getElementById("internalPanel");
 
         sin.innerHTML = "";
 
 
-        document.getElementById("palabrasSinon").style.display = "block";
+        document.getElementById("internalPanel").style.display = "block";
 
         document.getElementById("carga").style.display = "block";
 
@@ -833,7 +862,7 @@
         var idP = '"' + c[0].id + '"';
         var j = {"word": cadena}
         var jsonObj = JSON.stringify(j);
-        fetch("/definition", {
+        fetch(routeDefinition, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -884,13 +913,13 @@
         hideLabel();
         document.getElementById("legend").style = "block";
         buttonActivatedComplex = true;
-        document.getElementById("palabrasSinon").style.display = "none";
+        document.getElementById("internalPanel").style.display = "none";
 
         document.getElementById("carga").style.display = "block";
 
         var j = {"text": fraseOriginal}
         var jsonObj = JSON.stringify(j);
-        fetch("/isSimple", {
+        fetch(routeIsSimple, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -932,7 +961,7 @@
         synonymusWord.push(objectSynonymusWord);
         var j = {"text": synonymusWord}
         var jsonObj = JSON.stringify(j);
-        fetch("/isSimple", {
+        fetch(routeIsSimple, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -985,6 +1014,7 @@
     }
 
     function openResultPanel() {
+        document.getElementById("internalPanel").style.display = "none";
         showPanelEnd();
         pasteContent();
     }
@@ -1004,13 +1034,7 @@
     }
 
     function drawDependenciesTree(indice) {
-        var parent = document.querySelector('#frases');
-
-        // Cantidad de div
-        var divs = parent.querySelectorAll('div');
-        cantidad = divs.length / 2;
-        //Oculta el panel de frases.
-
+        document.getElementById("transformaciones").style.display = "block";
         document.getElementById("listadoFrases").style.display = "none";
         //Muestra el arbol de dependencias
         document.getElementById("dependencias").style.display = "block";
@@ -1028,7 +1052,7 @@
 
         var j = {"sentence": seleccion}
         var jsonObj = JSON.stringify(j);
-        fetch("/sentences/tree", {
+        fetch(routeSentencesTree, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -1061,7 +1085,7 @@
                     "<ul><li>Complejas</li></ul></div>" +
                     "<div id='dependencyTree' class='tree'><ul><li  id='lista" + tree.id + "'><div class='family'>" +
                     "<div id='elem" + tree.id + "' class='f" + indice + " person child male'>" +
-                    "<a href='javascript:eleccion(" + tree.id + ")'><div  class='name'>" + tree.text + "</div></a></div></div>" +
+                    "<a href='javascript:choice(" + tree.id + ")'><div  class='name'>" + tree.text + "</div></a></div></div>" +
                     "<ul id='" + tree.id + "'>";
             } else {
                 document.getElementById(identificador).innerHTML += "<li id='lista" + tree.id + "'>" +
@@ -1089,7 +1113,7 @@
 
         var g = document.getElementById("glosario" + num);
         //document.getElementById("listaGlosario").innerHTML = "<p id='listaG' style='color:black !important;'>Glosario:</p>";
-        document.getElementById("listaGlosario").innerHTML += "<p><img src='/static/img/diccionario-grande%20(1).png' alt='diccionario'/>" + palabra + " : " + g.innerText + "</p>";
+        document.getElementById("listaGlosario").innerHTML += "<p><img src="+routeImgGlosario+" alt='diccionario'/>" + palabra + " : " + g.innerText + "</p>";
         var c = document.getElementsByClassName("activaDefinicion");
         g.classList = "glosary gDisabled";
         var ObDeficion = {

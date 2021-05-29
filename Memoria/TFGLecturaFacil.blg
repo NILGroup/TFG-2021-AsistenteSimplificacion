@@ -21,8 +21,14 @@ Reallocating 'name_of_file' (item size: 1) to 27 items.
 A level-1 auxiliary file: Capitulos/Introduccion.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: Capitulos/EstadoDeLaCuestion.aux
-Reallocating 'name_of_file' (item size: 1) to 40 items.
-A level-1 auxiliary file: Capitulos/ConclusionesTrabajoFuturo.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: Capitulos/Herramientas.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: Capitulos/AsistenteWebInteractivo.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Capitulos/Implementacion.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: Capitulos/TrabajoIndividual.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: Capitulos/ConclusionsFutureWork.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
@@ -40,37 +46,37 @@ Database file #1: bibliografia.bib
 Warning--missing publisher in LFMetodos
 You've used 12 entries,
             2962 wiz_defined-function locations,
-            1153 strings with 14882 characters,
-and the built_in function-call counts, 5454 in all, are:
-= -- 425
+            1150 strings with 14376 characters,
+and the built_in function-call counts, 5412 in all, are:
+= -- 419
 > -- 224
 < -- 9
 + -- 88
 - -- 75
-* -- 350
-:= -- 922
+* -- 344
+:= -- 916
 add.period$ -- 40
 call.type$ -- 12
 change.case$ -- 81
 chr.to.int$ -- 11
 cite$ -- 13
-duplicate$ -- 420
-empty$ -- 404
+duplicate$ -- 414
+empty$ -- 398
 format.name$ -- 93
-if$ -- 1048
+if$ -- 1036
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 85
 newline$ -- 66
 num.names$ -- 48
-pop$ -- 192
+pop$ -- 204
 preamble$ -- 1
 purify$ -- 73
 quote$ -- 0
 skip$ -- 166
 stack$ -- 0
 substring$ -- 132
-swap$ -- 178
+swap$ -- 172
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -78,5 +84,5 @@ type$ -- 108
 warning$ -- 1
 while$ -- 36
 width$ -- 0
-write$ -- 150
+write$ -- 144
 (There was 1 warning)
