@@ -190,7 +190,7 @@ constantes,guionado,Cascaras/bibliografia,config%
 	
 	\include{Cascaras/cover}
 	\include{Cascaras/autorizacion}
-	\include{Cascaras/dedicatoria}
+	%\include{Cascaras/dedicatoria}
 	\include{Cascaras/agradecimientos}
 	\include{Cascaras/resumen}
 	\begin{otherlanguage}{english}
@@ -214,13 +214,15 @@ constantes,guionado,Cascaras/bibliografia,config%
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	% Si el TFM se escribe en ingles, comentar las siguientes líneas 
 	% porque no hace falta incluir nuevamente la Introducción en inglés
-	\begin{otherlanguage}{english}
-		\include{Capitulos/Introduction}
-	\end{otherlanguage}
-	\addtocounter{chapter}{-1} 
+
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	\include{Capitulos/Introduccion}
+		\addtocounter{chapter}{-1} 
+		\begin{otherlanguage}{english}
+		\include{Capitulos/Introduction}
+	\end{otherlanguage}
+
 	\include{Capitulos/EstadoDeLaCuestion}
 	\include{Capitulos/Herramientas}
 	%\include{Capitulos/Aplicación}
@@ -228,21 +230,22 @@ constantes,guionado,Cascaras/bibliografia,config%
 	\include{Capitulos/Implementacion}
 	%\include{Capitulos/Capitulo5}
 	\include{Capitulos/ConclusionesTrabajoFuturo}
-	\include{Capitulos/TrabajoIndividual}
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% Si el TFM se escribe en inglés, comentar las siguientes líneas 
-	% porque no es necesario incluir nuevamente las Conclusiones en inglés
 	\setcounter{chapter}{\thechapter-1} 
 	\begin{otherlanguage}{english}
 		\include{Capitulos/ConclusionsFutureWork}
 	\end{otherlanguage}
+	\include{Capitulos/TrabajoIndividual}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Si el TFM se escribe en inglés, comentar las siguientes líneas 
+	% porque no es necesario incluir nuevamente las Conclusiones en inglés
+	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	
 	% Apéndices
-	\appendix
-	\include{Apendices/appendixA}
-	\include{Apendices/appendixB}
+	%\appendix
+	%\include{Apendices/appendixA}
+	%\include{Apendices/appendixB}
 	%\include{Apendices/appendixC}
 	%\include{...}
 	%\include{...}
@@ -306,7 +309,7 @@ constantes,guionado,Cascaras/bibliografia,config%
 
 \include{Cascaras/cover}
 \include{Cascaras/autorizacion}
-\include{Cascaras/dedicatoria}
+%\include{Cascaras/dedicatoria}
 \include{Cascaras/agradecimientos}
 \include{Cascaras/resumen}
 \begin{otherlanguage}{english}
@@ -330,13 +333,15 @@ constantes,guionado,Cascaras/bibliografia,config%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Si el TFM se escribe en ingles, comentar las siguientes líneas 
 % porque no hace falta incluir nuevamente la Introducción en inglés
-\begin{otherlanguage}{english}
-	\include{Capitulos/Introduction}
-\end{otherlanguage}
-\addtocounter{chapter}{-1} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include{Capitulos/Introduccion}
+\addtocounter{chapter}{-1} 
+\begin{otherlanguage}{english}
+	\include{Capitulos/Introduction}
+\end{otherlanguage}
+
 \include{Capitulos/EstadoDeLaCuestion}
 \include{Capitulos/Herramientas}
 %\include{Capitulos/Aplicación}
@@ -344,22 +349,23 @@ constantes,guionado,Cascaras/bibliografia,config%
 \include{Capitulos/Implementacion}
 %\include{Capitulos/Capitulo5}
 \include{Capitulos/ConclusionesTrabajoFuturo}
+\setcounter{chapter}{\thechapter-1} 
+\begin{otherlanguage}{english}
+	\include{Capitulos/ConclusionsFutureWork}
+\end{otherlanguage}
 \include{Capitulos/TrabajoIndividual}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Si el TFM se escribe en inglés, comentar las siguientes líneas 
 % porque no es necesario incluir nuevamente las Conclusiones en inglés
-\setcounter{chapter}{\thechapter-1} 
-\begin{otherlanguage}{english}
-	\include{Capitulos/ConclusionsFutureWork}
-\end{otherlanguage}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 % Apéndices
 \appendix
-\include{Apendices/appendixA}
-\include{Apendices/appendixB}
+%\include{Apendices/appendixA}
+%\include{Apendices/appendixB}
 %\include{Apendices/appendixC}
 %\include{...}
 %\include{...}
@@ -432,13 +438,15 @@ constantes,guionado,Cascaras/bibliografia,config%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Si el TFM se escribe en ingles, comentar las siguientes líneas 
 % porque no hace falta incluir nuevamente la Introducción en inglés
-\begin{otherlanguage}{english}
-\include{Capitulos/Introduction}
-\end{otherlanguage}
-\addtocounter{chapter}{-1} 
+ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include{Capitulos/Introduccion}
+\addtocounter{chapter}{-1}
+\begin{otherlanguage}{english}
+	\include{Capitulos/Introduction}
+\end{otherlanguage}
+
 \include{Capitulos/EstadoDeLaCuestion}
 \include{Capitulos/Herramientas}
 %\include{Capitulos/Aplicación}
@@ -446,22 +454,23 @@ constantes,guionado,Cascaras/bibliografia,config%
 \include{Capitulos/Implementacion}
 %\include{Capitulos/Capitulo5}
 \include{Capitulos/ConclusionesTrabajoFuturo}
-\include{Capitulos/TabajoIndividual}
+\setcounter{chapter}{\thechapter-1} 
+\begin{otherlanguage}{english}
+	\include{Capitulos/ConclusionsFutureWork}
+\end{otherlanguage}
+\include{Capitulos/TrabajoIndividual}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Si el TFM se escribe en inglés, comentar las siguientes líneas 
 % porque no es necesario incluir nuevamente las Conclusiones en inglés
-\setcounter{chapter}{\thechapter-1} 
-\begin{otherlanguage}{english}
-\include{Capitulos/ConclusionsFutureWork}
-\end{otherlanguage}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 % Apéndices
 \appendix
-\include{Apendices/appendixA}
-\include{Apendices/appendixB}
+%\include{Apendices/appendixA}
+%\include{Apendices/appendixB}
 %\include{Apendices/appendixC}
 %\include{...}
 %\include{...}

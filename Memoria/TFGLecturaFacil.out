@@ -2,66 +2,62 @@
 \BOOKMARK [0][-]{indices.0}{\315ndices}{}% 2
 \BOOKMARK [1][-]{tabla de contenidos.1}{Tabla de Contenidos}{indices.0}% 3
 \BOOKMARK [1][-]{indice de figuras.1}{\315ndice de figuras}{indices.0}% 4
-\BOOKMARK [1][-]{indice de tablas.1}{\315ndice de tablas}{indices.0}% 5
-\BOOKMARK [0][-]{chapter.9}{Introduction}{}% 6
-\BOOKMARK [0][-]{chapter.10}{Introducci\363n}{}% 7
-\BOOKMARK [1][-]{section.11}{Motivaci\363n}{chapter.10}% 8
-\BOOKMARK [1][-]{section.12}{Objetivos}{chapter.10}% 9
-\BOOKMARK [1][-]{section.13}{Estructura del documento}{chapter.10}% 10
-\BOOKMARK [0][-]{chapter.14}{Estado del arte}{}% 11
-\BOOKMARK [1][-]{section.15}{Lectura F\341cil}{chapter.14}% 12
-\BOOKMARK [2][-]{subsection.18}{Un poco de historia}{section.15}% 13
-\BOOKMARK [2][-]{subsection.24}{Destinatarios de la Lectura F\341cil}{section.15}% 14
-\BOOKMARK [2][-]{subsection.26}{\277C\363mo se identifican los textos de Lectura F\341cil?}{section.15}% 15
-\BOOKMARK [2][-]{subsection.30}{Pautas a seguir para la elaboraci\363n de Lectura F\341cil}{section.15}% 16
-\BOOKMARK [2][-]{subsection.31}{Niveles de adaptaci\363n a Lectura F\341cil}{section.15}% 17
-\BOOKMARK [2][-]{subsection.32}{Tareas para la simplificaci\363n de Texto}{section.15}% 18
-\BOOKMARK [1][-]{section.33}{Movimientos y asociaciones de Lectura F\341cil}{chapter.14}% 19
-\BOOKMARK [1][-]{section.45}{Proyectos y materiales adaptados a la Lectura F\341cil}{chapter.14}% 20
-\BOOKMARK [2][-]{subsection.46}{Gu\355a en Lectura F\341cil sobre los servicios del banco}{section.45}% 21
-\BOOKMARK [2][-]{subsection.47}{Gu\355a de uso del Metro de Madrid en Lectura f\341cil}{section.45}% 22
-\BOOKMARK [2][-]{subsection.48}{Gu\355a y plano accesible del Museo del Prado}{section.45}% 23
-\BOOKMARK [2][-]{subsection.49}{Noticias F\341cil}{section.45}% 24
-\BOOKMARK [2][-]{subsection.51}{Proyecto de Lectura F\341cil sobre COVID-19}{section.45}% 25
-\BOOKMARK [1][-]{section.52}{Programas y aplicaciones de Lectura F\341cil}{chapter.14}% 26
-\BOOKMARK [2][-]{subsection.53}{Dytective para dislexia }{section.52}% 27
-\BOOKMARK [2][-]{subsection.58}{L\351elo F\341cil Educ. - Gallego }{section.52}% 28
-\BOOKMARK [2][-]{subsection.61}{Simplext }{section.52}% 29
-\BOOKMARK [2][-]{subsection.63}{``Frente al aislamiento. Nos conectamos'' }{section.52}% 30
-\BOOKMARK [2][-]{subsection.68}{CAPITO }{section.52}% 31
-\BOOKMARK [2][-]{subsection.71}{SIMPATICO }{section.52}% 32
-\BOOKMARK [2][-]{subsection.74}{Proyecto FIRST}{section.52}% 33
-\BOOKMARK [2][-]{subsection.77}{Wheris }{section.52}% 34
-\BOOKMARK [0][-]{chapter.80}{Herramientas y tecnolog\355as utilizadas}{}% 35
-\BOOKMARK [1][-]{section.81}{Flask}{chapter.80}% 36
-\BOOKMARK [1][-]{section.85}{spaCy}{chapter.80}% 37
-\BOOKMARK [1][-]{section.89}{NIL-WS-API}{chapter.80}% 38
-\BOOKMARK [1][-]{section.93}{Postman}{chapter.80}% 39
-\BOOKMARK [1][-]{section.96}{PyCharm}{chapter.80}% 40
-\BOOKMARK [0][-]{chapter.99}{Asistente web interactivo para la simplificaci\363n de textos a Lectura F\341cil}{}% 41
-\BOOKMARK [1][-]{section.100}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.99}% 42
-\BOOKMARK [1][-]{section.101}{Introducci\363n de texto y selecci\363n de frases}{chapter.99}% 43
-\BOOKMARK [1][-]{section.106}{Adaptaciones sobre frases}{chapter.99}% 44
-\BOOKMARK [2][-]{subsection.110}{Palabras complejas}{section.106}% 45
-\BOOKMARK [2][-]{subsection.112}{Intercambio de partes en el \341rbol de dependencias}{section.106}% 46
-\BOOKMARK [2][-]{subsection.116}{Sin\363nimos}{section.106}% 47
-\BOOKMARK [2][-]{subsection.121}{Eliminar partes en el \341rbol de dependencias}{section.106}% 48
-\BOOKMARK [2][-]{subsection.125}{Definiciones respecto a una palabra}{section.106}% 49
-\BOOKMARK [2][-]{subsection.128}{Resultado de la adaptaci\363n}{section.106}% 50
-\BOOKMARK [0][-]{chapter.131}{Implementaci\363n}{}% 51
-\BOOKMARK [1][-]{section.132}{Arquitectura}{chapter.131}% 52
-\BOOKMARK [2][-]{subsection.134}{Ficheros del entorno}{section.132}% 53
-\BOOKMARK [2][-]{subsection.135}{Servicios web externos}{section.132}% 54
-\BOOKMARK [2][-]{subsection.160}{Librer\355a spaCy}{section.132}% 55
-\BOOKMARK [2][-]{subsection.165}{Implementaciones del servidor}{section.132}% 56
-\BOOKMARK [2][-]{subsection.166}{Implementaciones de la aplicaci\363n web}{section.132}% 57
-\BOOKMARK [1][-]{section.341}{Extensibilidad del asistente web interactivo}{chapter.131}% 58
-\BOOKMARK [0][-]{chapter.385}{Conclusiones y Trabajo Futuro}{}% 59
-\BOOKMARK [0][-]{chapter.386}{Trabajo individual}{}% 60
-\BOOKMARK [1][-]{section.387}{Estefan\355a Ortega \301vila}{chapter.386}% 61
-\BOOKMARK [1][-]{section.388}{Javier Ses\351 Garc\355a}{chapter.386}% 62
-\BOOKMARK [0][-]{chapter.389}{Conclusions and Future Work}{}% 63
-\BOOKMARK [0][-]{appendix.390}{T\355tulo}{}% 64
-\BOOKMARK [0][-]{appendix.391}{T\355tulo}{}% 65
-\BOOKMARK [0][-]{appendix*.393}{Bibliograf\355a}{}% 66
-\BOOKMARK [0][-]{fin.0}{Fin}{}% 67
+\BOOKMARK [0][-]{chapter.7}{Introducci\363n}{}% 5
+\BOOKMARK [1][-]{section.8}{Motivaci\363n}{chapter.7}% 6
+\BOOKMARK [1][-]{section.9}{Objetivos}{chapter.7}% 7
+\BOOKMARK [1][-]{section.10}{Estructura del documento}{chapter.7}% 8
+\BOOKMARK [0][-]{chapter.11}{Introduction}{}% 9
+\BOOKMARK [0][-]{chapter.12}{Estado del arte}{}% 10
+\BOOKMARK [1][-]{section.13}{Lectura F\341cil}{chapter.12}% 11
+\BOOKMARK [2][-]{subsection.16}{Un poco de historia}{section.13}% 12
+\BOOKMARK [2][-]{subsection.22}{Destinatarios de la Lectura F\341cil}{section.13}% 13
+\BOOKMARK [2][-]{subsection.24}{\277C\363mo se identifican los textos de Lectura F\341cil?}{section.13}% 14
+\BOOKMARK [2][-]{subsection.28}{Pautas a seguir para la elaboraci\363n de Lectura F\341cil}{section.13}% 15
+\BOOKMARK [2][-]{subsection.29}{Niveles de adaptaci\363n a Lectura F\341cil}{section.13}% 16
+\BOOKMARK [2][-]{subsection.30}{Tareas para la simplificaci\363n de Texto}{section.13}% 17
+\BOOKMARK [1][-]{section.31}{Movimientos y asociaciones de Lectura F\341cil}{chapter.12}% 18
+\BOOKMARK [1][-]{section.43}{Proyectos y materiales adaptados a la Lectura F\341cil}{chapter.12}% 19
+\BOOKMARK [2][-]{subsection.44}{Gu\355a en Lectura F\341cil sobre los servicios del banco}{section.43}% 20
+\BOOKMARK [2][-]{subsection.45}{Gu\355a de uso del Metro de Madrid en Lectura f\341cil}{section.43}% 21
+\BOOKMARK [2][-]{subsection.46}{Gu\355a y plano accesible del Museo del Prado}{section.43}% 22
+\BOOKMARK [2][-]{subsection.47}{Noticias F\341cil}{section.43}% 23
+\BOOKMARK [2][-]{subsection.49}{Proyecto de Lectura F\341cil sobre COVID-19}{section.43}% 24
+\BOOKMARK [1][-]{section.50}{Programas y aplicaciones de Lectura F\341cil}{chapter.12}% 25
+\BOOKMARK [2][-]{subsection.51}{Dytective para dislexia }{section.50}% 26
+\BOOKMARK [2][-]{subsection.56}{L\351elo F\341cil Educ. - Gallego }{section.50}% 27
+\BOOKMARK [2][-]{subsection.59}{Simplext }{section.50}% 28
+\BOOKMARK [2][-]{subsection.61}{``Frente al aislamiento. Nos conectamos'' }{section.50}% 29
+\BOOKMARK [2][-]{subsection.66}{CAPITO }{section.50}% 30
+\BOOKMARK [2][-]{subsection.69}{SIMPATICO }{section.50}% 31
+\BOOKMARK [2][-]{subsection.72}{Proyecto FIRST}{section.50}% 32
+\BOOKMARK [2][-]{subsection.75}{Wheris }{section.50}% 33
+\BOOKMARK [0][-]{chapter.78}{Herramientas y tecnolog\355as utilizadas}{}% 34
+\BOOKMARK [1][-]{section.79}{Flask}{chapter.78}% 35
+\BOOKMARK [1][-]{section.83}{spaCy}{chapter.78}% 36
+\BOOKMARK [1][-]{section.87}{NIL-WS-API}{chapter.78}% 37
+\BOOKMARK [1][-]{section.91}{Postman}{chapter.78}% 38
+\BOOKMARK [1][-]{section.94}{PyCharm}{chapter.78}% 39
+\BOOKMARK [0][-]{chapter.97}{Asistente web interactivo para la simplificaci\363n de textos a Lectura F\341cil}{}% 40
+\BOOKMARK [1][-]{section.98}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.97}% 41
+\BOOKMARK [1][-]{section.99}{Introducci\363n de texto y selecci\363n de frases}{chapter.97}% 42
+\BOOKMARK [1][-]{section.104}{Adaptaciones sobre frases}{chapter.97}% 43
+\BOOKMARK [2][-]{subsection.108}{Palabras complejas}{section.104}% 44
+\BOOKMARK [2][-]{subsection.110}{Intercambio de partes en el \341rbol de dependencias}{section.104}% 45
+\BOOKMARK [2][-]{subsection.114}{Sin\363nimos}{section.104}% 46
+\BOOKMARK [2][-]{subsection.119}{Eliminar partes en el \341rbol de dependencias}{section.104}% 47
+\BOOKMARK [2][-]{subsection.123}{Definiciones respecto a una palabra}{section.104}% 48
+\BOOKMARK [2][-]{subsection.126}{Resultado de la adaptaci\363n}{section.104}% 49
+\BOOKMARK [0][-]{chapter.129}{Implementaci\363n}{}% 50
+\BOOKMARK [1][-]{section.130}{Arquitectura}{chapter.129}% 51
+\BOOKMARK [2][-]{subsection.132}{Ficheros del entorno}{section.130}% 52
+\BOOKMARK [2][-]{subsection.133}{Servicios web externos}{section.130}% 53
+\BOOKMARK [2][-]{subsection.158}{Librer\355a spaCy}{section.130}% 54
+\BOOKMARK [1][-]{section.163}{Implementaciones del servidor}{chapter.129}% 55
+\BOOKMARK [1][-]{section.164}{Implementaciones de la aplicaci\363n web}{chapter.129}% 56
+\BOOKMARK [1][-]{section.339}{Extensibilidad del asistente web interactivo}{chapter.129}% 57
+\BOOKMARK [0][-]{chapter.383}{Conclusiones y Trabajo Futuro}{}% 58
+\BOOKMARK [0][-]{chapter.384}{Conclusions and Future Work}{}% 59
+\BOOKMARK [0][-]{chapter.385}{Trabajo individual}{}% 60
+\BOOKMARK [1][-]{section.386}{Estefan\355a Ortega \301vila}{chapter.385}% 61
+\BOOKMARK [1][-]{section.387}{Javier Ses\351 Garc\355a}{chapter.385}% 62
+\BOOKMARK [0][-]{chapter*.388}{Bibliograf\355a}{}% 63

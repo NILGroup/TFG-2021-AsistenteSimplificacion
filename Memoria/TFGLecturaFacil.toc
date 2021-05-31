@@ -1,68 +1,66 @@
 \babel@toc {spanish}{}
 \babel@toc {english}{}
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Motivación}{1}{section.8}%
+\contentsline {section}{\numberline {1.2}Objetivos}{2}{section.9}%
+\contentsline {section}{\numberline {1.3}Estructura del documento}{2}{section.10}%
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.11}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.10}%
-\contentsline {section}{\numberline {1.1}Motivación}{3}{section.11}%
-\contentsline {section}{\numberline {1.2}Objetivos}{4}{section.12}%
-\contentsline {section}{\numberline {1.3}Estructura del documento}{4}{section.13}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{7}{chapter.12}%
+\contentsline {section}{\numberline {2.1}Lectura Fácil}{7}{section.13}%
+\contentsline {subsection}{\numberline {2.1.1}Un poco de historia}{9}{subsection.16}%
+\contentsline {subsection}{\numberline {2.1.2}Destinatarios de la Lectura Fácil}{9}{subsection.22}%
+\contentsline {subsection}{\numberline {2.1.3}¿Cómo se identifican los textos de Lectura Fácil?}{10}{subsection.24}%
+\contentsline {subsection}{\numberline {2.1.4}Pautas a seguir para la elaboración de Lectura Fácil}{11}{subsection.28}%
+\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación a Lectura Fácil}{12}{subsection.29}%
+\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{13}{subsection.30}%
+\contentsline {section}{\numberline {2.2}Movimientos y asociaciones de Lectura Fácil}{14}{section.31}%
+\contentsline {section}{\numberline {2.3}Proyectos y materiales adaptados a la Lectura Fácil}{17}{section.43}%
+\contentsline {subsection}{\numberline {2.3.1}Guía en Lectura Fácil sobre los servicios del banco}{17}{subsection.44}%
+\contentsline {subsection}{\numberline {2.3.2}Guía de uso del Metro de Madrid en Lectura fácil}{17}{subsection.45}%
+\contentsline {subsection}{\numberline {2.3.3}Guía y plano accesible del Museo del Prado}{17}{subsection.46}%
+\contentsline {subsection}{\numberline {2.3.4}Noticias Fácil}{17}{subsection.47}%
+\contentsline {subsection}{\numberline {2.3.5}Proyecto de Lectura Fácil sobre COVID-19}{18}{subsection.49}%
+\contentsline {section}{\numberline {2.4}Programas y aplicaciones de Lectura Fácil}{18}{section.50}%
+\contentsline {subsection}{\numberline {2.4.1}Dytective para dislexia }{18}{subsection.51}%
+\contentsline {subsection}{\numberline {2.4.2}Léelo Fácil Educ. - Gallego }{19}{subsection.56}%
+\contentsline {subsection}{\numberline {2.4.3}Simplext }{19}{subsection.59}%
+\contentsline {subsection}{\numberline {2.4.4}``Frente al aislamiento. Nos conectamos'' }{20}{subsection.61}%
+\contentsline {subsection}{\numberline {2.4.5}CAPITO }{20}{subsection.66}%
+\contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{21}{subsection.69}%
+\contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST}{22}{subsection.72}%
+\contentsline {subsection}{\numberline {2.4.8}Wheris }{23}{subsection.75}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {2}Estado del arte}{7}{chapter.14}%
-\contentsline {section}{\numberline {2.1}Lectura Fácil}{7}{section.15}%
-\contentsline {subsection}{\numberline {2.1.1}Un poco de historia}{9}{subsection.18}%
-\contentsline {subsection}{\numberline {2.1.2}Destinatarios de la Lectura Fácil}{9}{subsection.24}%
-\contentsline {subsection}{\numberline {2.1.3}¿Cómo se identifican los textos de Lectura Fácil?}{10}{subsection.26}%
-\contentsline {subsection}{\numberline {2.1.4}Pautas a seguir para la elaboración de Lectura Fácil}{11}{subsection.30}%
-\contentsline {subsection}{\numberline {2.1.5}Niveles de adaptación a Lectura Fácil}{12}{subsection.31}%
-\contentsline {subsection}{\numberline {2.1.6}Tareas para la simplificación de Texto}{13}{subsection.32}%
-\contentsline {section}{\numberline {2.2}Movimientos y asociaciones de Lectura Fácil}{14}{section.33}%
-\contentsline {section}{\numberline {2.3}Proyectos y materiales adaptados a la Lectura Fácil}{17}{section.45}%
-\contentsline {subsection}{\numberline {2.3.1}Guía en Lectura Fácil sobre los servicios del banco}{17}{subsection.46}%
-\contentsline {subsection}{\numberline {2.3.2}Guía de uso del Metro de Madrid en Lectura fácil}{17}{subsection.47}%
-\contentsline {subsection}{\numberline {2.3.3}Guía y plano accesible del Museo del Prado}{17}{subsection.48}%
-\contentsline {subsection}{\numberline {2.3.4}Noticias Fácil}{17}{subsection.49}%
-\contentsline {subsection}{\numberline {2.3.5}Proyecto de Lectura Fácil sobre COVID-19}{18}{subsection.51}%
-\contentsline {section}{\numberline {2.4}Programas y aplicaciones de Lectura Fácil}{18}{section.52}%
-\contentsline {subsection}{\numberline {2.4.1}Dytective para dislexia }{18}{subsection.53}%
-\contentsline {subsection}{\numberline {2.4.2}Léelo Fácil Educ. - Gallego }{19}{subsection.58}%
-\contentsline {subsection}{\numberline {2.4.3}Simplext }{19}{subsection.61}%
-\contentsline {subsection}{\numberline {2.4.4}``Frente al aislamiento. Nos conectamos'' }{20}{subsection.63}%
-\contentsline {subsection}{\numberline {2.4.5}CAPITO }{20}{subsection.68}%
-\contentsline {subsection}{\numberline {2.4.6}SIMPATICO }{21}{subsection.71}%
-\contentsline {subsection}{\numberline {2.4.7}Proyecto FIRST}{22}{subsection.74}%
-\contentsline {subsection}{\numberline {2.4.8}Wheris }{23}{subsection.77}%
-\contentsline {chapter}{\numberline {3}Herramientas y tecnologías utilizadas}{27}{chapter.80}%
-\contentsline {section}{\numberline {3.1}Flask}{27}{section.81}%
-\contentsline {section}{\numberline {3.2}spaCy}{29}{section.85}%
-\contentsline {section}{\numberline {3.3}NIL-WS-API}{30}{section.89}%
-\contentsline {section}{\numberline {3.4}Postman}{32}{section.93}%
-\contentsline {section}{\numberline {3.5}PyCharm}{33}{section.96}%
-\contentsline {chapter}{\numberline {4}Asistente web interactivo para la simplificación de textos a Lectura Fácil}{35}{chapter.99}%
-\contentsline {section}{\numberline {4.1}Requisitos del asistente web interactivo para la simplificación de textos}{35}{section.100}%
-\contentsline {section}{\numberline {4.2}Introducción de texto y selección de frases}{36}{section.101}%
-\contentsline {section}{\numberline {4.3}Adaptaciones sobre frases}{38}{section.106}%
-\contentsline {subsection}{\numberline {4.3.1}Palabras complejas}{41}{subsection.110}%
-\contentsline {subsection}{\numberline {4.3.2}Intercambio de partes en el árbol de dependencias}{42}{subsection.112}%
-\contentsline {subsection}{\numberline {4.3.3}Sinónimos}{43}{subsection.116}%
-\contentsline {subsection}{\numberline {4.3.4}Eliminar partes en el árbol de dependencias}{45}{subsection.121}%
-\contentsline {subsection}{\numberline {4.3.5}Definiciones respecto a una palabra}{46}{subsection.125}%
-\contentsline {subsection}{\numberline {4.3.6}Resultado de la adaptación}{47}{subsection.128}%
-\contentsline {chapter}{\numberline {5}Implementación}{51}{chapter.131}%
-\contentsline {section}{\numberline {5.1}Arquitectura}{51}{section.132}%
-\contentsline {subsection}{\numberline {5.1.1}Ficheros del entorno}{51}{subsection.134}%
-\contentsline {subsection}{\numberline {5.1.2}Servicios web externos}{53}{subsection.135}%
-\contentsline {subsection}{\numberline {5.1.3}Librería spaCy}{56}{subsection.160}%
-\contentsline {subsection}{\numberline {5.1.4}Implementaciones del servidor}{58}{subsection.165}%
-\contentsline {subsection}{\numberline {5.1.5}Implementaciones de la aplicación web}{60}{subsection.166}%
-\contentsline {section}{\numberline {5.2}Extensibilidad del asistente web interactivo}{70}{section.341}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{73}{chapter.385}%
-\contentsline {chapter}{\numberline {7}Trabajo individual}{75}{chapter.386}%
-\contentsline {section}{\numberline {7.1}Estefanía Ortega Ávila}{75}{section.387}%
-\contentsline {section}{\numberline {7.2}Javier Sesé García}{76}{section.388}%
-\contentsline {chapter}{\numberline {7}Conclusions and Future Work}{79}{chapter.389}%
+\contentsline {chapter}{\numberline {3}Herramientas y tecnologías utilizadas}{27}{chapter.78}%
+\contentsline {section}{\numberline {3.1}Flask}{27}{section.79}%
+\contentsline {section}{\numberline {3.2}spaCy}{29}{section.83}%
+\contentsline {section}{\numberline {3.3}NIL-WS-API}{30}{section.87}%
+\contentsline {section}{\numberline {3.4}Postman}{32}{section.91}%
+\contentsline {section}{\numberline {3.5}PyCharm}{33}{section.94}%
+\contentsline {chapter}{\numberline {4}Asistente web interactivo para la simplificación de textos a Lectura Fácil}{35}{chapter.97}%
+\contentsline {section}{\numberline {4.1}Requisitos del asistente web interactivo para la simplificación de textos}{35}{section.98}%
+\contentsline {section}{\numberline {4.2}Introducción de texto y selección de frases}{36}{section.99}%
+\contentsline {section}{\numberline {4.3}Adaptaciones sobre frases}{38}{section.104}%
+\contentsline {subsection}{\numberline {4.3.1}Palabras complejas}{40}{subsection.108}%
+\contentsline {subsection}{\numberline {4.3.2}Intercambio de partes en el árbol de dependencias}{41}{subsection.110}%
+\contentsline {subsection}{\numberline {4.3.3}Sinónimos}{42}{subsection.114}%
+\contentsline {subsection}{\numberline {4.3.4}Eliminar partes en el árbol de dependencias}{45}{subsection.119}%
+\contentsline {subsection}{\numberline {4.3.5}Definiciones respecto a una palabra}{45}{subsection.123}%
+\contentsline {subsection}{\numberline {4.3.6}Resultado de la adaptación}{47}{subsection.126}%
+\contentsline {chapter}{\numberline {5}Implementación}{51}{chapter.129}%
+\contentsline {section}{\numberline {5.1}Arquitectura}{51}{section.130}%
+\contentsline {subsection}{\numberline {5.1.1}Ficheros del entorno}{52}{subsection.132}%
+\contentsline {subsection}{\numberline {5.1.2}Servicios web externos}{53}{subsection.133}%
+\contentsline {subsection}{\numberline {5.1.3}Librería spaCy}{57}{subsection.158}%
+\contentsline {section}{\numberline {5.2}Implementaciones del servidor}{59}{section.163}%
+\contentsline {section}{\numberline {5.3}Implementaciones de la aplicación web}{60}{section.164}%
+\contentsline {section}{\numberline {5.4}Extensibilidad del asistente web interactivo}{70}{section.339}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{75}{chapter.383}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{77}{chapter.384}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {A}Título}{81}{appendix.390}%
+\contentsline {chapter}{\numberline {7}Trabajo individual}{79}{chapter.385}%
+\contentsline {section}{\numberline {7.1}Estefanía Ortega Ávila}{79}{section.386}%
+\contentsline {section}{\numberline {7.2}Javier Sesé García}{80}{section.387}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {B}Título}{83}{appendix.391}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{87}{appendix*.393}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{83}{chapter*.388}%
