@@ -3,12 +3,12 @@
 
 \bibitem[{de~los Andes(2020)}]{covid}
 {\sc de~los Andes, C.~U.}
-\newblock ¿qué es el coronavirus?, tipo @online.
+\newblock {¿Qué es el coronavirus?, tipo @ONLINE}.
 \newblock 2020.
 
 \bibitem[{Europe(2019)}]{InformacionParaTodos}
 {\sc Europe, I.}
-\newblock Información para todos.
+\newblock {Información para todos}.
 \newblock 2019.
 
 \bibitem[{Galicia(2020)}]{GuiaBanco}
@@ -18,7 +18,7 @@
 
 \bibitem[{García~Muñoz(2013)}]{LFMetodos}
 {\sc García~Muñoz, s.}
-\newblock {\em Léctura fácil - Métodos de redacción y evaluación\/}.
+\newblock {\em {Lectura Fácil - Métodos de redacción y evaluación}\/}.
 \newblock 2013.
 
 \bibitem[{Inclusión(2019)}]{GuiaMetro}
@@ -30,9 +30,9 @@
   Barbu, Ureña~López, Moreda y Lloret}]{openBook}
 {\sc Martín~Valdivia, M.~T.}, {\sc Martínez~Cámara, E.}, {\sc Barbu, E.},
   {\sc Ureña~López, L.~A.}, {\sc Moreda, P.} y {\sc Lloret, E.}
-\newblock Proyecto first (flexible interactive reading support tool):
+\newblock {Proyecto FIRST (Flexible Interactive Reading Support Tool):
   desarrollo de una herramienta para ayudar a personas con autismo mediante la
-  simplificación de textos.
+  simplificación de textos}.
 \newblock 2014.
 
 \bibitem[{Nomura et\ al.(2010)Nomura, Tronbacke, Nielsen,
@@ -41,7 +41,7 @@
 {\sc Nomura, M.}, {\sc Tronbacke, B.}, {\sc Nielsen, G.}, {\sc
   of~Library~Associations, I.~F.} y {\sc of~Libraries Serving
   Disadvantaged~Persons, I.~S.}
-\newblock {\em Guidelines for Easy-to-read Materials\/}.
+\newblock {\em {Guidelines for Easy-to-read Materials}\/}.
 \newblock IFLA professional reports. IFLA Headquarters, 2010.
 \newblock ISBN 9789077897423.
 
@@ -64,14 +64,14 @@
 
 \bibitem[{Saggion(2017)}]{HoracioSaggion}
 {\sc Saggion, H.}
-\newblock {\em Automatic Text Simplification\/}.
+\newblock {\em {Automatic Text Simplification}\/}.
 \newblock Morgan and Claypool Publishers, 2017.
 
 \bibitem[{Saggion et\ al.(2011)Saggion, Gómez~Martínez, Etayo~Gil,
   Anula~Rebollo y Bourg}]{PLN1000}
 {\sc Saggion, H.}, {\sc Gómez~Martínez, E.}, {\sc Etayo~Gil, E.}, {\sc
   Anula~Rebollo, A.} y {\sc Bourg, L.}
-\newblock Text simplification in simplext: making texts more accessible.
+\newblock {Text simplification in Simplext: making texts more accessible}.
 \newblock 2011.
 
 \end{thebibliography}

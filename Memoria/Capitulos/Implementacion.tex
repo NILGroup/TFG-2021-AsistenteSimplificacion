@@ -29,7 +29,7 @@ A continuación, se explican la función de cada uno de los ficheros que compone
 Los ficheros principales son:
 \begin{itemize}
 	\item \textbf{views.py}: es el encargado de la lógica de todos los endpoints de la aplicación, así como el renderizado de la plantilla (home.html). Cada una de esas rutas tendrá una funcionalidad distinta, las cuales serán llamadas por una función del archivo de funciones.js dependiendo de la acción que se elija.
-	\item \textbf{vo.py}: se encarga de la organización de clases. En este caso la utilizaremos para definir la clase de cada nodo del árbol de dependencias.
+	\item \textbf{vo.py}: se encarga de la organización de clases que puedan ser necesarias para la aplicación. En este caso la utilizaremos para definir la clase de cada nodo del árbol de dependencias.
 	\item \textbf{home.html}: es la plantilla donde se mostrará el contenido del asistente y con el que el usuario interactuará. En esencia, lo que percibe el usuario por medio de la vista.
 	\item \textbf{funciones.js}: la misión de este fichero es comunicar la aplicación web con los elementos del DOM de la misma, haciendo posible la modificación del HTML dinámicamente. Las modificaciones que efectuamos en este archivo es añadir nuevas etiquetas, modificando o eliminando otras, cambiar sus atributos, añadiendo clases, cambiar el contenido de texto, etc. También es el encargado de la comunicación con la vista (views.py) para la petición y respuesta de servicios web.
 	\item \textbf{arbol.css}: archivo encargado de generar los estilos para que nuestro árbol de dependencias tenga la apariencia de un árbol genealógico.
@@ -580,7 +580,7 @@ A la hora de utilizar la librería spaCy, cabe destacar que:
 \end{lstlisting}
 
 	
-	\item \textbf{funciones.js}: en este fichero se añade una nueva función que incluya una llamada ``Fetch'' mandando los diferentes campos para el uso de una ruta determinada que se llamará en views.py. 
+	\item \textbf{funciones.js}: en este fichero se añade una nueva función que incluya una llamada Fetch mandando los diferentes campos para el uso de una ruta determinada que se llamará en views.py. 
 	
 	\begin{lstlisting}[language=python,firstnumber=1]
 	function definition() {

@@ -1043,12 +1043,14 @@
         //Se coge el texto original introducido en el textarea.
 
         var seleccion = document.getElementById("frase" + indice).innerText;
-
         document.getElementById("sentenceOrigin").innerText = seleccion;
         var sentenceP = document.getElementById("sentenceOrigin")
-
+if(indice.length==2){
+    sentenceP.attributes[1].value=indice;
+}else{
         sentenceP.attributes[1].value = "f" + indice;
-        fraseElegida = sentenceP.attributes[1].value;
+}
+        fraseElegida =sentenceP.attributes[1].value;
 
         var j = {"sentence": seleccion}
         var jsonObj = JSON.stringify(j);

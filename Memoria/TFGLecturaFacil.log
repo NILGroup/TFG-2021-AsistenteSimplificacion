@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  31 MAY 2021 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  4 JUN 2021 10:43
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -976,7 +976,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \evensidemarginOriginal=\skip91
 \oddsidemarginOriginal=\skip92
 \longTitulo=\skip93
-<Imagenes/Vectorial/escudoUCM.pdf, id=255, 597.23125pt x 844.15375pt>
+<Imagenes/Vectorial/escudoUCM.pdf, id=263, 597.23125pt x 844.15375pt>
 File: Imagenes/Vectorial/escudoUCM.pdf Graphic file (type pdf)
 <use Imagenes/Vectorial/escudoUCM.pdf>
 Package pdftex.def Info: Imagenes/Vectorial/escudoUCM.pdf  used on input line 1
@@ -1090,8 +1090,8 @@ LaTeX Info: Redefining \% on input line 34.
 Underfull \vbox (badness 2119) has occurred while \output is active []
 
  [14]
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
 )
 \tf@toc=\write6
 \openout6 = `TFGLecturaFacil.toc'.
@@ -1110,14 +1110,17 @@ LaTeX Info: Redefining \% on input line 21.
 Underfull \vbox (badness 7667) has occurred while \output is active []
 
  [17]
-[18]
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 )
 \tf@lof=\write7
 \openout7 = `TFGLecturaFacil.lof'.
 
- [19]) [20
+
+[19]) [20
 
 
 
@@ -1141,8 +1144,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
  [2])
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
@@ -1169,102 +1172,97 @@ LaTeX Info: Redefining \% on input line 224.
 ]
 Cap\'itulo 2.
 [7]
-<Imagenes/Ejemplos/Cap1DonQuijote.png, id=560, 566.115pt x 183.68625pt>
+<Imagenes/Ejemplos/Cap1DonQuijote.png, id=568, 566.115pt x 183.68625pt>
 File: Imagenes/Ejemplos/Cap1DonQuijote.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijote.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijote.png  used on input li
-ne 22.
+ne 24.
 (pdftex.def)             Requested size: 396.0022pt x 128.49258pt.
 
-Overfull \hbox (36.0022pt too wide) in paragraph at lines 22--23
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=561, 397.485pt x 337.76187pt>
+<Imagenes/Ejemplos/Cap1DonQuijoteLF.png, id=569, 397.485pt x 337.76187pt>
 File: Imagenes/Ejemplos/Cap1DonQuijoteLF.png Graphic file (type png)
 <use Imagenes/Ejemplos/Cap1DonQuijoteLF.png>
 Package pdftex.def Info: Imagenes/Ejemplos/Cap1DonQuijoteLF.png  used on input 
-line 30.
+line 32.
 (pdftex.def)             Requested size: 288.0011pt x 244.73451pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 39.
+(Font)              <9> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+(Font)              <5> on input line 41.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4779) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
  [8 <./Imagenes/Ejemplos/Cap1DonQuijote.png> <./Imagenes/Ejemplos/Cap1DonQuijot
 eLF.png>]
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 [9]
-<Imagenes/Ejemplos/destinatarios.jpg, id=588, 445.665pt x 443.6575pt>
+<Imagenes/Ejemplos/destinatarios.jpg, id=596, 445.665pt x 443.6575pt>
 File: Imagenes/Ejemplos/destinatarios.jpg Graphic file (type jpg)
 <use Imagenes/Ejemplos/destinatarios.jpg>
 Package pdftex.def Info: Imagenes/Ejemplos/destinatarios.jpg  used on input lin
-e 74.
+e 76.
 (pdftex.def)             Requested size: 288.0011pt x 286.7086pt.
-<Imagenes/Logos/indice.png, id=593, 260.975pt x 194.7275pt>
+<Imagenes/Logos/indice.png, id=601, 260.975pt x 194.7275pt>
 File: Imagenes/Logos/indice.png Graphic file (type png)
 <use Imagenes/Logos/indice.png>
-Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 88.
+Package pdftex.def Info: Imagenes/Logos/indice.png  used on input line 90.
 (pdftex.def)             Requested size: 180.0pt x 134.30862pt.
-<Imagenes/Logos/indice2.png, id=594, 225.84375pt x 224.84pt>
+<Imagenes/Logos/indice2.png, id=602, 225.84375pt x 224.84pt>
 File: Imagenes/Logos/indice2.png Graphic file (type png)
 <use Imagenes/Logos/indice2.png>
-Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 94.
+Package pdftex.def Info: Imagenes/Logos/indice2.png  used on input line 96.
 (pdftex.def)             Requested size: 108.0011pt x 107.524pt.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
  [10 <./Imagenes/Ejemplos/destinatarios.jpg>]
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
  [11 <./Imagenes/Logos/indice.png> <./Imagenes/Logos/indice2.png>]
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
+LaTeX Info: Redefining \. on input line 177.
+LaTeX Info: Redefining \% on input line 177.
  [12]
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
  [13]
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
+LaTeX Info: Redefining \. on input line 230.
+LaTeX Info: Redefining \% on input line 230.
  [14]
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
  [15]
-LaTeX Info: Redefining \. on input line 246.
-LaTeX Info: Redefining \% on input line 246.
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
  [16]
-LaTeX Info: Redefining \. on input line 269.
-LaTeX Info: Redefining \% on input line 269.
- [17
-
-]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-81.
+84.
 
 (C:\Users\egilruiz\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<Imagenes/ProyectosMateriales/dytective1.png, id=699, 1046.40938pt x 563.10374p
+<Imagenes/ProyectosMateriales/dytective1.png, id=702, 1046.40938pt x 563.10374p
 t>
 File: Imagenes/ProyectosMateriales/dytective1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective1.png  used on i
-nput line 288.
+nput line 291.
 (pdftex.def)             Requested size: 180.0pt x 96.86055pt.
-<Imagenes/ProyectosMateriales/dytective.png, id=700, 1049.42062pt x 564.60938pt
+<Imagenes/ProyectosMateriales/dytective.png, id=703, 1049.42062pt x 564.60938pt
 >
 File: Imagenes/ProyectosMateriales/dytective.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/dytective.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/dytective.png  used on in
-put line 291.
+put line 294.
 (pdftex.def)             Requested size: 180.0pt x 96.84384pt.
 
-Overfull \hbox (14.52216pt too wide) in paragraph at lines 288--292
+Overfull \hbox (14.52216pt too wide) in paragraph at lines 291--295
  [][][][] 
  []
 
@@ -1274,32 +1272,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 299.
-LaTeX Info: Redefining \% on input line 299.
- [18]
-<Imagenes/ProyectosMateriales/leeloFacil.png, id=712, 854.44218pt x 639.89063pt
+LaTeX Info: Redefining \. on input line 302.
+LaTeX Info: Redefining \% on input line 302.
+ [17]
+<Imagenes/ProyectosMateriales/leeloFacil.png, id=716, 854.44218pt x 639.89063pt
 >
 File: Imagenes/ProyectosMateriales/leeloFacil.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/leeloFacil.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/leeloFacil.png  used on i
-nput line 302.
+nput line 305.
 (pdftex.def)             Requested size: 323.9978pt x 242.6337pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/simplext.png, id=717, 1424.32124pt x 729.47531pt>
+<Imagenes/ProyectosMateriales/simplext.png, id=721, 1424.32124pt x 729.47531pt>
 
 File: Imagenes/ProyectosMateriales/simplext.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simplext.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simplext.png  used on inp
-ut line 315.
+ut line 318.
 (pdftex.def)             Requested size: 360.0pt x 184.37193pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
 [][][][]\T1/cmr/m/n/9 Descarga de la apli-ca-ción ``Fren-te al ais-la-mien-to. 
 Nos co-nec-ta-mos'' en
  []
@@ -1307,81 +1305,81 @@ Nos co-nec-ta-mos'' en
 
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 323.
-LaTeX Info: Redefining \% on input line 323.
- [19 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMater
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
+ [18 <./Imagenes/ProyectosMateriales/dytective1.png> <./Imagenes/ProyectosMater
 iales/dytective.png>]
-<Imagenes/ProyectosMateriales/plenaInclusion.png, id=730, 310.91156pt x 450.181
+<Imagenes/ProyectosMateriales/plenaInclusion.png, id=734, 310.91156pt x 450.181
 87pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion.png  used 
-on input line 331.
+on input line 334.
 (pdftex.def)             Requested size: 180.0pt x 260.63168pt.
-<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=731, 312.41719pt x 447.17
+<Imagenes/ProyectosMateriales/plenaInclusion1.png, id=735, 312.41719pt x 447.17
 062pt>
 File: Imagenes/ProyectosMateriales/plenaInclusion1.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/plenaInclusion1.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/plenaInclusion1.png  used
- on input line 334.
+ on input line 337.
 (pdftex.def)             Requested size: 180.0pt x 257.6465pt.
 
-Overfull \hbox (14.52216pt too wide) in paragraph at lines 331--335
+Overfull \hbox (14.52216pt too wide) in paragraph at lines 334--338
  [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/ProyectosMateriales/capito.png, id=735, 1431.09656pt x 728.7225pt>
+<Imagenes/ProyectosMateriales/capito.png, id=739, 1431.09656pt x 728.7225pt>
 File: Imagenes/ProyectosMateriales/capito.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/capito.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/capito.png  used on input
- line 347.
+ line 350.
 (pdftex.def)             Requested size: 288.0011pt x 146.6537pt.
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
-[20 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
+LaTeX Info: Redefining \. on input line 354.
+LaTeX Info: Redefining \% on input line 354.
+[19 <./Imagenes/ProyectosMateriales/leeloFacil.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 362.
-LaTeX Info: Redefining \% on input line 362.
-[21 <./Imagenes/ProyectosMateriales/simplext.png>]
-<Imagenes/ProyectosMateriales/simpatico.png, id=751, 1434.10782pt x 727.96968pt
+LaTeX Info: Redefining \. on input line 365.
+LaTeX Info: Redefining \% on input line 365.
+[20 <./Imagenes/ProyectosMateriales/simplext.png>]
+<Imagenes/ProyectosMateriales/simpatico.png, id=755, 1434.10782pt x 727.96968pt
 >
 File: Imagenes/ProyectosMateriales/simpatico.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/simpatico.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/simpatico.png  used on in
-put line 366.
+put line 369.
 (pdftex.def)             Requested size: 360.0pt x 182.7362pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
-[22 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
+LaTeX Info: Redefining \. on input line 383.
+LaTeX Info: Redefining \% on input line 383.
+[21 <./Imagenes/ProyectosMateriales/plenaInclusion.png> <./Imagenes/ProyectosMa
 teriales/plenaInclusion1.png>]
-<Imagenes/ProyectosMateriales/openBook.png, id=765, 615.80063pt x 598.48593pt>
+<Imagenes/ProyectosMateriales/openBook.png, id=769, 615.80063pt x 598.48593pt>
 File: Imagenes/ProyectosMateriales/openBook.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/openBook.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/openBook.png  used on inp
-ut line 384.
+ut line 387.
 (pdftex.def)             Requested size: 216.0022pt x 209.92068pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 392.
-LaTeX Info: Redefining \% on input line 392.
-[23 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriales
+LaTeX Info: Redefining \. on input line 395.
+LaTeX Info: Redefining \% on input line 395.
+[22 <./Imagenes/ProyectosMateriales/capito.png> <./Imagenes/ProyectosMateriales
 /simpatico.png>]
-<Imagenes/ProyectosMateriales/wheris.png, id=775, 173.14688pt x 371.88937pt>
+<Imagenes/ProyectosMateriales/wheris.png, id=778, 173.14688pt x 371.88937pt>
 File: Imagenes/ProyectosMateriales/wheris.png Graphic file (type png)
 <use Imagenes/ProyectosMateriales/wheris.png>
 Package pdftex.def Info: Imagenes/ProyectosMateriales/wheris.png  used on input
- line 397.
+ line 400.
 (pdftex.def)             Requested size: 180.0pt x 386.61963pt.
 
 
@@ -1390,94 +1388,88 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
- [24 <./Imagenes/ProyectosMateriales/openBook.png>]
+ [23 <./Imagenes/ProyectosMateriales/openBook.png>]
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
- [25 <./Imagenes/ProyectosMateriales/wheris.png>]
+ [24 <./Imagenes/ProyectosMateriales/wheris.png>]
 \openout2 = `Capitulos/Herramientas.aux'.
 
- (Capitulos/Herramientas.tex [26
+ (Capitulos/Herramientas.tex
+Cap\'itulo 3.
+[25
 
 
 
 
 ]
-Cap\'itulo 3.
-[27]
-<Imagenes/Figuras/Flask.png, id=798, 198.24063pt x 143.53625pt>
-File: Imagenes/Figuras/Flask.png Graphic file (type png)
-<use Imagenes/Figuras/Flask.png>
-Package pdftex.def Info: Imagenes/Figuras/Flask.png  used on input line 31.
-(pdftex.def)             Requested size: 178.41492pt x 129.18141pt.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
- [28 <./Imagenes/Figuras/Flask.png>]
-<Imagenes/Figuras/dependenciaSpacy.png, id=810, 276.03125pt x 136.00812pt>
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [26]
+<Imagenes/Figuras/dependenciaSpacy.png, id=809, 276.03125pt x 136.00812pt>
 File: Imagenes/Figuras/dependenciaSpacy.png Graphic file (type png)
 <use Imagenes/Figuras/dependenciaSpacy.png>
 Package pdftex.def Info: Imagenes/Figuras/dependenciaSpacy.png  used on input l
-ine 62.
+ine 60.
 (pdftex.def)             Requested size: 276.03056pt x 136.00778pt.
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+ [27 <./Imagenes/Figuras/dependenciaSpacy.png>]
+LaTeX Info: Redefining \. on input line 96.
+LaTeX Info: Redefining \% on input line 96.
+ [28]
+<Imagenes/Figuras/apiNil.png, id=829, 518.43687pt x 241.90375pt>
+File: Imagenes/Figuras/apiNil.png Graphic file (type png)
+<use Imagenes/Figuras/apiNil.png>
+Package pdftex.def Info: Imagenes/Figuras/apiNil.png  used on input line 104.
+(pdftex.def)             Requested size: 362.90332pt x 169.33147pt.
+
+Overfull \hbox (2.90332pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
+<Imagenes/Figuras/postman.png, id=832, 613.29124pt x 302.12875pt>
+File: Imagenes/Figuras/postman.png Graphic file (type png)
+<use Imagenes/Figuras/postman.png>
+Package pdftex.def Info: Imagenes/Figuras/postman.png  used on input line 121.
+(pdftex.def)             Requested size: 367.97757pt x 181.27864pt.
+
+Overfull \hbox (7.97757pt too wide) in paragraph at lines 121--122
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-[29]
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
- [30 <./Imagenes/Figuras/dependenciaSpacy.png>]
-<Imagenes/Figuras/apiNil.png, id=832, 518.43687pt x 241.90375pt>
-File: Imagenes/Figuras/apiNil.png Graphic file (type png)
-<use Imagenes/Figuras/apiNil.png>
-Package pdftex.def Info: Imagenes/Figuras/apiNil.png  used on input line 106.
-(pdftex.def)             Requested size: 362.90332pt x 169.33147pt.
-
-Overfull \hbox (2.90332pt too wide) in paragraph at lines 106--107
- [][] 
- []
-
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
-[31 <./Imagenes/Figuras/apiNil.png>]
-<Imagenes/Figuras/postman.png, id=840, 613.29124pt x 302.12875pt>
-File: Imagenes/Figuras/postman.png Graphic file (type png)
-<use Imagenes/Figuras/postman.png>
-Package pdftex.def Info: Imagenes/Figuras/postman.png  used on input line 123.
-(pdftex.def)             Requested size: 367.97757pt x 181.27864pt.
-
-Overfull \hbox (7.97757pt too wide) in paragraph at lines 123--124
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
- [32 <./Imagenes/Figuras/postman.png>]
-<Imagenes/Figuras/pycharm.png, id=850, 715.92468pt x 452.4403pt>
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+[29 <./Imagenes/Figuras/apiNil.png>]
+<Imagenes/Figuras/pycharm.png, id=843, 715.92468pt x 452.4403pt>
 File: Imagenes/Figuras/pycharm.png Graphic file (type png)
 <use Imagenes/Figuras/pycharm.png>
-Package pdftex.def Info: Imagenes/Figuras/pycharm.png  used on input line 143.
+Package pdftex.def Info: Imagenes/Figuras/pycharm.png  used on input line 141.
 (pdftex.def)             Requested size: 357.96146pt x 226.2196pt.
 )
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Info: Redefining \. on input line 227.
 LaTeX Info: Redefining \% on input line 227.
- [33 <./Imagenes/Figuras/pycharm.png>]
+[30 <./Imagenes/Figuras/postman.png>]
+LaTeX Info: Redefining \. on input line 227.
+LaTeX Info: Redefining \% on input line 227.
+ [31 <./Imagenes/Figuras/pycharm.png>]
 \openout2 = `Capitulos/AsistenteWebInteractivo.aux'.
 
 
-(Capitulos/AsistenteWebInteractivo.tex [34
+(Capitulos/AsistenteWebInteractivo.tex [32
 
 
 
 
 ]
 Cap\'itulo 4.
-[35]
-<Imagenes/Figuras/InterfazInicial.png, id=872, 427.5975pt x 374.90062pt>
+[33]
+<Imagenes/Figuras/InterfazInicial.png, id=869, 427.5975pt x 374.90062pt>
 File: Imagenes/Figuras/InterfazInicial.png Graphic file (type png)
 <use Imagenes/Figuras/InterfazInicial.png>
 Package pdftex.def Info: Imagenes/Figuras/InterfazInicial.png  used on input li
@@ -1499,8 +1491,8 @@ Make it at least 25.22652pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[36]
-<Imagenes/Figuras/PanelIzquierdo.png, id=879, 367.87437pt x 481.29813pt>
+[34]
+<Imagenes/Figuras/PanelIzquierdo.png, id=876, 367.87437pt x 481.29813pt>
 File: Imagenes/Figuras/PanelIzquierdo.png Graphic file (type png)
 <use Imagenes/Figuras/PanelIzquierdo.png>
 Package pdftex.def Info: Imagenes/Figuras/PanelIzquierdo.png  used on input lin
@@ -1510,7 +1502,7 @@ e 60.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/Resumen.png, id=882, 574.145pt x 262.48062pt>
+<Imagenes/Figuras/Resumen.png, id=879, 574.145pt x 262.48062pt>
 File: Imagenes/Figuras/Resumen.png Graphic file (type png)
 <use Imagenes/Figuras/Resumen.png>
 Package pdftex.def Info: Imagenes/Figuras/Resumen.png  used on input line 72.
@@ -1522,11 +1514,11 @@ Overfull \hbox (41.89876pt too wide) in paragraph at lines 72--73
 
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
-[37 <./Imagenes/Figuras/InterfazInicial.png>]
+[35 <./Imagenes/Figuras/InterfazInicial.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/TextoCompleto.png, id=888, 565.61313pt x 455.7025pt>
+<Imagenes/Figuras/TextoCompleto.png, id=886, 565.61313pt x 455.7025pt>
 File: Imagenes/Figuras/TextoCompleto.png Graphic file (type png)
 <use Imagenes/Figuras/TextoCompleto.png>
 Package pdftex.def Info: Imagenes/Figuras/TextoCompleto.png  used on input line
@@ -1542,14 +1534,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
-[38 <./Imagenes/Figuras/PanelIzquierdo.png>]
+[36 <./Imagenes/Figuras/PanelIzquierdo.png>]
 
-LaTeX Warning: Text page 39 contains only floats.
+LaTeX Warning: Text page 37 contains only floats.
 
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
-[39 <./Imagenes/Figuras/Resumen.png> <./Imagenes/Figuras/TextoCompleto.png>]
-<Imagenes/Figuras/arbol.png, id=908, 630.355pt x 306.64563pt>
+[37 <./Imagenes/Figuras/Resumen.png> <./Imagenes/Figuras/TextoCompleto.png>]
+<Imagenes/Figuras/arbol.png, id=906, 630.355pt x 306.64563pt>
 File: Imagenes/Figuras/arbol.png Graphic file (type png)
 <use Imagenes/Figuras/arbol.png>
 Package pdftex.def Info: Imagenes/Figuras/arbol.png  used on input line 106.
@@ -1559,13 +1551,13 @@ Overfull \hbox (18.21591pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-<Imagenes/Figuras/botonesFuncionales.png, id=909, 308.65312pt x 189.70876pt>
+<Imagenes/Figuras/botonesFuncionales.png, id=907, 308.65312pt x 189.70876pt>
 File: Imagenes/Figuras/botonesFuncionales.png Graphic file (type png)
 <use Imagenes/Figuras/botonesFuncionales.png>
 Package pdftex.def Info: Imagenes/Figuras/botonesFuncionales.png  used on input
  line 112.
 (pdftex.def)             Requested size: 308.65236pt x 189.70828pt.
-<Imagenes/Figuras/borradorTextoFinal.png, id=910, 339.2675pt x 325.215pt>
+<Imagenes/Figuras/borradorTextoFinal.png, id=908, 339.2675pt x 325.215pt>
 File: Imagenes/Figuras/borradorTextoFinal.png Graphic file (type png)
 <use Imagenes/Figuras/borradorTextoFinal.png>
 Package pdftex.def Info: Imagenes/Figuras/borradorTextoFinal.png  used on input
@@ -1579,8 +1571,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
-[40 <./Imagenes/Figuras/arbol.png>]
-<Imagenes/Figuras/palabrasComplejas.png, id=917, 540.0175pt x 254.45062pt>
+[38 <./Imagenes/Figuras/arbol.png>]
+<Imagenes/Figuras/palabrasComplejas.png, id=915, 540.0175pt x 254.45062pt>
 File: Imagenes/Figuras/palabrasComplejas.png Graphic file (type png)
 <use Imagenes/Figuras/palabrasComplejas.png>
 Package pdftex.def Info: Imagenes/Figuras/palabrasComplejas.png  used on input 
@@ -1590,7 +1582,7 @@ line 134.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/EleccionIntercambio.png, id=921, 168.12813pt x 139.01938pt>
+<Imagenes/Figuras/EleccionIntercambio.png, id=919, 168.12813pt x 139.01938pt>
 File: Imagenes/Figuras/EleccionIntercambio.png Graphic file (type png)
 <use Imagenes/Figuras/EleccionIntercambio.png>
 Package pdftex.def Info: Imagenes/Figuras/EleccionIntercambio.png  used on inpu
@@ -1599,7 +1591,7 @@ t line 150.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/IntercambioArbol.png, id=922, 158.5925pt x 132.495pt>
+<Imagenes/Figuras/IntercambioArbol.png, id=920, 158.5925pt x 132.495pt>
 File: Imagenes/Figuras/IntercambioArbol.png Graphic file (type png)
 <use Imagenes/Figuras/IntercambioArbol.png>
 Package pdftex.def Info: Imagenes/Figuras/IntercambioArbol.png  used on input l
@@ -1608,7 +1600,7 @@ ine 160.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/BorradorIntercambio.png, id=923, 326.72063pt x 64.24pt>
+<Imagenes/Figuras/BorradorIntercambio.png, id=921, 326.72063pt x 64.24pt>
 File: Imagenes/Figuras/BorradorIntercambio.png Graphic file (type png)
 <use Imagenes/Figuras/BorradorIntercambio.png>
 Package pdftex.def Info: Imagenes/Figuras/BorradorIntercambio.png  used on inpu
@@ -1622,15 +1614,15 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 178.
 LaTeX Info: Redefining \% on input line 178.
- [41 <./Imagenes/Figuras/botonesFuncionales.png>]
+ [39 <./Imagenes/Figuras/botonesFuncionales.png>]
 Overfull \vbox (10.55559pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 178.
 LaTeX Info: Redefining \% on input line 178.
 
-[42 <./Imagenes/Figuras/borradorTextoFinal.png> <./Imagenes/Figuras/palabrasCom
+[40 <./Imagenes/Figuras/borradorTextoFinal.png> <./Imagenes/Figuras/palabrasCom
 plejas.png>]
-<Imagenes/Figuras/SinonimoPersona.png, id=937, 216.30812pt x 169.13188pt>
+<Imagenes/Figuras/SinonimoPersona.png, id=934, 216.30812pt x 169.13188pt>
 File: Imagenes/Figuras/SinonimoPersona.png Graphic file (type png)
 <use Imagenes/Figuras/SinonimoPersona.png>
 Package pdftex.def Info: Imagenes/Figuras/SinonimoPersona.png  used on input li
@@ -1642,15 +1634,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 191.
 LaTeX Info: Redefining \% on input line 191.
-[43 <./Imagenes/Figuras/EleccionIntercambio.png> <./Imagenes/Figuras/Intercambi
+[41 <./Imagenes/Figuras/EleccionIntercambio.png> <./Imagenes/Figuras/Intercambi
 oArbol.png> <./Imagenes/Figuras/BorradorIntercambio.png>]
-<Imagenes/Figuras/EditarSinonimo.png, id=946, 215.80624pt x 169.13188pt>
+<Imagenes/Figuras/EditarSinonimo.png, id=944, 215.80624pt x 169.13188pt>
 File: Imagenes/Figuras/EditarSinonimo.png Graphic file (type png)
 <use Imagenes/Figuras/EditarSinonimo.png>
 Package pdftex.def Info: Imagenes/Figuras/EditarSinonimo.png  used on input lin
 e 197.
 (pdftex.def)             Requested size: 215.80571pt x 169.13145pt.
-<Imagenes/Figuras/modalSinonimos.png, id=949, 198.24063pt x 67.75313pt>
+<Imagenes/Figuras/modalSinonimos.png, id=947, 198.24063pt x 67.75313pt>
 File: Imagenes/Figuras/modalSinonimos.png Graphic file (type png)
 <use Imagenes/Figuras/modalSinonimos.png>
 Package pdftex.def Info: Imagenes/Figuras/modalSinonimos.png  used on input lin
@@ -1660,7 +1652,7 @@ e 209.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/CambioSinonimoArbolBorrador.png, id=950, 389.455pt x 194.7275
+<Imagenes/Figuras/CambioSinonimoArbolBorrador.png, id=948, 389.455pt x 194.7275
 pt>
 File: Imagenes/Figuras/CambioSinonimoArbolBorrador.png Graphic file (type png)
 <use Imagenes/Figuras/CambioSinonimoArbolBorrador.png>
@@ -1675,19 +1667,19 @@ Overfull \hbox (29.45404pt too wide) in paragraph at lines 220--221
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Figuras/EleccionEliminacion.png, id=953, 591.71063pt x 254.9525pt>
+<Imagenes/Figuras/EleccionEliminacion.png, id=951, 591.71063pt x 254.9525pt>
 File: Imagenes/Figuras/EleccionEliminacion.png Graphic file (type png)
 <use Imagenes/Figuras/EleccionEliminacion.png>
 Package pdftex.def Info: Imagenes/Figuras/EleccionEliminacion.png  used on inpu
 t line 233.
 (pdftex.def)             Requested size: 355.02911pt x 152.97266pt.
-<Imagenes/Figuras/EliminacionSubarbol.png, id=954, 349.80687pt x 158.5925pt>
+<Imagenes/Figuras/EliminacionSubarbol.png, id=952, 349.80687pt x 158.5925pt>
 File: Imagenes/Figuras/EliminacionSubarbol.png Graphic file (type png)
 <use Imagenes/Figuras/EliminacionSubarbol.png>
 Package pdftex.def Info: Imagenes/Figuras/EliminacionSubarbol.png  used on inpu
 t line 243.
 (pdftex.def)             Requested size: 314.82327pt x 142.7319pt.
-<Imagenes/Figuras/BorradorEliminacion.png, id=956, 334.24875pt x 67.25125pt>
+<Imagenes/Figuras/BorradorEliminacion.png, id=954, 334.24875pt x 67.25125pt>
 File: Imagenes/Figuras/BorradorEliminacion.png Graphic file (type png)
 <use Imagenes/Figuras/BorradorEliminacion.png>
 Package pdftex.def Info: Imagenes/Figuras/BorradorEliminacion.png  used on inpu
@@ -1698,7 +1690,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 260.
 LaTeX Info: Redefining \% on input line 260.
- [44 <./Imagenes/Figuras/SinonimoPersona.png> <./Imagenes/Figuras/EditarSinonim
+ [42 <./Imagenes/Figuras/SinonimoPersona.png> <./Imagenes/Figuras/EditarSinonim
 o.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1711,15 +1703,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 264.
 LaTeX Info: Redefining \% on input line 264.
-[45 <./Imagenes/Figuras/modalSinonimos.png> <./Imagenes/Figuras/CambioSinonimoA
+[43 <./Imagenes/Figuras/modalSinonimos.png> <./Imagenes/Figuras/CambioSinonimoA
 rbolBorrador.png>]
-<Imagenes/Figuras/DefinicionesPersonas.png, id=971, 211.28937pt x 170.13562pt>
+<Imagenes/Figuras/DefinicionesPersonas.png, id=969, 211.28937pt x 170.13562pt>
 File: Imagenes/Figuras/DefinicionesPersonas.png Graphic file (type png)
 <use Imagenes/Figuras/DefinicionesPersonas.png>
 Package pdftex.def Info: Imagenes/Figuras/DefinicionesPersonas.png  used on inp
 ut line 269.
 (pdftex.def)             Requested size: 169.03172pt x 136.10867pt.
-<Imagenes/Figuras/GlosarioBorrador.png, id=972, 489.32813pt x 151.56625pt>
+<Imagenes/Figuras/GlosarioBorrador.png, id=970, 489.32813pt x 151.56625pt>
 File: Imagenes/Figuras/GlosarioBorrador.png Graphic file (type png)
 <use Imagenes/Figuras/GlosarioBorrador.png>
 Package pdftex.def Info: Imagenes/Figuras/GlosarioBorrador.png  used on input l
@@ -1732,24 +1724,24 @@ Overfull \hbox (31.46303pt too wide) in paragraph at lines 279--280
 
 LaTeX Info: Redefining \. on input line 285.
 LaTeX Info: Redefining \% on input line 285.
-[46 <./Imagenes/Figuras/EleccionEliminacion.png> <./Imagenes/Figuras/Eliminacio
+[44 <./Imagenes/Figuras/EleccionEliminacion.png> <./Imagenes/Figuras/Eliminacio
 nSubarbol.png> <./Imagenes/Figuras/BorradorEliminacion.png>]
-<Imagenes/Figuras/verResultado.png, id=982, 502.87875pt x 326.21875pt>
+<Imagenes/Figuras/verResultado.png, id=980, 502.87875pt x 326.21875pt>
 File: Imagenes/Figuras/verResultado.png Graphic file (type png)
 <use Imagenes/Figuras/verResultado.png>
 Package pdftex.def Info: Imagenes/Figuras/verResultado.png  used on input line 
-292.
+293.
 (pdftex.def)             Requested size: 402.30354pt x 260.97534pt.
 
-Overfull \hbox (42.30354pt too wide) in paragraph at lines 292--293
+Overfull \hbox (42.30354pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
-<Imagenes/Figuras/PanelDerecho.png, id=983, 356.83313pt x 481.8pt>
+<Imagenes/Figuras/PanelDerecho.png, id=981, 356.83313pt x 481.8pt>
 File: Imagenes/Figuras/PanelDerecho.png Graphic file (type png)
 <use Imagenes/Figuras/PanelDerecho.png>
 Package pdftex.def Info: Imagenes/Figuras/PanelDerecho.png  used on input line 
-302.
+303.
 (pdftex.def)             Requested size: 285.46687pt x 385.4405pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1760,24 +1752,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 )
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
- [47 <./Imagenes/Figuras/DefinicionesPersonas.png> <./Imagenes/Figuras/Glosario
+ [45 <./Imagenes/Figuras/DefinicionesPersonas.png> <./Imagenes/Figuras/Glosario
 Borrador.png>]
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
- [48 <./Imagenes/Figuras/verResultado.png>]
+ [46 <./Imagenes/Figuras/verResultado.png>]
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
- [49 <./Imagenes/Figuras/PanelDerecho.png>]
+ [47 <./Imagenes/Figuras/PanelDerecho.png>]
 \openout2 = `Capitulos/Implementacion.aux'.
 
- (Capitulos/Implementacion.tex [50
+ (Capitulos/Implementacion.tex [48
 
 
 
 
 ]
 Cap\'itulo 5.
-<Imagenes/Figuras/Project-Structure.png, id=1007, 334.75063pt x 214.30063pt>
+<Imagenes/Figuras/Project-Structure.png, id=1005, 334.75063pt x 214.30063pt>
 File: Imagenes/Figuras/Project-Structure.png Graphic file (type png)
 <use Imagenes/Figuras/Project-Structure.png>
 Package pdftex.def Info: Imagenes/Figuras/Project-Structure.png  used on input 
@@ -1794,20 +1786,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [49]
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
 
-[52 <./Imagenes/Figuras/Project-Structure.png>]
-<Imagenes/Figuras/rest_api.png, id=1020, 789.95125pt x 318.18875pt>
+[50 <./Imagenes/Figuras/Project-Structure.png>]
+<Imagenes/Figuras/rest_api.png, id=1018, 789.95125pt x 318.18875pt>
 File: Imagenes/Figuras/rest_api.png Graphic file (type png)
 <use Imagenes/Figuras/rest_api.png>
 Package pdftex.def Info: Imagenes/Figuras/rest_api.png  used on input line 48.
 (pdftex.def)             Requested size: 315.9749pt x 127.27324pt.
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
- [53 <./Imagenes/Figuras/rest_api.png>]
-<Imagenes/Figuras/ArquitecturaAsistenteR.png, id=1029, 477.28313pt x 368.37625p
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [51 <./Imagenes/Figuras/rest_api.png>]
+<Imagenes/Figuras/ArquitecturaAsistenteR.png, id=1026, 477.28313pt x 368.37625p
 t>
 File: Imagenes/Figuras/ArquitecturaAsistenteR.png Graphic file (type png)
 <use Imagenes/Figuras/ArquitecturaAsistenteR.png>
@@ -1819,10 +1811,10 @@ Overfull \hbox (69.55084pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
-[54 <./Imagenes/Figuras/ArquitecturaAsistenteR.png>]
-<Imagenes/Figuras/APISencilla.png, id=1040, 394.47375pt x 299.1175pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Figuras/APISencilla.png, id=1032, 394.47375pt x 299.1175pt>
 File: Imagenes/Figuras/APISencilla.png Graphic file (type png)
 <use Imagenes/Figuras/APISencilla.png>
 Package pdftex.def Info: Imagenes/Figuras/APISencilla.png  used on input line 1
@@ -1833,7 +1825,10 @@ Overfull \hbox (34.47278pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
-<Imagenes/Figuras/ApiDefinicion.png, id=1042, 389.455pt x 347.2975pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Imagenes/Figuras/ApiDefinicion.png, id=1034, 389.455pt x 347.2975pt>
 File: Imagenes/Figuras/ApiDefinicion.png Graphic file (type png)
 <use Imagenes/Figuras/ApiDefinicion.png>
 Package pdftex.def Info: Imagenes/Figuras/ApiDefinicion.png  used on input line
@@ -1844,10 +1839,13 @@ Overfull \hbox (29.45404pt too wide) in paragraph at lines 130--131
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
-[55 <./Imagenes/Figuras/APISencilla.png>]
-<Imagenes/Figuras/APISinonimos.png, id=1058, 396.48125pt x 356.83313pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+[52]
+<Imagenes/Figuras/APISinonimos.png, id=1049, 396.48125pt x 356.83313pt>
 File: Imagenes/Figuras/APISinonimos.png Graphic file (type png)
 <use Imagenes/Figuras/APISinonimos.png>
 Package pdftex.def Info: Imagenes/Figuras/APISinonimos.png  used on input line 
@@ -1861,43 +1859,47 @@ Overfull \hbox (36.48027pt too wide) in paragraph at lines 155--156
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \. on input line 164.
-LaTeX Info: Redefining \% on input line 164.
-[56 <./Imagenes/Figuras/ApiDefinicion.png>]
-Underfull \vbox (badness 2626) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
- [57 <./Imagenes/Figuras/APISinonimos.png>]
-LaTeX Info: Redefining \. on input line 197.
-LaTeX Info: Redefining \% on input line 197.
- [58]
-LaTeX Info: Redefining \. on input line 216.
-LaTeX Info: Redefining \% on input line 216.
- [59]
-LaTeX Info: Redefining \. on input line 246.
-LaTeX Info: Redefining \% on input line 246.
- [60]
-LaTeX Info: Redefining \. on input line 270.
-LaTeX Info: Redefining \% on input line 270.
- [61]
-LaTeX Info: Redefining \. on input line 305.
-LaTeX Info: Redefining \% on input line 305.
- [62]
-LaTeX Info: Redefining \. on input line 353.
-LaTeX Info: Redefining \% on input line 353.
- [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 396.
-LaTeX Info: Redefining \% on input line 396.
- [64]
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+ [53 <./Imagenes/Figuras/ArquitecturaAsistenteR.png>]
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
+ [54 <./Imagenes/Figuras/APISencilla.png>]
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
+ [55 <./Imagenes/Figuras/ApiDefinicion.png>]
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
+ [56 <./Imagenes/Figuras/APISinonimos.png>]
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
+ [57]
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
+ [58]
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
+ [59]
+LaTeX Info: Redefining \. on input line 295.
+LaTeX Info: Redefining \% on input line 295.
+ [60]
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+ [61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 386.
+LaTeX Info: Redefining \% on input line 386.
+ [62]
 Overfull \hbox (15.1665pt too wide) in paragraph at lines 400--400
 [][][]\T1/cmr/m/n/9 Para más in-for-ma-ción []https://es.wikipedia.org/wiki/B%C
 3%BAsqueda_en_profundidad[]| 
  []
 
-<Imagenes/Figuras/diagramaBFS.png, id=1245, 475.27562pt x 366.36874pt>
+<Imagenes/Figuras/diagramaBFS.png, id=1233, 475.27562pt x 366.36874pt>
 File: Imagenes/Figuras/diagramaBFS.png Graphic file (type png)
 <use Imagenes/Figuras/diagramaBFS.png>
 Package pdftex.def Info: Imagenes/Figuras/diagramaBFS.png  used on input line 4
@@ -1908,10 +1910,13 @@ Overfull \hbox (20.22101pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 414.
-LaTeX Info: Redefining \% on input line 414.
-[65 <./Imagenes/Figuras/diagramaBFS.png>]
-<Imagenes/Figuras/IntercambioPaso1_y_2.png, id=1259, 317.68687pt x 303.63437pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 425.
+LaTeX Info: Redefining \% on input line 425.
+[63]
+<Imagenes/Figuras/IntercambioPaso1_y_2.png, id=1255, 317.68687pt x 303.63437pt>
 
 File: Imagenes/Figuras/IntercambioPaso1_y_2.png Graphic file (type png)
 <use Imagenes/Figuras/IntercambioPaso1_y_2.png>
@@ -1923,7 +1928,7 @@ Overfull \hbox (21.22232pt too wide) in paragraph at lines 432--433
  [][] 
  []
 
-<Imagenes/Figuras/IntercambioPaso3_y_4.png, id=1260, 331.73938pt x 234.37563pt>
+<Imagenes/Figuras/IntercambioPaso3_y_4.png, id=1256, 331.73938pt x 234.37563pt>
 
 File: Imagenes/Figuras/IntercambioPaso3_y_4.png Graphic file (type png)
 <use Imagenes/Figuras/IntercambioPaso3_y_4.png>
@@ -1935,21 +1940,21 @@ Overfull \hbox (4.91443pt too wide) in paragraph at lines 442--443
  [][] 
  []
 
-<Imagenes/Figuras/IntercambioPaso5.png, id=1261, 319.69438pt x 188.705pt>
+<Imagenes/Figuras/IntercambioPaso5.png, id=1257, 319.69438pt x 188.705pt>
 File: Imagenes/Figuras/IntercambioPaso5.png Graphic file (type png)
 <use Imagenes/Figuras/IntercambioPaso5.png>
 Package pdftex.def Info: Imagenes/Figuras/IntercambioPaso5.png  used on input l
 ine 452.
 (pdftex.def)             Requested size: 351.66489pt x 207.57613pt.
-<Imagenes/Figuras/IntercambioPaso6.png, id=1262, 170.13562pt x 219.82124pt>
+<Imagenes/Figuras/IntercambioPaso6.png, id=1258, 170.13562pt x 219.82124pt>
 File: Imagenes/Figuras/IntercambioPaso6.png Graphic file (type png)
 <use Imagenes/Figuras/IntercambioPaso6.png>
 Package pdftex.def Info: Imagenes/Figuras/IntercambioPaso6.png  used on input l
 ine 462.
 (pdftex.def)             Requested size: 221.17627pt x 285.76756pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+LaTeX Info: Redefining \. on input line 468.
+LaTeX Info: Redefining \% on input line 468.
+[64 <./Imagenes/Figuras/diagramaBFS.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1961,35 +1966,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 480.
 LaTeX Info: Redefining \% on input line 480.
-[66]
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
- [67 <./Imagenes/Figuras/IntercambioPaso1_y_2.png>]
+[65 <./Imagenes/Figuras/IntercambioPaso1_y_2.png>]
 Underfull \vbox (badness 3439) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
- [68 <./Imagenes/Figuras/IntercambioPaso3_y_4.png> <./Imagenes/Figuras/Intercam
+LaTeX Info: Redefining \. on input line 481.
+LaTeX Info: Redefining \% on input line 481.
+ [66 <./Imagenes/Figuras/IntercambioPaso3_y_4.png> <./Imagenes/Figuras/Intercam
 bioPaso5.png>]
-LaTeX Info: Redefining \. on input line 502.
-LaTeX Info: Redefining \% on input line 502.
- [69 <./Imagenes/Figuras/IntercambioPaso6.png>]
-LaTeX Info: Redefining \. on input line 539.
-LaTeX Info: Redefining \% on input line 539.
- [70]
-LaTeX Info: Redefining \. on input line 574.
-LaTeX Info: Redefining \% on input line 574.
- [71]
-LaTeX Info: Redefining \. on input line 619.
-LaTeX Info: Redefining \% on input line 619.
- [72])
+LaTeX Info: Redefining \. on input line 498.
+LaTeX Info: Redefining \% on input line 498.
+ [67 <./Imagenes/Figuras/IntercambioPaso6.png>]
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
+ [68]
+LaTeX Info: Redefining \. on input line 566.
+LaTeX Info: Redefining \% on input line 566.
+ [69]
+LaTeX Info: Redefining \. on input line 612.
+LaTeX Info: Redefining \% on input line 612.
+ [70])
 LaTeX Info: Redefining \. on input line 230.
 LaTeX Info: Redefining \% on input line 230.
- [73]
+ [71]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
 
-(Capitulos/ConclusionesTrabajoFuturo.tex [74
+(Capitulos/ConclusionesTrabajoFuturo.tex [72
 
 
 
@@ -1999,21 +2001,24 @@ Cap\'itulo 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
+ [73]
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+
+[74])
 LaTeX Info: Redefining \. on input line 232.
 LaTeX Info: Redefining \% on input line 232.
-
-[76]
+ [75]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
- (Capitulos/ConclusionsFutureWork.tex
-Chapter 6.
-) [77
+ (Capitulos/ConclusionsFutureWork.tex [76
 
 
 
 
 ]
+Chapter 6.
+) [77]
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
 \openout2 = `Capitulos/TrabajoIndividual.aux'.
@@ -2029,20 +2034,26 @@ Cap\'itulo 7.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79]
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[80])
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [81])
 LaTeX Info: Redefining \. on input line 237.
 LaTeX Info: Redefining \% on input line 237.
- [81] [82
 
-
-
-]
+[82]
 \openout2 = `Cascaras/bibliografia.aux'.
 
  (Cascaras/bibliografia.tex (TFGLecturaFacil.bbl [83
+
+
+
 
 
 ]))
@@ -2073,16 +2084,16 @@ LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
  (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
-(rerunfilecheck)             Checksum: 821A86277254F97AA0DDD3F0BED5D5AB;4737.
+(rerunfilecheck)             Checksum: 3EFFAFC99F4FB4C2E3AAE45AD8F4BEA8;4861.
  ) 
 Here is how much of TeX's memory you used:
- 16640 strings out of 480257
- 282965 string characters out of 2880021
- 884238 words of memory out of 3000000
- 31964 multiletter control sequences out of 15000+200000
+ 16633 strings out of 480257
+ 282748 string characters out of 2880021
+ 931238 words of memory out of 3000000
+ 31957 multiletter control sequences out of 15000+200000
  556598 words of font info for 66 fonts, out of 3000000 for 9000
  1379 hyphenation exceptions out of 8191
- 90i,12n,92p,1159b,2216s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 90i,12n,92p,1159b,2196s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 cti1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\tcrm1000.pk> <C:\Users\egilruiz\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
@@ -2109,9 +2120,9 @@ s/cm/cmr10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on TFGLecturaFacil.pdf (104 pages, 6302059 bytes).
+Output written on TFGLecturaFacil.pdf (104 pages, 6247750 bytes).
 PDF statistics:
- 2321 PDF objects out of 2487 (max. 8388607)
- 491 named destinations out of 1000 (max. 500000)
- 775 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2339 PDF objects out of 2487 (max. 8388607)
+ 492 named destinations out of 1000 (max. 500000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 

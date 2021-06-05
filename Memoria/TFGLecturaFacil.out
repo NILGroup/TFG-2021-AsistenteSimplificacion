@@ -33,31 +33,33 @@
 \BOOKMARK [2][-]{subsection.75}{Wheris }{section.50}% 33
 \BOOKMARK [0][-]{chapter.78}{Herramientas y tecnolog\355as utilizadas}{}% 34
 \BOOKMARK [1][-]{section.79}{Flask}{chapter.78}% 35
-\BOOKMARK [1][-]{section.83}{spaCy}{chapter.78}% 36
-\BOOKMARK [1][-]{section.87}{NIL-WS-API}{chapter.78}% 37
-\BOOKMARK [1][-]{section.91}{Postman}{chapter.78}% 38
-\BOOKMARK [1][-]{section.94}{PyCharm}{chapter.78}% 39
-\BOOKMARK [0][-]{chapter.97}{Asistente web interactivo para la simplificaci\363n de textos a Lectura F\341cil}{}% 40
-\BOOKMARK [1][-]{section.98}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.97}% 41
-\BOOKMARK [1][-]{section.99}{Introducci\363n de texto y selecci\363n de frases}{chapter.97}% 42
-\BOOKMARK [1][-]{section.104}{Adaptaciones sobre frases}{chapter.97}% 43
-\BOOKMARK [2][-]{subsection.108}{Palabras complejas}{section.104}% 44
-\BOOKMARK [2][-]{subsection.110}{Intercambio de partes en el \341rbol de dependencias}{section.104}% 45
-\BOOKMARK [2][-]{subsection.114}{Sin\363nimos}{section.104}% 46
-\BOOKMARK [2][-]{subsection.119}{Eliminar partes en el \341rbol de dependencias}{section.104}% 47
-\BOOKMARK [2][-]{subsection.123}{Definiciones respecto a una palabra}{section.104}% 48
-\BOOKMARK [2][-]{subsection.126}{Resultado de la adaptaci\363n}{section.104}% 49
-\BOOKMARK [0][-]{chapter.129}{Implementaci\363n}{}% 50
-\BOOKMARK [1][-]{section.130}{Arquitectura}{chapter.129}% 51
-\BOOKMARK [2][-]{subsection.132}{Ficheros del entorno}{section.130}% 52
-\BOOKMARK [2][-]{subsection.133}{Servicios web externos}{section.130}% 53
-\BOOKMARK [2][-]{subsection.158}{Librer\355a spaCy}{section.130}% 54
-\BOOKMARK [1][-]{section.163}{Implementaciones del servidor}{chapter.129}% 55
-\BOOKMARK [1][-]{section.164}{Implementaciones de la aplicaci\363n web}{chapter.129}% 56
-\BOOKMARK [1][-]{section.339}{Extensibilidad del asistente web interactivo}{chapter.129}% 57
-\BOOKMARK [0][-]{chapter.383}{Conclusiones y Trabajo Futuro}{}% 58
-\BOOKMARK [0][-]{chapter.384}{Conclusions and Future Work}{}% 59
-\BOOKMARK [0][-]{chapter.385}{Trabajo individual}{}% 60
-\BOOKMARK [1][-]{section.386}{Estefan\355a Ortega \301vila}{chapter.385}% 61
-\BOOKMARK [1][-]{section.387}{Javier Ses\351 Garc\355a}{chapter.385}% 62
-\BOOKMARK [0][-]{chapter*.388}{Bibliograf\355a}{}% 63
+\BOOKMARK [1][-]{section.82}{spaCy}{chapter.78}% 36
+\BOOKMARK [1][-]{section.86}{NIL-WS-API}{chapter.78}% 37
+\BOOKMARK [1][-]{section.90}{Postman}{chapter.78}% 38
+\BOOKMARK [1][-]{section.93}{PyCharm}{chapter.78}% 39
+\BOOKMARK [0][-]{chapter.96}{Asistente web interactivo para la simplificaci\363n de textos a Lectura F\341cil}{}% 40
+\BOOKMARK [1][-]{section.97}{Requisitos del asistente web interactivo para la simplificaci\363n de textos}{chapter.96}% 41
+\BOOKMARK [1][-]{section.98}{Introducci\363n de texto y selecci\363n de frases}{chapter.96}% 42
+\BOOKMARK [1][-]{section.103}{Adaptaciones sobre frases}{chapter.96}% 43
+\BOOKMARK [2][-]{subsection.107}{Palabras complejas}{section.103}% 44
+\BOOKMARK [2][-]{subsection.109}{Intercambio de partes en el \341rbol de dependencias}{section.103}% 45
+\BOOKMARK [2][-]{subsection.113}{Sin\363nimos}{section.103}% 46
+\BOOKMARK [2][-]{subsection.118}{Eliminar partes en el \341rbol de dependencias}{section.103}% 47
+\BOOKMARK [2][-]{subsection.122}{Definiciones respecto a una palabra}{section.103}% 48
+\BOOKMARK [2][-]{subsection.125}{Resultado de la adaptaci\363n}{section.103}% 49
+\BOOKMARK [0][-]{chapter.128}{Implementaci\363n}{}% 50
+\BOOKMARK [1][-]{section.129}{Arquitectura}{chapter.128}% 51
+\BOOKMARK [2][-]{subsection.131}{Ficheros del entorno}{section.129}% 52
+\BOOKMARK [2][-]{subsection.132}{Servicios web externos}{section.129}% 53
+\BOOKMARK [2][-]{subsection.157}{Librer\355a spaCy}{section.129}% 54
+\BOOKMARK [1][-]{section.162}{Implementaciones del servidor}{chapter.128}% 55
+\BOOKMARK [1][-]{section.163}{Implementaciones de la aplicaci\363n web}{chapter.128}% 56
+\BOOKMARK [1][-]{section.338}{Extensibilidad del asistente web interactivo}{chapter.128}% 57
+\BOOKMARK [0][-]{chapter.382}{Conclusiones y Trabajo Futuro}{}% 58
+\BOOKMARK [1][-]{section.383}{Conclusiones}{chapter.382}% 59
+\BOOKMARK [1][-]{section.384}{Trabajo futuro}{chapter.382}% 60
+\BOOKMARK [0][-]{chapter.385}{Conclusions and Future Work}{}% 61
+\BOOKMARK [0][-]{chapter.386}{Trabajo individual}{}% 62
+\BOOKMARK [1][-]{section.387}{Estefan\355a Ortega \301vila}{chapter.386}% 63
+\BOOKMARK [1][-]{section.388}{Javier Ses\351 Garc\355a}{chapter.386}% 64
+\BOOKMARK [0][-]{chapter*.389}{Bibliograf\355a}{}% 65
