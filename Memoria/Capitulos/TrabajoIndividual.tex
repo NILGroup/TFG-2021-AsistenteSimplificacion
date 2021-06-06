@@ -43,7 +43,11 @@ En lo que concierne a las herramientas, investigué y aprendí a usar la librer�
 
 Además, implementé las llamadas a los diferentes servicios de NIL-WS-API desde la parte del servidor, escrito con lenguaje Python.
 
-Desconocía como se debían de hacer las llamadas a los endpoints del servidor, lo que me supuso un esfuerzo hasta que aprendí a realizar las promesas mediante la operación Fetch. Además, implementé parte de la funcionalidad de las propias promesas en JavaScript junto con mi compañera.
+Al igual que mi compañera, me serví de Postman para verificar los datos que recibía el servidor, y gracias a ello encontré una carencia de la API, y es que no acepta caracteres especiales, ya que estos se pasan como argumento de la URI, por lo que decidí, como posible solución, eliminar estos caracteres de las palabras.
+
+ Por el contrario, esta solución presentaba otro problema en sí, y es que sin esos caracteres especiales se da ambigüedad en los resultados de los servicios, como por ejemplo el de sinónimos, que la propia API ya considera retornando todos los posibles valores, por lo que decidimos hacer lo mismo y dejar a elección del usuario el valor con el que quedarse.
+
+Desconocía como se debían de hacer las llamadas a los endpoints del servidor, lo que me supuso un esfuerzo hasta que aprendí a realizar las promesas mediante la operación Fetch. Adicionalmente, implementé parte de la funcionalidad de las propias promesas en JavaScript junto con mi compañera.
 
 También investigué como hacer la conjugación de palabras a partir de su lema, tiempo verbal y número gramatical, lo que me llevó a la conclusión de que no sería capaz de hacerlo solamente con spaCy, por lo que busqué otras formas de realizarlo en Python. 
 

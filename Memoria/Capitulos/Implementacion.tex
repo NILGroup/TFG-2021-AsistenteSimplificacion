@@ -546,8 +546,9 @@ Para ello, habría que realizar modificaciones en los siguientes ficheros:
 	word=request.get_json()
 	word=word['word']
 	response = requests.get(NILWS_URL + word + DEFINITION_URL)
-	data = response.json()
-	
+	{...} #Tratamiento de la respuesta.
+	data = response.json() 	
+			
 	return jsonify(definiciones=data['definiciones'])
 	\end{lstlisting}
 
@@ -575,8 +576,21 @@ A la hora de utilizar la librería spaCy, cabe destacar que:
 	data = request.get_json()
 	sentence = data["sentence"]
 	nlp = spacy.load("es_core_news_sm")
-	doc = nlp(sentence)
+	doc = nlp(sentence) 
 	{...} #Tratamiento del documento.
+	jsonTree = ''
+	sentenceIds = []
+	for sent in doc.sents:
+	tree = to_nltk_tree(sent.root, 0)
+	for word in sent:
+	sentenceIds.append({'text': word.text, 'id': word.i})
+		
+	jsonTree = jsonify(tree=tree.serialize(), sentenceIds=sentenceIds)
+	print(tree)
+	
+	print(tree.serialize())
+	return jsonTree
+
 \end{lstlisting}
 
 	

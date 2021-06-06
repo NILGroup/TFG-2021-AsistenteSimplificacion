@@ -31,8 +31,9 @@
 
     function showPanel() {
         document.getElementById("sidebar").style.width = "40%";
-        document.getElementById("abrir").style.display = "none";
+        document.getElementById("abrir").style.display = "block";
         document.getElementById("cerrar").style.display = "block";
+        document.getElementById("closeOriginal").style.display = "block";
         document.getElementById("main").style.marginLeft = "39%";
         document.getElementById("main").style.width = "60%";
 
@@ -42,6 +43,7 @@
         document.getElementById("sidebar").style.width = "0";
         document.getElementById("abrir").style.display = "block";
         document.getElementById("cerrar").style.display = "none";
+        document.getElementById("closeOriginal").style.display = "none";
         document.getElementById("main").style.marginLeft = "0%";
         document.getElementById("main").style.width = "100%";
 
@@ -50,16 +52,18 @@
     function showPanelEnd() {
 
         document.getElementById("sidebarDerecho").style.width = "40%";
-        document.getElementById("abrir").style.display = "none";
-        document.getElementById("cerrar").style.display = "block";
+        //document.getElementById("abrir").style.display = "none";
+        //document.getElementById("cerrar").style.display = "block";
+        document.getElementById("closeFinally").style.display = "block";
         document.getElementById("main").style.width = "60%";
     }
 
     function hidePanelEnd() {
 
         document.getElementById("sidebarDerecho").style.width = "0";
-        document.getElementById("abrir").style.display = "block";
-        document.getElementById("cerrar").style.display = "none";
+        //document.getElementById("abrir").style.display = "block";
+        //document.getElementById("cerrar").style.display = "none";
+        document.getElementById("closeFinally").style.display = "none";
         document.getElementById("main").style.width = "100%";
     }
 
@@ -319,11 +323,7 @@
         var listNode2 = "lista" + split2[1];
         console.log(listNode2);
         var l2 = document.getElementById(listNode2);
-        //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
-        var ele1 = document.getElementById(id1);
-        ele1.classList.remove('active');
-        var ele2 = document.getElementById(id2);
-        ele2.classList.remove('active');
+
 
         if (l1.lastChild != l2.parentElement) {
 
@@ -473,6 +473,10 @@
                 fraseOriginal[indiceB].text = e1;
             }
         }
+        var ele1 = document.getElementById(id1);
+        ele1.classList.remove('active');
+        var ele2 = document.getElementById(id2);
+        ele2.classList.remove('active');
         document.getElementById('bIntercambiar').disabled = true;
         recoverResultantSentence();
         draftFinalText();
@@ -821,7 +825,7 @@
     function clipboard() {
         var aux = document.createElement("div");
         aux.setAttribute("contentEditable", true);
-        aux.innerHTML = document.getElementById("final").innerHTML;
+        aux.innerHTML = document.getElementById("drawFinal").innerHTML;
         aux.setAttribute("onfocus", "document.execCommand('selectAll',false,null)");
         document.body.appendChild(aux);
         aux.focus();
@@ -1045,11 +1049,11 @@
         var seleccion = document.getElementById("frase" + indice).innerText;
         document.getElementById("sentenceOrigin").innerText = seleccion;
         var sentenceP = document.getElementById("sentenceOrigin")
-if(indice.length==2){
-    sentenceP.attributes[1].value=indice;
-}else{
-        sentenceP.attributes[1].value = "f" + indice;
-}
+        if(indice.length==2){
+            sentenceP.attributes[1].value=indice;
+        }else{
+          sentenceP.attributes[1].value = "f" + indice;
+        }
         fraseElegida =sentenceP.attributes[1].value;
 
         var j = {"sentence": seleccion}
@@ -1111,11 +1115,11 @@ if(indice.length==2){
 
 
     function glosario(num, palabra) {
-        document.getElementById("headerGlosary").style.display = ("block");
+        document.getElementById("headerGlosary").style.display = "flex";
 
         var g = document.getElementById("glosario" + num);
         //document.getElementById("listaGlosario").innerHTML = "<p id='listaG' style='color:black !important;'>Glosario:</p>";
-        document.getElementById("listaGlosario").innerHTML += "<p><img src="+routeImgGlosario+" alt='diccionario'/>" + palabra + " : " + g.innerText + "</p>";
+        document.getElementById("listaGlosario").innerHTML += "<p><img src="+routeImgGlosario+" alt=''/>" + palabra + " : " + g.innerText + "</p>";
         var c = document.getElementsByClassName("activaDefinicion");
         g.classList = "glosary gDisabled";
         var ObDeficion = {

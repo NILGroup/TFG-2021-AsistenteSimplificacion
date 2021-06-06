@@ -58,7 +58,7 @@
 
 
     <div id="sidebar" class="sidebar">
-        <a href="#" class="boton-cerrar" onclick="hidePanel()">&times;</a>
+        <a href="#" id="closeOriginal" class="boton-cerrar" onclick="hidePanel()">&times;</a>
         <div class="col-lg-12 portfolio-item filter-app">
             <div>
                 <label for="textoOriginal">Texto original</label>
@@ -86,7 +86,7 @@
 
     </div>
     <div id="sidebarDerecho" class="sidebar">
-        <a href="#" class="boton-cerrar" onclick="hidePanelEnd()">&times;</a>
+        <a href="#" id="closeFinally" class="boton-cerrar" onclick="hidePanelEnd()">&times;</a>
         <div class="col-lg-11 portfolio-item filter-app">
             <div>
                 <label for="textoOriginal">Texto adaptado</label>
@@ -237,11 +237,13 @@
 
                                 </div>
                                 <div class="col-lg-12">
+                                    <div id="drawFinal">
                                     <div id="final"></div>
                                     <p id="headerGlosary"
                                        style="display: none;">
                                         Glosario:</p>
                                     <div id="listaGlosario" class="glo"></div>
+</div>
 
                                     <button id="bResultado" onclick="openResultPanel()">Ver resultado
                                     </button>
