@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  6 JUN 2021 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  6 JUN 2021 20:25
 entering extended mode
 **./TFGLecturaFacil.tex
 (TFGLecturaFacil.tex
@@ -1150,8 +1150,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 
 ]
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
  [2])
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
@@ -2032,40 +2032,40 @@ Chapter 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
-[80]) [81]
+ [79])
+[80]
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
 \openout2 = `Capitulos/TrabajoIndividual.aux'.
 
- (Capitulos/TrabajoIndividual.tex [82
+ (Capitulos/TrabajoIndividual.tex
+Cap\'itulo 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81
 
 
 
 
 ]
-Cap\'itulo 7.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [84]
+ [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
- [85])
+ [83])
 LaTeX Info: Redefining \. on input line 237.
 LaTeX Info: Redefining \% on input line 237.
 
-[86]
+[84]
 \openout2 = `Cascaras/bibliografia.aux'.
 
- (Cascaras/bibliografia.tex (TFGLecturaFacil.bbl [87
+ (Cascaras/bibliografia.tex (TFGLecturaFacil.bbl [85
 
 
 
@@ -2074,7 +2074,7 @@ LaTeX Info: Redefining \% on input line 237.
 ]))
 LaTeX Info: Redefining \. on input line 260.
 LaTeX Info: Redefining \% on input line 260.
- [88]
+ [86]
 \openout2 = `Cascaras/fin.aux'.
 
 
@@ -2100,10 +2100,14 @@ LaTeX Info: Redefining \% on input line 47.
  (Cascaras/bibliografia.aux) (Cascaras/fin.aux))
 Package rerunfilecheck Info: File `TFGLecturaFacil.out' has not changed.
 (rerunfilecheck)             Checksum: 6683124379862A6C5A205439CF5C288C;5162.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 16661 strings out of 480257
- 283090 string characters out of 2880021
+ 16659 strings out of 480257
+ 283074 string characters out of 2880021
  931238 words of memory out of 3000000
  31963 multiletter control sequences out of 15000+200000
  556598 words of font info for 66 fonts, out of 3000000 for 9000
@@ -2135,9 +2139,9 @@ s/cm/cmr10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/egilruiz/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on TFGLecturaFacil.pdf (108 pages, 6267275 bytes).
+Output written on TFGLecturaFacil.pdf (106 pages, 6265687 bytes).
 PDF statistics:
- 2401 PDF objects out of 2487 (max. 8388607)
- 514 named destinations out of 1000 (max. 500000)
+ 2393 PDF objects out of 2487 (max. 8388607)
+ 512 named destinations out of 1000 (max. 500000)
  826 words of extra memory for PDF output out of 10000 (max. 10000000)
 

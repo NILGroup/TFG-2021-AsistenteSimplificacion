@@ -6,28 +6,28 @@ En este apartado queremos poner en valor a todas aquellas personas encargadas de
 
 Por nuestra parte, hemos querido contribuir con nuestro granito de arena para que este trabajo se haga lo menos costoso posible para el editor, ya que es importante que cualquier persona, a pesar de sus discapacidades, tenga acceso a la cultura y a la información de una manera u otra.
 
-Previa a la implementación de este asistente, tuvimos que realizar una labor de investigación para ver cual era el proceso que seguían estos editores para convertir textos a Lectura Fácil, concluyendo que, a día de hoy, necesitaban todavía de procesos manuales para llevar a cabo estas adaptaciones.
+Previa a la implementación de este asistente, tuvimos que realizar una labor de investigación para ver cuál era el proceso que seguían estos editores para convertir textos a Lectura Fácil, concluyendo que, a día de hoy, necesitaban todavía de procesos manuales para llevar a cabo estas adaptaciones.
 
-De esta manera este asistente se implementó teniendo presente el objetivo de convertir frases complejas a otras más simples, mediante simplificaciones léxicas y sintácticas para que le resulte al lector más sencillo de entender, proporcionando al editor varias funcionalidades que permitan estos objetivos. Con la ayuda del árbol de dependencias el usuario podrá llevar a cabo estas simplificaciones de una manera interactiva, simplemente seleccionando palabras y acción, pudiendo visualizar en todo momento el resultado provisional de estas adaptaciones.
+De esta manera, este asistente se implementó teniendo presente el objetivo de convertir frases complejas a otras más simples mediante simplificaciones léxicas y sintácticas para potenciar la comprensión lectora, proporcionando al editor varias funcionalidades para tal fin. Con la ayuda del árbol de dependencias, el usuario podrá llevar a cabo estas simplificaciones de una manera interactiva, simplemente seleccionando palabras y acción, pudiendo visualizar en todo momento el resultado provisional de estas adaptaciones.
 
-Hicimos uso de servicios externos para llevar a cabo las distintas funcionalidades mediante NIL-WS-API, así como de spaCy para el procesamiento del lenguaje natural para abordar análisis sintácticos. Facilitamos la extensión de las funcionalidades gracias a NIL-WS-API que ofrece diversos servicios que se podrían añadir en futuras mejoras del asistente.
+Hicimos uso de servicios externos para llevar a cabo las distintas funcionalidades: NIL-WS-API, así como spaCy para el procesamiento del lenguaje natural y desarrollar análisis sintácticos. Facilitamos la extensión de las funcionalidades gracias a NIL-WS-API, que ofrece diversos servicios que se podrían añadir en futuras mejoras del asistente.
 
-Con respecto al diseño, pretendemos que la interfaz implementada sea lo más sencilla e intuitiva posible para hacer lo más ameno posible la tarea al editor.
+Con respecto al diseño, pretendemos que la interfaz implementada sea lo más sencilla e intuitiva posible para mejorar la experiencia del editor.
 
 \section{Trabajo futuro}
-Este asistente presenta mejoras técnicas que pueden ser implementadas en próximos desarrollos. Explicamos algunas de ellas desde un punto de vista de la funcionalidad y la portabilidad de la aplicación:
+Este asistente presenta mejoras técnicas que pueden ser implementadas en próximos desarrollos. Explicamos algunas de ellas desde el punto de vista de la funcionalidad y la portabilidad:
 
 Referente a la funcionalidad, sería interesante abordar los siguientes puntos:
 
 \begin{itemize}
 	\item	Al reemplazar un sinónimo, que pueda ser éste conjugado y concuerde con el resto de la oración automáticamente sin necesidad de que el editor lo adapte a las necesidades del contexto de la frase.
 		\item	Implementar diferentes niveles de complejidad de la adaptación ya que no todos los lectores tendrán las mismas necesidades.
-	\item Importación de imágenes o pictogramas para explicar algún concepto que pueda ser algo más complejo o que el lector desconozca, y de esta manera resulte más claro el texto.
-	\item	Trabajar en los servicios que ofrece NIL-WS-API para que haga uso de las reglas de acentuación del castellano, ya que todas las palabras vienen dadas sin signos de puntuación.
+	\item Importación de imágenes o pictogramas para explicar algún concepto que pueda ser algo más complejo o que el lector desconozca, y que de esta manera resulte más claro el texto.
+	\item	Trabajar en los servicios que ofrece NIL-WS-API para que haga uso de las reglas de acentuación del castellano, puesto que todas las palabras vienen dadas sin signos de puntuación.
 	\item	Extender estos servicios a otros idiomas de manera que el asistente sea capaz de reconocer diferentes tipos de lenguajes.
 	
 	\item  Almacenar datos de las adaptaciones realizadas por el usuario para que el sistema aprenda y haga sugerencias.
-	\item Evaluación con un usuario editor para darnos feedback desde su punta de vista.
+	\item Evaluación con un usuario editor para darnos feedback y conocer su punto de vista.
 \end{itemize}	
 Con respecto a la portabilidad de la aplicación web, proponemos la siguiente mejora:
 \begin{itemize}

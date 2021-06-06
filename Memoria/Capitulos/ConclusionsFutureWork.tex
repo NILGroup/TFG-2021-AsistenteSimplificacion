@@ -2,39 +2,35 @@
 \label{cap:conclusions}
 
 \section{Conclusions}
-
 In this section we want to highlight all those people in charge of facilitating the understanding and learning of a certain text to that part of society that, unfortunately, do not have the psychic and/or physical capacity to understand what the text wants to transmit.
 
 For our part, we wanted to do our bit to make this work as inexpensive as possible for the publisher, since it is important that anyone, despite their disabilities, have access to culture and information in one way or another.
 
 Prior to the implementation of this assistant, we had to carry out a research work to see what was the process followed by these editors to convert texts to Easy Reading, concluding that, to this day, they still needed manual processes to carry out these adaptations.
 
-Thus, this wizard was implemented keeping in mind the objective of converting complex sentences to simpler ones, by means of lexical and syntactic simplifications to make it easier for the reader to understand, providing the editor with several functionalities that allow these objectives. With the help of the dependency tree the user will be able to carry out these simplifications in an interactive way, simply by selecting words and action, being able to visualize at any time the provisional result of these adaptations.
+Thus, this assistant was implemented with the objective of converting complex sentences to simpler ones by means of lexical and syntactic simplifications to enhance reading comprehension, providing the editor with several functionalities for this purpose. With the help of the dependency tree, the user will be able to carry out these simplifications in an interactive way, simply by selecting words and action, being able to visualize at any time the provisional result of these adaptations.
 
-We made use of external services to carry out the different functionalities through NIL-WS-API, as well as spaCy for natural language processing to address syntactic analysis. We facilitate the extension of the functionalities thanks to NIL-WS-API that offers several services that could be added in future enhancements of the wizard.
+We made use of external services to carry out the different functionalities: NIL-WS-API, as well as spaCy for natural language processing and parsing. We facilitate the extension of the functionalities thanks to NIL-WS-API, which offers several services that could be added in future enhancements of the wizard.
 
-Regarding the design, we intend to make the implemented interface as simple and intuitive as possible to make the task as pleasant as possible for the editor.
+Regarding the design, we intend to make the implemented interface as simple and intuitive as possible to improve the editor experience.
 
 \section{Future work}
-
-This wizard presents technical improvements that can be implemented in future developments. We explain some of them from the point of view of functionality and portability of the application:
+This assistant presents technical improvements that can be implemented in future developments. We explain some of them from the point of view of functionality and portability:
 
 Referring to functionality, it would be interesting to address the following points:
 
 \begin{itemize}
-\item When replacing a synonym, that it can be conjugated and match the rest of the sentence automatically without the need for the editor to adapt it to the needs of the context of the sentence.
-\item Implement different levels of complexity of adaptation since not all readers will have the same needs.
-\item Importing images or pictograms to explain a concept that may be more complex or unknown to the reader, thus making the text clearer.
-\item Work on the services offered by NIL-WS-API to make use of the Spanish accentuation rules, since all words are given without punctuation marks.
-\item Extend these services to other languages so that the assistant is able to recognize different types of languages.
-
-\item Store data of the adaptations made by the user for the system to learn and make suggestions.
-\item Evaluation with a user editor to give us feedback from his point of view.
+	\item When replacing a synonym, that it can be conjugated and match the rest of the sentence automatically without the need for the editor to adapt it to the needs of the context of the sentence.
+	\item Implement different levels of complexity of adaptation since not all readers will have the same needs.
+	\item Importing images or pictograms to explain a concept that may be more complex or unknown to the reader, thus making the text clearer.
+	\item Work on the services offered by NIL-WS-API to make use of the Spanish accentuation rules, since all words are given without punctuation marks.
+	\item Extend these services to other languages so that the assistant is able to recognize different types of languages.
+	
+	\item Store data of the adaptations made by the user so that the system can learn and make suggestions.
+	\item Evaluation with an editor user to give us feedback and know his point of view.
 \end{itemize}	
-Regarding the portability of the web application, we propose the following enhancement:
+Regarding the portability of the web application, we propose the following improvement:
 \begin{itemize}
-\item It would be interesting to develop this application for Android and iOS devices for greater convenience of the editor, being able, for example, to make these adaptations from a tablet, taking advantage of the touch use when choosing words or functionalities.
-
+	\item It would be interesting to develop this application for Android and iOS devices for greater convenience of the editor, being able, for example, to make these adaptations from a tablet, taking advantage of the touch use when choosing words or functionalities.
+	
 \end{itemize}
-
-

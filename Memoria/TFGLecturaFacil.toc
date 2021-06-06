@@ -66,8 +66,8 @@
 \contentsline {section}{\numberline {6.1}Conclusions}{79}{section.403}%
 \contentsline {section}{\numberline {6.2}Future work}{80}{section.404}%
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {7}Trabajo individual}{83}{chapter.405}%
-\contentsline {section}{\numberline {7.1}Estefanía Ortega Ávila}{83}{section.406}%
-\contentsline {section}{\numberline {7.2}Javier Sesé García}{85}{section.407}%
+\contentsline {chapter}{\numberline {7}Trabajo individual}{81}{chapter.405}%
+\contentsline {section}{\numberline {7.1}Estefanía Ortega Ávila}{81}{section.406}%
+\contentsline {section}{\numberline {7.2}Javier Sesé García}{83}{section.407}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{Bibliograf\'{\i }a}{87}{chapter*.408}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{85}{chapter*.408}%
