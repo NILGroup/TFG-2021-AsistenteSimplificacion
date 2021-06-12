@@ -1,7 +1,6 @@
 import requests
 import spacy
 import json
-import connexion
 import codecs
 import sys
 import es_core_news_sm
@@ -65,6 +64,7 @@ def simple():
         simpleList.append({'id':data[position]['id'],'simple':simple})
         position+=1
     jsonList=json.dumps(simpleList)
+    print(jsonList)
     return jsonify(simpleList=jsonList)
 
 # Returns if a word is simple or not
@@ -82,12 +82,9 @@ def definition():
     word=word['word']
     response = requests.get(NILWS_URL + word + DEFINITION_URL)
     data = response.json()
-    d=data['definiciones']
-    print(d)
-    #if data['definiciones']:
+
     return jsonify(definiciones=data['definiciones'])
-    #else:
-        #return False
+
 
 @app.route('/summary', methods=['POST'])
 def sentenceSummary():
@@ -147,6 +144,9 @@ def sentenceTree():
             sentenceIds.append({'text': word.text, 'id': word.i})
 
         jsonTree = jsonify(tree=tree.serialize(), sentenceIds=sentenceIds)
+        print(tree)
+
+    print(tree.serialize())
     return jsonTree
 
 # Splits the incoming text in an array of sentences

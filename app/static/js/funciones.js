@@ -12,16 +12,9 @@
 
     var text = document.getElementById('original').value;
 
-    //Variable global para comprobar si el texto viene del resumen
-    var res = false;
+    //Global variable to check if the text comes from the summary    var res = false;
     var summaryText;
-    var acept = false;
     var idCambiados = [];
-    var cantidad = 0;
-    var arrayPalabraSencilla = [];
-    var arrayPalabraIsSencilla = [];
-    var arrayPalabraSencillaSinonimo = [];
-    var arrayPalabraIsSencillaSinonimo = [];
     var fraseOriginal = "";
     var buttonActivatedComplex = false;
     var fraseElegida = "";
@@ -52,8 +45,6 @@
     function showPanelEnd() {
 
         document.getElementById("sidebarDerecho").style.width = "40%";
-        //document.getElementById("abrir").style.display = "none";
-        //document.getElementById("cerrar").style.display = "block";
         document.getElementById("closeFinally").style.display = "block";
         document.getElementById("main").style.width = "60%";
     }
@@ -61,8 +52,6 @@
     function hidePanelEnd() {
 
         document.getElementById("sidebarDerecho").style.width = "0";
-        //document.getElementById("abrir").style.display = "block";
-        //document.getElementById("cerrar").style.display = "none";
         document.getElementById("closeFinally").style.display = "none";
         document.getElementById("main").style.width = "100%";
     }
@@ -84,9 +73,8 @@
         }).then(response => response.json()
         ).then(data => {
 
-            //Llama a la función ocultar, para que se oculte el menu de la izquierda.
+            //Calls the hide function, so that the left menu is hidden.
             hidePanel();
-            //Separa el texto cogido por un salto de linea.
             summaryText = data.summary;
             if(summaryText.length==0){
                 res=false;
@@ -139,21 +127,20 @@
         }
 
 
-        //Muestra de nuevo el listado de frases, ocultando el panel de las dependencias.
+        //Displays the list of phrases again, hiding the dependencies panel.
         document.getElementById("listadoFrases").style.display = "block";
-        // document.getElementById("listadoFrases").style.flexDirection = "column";
         document.getElementById("dependencias").style.display = "none";
 
     }
 
-    //Resetar texto para introducir otro
+    //Reset text in case a new text is entered
     function reseteo() {
-        //Compruebo si ya ha habido más texto
+        //Check if there has already been text
         idCambiados.splice(0, idCambiados.length);
         definicionesFinal.splice(0, definicionesFinal.length);
 
 
-        //Reseteo las frases anteriores
+        //Reset the previous sentences
         document.getElementById("frases").innerHTML = " ";
         document.getElementById("listadoFrasesAdaptadas").innerHTML = " ";
         document.getElementById("listadoFrasesAdaptadas").style.display = "none";
@@ -168,7 +155,7 @@
 
     }
 
-    //Oculta el panel del menu una vez que se introduce un texto y se separa el texto por frases
+    //Hides the menu panel once a text is entered and separates the text by phrases.
     function constructionSentences() {
         document.getElementById("pestanaEditar").style.display = "inline-block";
         document.getElementById("transformaciones").style.display = "none";
@@ -207,13 +194,11 @@
         }).then(response => response.json()
         ).then(data => {
 
-            //Llama a la función ocultar, para que se oculte el menu de la izquierda.
             hidePanel();
-            //Separa el texto cogido por un salto de linea.
             var splitted = data.sentences;
-            //Contador auxiliar que se usa en el siguiente bucle de frases para incluir en el html.
+            //Auxiliary counter to be used in the following loop of phrases to be included in the html.
             var sep = 0;
-            //Bucle que va intinerando las frases separadas para incluirlas al html.
+
             splitted.forEach(element => {
                 var res = '"' + element + '"';
                 if (splitted != "") {
@@ -222,13 +207,13 @@
                 }
             });
 
-            //Se ha escrito
+            //Was written
             hayFrases = true;
         });
 
     }
 
-    //Escribe en el textarea final el resultado de todas las trasformaciones que ha sufrido el texto original.
+    //Write in the final textarea the result of all the transformations that the original text has undergone.
     function draftFinalText() {
         document.getElementById("final").innerHTML = "";
 
@@ -263,14 +248,12 @@
 
     }
 
-    //función para seleccionar una o dos palabras en el arbol de dependencias para cambiar el orden, eliminar o mostrar sinonimos
-    function choice(cont) {
+        //includes the active class in the parent of the clicked id
+        function choice(cont) {
         var item = document.getElementById("elem" + cont);
         var elemento = "elem" + cont;
         var e = document.getElementById(elemento);
         if (!item.classList.contains('active')) {
-
-            //incluye la clase active en el padre del id donde se ha dado click
             e.classList.add('active');
         } else {
             e.classList.remove('active');
@@ -302,23 +285,22 @@
     }
 
 
-    //Cambia dos pàlabras de posicion
+    //Changes two words of position
     function changeNode() {
         document.getElementById("internalPanel").style.display = "none";
         hideLabel();
-        //Se cogen las clases activas para poder cambiar las palabras de orden
+        //Active classes are taken in order to be able to change the order words
         var classActive = document.getElementsByClassName('active');
-        //Se coge el id de la primera clase
+        //Takes the id of the first class
         var id1 = classActive[0].getAttribute('id');
-        //Separo el id en palabra y numero
+        //Split the id by elem to keep the number
         var split1 = id1.split("elem");
-        //lista del primer nodo seleccionado
+        //list of the first selected node
         var listNode1 = "lista" + split1[1];
         console.log(listNode1);
         var l1 = document.getElementById(listNode1);
-        //Se coge el id de la segunda clase
+         //get the id of the second class
         var id2 = classActive[1].getAttribute('id');
-        //Separo el id en palabra y numero
         var split2 = id2.split("elem");
         var listNode2 = "lista" + split2[1];
         console.log(listNode2);
@@ -329,18 +311,16 @@
 
 
             var t1 = l1.innerHTML;
-            //guardo la ul en la que esta enganchado la lista activada
+            //the ul on which the activated list 1 is hooked is picked up
             var p1 = l1.parentNode.id;
 
             var t2 = l2.innerHTML;
-
-            //guardo la ul en la que esta enganchado la lista activada
             var p2 = l2.parentNode.id;
             var h2 = document.getElementById(p2);
             var indice1 = 0;
             var indice2 = 0;
 
-            //Recorro los hijos del nodo 2 para ver posicion en el children.
+            //Scroll the children of node 2 to see their position in the children.
             for (var i = 0; i < h2.childNodes.length; i++) {
 
 
@@ -348,7 +328,6 @@
                     indice2 = i;
                 }
             }
-            //Recorro los hijos del nodo 1 para ver posicion en el children.
             var h1 = document.getElementById(p1);
 
             for (var i = 0; i < h1.childNodes.length; i++) {
@@ -357,11 +336,9 @@
                     indice1 = i;
                 }
             }
-            //Cambio los ids de orden de la lista.
             h1.childNodes.item(indice1).id = listNode2;
             h2.childNodes.item(indice2).id = listNode1;
 
-            //Cambio el correspondiente HTML.
             h1.childNodes.item(indice1).innerHTML = t2;
             console.log(t2.length);
             h2.childNodes.item(indice2).innerHTML = t1;
@@ -428,12 +405,11 @@
 
 
         } else {
-            //Coge el texto que tienen ambas clases
+            //text that has both classes
             var e1 = classActive[0].innerText;
             var e2 = classActive[1].innerText;
 
 
-            //Cmabio el orden de las palabras, escribiendolas en el html en orden inverso
             var ele1 = document.getElementById(id1);
             var ele2 = document.getElementById(id2);
 
@@ -441,10 +417,6 @@
             ele1.innerHTML = "<a href='javascript:choice(" + split2[1] + ")'><div  class='name'>" + e2;
             ele2.innerHTML = "<a href='javascript:choice(" + split1[1] + ")'><div  class='name'>" + e1;
 
-            //Elimina la clase active porque ya se ha terminado de operar con ellas
-            //ele1.classList.remove('active');
-            //ele2.classList.remove('active');
-            //Se cambian todos los atributos que afectan a la rama de la lista.
             var idElemento1 = "elem" + split1[1];
             var elemento1 = document.getElementById(idElemento1);
             var idElemento2 = "elem" + split2[1];
@@ -484,19 +456,15 @@
 
     }
 
-    //Elimina del arbol de dependencias la palabra seleccionada y sus dependencias
+    //Removes the selected word and its dependencies from the dependency tree.
     function deleteNode() {
         document.getElementById("internalPanel").style.display = "none";
         hideLabel();
-        //Coge le clase activa que es la palabra que se ha seleccionado para proceder a su eliminacion
         var c = document.getElementsByClassName('active');
-        //Coge el id que tiene la palabra para poder eliminarla
+        //id that the word has in order to delete it
         var id0 = c[0].getAttribute('id');
-        //Para saber cual es el elemento de la lista para poder borrar todo el rastro cogemos el numero del id que tiene la palabra
         var s = id0.split("elem");
-        //Concateno la palabra lista con el numero anterior
         var listaSeleccionada = "lista" + s[1];
-        //Coge el html de ese id para poder eliminarlo
         var l = document.getElementById(listaSeleccionada);
 
 
@@ -535,9 +503,8 @@
         fraseOriginal.splice(auxPos, arrayRemove.length);
 
 
-        //Elimina el rasto de html de la clase activa.
         c.item(0).remove();
-        //Elimino la lista
+        //Delete list
         l.remove();
         document.getElementById('bSinonimos').disabled = true;
         document.getElementById('bEliminar').disabled = true;
@@ -557,7 +524,7 @@
 
     }
 
-    //Muestra los sinominos de una palabra seleccionada del arbol de dependencias
+   //Displays the synomials of a selected word from the dependency tree
     function synonyms() {
         hideLabel();
 
@@ -569,7 +536,6 @@
 
         var sin = document.getElementById("internalPanel");
         sin.innerHTML = "";
-        //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
         var c = document.getElementsByClassName('active');
         var p = c[0].innerText;
         var str = p.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g, "")
@@ -584,7 +550,7 @@
             body: jsonObj
         }).then(response => response.json()
         ).then(data => {
-            //Incluye los sinonimos el el div especifico para mostrarlos (un panel para sinonimos)
+            //Include the synonyms in the specific div to display them (a panel for synonyms)
             var sin = document.getElementById("internalPanel");
             sin.innerHTML = "<label style='width: 75%;font-size: smaller;margin-top: 10px;'><em>Selecciona una palabra y pulsa enter para continuar (o doble click) o pulsa el botón de editar para cambiar la palabra</em></label><h4 style='color: brown;padding-top: 10px;'>Sinónimos de <strong>'" + str + "'</strong>:</h4><ul>";
             var palabra = '"' + str + '"';
@@ -602,7 +568,7 @@
 
                         cont++;
                         var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#b594b9;' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res +","+cI+ ")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
+                        sin.innerHTML += "<li><a style='color:#b594b9;' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res +","+cI+ ")'><input type='text' name='synonymous' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
 
 
                     });
@@ -616,7 +582,7 @@
 
                         cont++;
                         var res = '"' + element + '"';
-                        sin.innerHTML += "<li><a style='color:#89748c' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res + ","+cI+")'><input type='text' name='cantidad' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
+                        sin.innerHTML += "<li><a style='color:#89748c' href='javascript:void(0)' ondblclick='myFunctionModal(" + res + "," + palabra + "," + idP + "," + res + ","+cI+")'><input type='text' name='synonymous' onkeyup='onKeyUp(event, " + cI + "," + res + "," + idP + "," + palabra + ")' id='" + contadorInput + "' readonly='true' value='" + element + "'/></a><a href='javascript:editText(" + res + "," + cI + ")'><img src="+ routeImgEditar +" alt='editar'/></a></li>";
 
 
                     });
@@ -637,23 +603,22 @@
 
     function editText(sinonimo, idInput) {
         var idIn = document.getElementById(idInput);
-        //El input se cambia a escritura.
+        //Input is changed to write.
         idIn.readOnly = false;
         idIn.focus(); //sets focus to element
 
-        //Evento que si pulsas en cualquier lugar del documento y se borra entero el sinonimo se restaura al valor que tenia
-        document.onclick = function (e) {
+        //I notice that if you click anywhere in the document and the entire synonym is deleted, it is restored to the value it had.
+         document.onclick = function (e) {
 
             var target = e.target
-            //var elemento = document.getElementsByTagName("input");
             do {
                 if (idIn == target) {
-                    // El click se ha producido dentro del elemento, no se hace nada.
+                    // The click has occurred inside the element, nothing is done.
                     return;
                 }
                 target = target.parentNode;
             } while (target)
-            // Se ha clicado fuera del elemento, se realiza una acción.
+            // Clicked outside the element, an action is performed.
             if (idIn.value == "") {
                 idIn.value = sinonimo;
             }
@@ -662,7 +627,7 @@
         }
     }
 
-    //Comprueba si la tecla pulda es enter para cambiar el sinónimo
+    //Checks if the key pressed is enter to change the synonym
     function onKeyUp(e, idInput, sinonimo, idPalabra, palabra) {
         var idIn = document.getElementById(idInput);
         tecla = (document.all) ? e.keyCode : e.which;
@@ -674,25 +639,22 @@
             idIn.readOnly = true;
 
         }
-        //Evento que si pulsas en cualquier lugar del documento y se borra entero el sinonimo se restaura al valor que tenia
+        //I notice that if you click anywhere in the document and the entire synonym is deleted, it is restored to the value it had.
         document.onclick = function (e) {
 
             var target = e.target
-            //var elemento = document.getElementsByTagName("input");
             do {
                 if (idIn == target) {
-                    // El click se ha producido dentro del elemento, no se hace nada.
                     return;
                 }
                 target = target.parentNode;
             } while (target)
-            // Se ha clicado fuera del elemento, se realiza una acción.
             if (idIn.value == "") {
                 idIn.value = sinonimo;
 
 
             }
-            //Se deja el input a solo lectura
+               //Input is left to read-only
             idIn.readOnly = true;
 
         }
@@ -786,7 +748,7 @@
         modal.style.display = "none";
     }
 
-    //Muestra los sinominos de una palabra seleccionada del arbol de dependencias
+    //Displays the synomials of a selected word from the dependency tree
     function removeFrase(c) {
         var fr = "divFrases" + c;
 
@@ -797,10 +759,6 @@
         if (!contentDiv.querySelector("div")) {
             contentDiv.innerHTML = "<p style='color:#b3a0b1;text-align: center'><em>No hay frases</em></p>";
         }
-
-
-        cantidad--;
-
 
     }
 
@@ -846,7 +804,6 @@
 
     function definition() {
         hideLabel();
-        // document.getElementById("listaGlosario").innerHTML = "";
         var sin = document.getElementById("internalPanel");
 
         sin.innerHTML = "";
@@ -857,7 +814,6 @@
         document.getElementById("carga").style.display = "block";
 
         document.getElementById("mySidebar").style.display = "none";
-        //Coge le clase activa que es la palabra que se ha seleccionado para mostrar los sinonimos a esa palabra
         var c = document.getElementsByClassName('active');
         var p = c[0].innerText;
         var str = p.replace(/[~`!@#$%^&*(){}\[\];:"'<,.>?¿¡\/\\|_+=-]/g, "")
@@ -881,9 +837,8 @@
                 sin.innerHTML = "<label style='width: 75%;font-size: smaller;margin-top: 10px;'><em>Selecciona una o varias definiciones para adjuntarla al final del texto como glosario</em></label><h4 style='color: brown;padding-top: 10px;'>Definición de <strong>'" + str + "'</strong>:</h4><ul>";
                 if (Object.keys(elements).length != 0) {
                     for (var clave in elements) {
-                        // Controlando que json realmente tenga esa propiedad
+                        // Checking that json really has that property
                         if (elements.hasOwnProperty(clave)) {
-                            // Mostrando en pantalla la clave junto a su valor
                             sin.innerHTML += "<li><a class='glosary' id='glosario" + cont + "' <a href='javascript:glosario(" + cont + "," + def + ")'>" + elements[clave].definicion + "</a></li><br>";
 
 
@@ -908,7 +863,7 @@
 
     }
 
-    //Quita los acentos
+      //Remove accents
     const removeAccents = (str) => {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
@@ -937,14 +892,12 @@
             console.log(elements);
 
             for (var clave in fraseOriginal) {
-                // Controlando que json realmente tenga esa propiedad
                 if (!elements[clave].simple && elements[clave].simple != null) {
                     console.log(elements[clave].id);
                     document.getElementById("elem" + elements[clave].id).classList.add("compleja");
                 }
 
             }
-            //mostrarPalabrasSencillas();
 
             document.getElementById("carga").style.display = "none";
             document.getElementById("bSimple").style.display = "none";
@@ -979,7 +932,7 @@
                 console.log(elements);
 
                 for (var clave in synonymusWord) {
-                    // Controlando que json realmente tenga esa propiedad
+
                     if (!elements[clave].simple && elements[clave].simple != null) {
                         if (!document.getElementById("elem" + elements[clave].id).classList.contains("compleja").valueOf()) {
 
@@ -1003,7 +956,7 @@
 
     function deactivateWords() {
         buttonActivatedComplex = false;
-        //Recorremos las palabras para detectar si tienen la clase compleja
+        //Recorrects the words to detect if they have the complex class
         for (var clave in fraseOriginal) {
             if (document.getElementById("elem" + fraseOriginal[clave].id).classList.contains("compleja").valueOf()) {
                 document.getElementById("elem" + fraseOriginal[clave].id).classList.remove("compleja");
@@ -1040,11 +993,9 @@
     function drawDependenciesTree(indice) {
         document.getElementById("transformaciones").style.display = "block";
         document.getElementById("listadoFrases").style.display = "none";
-        //Muestra el arbol de dependencias
         document.getElementById("dependencias").style.display = "block";
 
 
-        //Se coge el texto original introducido en el textarea.
 
         var seleccion = document.getElementById("frase" + indice).innerText;
         document.getElementById("sentenceOrigin").innerText = seleccion;
@@ -1118,7 +1069,6 @@
         document.getElementById("headerGlosary").style.display = "flex";
 
         var g = document.getElementById("glosario" + num);
-        //document.getElementById("listaGlosario").innerHTML = "<p id='listaG' style='color:black !important;'>Glosario:</p>";
         document.getElementById("listaGlosario").innerHTML += "<p><img src="+routeImgGlosario+" alt=''/>" + palabra + " : " + g.innerText + "</p>";
         var c = document.getElementsByClassName("activaDefinicion");
         g.classList = "glosary gDisabled";
@@ -1132,7 +1082,7 @@
 
     }
 
-    //Recupera la frase para guardarla en el array de cambios
+    //Retrieves the phrase to save it in the change array
     function recoverResultantSentence() {
         var string = "";
         for (var i = 0; i < fraseOriginal.length; i++) {
