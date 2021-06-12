@@ -1,4 +1,4 @@
-    //Rutas
+     //Routes
     const routeSummary="/summary";
     const routeSentences="/sentences";
     const routeSynonymous="/synonymous";
